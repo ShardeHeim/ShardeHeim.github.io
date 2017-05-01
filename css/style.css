@@ -9,6 +9,5 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans Condensed', sans-serif; color:#
 
 
 /*interactiveDisplay*/
-.interactiveDisplay {width: 100% margin: 0 auto; height: 50px; background-color: #f3f3f3; }
-
-.gifdisplay {margin: auto auto; background-color: #f3f3f3; margin-left: 21%; margin-right: 21%; }
+.interactiveDisplay {width: 100%; height: 50px; background-color: #f3f3f3; }
+.gifdisplay {margin-left: 40%; margin-right: 40%;}
