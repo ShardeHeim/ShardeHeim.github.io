@@ -1,0 +1,38 @@
+body { margin:0; padding:0; font-family: 'Source Sans Pro', sans-serif; color:#555; height: 100%; } 
+html { margin:0; padding:0; height :100%; } 
+a { color:#0072b9; text-decoration:none; }
+a:hover { color:#044e7c; }
+
+/*headings*/
+h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans Condensed', sans-serif; color:#0091e2; font-weight:100; }
+
+/*top*/
+.top {padding: 20px 30px 0 60px; background-color: blue;}  
+
+
+/*Navigation Bar*/
+.navbar { margin:0 auto; margin-top: -40px; height:  65px; width: 100%; background: green;}
+
+#nav {font-family: 'Titillium Web', sans-serif; color: black; font-size: 20px; height:65px;  }
+#nav ul{ list-style-type: none; padding: 0; margin: 0; position: relative; z-index: 100; float: right;}
+#nav ul li{ display: inline-block; float: left;}
+#nav ul li.active { border-bottom-style: solid; border-bottom-width: 13px; border-bottom-color: #14A2C9; } 
+#nav ul li:hover { border-bottom-style: solid; border-bottom-width: 13px; border-bottom-color: #14A2C9; } 
+#nav ul li a { color: black; display: block; padding: 17px 35px 17px 35px; text-decoration: none; height: 100%; } 
+#nav ul li.active a { color: #14A2C9; text-decoration: none;}
+#nav ul li a:hover{ color: #14A2C9; text-decoration: none;}
+#nav ul li:hover ul {display: block; }
+
+
+
+/*wrapper*/
+#wrapper {min-height: 100%; } 
+
+
+/*interactiveDisplay*/
+.interactiveDisplay {width: 100% margin: 0 auto; height: 600px; background-color: yellow;}
+
+
+/*.centerholder*/
+.centerholder { width:960px; margin:0 auto; height: 100%; background-color: red; }
+
