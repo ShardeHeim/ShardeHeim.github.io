@@ -4,11 +4,11 @@ a { color:#0072b9; text-decoration:none; }
 a:hover { color:#044e7c; }
 
 /*headings*/
-h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans Condensed', sans-serif; color:#0091e2; font-weight:100; text-align: center; margin-top: 150px; opacity: 0.6;}
+h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans Condensed', sans-serif; color:#0091e2; font-weight:300; text-align: center; margin-top: 150px; opacity: 0.8;}
 
 
 
 /*interactiveDisplay*/
 .interactiveDisplay {width: 100% margin: 0 auto; height: 50px; background-color: #f3f3f3; }
 
-.gifdisplay {margin: auto auto; background-color: #f3f3f3; margin-left: 21%; }
+.gifdisplay {margin: auto auto; background-color: #f3f3f3; margin-left: 21%; margin-right: 21%; }
