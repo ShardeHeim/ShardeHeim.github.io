@@ -4,12 +4,19 @@ a { color:#0072b9; text-decoration:none; }
 a:hover { color:#044e7c; }
 
 /*headings*/
-h1 
-{ font-family: 'Montserrat', sans-serif; 
+h1 { font-family: 'Montserrat', sans-serif; 
     color:#23203E; 
     font-weight: 700; 
     font-size: 3rem;
     text-align: left; 
+}
+
+H2 { 
+font-family: 'Montserrat', sans-serif; 
+color:#23203E; 
+font-weight: 700; 
+font-size: 1.375;
+text-align: left; 
 }
 
 
