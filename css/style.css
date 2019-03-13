@@ -101,7 +101,7 @@ button {
     background-color: #23203E; 
     border: none;
     border-radius: 22px;
-    color: white;
+    color: #fcfcfc;
     padding: 11px 25px;
     text-align: center;
     text-decoration: none;
@@ -113,18 +113,23 @@ button {
 }
 
 button:hover {
-    background-color: #FDC95D;
+    background-color: #6B697B; 
     border: none;
     border-radius: 22px;
-    color: #23203E !important;
+    color: #fcfcfc;
     padding: 11px 25px;
     text-align: center;
     text-decoration: none;
+    display: inline-block;
     font-weight: 700;
     font-size: 13px;
     line-height: 16px;
     margin-top: 10px;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
 }
+
+
 
 
 .center {
@@ -159,7 +164,7 @@ nav {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  color: #FDC95D;
+  color: #8D8AA3;
 }
 
 /* Add a color to the active/current link */
