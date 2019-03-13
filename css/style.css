@@ -9,9 +9,9 @@ a:hover { color:#044e7c; }
 h1 { font-family: 'Montserrat', sans-serif; 
     color:#23203E; 
     font-weight: 700; 
-    font-size: 48px;
+    font-size: 52px;
     text-align: left; 
-    line-height: 50px;
+    line-height: 64px;
     padding-top: 200px;
 }
 
@@ -47,6 +47,15 @@ h4 {
     margin-bottom: 10px;
 }
 
+h5 { font-family: 'Montserrat', sans-serif; 
+    font-weight: 700; 
+    font-size: 56px;
+    text-align: left; 
+    line-height: 64px;
+    text-stroke: #23203E; 
+    text-fill-color: none;
+}
+
 p {
     font-family: 'Montserrat', sans-serif; 
     font-weight: 300; 
@@ -76,7 +85,7 @@ button {
 }
 
 .center {
-    max-width: 1024px;
+    max-width: 960px;
     margin: auto;
 }
 
@@ -123,7 +132,7 @@ nav {
     display: block;
     width: 100%;
     background-color: #FCFCFC;
-    height: 560px;
+    height: 550px;
 }
 
 .scrunchInformation{ 
@@ -178,8 +187,8 @@ nav {
 }
 
 #scrunchGraphic {
-    margin-top: 110px;
-    margin-left: 120px;
+    margin-top: 100px;
+    margin-left: 60px;
 }
 
 #sunbrellaImages {
