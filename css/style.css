@@ -31,7 +31,7 @@ h3 {
     font-weight: 800; 
     font-size: 46px;
     text-align: left; 
-    line-height: 0px;
+    line-height: 30px;
     margin: 0px;
     margin-bottom: 10px;
 }
@@ -82,7 +82,6 @@ button {
 
 
 nav {
-    background-color: red;
     margin-top: 70px;
 }
 
@@ -122,8 +121,8 @@ nav {
 .titleInformation {
     display: block;
     width: 100%;
-    background-color: pink;
-    height: 615px;
+    background-color: #FCFCFC;
+    height: 500px;
 }
 
 .scrunchInformation{ 
