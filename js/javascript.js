@@ -1,33 +1,30 @@
-$(document).ready(function(){
-	$(function() {
-		$('#home').hover(function() {
-		  	$('#patientbanner').css('display', 'none');
-		  	$('#providerbanner').css('display', 'none');
-		  	$('#radcarbanner').css('display', 'none');
-		    $('#homebanner').css('display', 'block');
-  		})
 
-		$('#patientPIN').hover(function() {
-			$('#patientbanner').css('display', 'block');
-			$('#providerbanner').css('display', 'none');
-			$('#radcarbanner').css('display', 'none');
-			$('#homebanner').css('display', 'none');
-		})
-
-
-		$('#providerPIN').hover(function() {
-			$('#patientbanner').css('display', 'none');
-			$('#providerbanner').css('display', 'block');
-			$('#radcarbanner').css('display', 'none');
-			$('#homebanner').css('display', 'none');
-		})
-
-
-		$('#radCard').hover(function() {
-			$('#patientbanner').css('display', 'none');
-			$('#providerbanner').css('display', 'none');
-			$('#radcarbanner').css('display', 'block');
-			$('#homebanner').css('display', 'none');
-		})
-	});
-});
+			var animateHTML = function() {
+			  var elems;
+			  var windowHeight;
+			  function init() {
+			    elems = document.querySelectorAll('.hidden');
+			    windowHeight = window.innerHeight;
+			    addEventHandlers();
+			    checkPosition();
+			  }
+			  function addEventHandlers() {
+			    window.addEventListener('scroll', checkPosition);
+			    window.addEventListener('resize', init);
+			  }
+			  function checkPosition() {
+			    for (var i = 0; i < elems.length; i++) {
+			      var positionFromTop = elems[i].getBoundingClientRect().top;
+			      if (positionFromTop - windowHeight <= 0) {
+			        elems[i].className = elems[i].className.replace(
+			          'hidden',
+			          'fade-in-element'
+			        );
+			      }
+			    }
+			  }
+			  return {
+			    init: init
+			  };
+			};
+			animateHTML().init();
