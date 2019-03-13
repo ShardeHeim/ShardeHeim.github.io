@@ -66,6 +66,34 @@ p {
 
 }
 
+#outline {
+    display: inline;
+      color: #fcfcfc;
+      text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+a:-webkit-any-link {
+    color: #fcfcfc;
+}
+
+#outline a:hover {
+  color: #23203E;
+  text-shadow:
+    -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+
+}
+
+#outline a.active {
+  color: #fcfcfc;
+}
+
 
 /*universal*/
 
@@ -88,6 +116,8 @@ button {
     max-width: 960px;
     margin: auto;
 }
+
+
 
 
 nav {
@@ -127,12 +157,22 @@ nav {
 
 
 
+
+
+
 /*home page*/
 .titleInformation {
     display: block;
     width: 100%;
     background-color: #FCFCFC;
     height: 550px;
+}
+
+#acute {
+    z-index: 1;
+    position: absolute;
+    height: 18px;
+    margin-left: 7px;
 }
 
 .scrunchInformation{ 
