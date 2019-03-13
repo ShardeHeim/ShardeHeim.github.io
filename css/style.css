@@ -112,6 +112,21 @@ button {
     margin-top: 10px;
 }
 
+button:hover {
+    background-color: #FDC95D;
+    border: none;
+    border-radius: 22px;
+    color: #23203E !important;
+    padding: 11px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+
+
 .center {
     max-width: 960px;
     margin: auto;
