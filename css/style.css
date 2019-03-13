@@ -14,6 +14,9 @@ h1 { font-family: 'Montserrat', sans-serif;
     line-height: 64px;
     padding-top: 200px;
 }
+h1 a {
+    color: #FCFCFC;
+}
 
 h2 { 
     font-family: 'Montserrat', sans-serif; 
@@ -23,6 +26,10 @@ h2 {
     text-align: left; 
     line-height: 52px;
     margin: 0px;
+}
+
+h2 a {
+    color: #FCFCFC;
 }
 
 h3 {
@@ -49,12 +56,13 @@ h4 {
 
 h5 { font-family: 'Montserrat', sans-serif; 
     font-weight: 700; 
-    font-size: 56px;
+    font-size: 17px;
     text-align: left; 
-    line-height: 64px;
-    text-stroke: #23203E; 
-    text-fill-color: none;
+    color: #8D8AA3;
+    float: left;
+    margin-right: 60px;
 }
+
 
 p {
     font-family: 'Montserrat', sans-serif; 
@@ -76,9 +84,7 @@ p {
         1px 1px 0 #000;
 }
 
-a:-webkit-any-link {
-    color: #fcfcfc;
-}
+
 
 #outline a:hover {
   color: #23203E;
@@ -108,8 +114,11 @@ button {
     display: inline-block;
     font-weight: 700;
     font-size: 13px;
-    line-height: 16px;
     margin-top: 10px;
+}
+
+button a {
+    color: white;
 }
 
 button:hover {
@@ -123,10 +132,13 @@ button:hover {
     display: inline-block;
     font-weight: 700;
     font-size: 13px;
-    line-height: 16px;
     margin-top: 10px;
     -webkit-transition-duration: 0.3s; /* Safari */
     transition-duration: 0.3s;
+}
+
+button a:hover {
+  color: white;
 }
 
 
@@ -172,6 +184,30 @@ nav {
   color: #23203E;
   font-weight: 800;
 }
+
+
+/* footer */
+footer {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    height: 200px;
+}
+
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    color: #6B697B;
+}
+
+.copyright {
+    color: #959595;
+    margin-top: 40px;
+    float: left;
+}
+
+
 
 
 
