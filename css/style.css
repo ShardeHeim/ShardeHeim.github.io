@@ -242,6 +242,22 @@ footer {
 }
 
 
+.border {
+    border: #F3F3F3 solid 1px;
+    width: 100%;
+    margin-bottom: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*home page*/
@@ -423,6 +439,10 @@ footer {
     margin-bottom: 180px;
 }
 
+.fullwidthphotonomargin {
+    margin-bottom: -5px;
+}
+
 .rollandtimeleft {
     margin-top: 40px;
     margin-bottom: 10px;
@@ -440,6 +460,25 @@ footer {
     height: 100px;
 }
 
+.casestudytitle {
+    font-weight: 700;
+    color: #23203E;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.casestudycontent {
+    margin-bottom: 180px;
+}
+
+.casestudyimage {
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+.casestudyimage img {
+    width: 100%;
+}
 
 
 
