@@ -373,6 +373,7 @@ footer {
 
 .title {
     font-weight: 700;
+    color: #23203E;
 }
                 
                 
@@ -393,5 +394,63 @@ footer {
 .doughnutphoto {
     margin-bottom: 150px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* scrunch*/
+.scrunchContainer {
+    height: height: 100%;
+    margin-top: 230px;
+    margin-bottom: 50px;
+
+}
+
+.scrunchInfo {
+    width: 100%;
+}
+
+
+.fullwidthphoto {
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+.rollandtimeleft {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.rollandtimeright {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-right: 15px;
+    float: right;
+}
+
+.rollandtime {
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
