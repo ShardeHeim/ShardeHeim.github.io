@@ -206,6 +206,7 @@ nav {
 }
 
 
+
 /* footer */
 footer {
     padding-top: 150px;
@@ -315,6 +316,11 @@ footer {
     margin-left: 60px;
 }
 
+#sunbrellaImages {
+    height: 730px;
+    float: right;
+    margin-top: -512px;
+}
 
 /*
 #sunbrellaImages {
