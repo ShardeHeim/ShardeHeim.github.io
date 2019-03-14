@@ -262,7 +262,7 @@ footer {
 .scrunchInformation{ 
     display: block;
     width: 100%;
-    height: 750px; 
+    height: 800px; 
     background-color: #F1F2F7;
 
 }
@@ -270,14 +270,14 @@ footer {
 .sunbrellaInformation{
     display: block;
     width: 100%; 
-    height: 500px; 
+    height: 548px; 
 
 }
 
 .portfolioInformation{
     display: block;
     width: 100%;
-    height: 750px; 
+    height: 800px; 
     background-color: #F1F2F7;
 }
 
@@ -290,14 +290,13 @@ footer {
 .leftDetailsSun {
     float: left;
     height: 100%;
-
     margin-left: 19.5%;
 
 
 }
 
 .innerbox {
-    margin-top: 230px;
+    margin-top: 250px;
     width: 350px;
 
    
@@ -312,14 +311,14 @@ footer {
 
 
 #scrunchGraphic {
-    margin-top: 100px;
+    margin-top: 115px;
     margin-left: 60px;
 }
 
 #sunbrellaImages {
-    height: 730px;
+    height: 800px;
     float: right;
-    margin-top: -512px;
+    margin-top: -532px;
 }
 
 /*
