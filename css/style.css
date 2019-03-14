@@ -74,6 +74,26 @@ p {
 
 }
 
+p a {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500; 
+    font-size: 16px; 
+    color: #000000; 
+    height: 100%;
+    line-height: 30px;
+
+}
+
+p a:hover {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500; 
+    font-size: 16px; 
+    color: #6B697B; 
+    height: 100%;
+    line-height: 30px;
+
+}
+
 #outline {
     display: inline;
       color: #fcfcfc;
@@ -188,9 +208,10 @@ nav {
 
 /* footer */
 footer {
-    margin-top: 150px;
-    margin-bottom: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     height: 220px;
+    border-top: solid 1px #ECE9E9;
 }
 
 .socials {
@@ -306,7 +327,66 @@ footer {
 
 
 
+/* about page*/
+.aboutContainer {
+    height: 1150px;
+    margin-top: 230px;
+    margin-bottom: 50px;
+
+}
+
+.aboutInfo {
+    float: left;
+    width: 380px;
+    margin-right: 150px;
+}
+
+.history {
+    float: right;
+    float: left;
+    width: 350px;
+    margin-left: 80px;
+}
+
+.awards {
+    margin-top: 80px;
+}
+
+.entity {
+    padding-top: 20px;
+    width: 270px;
+}
 
 
+
+.date {
+    font-weight: 200;
+    color: #525252;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.title {
+    font-weight: 700;
+}
+                
+                
+.place {
+    line-height: 20px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}             
+
+
+.resume {
+    margin-top: 60px;
+}
+
+
+
+
+.doughnutphoto {
+    margin-bottom: 150px;
+}
 
 
