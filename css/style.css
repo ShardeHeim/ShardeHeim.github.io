@@ -714,12 +714,9 @@ footer {
      margin-bottom: 0px !important;
     }
 
-
-     .entity {
-        width: 100%;
-
-     }
-}
+    .entity {
+        width: 255px;
+    }
 
 
 
