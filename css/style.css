@@ -712,7 +712,13 @@ footer {
     .doughnutphoto {
      width: 100%;
      margin-bottom: 0px !important;
+    }
 
+
+     .entity {
+        width: 100%;
+
+     }
 }
 
 
