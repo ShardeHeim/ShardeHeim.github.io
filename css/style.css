@@ -509,6 +509,36 @@ footer {
 }
 
 
+.sunbrellaInformationExtraLarge {
+    
+}
+
+.sunbrellaInformationLarge {
+    display: none;
+}
+
+#sunbrellaImageFour {
+    width: 500px;
+    margin-top: 230px;
+    margin-left: 110px;
+    margin-bottom: 220px;
+}
+
+
+
+
+
+@media (max-width: 1500px) {
+
+    .sunbrellaInformationExtraLarge {
+        display: none;
+    }
+
+    .sunbrellaInformationLarge {
+        display: block;
+    }
+}
+
 
 
 
