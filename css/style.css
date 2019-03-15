@@ -529,6 +529,41 @@ footer {
 
 @media (max-width: 1024px) {
 
+    .aboutContainer {
+        height: 1600px;
+    }
+
+    .scrunchInfo {
+        margin-top: 230px;
+    }
+
+    .aboutInfo {
+        margin-top: 230px;
+        margin-right: 0px;
+        width: 300px;
+    }
+
+
+    .history {
+        margin-top: 230px;
+        float: right;
+        width: 350px;
+        margin-left: 50px;
+    }
+
+
+    .doughnutphoto {
+        margin-bottom: 150px !important;
+    }
+
+
+
+
+
+
+
+
+
 /*universal attributes*/
     .center {
         margin: auto;
@@ -626,7 +661,6 @@ footer {
 
 
     footer {
-
     }
 
 }
