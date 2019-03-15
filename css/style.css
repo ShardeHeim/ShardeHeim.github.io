@@ -610,6 +610,7 @@ footer {
         margin-top: 190px;
         margin-left: 0px;
         float: right;
+        padding-right: 20px;
     }
 
     .portfolioInformation {
@@ -660,7 +661,21 @@ footer {
     }
 
 
+    .socials {
+        height: 160px;
+        padding-left: 50px;
+    }
+
+    .footercaption {
+        padding-left: 50px;
+    }
+
+    .copyright {
+        padding-left: 50px;
+    }
+
     footer {
+        padding-bottom: 230px;
     }
 
 }
@@ -672,10 +687,10 @@ footer {
 
 @media (max-width: 765px) {
 
-
     h1 {
         margin-bottom: 0px;
         padding-bottom: 0px;
+        font-size: 4.70em;
     }
 
 
@@ -691,15 +706,40 @@ footer {
         margin: none;
     }
 
+
+    .logo img{
+        height: 100px;
+    }
+
+    .topnav {
+        padding-right: 0px;
+    }
+
+    .topnav a {
+        font-size: 2.5em;
+        text-align: right;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
     .titleInformation {
-        height: 500px;
+        height: 700px;
         margin-top: 0px
         padding-top: 0px;
         padding-bottom: 200px;
     }
 
     .scrunchInformation {
-        height: 100%;
+        height: 700px;
     }
 
     .sunbrellaInformationLarge {
@@ -744,6 +784,7 @@ footer {
         background: grey;
         float: none;
     }
+    
 
     
 }
