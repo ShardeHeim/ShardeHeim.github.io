@@ -294,10 +294,17 @@ footer {
     background-color: #F1F2F7;
 }
 
-.sunbrellaInformation{
+.sunbrellaInformationLarge {
     display: block;
     width: 100%; 
-    height: 548px; 
+    height: 800px; 
+}
+
+.sunbrellaInformationMedium {
+    display: none;
+    width: 100%; 
+    height: 600px; 
+
 }
 
 .portfolioInformation{
@@ -328,16 +335,26 @@ footer {
     height: 100%;
 }
 
+.rightImagesSun {
+    height: 100%;
+    float: right;
+}
+
 
 #scrunchGraphic {
     margin-top: 115px;
     margin-left: 60px;
 }
 
-#sunbrellaImages {
+#sunbrellaImageOne {
     height: 800px;
     float: right;
-    margin-top: -543px;
+}
+
+
+#sunbrellaImageThree {
+    width: 100%;
+    display: none;
 }
 
 
@@ -495,93 +512,207 @@ footer {
 
 
 
-@media (max-width: 1024px) {
 
+@media (max-width: 1184px) {
+
+    .sunbrellaImageOne {
+        height: 100%;
+    }
+
+    #sunbrellaImages {
+        height: 100%;
+        float: right;
+
+    }
+}
+
+
+@media (max-width: 1024px) {
 
 /*universal attributes*/
     .center {
         margin: auto;
-        width: 100%;
-        margin-left: 35px;
-        margin-right: 35px;
+        width: 765px;
+    }
+
+    .logo {
+        padding-left: 50px;
     }
 
     .topnav {
-        padding-right: 70px;
+        padding-right: 50px;
     }
+
 
 /*homepage*/
     .titleInformation {
-        height: 100%;
+        height: 600px;
     }
 
     .titleInformationText {
+        padding-left:50px;
         padding-right: 50px;
-        margin-bottom: 200px;
+    }
+
+    .scrunchInformation {
+        height: 600px;
+        width: 100%;
+
+    }
+
+    .sunbrellaInformationLarge {
+        height: 600px;
+        width: 100%;
+        display: none;
+    }
+
+    .sunbrellaInformationMedium {
+        display: block;
+    }
+
+    #sunbrellaImageTwo {
+        width: 310px;
+        margin-top: 190px;
+        margin-left: 0px;
+        float: right;
+    }
+
+    .portfolioInformation {
+        height: 600px;
+        width: 100%;
+    }
+
+    .leftDetails {
+        float: top;
+        padding-left: 0px;
+        padding-left: 50px;
+    }
+
+    .rightImages {
+        float: bottom;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    .rightImagesSun {
+        float: bottom;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    .innerbox {
+        margin-top: 140px;
+        width: 350px;   
+    }
+
+    #scrunchGraphic{
+        width: 310px;
+        height: 250px;
+        margin-top: 140px;
+        margin-left: 0px;
+        padding-left: 0px;
+        float: right;
+        padding-right: 50px;
+    }
+
+    #sunbrellaImageOne {
+        display: none;
+    }
+
+    #sunbrellaImageTwo {
+        display: inline-block;
+
+    }
+
+
+    footer {
+
+    }
+
+}
+ 
+
+
+
+
+
+@media (max-width: 765px) {
+
+
+    h1 {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .center {
+        margin: none;
+    }
+
+    .titleInformation {
+        height: 500px;
+        margin-top: 0px
+        padding-top: 0px;
+        padding-bottom: 200px;
     }
 
     .scrunchInformation {
         height: 100%;
     }
 
-    .leftDetails {
-        float: top;
-    }
-
-    .rightImages {
-        float: bottom;
-    }
-
-    .innerbox {
-        margin-top: 100px;
-        width: 350px;    
-    }
-
-    #scrunchGraphic{
-        width: 400px;
-        height: 330px;
-        margin-top: 50px;
-        padding-right: 100px;
-        float: right;
-    }
-
-    #sunbrellaImages {
+    .sunbrellaInformationLarge {
         height: 100%;
-        margin-top: 0px;
+        background: blue;
     }
 
+    .portfolioInformation{
+        height: 800px;
+        width: 100%;
+    }
 
-}
-
-
-
-
-
-
-@media (max-width: 768px) {
 
     /*homepage*/
 
-    #scrunchGraphic{
+    .leftDetails {
+        float: top;
+        width: 100%;
+        height: 100%;
+        background: orange;
     }
 
+    .innerbox {
+       text-align: center;
+       padding: 0px;
+       width: 100%;
+       margin-bottom: 0px;
+    }
 
     #scrunchGraphic{
-        width: 400px;
-        height: 330px;
+        width: 100%;
+        height: 100%;
         margin-left: 0px;
+        float: right;
+        margin-top: 0px;
+        background: green;
     }
 
-    h1 { font-family: 'Montserrat', sans-serif; 
-        font-size: 100px;
-    }
 
-    
+    .rightImagesSun {
+        height: 400px;
+        background: grey;
+        float: none;
+    }
 
     
 }
-
-
 
 
 
