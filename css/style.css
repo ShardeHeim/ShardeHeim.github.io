@@ -535,6 +535,22 @@ footer {
 
     .scrunchInfo {
         margin-top: 230px;
+        margin-left: 50px;
+        margin-right: 0px;
+        width: 660px;
+    }
+
+    .rollandtime {
+        height: 230px;
+    }
+
+
+    .scrunchContainer {
+    }
+
+
+    .endtoendexperiencemapproject {
+        width: 660px !important;
     }
 
     .aboutInfo {
@@ -718,6 +734,10 @@ footer {
         width: 255px;
     }
 
+    .title {
+        padding-bottom: 10px;
+    }
+
 
 
     h1 {
@@ -732,8 +752,10 @@ footer {
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 1.2em;
         text-align: center;
+        line-height: 30px;
+        padding-bottom: 5px;
     }
 
     h5 {
@@ -764,6 +786,25 @@ footer {
 
     .copyright {
         display: none;
+    }
+
+    .rollandtime {
+        height: 200px;
+    }
+
+    .rollandtimeleft {
+        float: none;
+        width: 100%;
+    }
+
+    .rollandtimeright {
+        float: none;
+        width: 100%;
+    }
+
+
+    .endtoendexperiencemapproject {
+        width: 250px !important;
     }
 
 
@@ -818,6 +859,19 @@ footer {
         padding-right: 0px;
         margin-right: 0px;
         float: bottom;
+    }
+
+
+
+    .scrunchInfo {
+        width: 260px;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .endtoendexperiencemapproject {
+        width: 260px;
+        text-align: center;
     }
 
     
