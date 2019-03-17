@@ -307,6 +307,11 @@ footer {
 
 }
 
+
+.sunbrellaInformationSmall {
+    display: none;
+}
+
 .portfolioInformation{
     display: block;
     width: 100%;
@@ -349,7 +354,7 @@ footer {
 #portfolioImage {
     width: 500px;
     float: right;
-    margin-top: 200px;
+    margin-top: 210px;
 }
 
 #scrunchGraphicGif {
@@ -531,10 +536,9 @@ footer {
 }
 
 #sunbrellaImageFour {
-    width: 500px;
-    margin-top: 230px;
-    margin-left: 110px;
-    margin-bottom: 220px;
+    margin-left: 170px;
+    margin-bottom: -4px;
+    height: 800px;
 }
 
 
@@ -661,11 +665,18 @@ footer {
     }
 
     #sunbrellaImageTwo {
-        width: 310px;
-        margin-top: 190px;
+        width: 335px;
+        margin-left: 0px;
+        padding-left: 20px;
+
+    }
+
+
+    #sunbrellaImageFive {
+        width: 365px;
+        height: 600px;
         margin-left: 0px;
         float: right;
-        padding-right: 20px;
     }
 
     .portfolioInformation {
@@ -693,13 +704,13 @@ footer {
 
     .innerbox {
         margin-top: 150px;
-        width: 350px;   
+        width: 310px;   
     }
 
     #scrunchGraphic{
         width: 310px;
         height: auto;
-        margin-top: 120px;
+        margin-top: 140px;
         margin-left: 0px;
         padding-left: 0px;
         float: right;
@@ -720,8 +731,8 @@ footer {
         float: right;
         width: 340px;
         height: auto;
-        margin-top: -260px;
-        margin-right: 35px;
+        margin-top: -250px;
+        margin-right: 36px;
     }
 
     #sunbrellaImageOne {
@@ -844,8 +855,6 @@ footer {
     .socials {
         padding-left: 0px;
         height: 300px;
-        margin-top: 50px;
-        margin-bottom: 140px;
     }
 
 
@@ -915,7 +924,13 @@ footer {
 
 
     .sunbrellaInformationMedium {
+        display: none;
+    }
+
+    .sunbrellaInformationSmall {
+        display: inherit;
         height: 800px;
+        width: 100%;
     }
 
     #sunbrellaImageTwo {
@@ -958,7 +973,7 @@ footer {
 
 
     .portfolioInformation {
-        height: 800px;
+        height: 790px;
         width: 100%;
     }
 
