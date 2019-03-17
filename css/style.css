@@ -346,6 +346,12 @@ footer {
     float: right;
 }
 
+#portfolioImage {
+    width: 500px;
+    float: right;
+    margin-top: 200px;
+}
+
 #scrunchGraphicGif {
     float: right;
     width: 522px;
@@ -686,7 +692,7 @@ footer {
     }
 
     .innerbox {
-        margin-top: 140px;
+        margin-top: 150px;
         width: 350px;   
     }
 
@@ -699,6 +705,15 @@ footer {
         float: right;
         padding-right: 30px;
     }
+
+
+    #portfolioImage {
+        width: 300px;
+        float: right;
+        margin-top: 180px;
+        padding-right: 30px;
+    }
+
 
 
     #scrunchGraphicGif {
@@ -900,11 +915,19 @@ footer {
 
 
     .sunbrellaInformationMedium {
-        height: 830px;
+        height: 800px;
     }
 
     #sunbrellaImageTwo {
         margin-top: 70px;
+    }
+
+
+    #portfolioImage {
+        width: 300px;
+        float: right;
+        margin-top: 80px;
+        padding-right: 30px;
     }
 
 
@@ -931,6 +954,12 @@ footer {
     .endtoendexperiencemapproject {
         width: 260px;
         text-align: center;
+    }
+
+
+    .portfolioInformation {
+        height: 800px;
+        width: 100%;
     }
 
     
