@@ -342,16 +342,15 @@ footer {
 
 
 #scrunchGraphic {
-    margin-top: 125px;
-    margin-left: 90px;
+    margin-top: 155px;
+    float: right;
 }
 
 #scrunchGraphicGif {
     float: right;
-    width: 530px;
+    width: 522px;
     height: auto;
-    margin-top: -420px;
-    margin-right: 50px;
+    margin-top: -325px;
 }
 
 #sunbrellaImageOne {
@@ -694,7 +693,7 @@ footer {
     #scrunchGraphic{
         width: 310px;
         height: auto;
-        margin-top: 140px;
+        margin-top: 120px;
         margin-left: 0px;
         padding-left: 0px;
         float: right;
@@ -704,10 +703,10 @@ footer {
 
     #scrunchGraphicGif {
         float: right;
-        width: 320px;
+        width: 340px;
         height: auto;
-        margin-top: -270px;
-        margin-right: 55px;
+        margin-top: -260px;
+        margin-right: 35px;
     }
 
     #sunbrellaImageOne {
@@ -884,19 +883,19 @@ footer {
 
 
     #scrunchGraphic {
-        margin-top: 0px;
-        margin-left: 0px;
+        margin-top: 50px;
+        width: 300px;
+        margin-left: 40px;
         height: auto;
-        padding: 30px;
+        padding: 0px;
         float: none;
     }
 
     #scrunchGraphicGif {
         float: right;
-        width: 320px;
         height: auto;
-        margin-top: -280px;
-        margin-right: 45px;
+        margin-top: -218px;
+        margin-right: 15px;
     }
 
 
