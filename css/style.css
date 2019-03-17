@@ -576,6 +576,12 @@ footer {
 
 @media (max-width: 1024px) {
 
+
+    h2 {
+        line-height: 30px;
+        padding-bottom: 40px;
+    }
+
     .aboutContainer {
         height: 1600px;
     }
