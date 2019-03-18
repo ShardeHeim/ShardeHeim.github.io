@@ -526,6 +526,11 @@ footer {
     width: 100%;
 }
 
+#computergif {
+    width: 800px;
+    margin-left: 80px;
+}
+
 
 .sunbrellaInformationExtraLarge {
     
@@ -768,6 +773,12 @@ footer {
         padding-bottom: 230px;
     }
 
+
+    #computergif {
+    width: 600px;
+    margin-left: 30px;
+    }
+
 }
  
 
@@ -970,6 +981,12 @@ footer {
         width: 260px;
         margin-left: 50px;
         text-align: center;
+    }
+
+
+    #computergif {
+        width: 250px;
+        margin-left: 0px;
     }
 
     .endtoendexperiencemapproject {
