@@ -1,14 +1,927 @@
-body { margin:0; padding:0; font-family: 'Source Sans Pro', sans-serif; color:#555; height: 100%; background-color: #f3f3f3;} 
+body { margin:0; padding:0; font-family: 'Montserrat', sans-serif; font-weight: 300; font-size: 16px; color: #000000; height: 100%; background-color: #FCFCFC;} 
 html { margin:0; padding:0; height :100%; } 
 a { color:#0072b9; text-decoration:none; }
 a:hover { color:#044e7c; }
 
+
+
+
 /*headings*/
-h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans Condensed', sans-serif; color:#0091e2; font-weight:300; text-align: center; margin-top: 150px; opacity: 0.8;}
+h1 { font-family: 'Montserrat', sans-serif; 
+    color:#23203E; 
+    font-weight: 700; 
+    font-size: 3.250em;
+    text-align: left; 
+    line-height: 1.2em;
+    padding-top: 200px;
+}
+
+h1 a {
+    color: #FCFCFC;
+}
+
+h2 { 
+    font-family: 'Montserrat', sans-serif; 
+    color:#23203E; 
+    font-weight: 700; 
+    font-size: 1.375em;
+    text-align: left; 
+    line-height: 52px;
+    margin: 0px;
+}
+
+h2 a {
+    color: #FCFCFC;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif; 
+    color:#23203E; 
+    font-weight: 800; 
+    font-size: 2.875em;
+    text-align: left; 
+    line-height: 60px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif; 
+    color:#23203E; 
+    font-weight: 500; 
+    font-size: 1.063em;
+    text-align: left; 
+    line-height: 56px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+h5 { font-family: 'Montserrat', sans-serif; 
+    font-weight: 700; 
+    font-size: 1.063em;
+    text-align: left; 
+    color: #8D8AA3;
+    float: left;
+    margin-right: 60px;
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300; 
+    font-size: 1em; 
+    color: #000000; 
+    height: 100%;
+    line-height: 32px;
+    padding-bottom: 5px;
+
+}
+
+p a {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500; 
+    color: #000000; 
+    height: 100%;
+    line-height: 30px;
+
+}
+
+p a:hover {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500; 
+    color: #6B697B; 
+    height: 100%;
+    line-height: 30px;
+
+}
+
+#outline {
+    display: inline;
+      color: #fcfcfc;
+      text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
 
 
 
-/*interactiveDisplay*/
-.interactiveDisplay {width: 100%; height: 50px; background-color: #f3f3f3; }
-.gifdisplay {margin: 0 auto; width: 500px;}
-.gifimage {display: block; margin-right: 20px; margin-left: 20px;}
+#outline a:hover {
+  color: #23203E;
+  text-shadow:
+    -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+
+}
+
+#outline a.active {
+  color: #fcfcfc;
+}
+
+
+
+
+
+
+
+/*universal attributes*/
+
+.center {
+    max-width: 960px;
+    margin: auto;
+}
+
+
+button {
+    background-color: #23203E; 
+    border: none;
+    border-radius: 22px;
+    color: #fcfcfc;
+    padding: 11px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+button a {
+    color: white;
+}
+
+button:hover {
+    background-color: #6B697B; 
+    border: none;
+    border-radius: 22px;
+    color: #fcfcfc;
+    padding: 11px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 10px;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+button a:hover {
+  color: white;
+}
+
+
+
+
+
+
+/*navigation*/
+nav {
+    margin-top: 70px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  margin-top: -50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #23203E;
+  text-align: center;
+  margin-left: 80px;
+  padding-top: 15px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #8D8AA3;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #23203E;
+  font-weight: 800;
+}
+
+
+
+
+
+/* footer */
+footer {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    height: 220px;
+    border-top: solid 1px #ECE9E9;
+}
+
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    color: #6B697B;
+}
+
+.copyright {
+    color: #959595;
+    margin-top: 40px;
+    float: left;
+}
+
+
+
+
+
+/*Aimations*/
+
+@keyframes fade-in {
+    from {opacity: 0; transform: scale(.9,.9)}
+    to {opacity: 1;}
+}
+.fade-in-element {
+  animation: fade-in 1.4s;
+}
+
+
+.border {
+    border-bottom: #F3F3F3 solid 1px;
+    border-top: #F3F3F3 solid 1px;
+    width: 100%;
+    margin-bottom: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*home page*/
+.titleInformation {
+    display: block;
+    width: 100%;
+    background-color: #FCFCFC;
+    height: 550px;
+}
+
+#acute {
+    z-index: 1;
+    position: absolute;
+    height: 18px;
+    margin-left: 7px;
+}
+
+.scrunchInformation{ 
+    display: block;
+    width: 100%;
+    height: 800px; 
+    background-color: #F1F2F7;
+}
+
+.sunbrellaInformationLarge {
+    display: block;
+    width: 100%; 
+    height: 800px; 
+}
+
+.sunbrellaInformationMedium {
+    display: none;
+    width: 100%; 
+    height: 600px; 
+
+}
+
+.portfolioInformation{
+    display: block;
+    width: 100%;
+    height: 800px; 
+    background-color: #F1F2F7;
+}
+
+.leftDetails {
+    float: left;
+    height: 100%;
+ 
+}
+
+.leftDetailsSun {
+    float: left;
+    height: 100%;
+    margin-left: 19.5%;
+}
+
+.innerbox {
+    margin-top: 250px;
+    width: 350px;    
+}
+
+.rightImages {
+    height: 100%;
+}
+
+.rightImagesSun {
+    height: 100%;
+    float: right;
+}
+
+
+#scrunchGraphic {
+    margin-top: 115px;
+    margin-left: 60px;
+}
+
+#sunbrellaImageOne {
+    height: 800px;
+    float: right;
+}
+
+
+#sunbrellaImageThree {
+    width: 100%;
+    display: none;
+}
+
+
+
+
+
+
+
+
+/*about page*/
+.aboutContainer {
+    height: 1150px;
+    margin-top: 230px;
+    margin-bottom: 50px;
+
+}
+
+
+.aboutInfo {
+    float: left;
+    width: 380px;
+    margin-right: 150px;
+}
+
+
+.history {
+    float: right;
+    float: left;
+    width: 350px;
+    margin-left: 80px;
+}
+
+
+.awards {
+    margin-top: 80px;
+}
+
+
+.entity {
+    padding-top: 20px;
+    width: 270px;
+}
+
+
+.date {
+    font-weight: 200;
+    color: #525252;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+
+.title {
+    font-weight: 700;
+    color: #23203E;
+}
+                
+                
+.place {
+    line-height: 20px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}             
+
+
+.resume {
+    margin-top: 60px;
+}
+
+
+.doughnutphoto {
+    margin-bottom: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* scrunch section*/
+.scrunchContainer {
+    height: height: 100%;
+    margin-top: 230px;
+    margin-bottom: 50px;
+
+}
+
+
+.scrunchInfo {
+    width: 100%;
+}
+
+
+.fullwidthphoto {
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+
+.fullwidthphotonomargin {
+    margin-bottom: -5px;
+}
+
+
+.rollandtimeleft {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 100px
+}
+
+
+.rollandtimeright {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-right: 15px;
+    float: left;
+}
+
+
+.rollandtime {
+    height: 100px;
+}
+
+
+.casestudytitle {
+    font-weight: 700;
+    color: #23203E;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.casestudycontent {
+    margin-bottom: 180px;
+}
+
+
+.casestudyimage {
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+
+.casestudyimage img {
+    width: 100%;
+}
+
+
+.sunbrellaInformationExtraLarge {
+    
+}
+
+.sunbrellaInformationLarge {
+    display: none;
+}
+
+#sunbrellaImageFour {
+    width: 500px;
+    margin-top: 230px;
+    margin-left: 110px;
+    margin-bottom: 220px;
+}
+
+
+
+
+
+@media (max-width: 1500px) {
+
+    .sunbrellaInformationExtraLarge {
+        display: none;
+    }
+
+    .sunbrellaInformationLarge {
+        display: block;
+    }
+}
+
+
+
+
+
+@media (max-width: 1184px) {
+
+    .sunbrellaImageOne {
+        height: 100%;
+    }
+
+    #sunbrellaImages {
+        height: 100%;
+        float: right;
+
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+    .aboutContainer {
+        height: 1600px;
+    }
+
+    .scrunchInfo {
+        margin-top: 230px;
+        margin-left: 50px;
+        margin-right: 0px;
+        width: 660px;
+    }
+
+    .rollandtime {
+        height: 230px;
+    }
+
+
+    .scrunchContainer {
+    }
+
+
+    .endtoendexperiencemapproject {
+        width: 660px !important;
+    }
+
+    .aboutInfo {
+        margin-top: 230px;
+        margin-left: 50px;
+        margin-right: 0px;
+        width: 300px;
+    }
+
+
+    .history {
+        margin-top: 230px;
+        float: right;
+        width: 270px;
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+
+
+    .doughnutphoto {
+        margin-bottom: 150px !important;
+    }
+
+
+
+/*universal attributes*/
+    .center {
+        margin: auto;
+        width: 765px;
+    }
+
+    .logo {
+        padding-left: 50px;
+    }
+
+    .topnav {
+        padding-right: 50px;
+    }
+
+
+/*homepage*/
+    .titleInformation {
+        height: 600px;
+    }
+
+    .titleInformationText {
+        padding-left:50px;
+        padding-right: 50px;
+    }
+
+    .scrunchInformation {
+        height: 600px;
+        width: 100%;
+
+    }
+
+    .sunbrellaInformationLarge {
+        height: 600px;
+        width: 100%;
+        display: none;
+    }
+
+    .sunbrellaInformationMedium {
+        display: block;
+    }
+
+    #sunbrellaImageTwo {
+        width: 310px;
+        margin-top: 190px;
+        margin-left: 0px;
+        float: right;
+        padding-right: 20px;
+    }
+
+    .portfolioInformation {
+        height: 600px;
+        width: 100%;
+    }
+
+    .leftDetails {
+        float: top;
+        padding-left: 0px;
+        padding-left: 50px;
+    }
+
+    .rightImages {
+        float: bottom;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    .rightImagesSun {
+        float: bottom;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    .innerbox {
+        margin-top: 140px;
+        width: 350px;   
+    }
+
+    #scrunchGraphic{
+        width: 310px;
+        height: 250px;
+        margin-top: 140px;
+        margin-left: 0px;
+        padding-left: 0px;
+        float: right;
+        padding-right: 50px;
+    }
+
+    #sunbrellaImageOne {
+        display: none;
+    }
+
+    #sunbrellaImageTwo {
+        display: inline-block;
+
+    }
+
+
+    .socials {
+        height: 160px;
+        padding-left: 50px;
+    }
+
+    .footercaption {
+        padding-left: 50px;
+    }
+
+    .copyright {
+        padding-left: 50px;
+    }
+
+    footer {
+        padding-bottom: 230px;
+    }
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 765px) {
+
+
+    .aboutInfo {
+        width: 260px;
+        margin-top: 150px;
+    }
+
+
+    .history {
+        width: 260px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+
+    .aboutContainer {
+        text-align: center;
+    }
+
+
+    .doughnutphoto {
+     width: 100%;
+     margin-bottom: 0px !important;
+    }
+
+    .entity {
+        width: 255px;
+    }
+
+    .title {
+        padding-bottom: 10px;
+    }
+
+    #acute {
+        height: 13px;
+    }
+
+
+
+    h1 {
+        padding-top: 70px;
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 2.4em;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.2em;
+        text-align: center;
+        line-height: 30px;
+        padding-bottom: 5px;
+    }
+
+    h5 {
+        float: none;
+        text-align: center;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+
+    button {
+        text-align: center;
+    }
+
+
+    .footercaption {
+        display: none;
+    }
+
+
+    .socials {
+        padding-left: 0px;
+        height: 300px;
+        margin-top: 50px;
+        margin-bottom: 140px;
+    }
+
+
+    .copyright {
+        display: none;
+    }
+
+    .rollandtime {
+        height: 200px;
+    }
+
+    .rollandtimeleft {
+        float: none;
+        width: 100%;
+    }
+
+    .rollandtimeright {
+        float: none;
+        width: 100%;
+    }
+
+
+    .endtoendexperiencemapproject {
+        width: 250px !important;
+    }
+
+
+    .titleInformation {
+        height: 570px;
+    }
+
+    .center {
+        width: 360px;
+    }
+
+    .topnav a {
+        margin-left: 50px;
+    }
+
+    .innerbox {
+        width: 260px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .scrunchInformation {
+        height: 820px;
+        width: 100%;
+    }
+
+
+    #scrunchGraphic {
+        margin-top: 0px;
+        margin-left: 50px;
+        height: auto;
+        padding: 30px;
+    }
+
+
+    .sunbrellaInformationMedium {
+        height: 830px;
+    }
+
+    #sunbrellaImageTwo {
+        margin-top: 70px;
+    }
+
+
+    .leftDetails {
+        padding-left: 0px;
+        padding-left: 50px;
+        float: top;
+    }
+
+    .rightImages {
+        padding-right: 0px;
+        margin-right: 0px;
+        float: bottom;
+    }
+
+
+
+    .scrunchInfo {
+        width: 260px;
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    .endtoendexperiencemapproject {
+        width: 260px;
+        text-align: center;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
