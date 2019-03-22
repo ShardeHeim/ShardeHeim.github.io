@@ -546,6 +546,10 @@ footer {
     height: 800px;
 }
 
+.endtoendexperiencemapproject {
+    margin-bottom: 180px;
+}
+
 
 
 
@@ -610,6 +614,8 @@ footer {
     .endtoendexperiencemapproject {
         width: 660px !important;
     }
+
+
 
     .aboutInfo {
         margin-top: 230px;
