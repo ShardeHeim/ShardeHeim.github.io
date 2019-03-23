@@ -640,6 +640,7 @@ span:hover {
   display: block;
   width: 100%;
   max-width: 765px;
+  padding-bottom: 100px;
 }
 
 
