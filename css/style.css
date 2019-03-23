@@ -1,142 +1,128 @@
-body { margin:0; padding:0; font-family: 'Montserrat', sans-serif; font-weight: 300; font-size: 16px; color: #000000; height: 100%; background-color: #FCFCFC;} 
-html { margin:0; padding:0; height :100%; } 
-a { color:#0072b9; text-decoration:none; }
-a:hover { color:#044e7c; }
-
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    height: 100%;
+    background-color: #FCFCFC;
+}
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+a {
+    color: #0072b9;
+    text-decoration: none;
+}
+a:hover {
+    color: #044e7c;
+}
 
 
 
 /*headings*/
-h1 { font-family: 'Montserrat', sans-serif; 
-    color:#23203E; 
-    font-weight: 700; 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #23203E;
+    font-weight: 700;
     font-size: 3.250em;
-    text-align: left; 
+    text-align: left;
     line-height: 1.2em;
     padding-top: 200px;
 }
-
 h1 a {
     color: #FCFCFC;
 }
-
-h2 { 
-    font-family: 'Montserrat', sans-serif; 
-    color:#23203E; 
-    font-weight: 700; 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #23203E;
+    font-weight: 700;
     font-size: 1.375em;
-    text-align: left; 
+    text-align: left;
     line-height: 52px;
     margin: 0px;
 }
-
 h2 a {
     color: #FCFCFC;
 }
-
 h3 {
-    font-family: 'Montserrat', sans-serif; 
-    color:#23203E; 
-    font-weight: 800; 
+    font-family: 'Montserrat', sans-serif;
+    color: #23203E;
+    font-weight: 800;
     font-size: 2.875em;
-    text-align: left; 
+    text-align: left;
     line-height: 60px;
     margin: 0px;
     margin-bottom: 10px;
 }
-
 h4 {
-    font-family: 'Montserrat', sans-serif; 
-    color:#23203E; 
-    font-weight: 500; 
+    font-family: 'Montserrat', sans-serif;
+    color: #23203E;
+    font-weight: 500;
     font-size: 1.063em;
-    text-align: left; 
+    text-align: left;
     line-height: 56px;
     margin: 0px;
     margin-bottom: 10px;
 }
-
-h5 { font-family: 'Montserrat', sans-serif; 
-    font-weight: 700; 
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 1.063em;
-    text-align: left; 
+    text-align: left;
     color: #8D8AA3;
     float: left;
     margin-right: 60px;
 }
-
-
 p {
-    font-family: 'Montserrat', sans-serif; 
-    font-weight: 300; 
-    font-size: 1em; 
-    color: #000000; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #000000;
     height: 100%;
     line-height: 32px;
     padding-bottom: 5px;
-
 }
-
 p a {
-    font-family: 'Montserrat', sans-serif; 
-    font-weight: 500; 
-    color: #000000; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #000000;
     height: 100%;
     line-height: 30px;
-
 }
-
 p a:hover {
-    font-family: 'Montserrat', sans-serif; 
-    font-weight: 500; 
-    color: #6B697B; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #6B697B;
     height: 100%;
     line-height: 30px;
-
 }
-
 #outline {
     display: inline;
-      color: #fcfcfc;
-      text-shadow:
-        -1px -1px 0 #000,  
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
+    color: #fcfcfc;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-
-
-
 #outline a:hover {
-  color: #23203E;
-  text-shadow:
-    -1px -1px 0 #fff,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff;
-
+    color: #23203E;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
-
 #outline a.active {
-  color: #fcfcfc;
+    color: #fcfcfc;
 }
-
-
-
 
 
 
 
 /*universal attributes*/
-
 .center {
     max-width: 960px;
     margin: auto;
 }
-
-
 button {
-    background-color: #23203E; 
+    background-color: #23203E;
     border: none;
     border-radius: 22px;
     color: #fcfcfc;
@@ -148,13 +134,11 @@ button {
     font-size: 13px;
     margin-top: 10px;
 }
-
 button a {
     color: white;
 }
-
 button:hover {
-    background-color: #6B697B; 
+    background-color: #6B697B;
     border: none;
     border-radius: 22px;
     color: #fcfcfc;
@@ -165,16 +149,13 @@ button:hover {
     font-weight: 700;
     font-size: 13px;
     margin-top: 10px;
-    -webkit-transition-duration: 0.3s; /* Safari */
+    -webkit-transition-duration: 0.3s;
+    /* Safari */
     transition-duration: 0.3s;
 }
-
 button a:hover {
-  color: white;
+    color: white;
 }
-
-
-
 
 
 
@@ -182,56 +163,39 @@ button a:hover {
 nav {
     margin-top: 70px;
 }
-
-/* Add a black background color to the top navigation */
 .topnav {
-  overflow: hidden;
-  margin-top: -50px;
+    overflow: hidden;
+    margin-top: -50px;
 }
-
-/* Style the links inside the navigation bar */
 .topnav a {
-  float: right;
-  color: #23203E;
-  text-align: center;
-  margin-left: 80px;
-  margin-top: 15px;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: 500;
+    float: right;
+    color: #23203E;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
 }
-
-/* Change the color of links on hover */
 .topnav a:hover {
-  color: #8D8AA3;
+    color: #8D8AA3;
 }
-
-/* Add a color to the active/current link */
 .topnav a.active {
-  color: #23203E;
-  font-weight: 800;
+    color: #23203E;
+    font-weight: 800;
 }
-
-
-
-
-
-/* footer */
 footer {
     padding-top: 150px;
     padding-bottom: 150px;
     height: 220px;
     border-top: solid 1px #ECE9E9;
 }
-
 .socials {
     margin-top: 20px;
 }
-
 .socials a {
     color: #6B697B;
 }
-
 .copyright {
     color: #959595;
     margin-top: 40px;
@@ -239,37 +203,25 @@ footer {
 }
 
 
-
-
-
 /*Aimations*/
-
 @keyframes fade-in {
-    from {opacity: 0; transform: scale(.9,.9)}
-    to {opacity: 1;}
+    from {
+        opacity: 0;
+        transform: scale(.9, .9)
+    }
+    to {
+        opacity: 1;
+    }
 }
 .fade-in-element {
-  animation: fade-in 1.4s;
+    animation: fade-in 1.4s;
 }
-
-
 .border {
     border-bottom: #F3F3F3 solid 1px;
     border-top: #F3F3F3 solid 1px;
     width: 100%;
     margin-bottom: 180px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*home page*/
@@ -279,107 +231,80 @@ footer {
     background-color: #FCFCFC;
     height: 550px;
 }
-
 #acute {
     z-index: 1;
     position: absolute;
     height: 18px;
     margin-left: 7px;
 }
-
-.scrunchInformation{ 
+.scrunchInformation {
     display: block;
     width: 100%;
-    height: 800px; 
+    height: 800px;
     background-color: #F1F2F7;
 }
-
 .sunbrellaInformationLarge {
     display: block;
-    width: 100%; 
-    height: 800px; 
+    width: 100%;
+    height: 800px;
 }
-
 .sunbrellaInformationMedium {
     display: none;
-    width: 100%; 
-    height: 600px; 
-
+    width: 100%;
+    height: 600px;
 }
-
-
 .sunbrellaInformationSmall {
     display: none;
 }
-
-.portfolioInformation{
+.portfolioInformation {
     display: block;
     width: 100%;
-    height: 800px; 
+    height: 800px;
     background-color: #F1F2F7;
 }
-
 .leftDetails {
     float: left;
     height: 100%;
- 
 }
-
 .leftDetailsSun {
     float: left;
     height: 100%;
     margin-left: 19.5%;
 }
-
 .innerbox {
     margin-top: 250px;
-    width: 350px;    
+    width: 350px;
 }
-
 .rightImages {
     height: 100%;
 }
-
 .rightImagesSun {
     height: 100%;
     float: right;
 }
-
-
 #scrunchGraphic {
     margin-top: 155px;
     float: right;
 }
-
 #portfolioImage {
     width: 500px;
     float: right;
     margin-top: 210px;
 }
-
 #scrunchGraphicGif {
     float: right;
     width: 522px;
     height: auto;
     margin-top: -325px;
 }
-
 #sunbrellaImageOne {
     height: 800px;
     float: right;
 }
-
-
 #sunbrellaImageThree {
     width: 100%;
     display: none;
 }
-
-
-
-
-
-
 
 
 /*about page*/
@@ -387,74 +312,46 @@ footer {
     height: 1150px;
     margin-top: 230px;
     margin-bottom: 50px;
-
 }
-
-
 .aboutInfo {
     float: left;
     width: 380px;
     margin-right: 150px;
 }
-
-
 .history {
     float: right;
     float: left;
     width: 350px;
     margin-left: 80px;
 }
-
-
 .awards {
     margin-top: 80px;
 }
-
-
 .entity {
     padding-top: 20px;
     width: 270px;
 }
-
-
 .date {
     font-weight: 200;
     color: #525252;
     font-size: 14px;
     padding-bottom: 10px;
 }
-
-
 .title {
     font-weight: 700;
     color: #23203E;
 }
-                
-                
 .place {
     line-height: 20px;
     margin-top: 5px;
     padding-bottom: 20px;
-}             
-
-
+}
 .resume {
     margin-top: 60px;
 }
-
-
 .doughnutphoto {
     margin-bottom: 150px;
 }
-
-
-
-
-
-
-
-
-
 
 
 /* scrunch section*/
@@ -462,106 +359,74 @@ footer {
     height: height: 100%;
     margin-top: 230px;
     margin-bottom: 50px;
-
 }
-
-
 .scrunchInfo {
     width: 100%;
 }
-
-
 .fullwidthphoto {
     margin-top: 180px;
     margin-bottom: 180px;
 }
-
-
 .fullwidthphotonomargin {
     margin-bottom: -5px;
 }
-
-
 .rollandtimeleft {
     margin-top: 40px;
     margin-bottom: 10px;
     float: left;
     margin-right: 100px
 }
-
-
 .rollandtimeright {
     margin-top: 40px;
     margin-bottom: 10px;
     padding-right: 15px;
     float: left;
 }
-
-
 .rollandtime {
     height: 100px;
 }
-
-
 .casestudytitle {
     font-weight: 700;
     color: #23203E;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
-
 .casestudycontent {
     margin-bottom: 180px;
 }
-
-
 .casestudyimage {
     margin-top: 180px;
     margin-bottom: 180px;
 }
-
-
 .casestudyimage img {
     width: 100%;
 }
-
 #computergif {
     width: 800px;
     margin-left: 80px;
 }
-
-
-.sunbrellaInformationExtraLarge {
-    
-}
-
+.sunbrellaInformationExtraLarge {}
 .sunbrellaInformationLarge {
     display: none;
 }
-
 #sunbrellaImageFour {
     margin-left: 170px;
     margin-bottom: -4px;
     height: 800px;
 }
-
 .endtoendexperiencemapproject {
     margin-bottom: 179px;
 }
-
 .prevnextwrapper {
     padding-bottom: 180px;
 }
-
 .prevnextwrappersmall {
     display: none;
 }
-
 .prev {
     width: 50%;
     float: left;
-} 
+}
 .prev a {
     float: right;
     margin-right: 30px;
@@ -571,63 +436,40 @@ footer {
     font-size: 17px;
     font-weight: 500;
 }
-
 .prev a:hover {
-  color: #8D8AA3;
+    color: #8D8AA3;
 }
-
-
 .next {
     width: 50%;
     float: right;
 }
-
 .next a {
-    margin-left: 30px;    
+    margin-left: 30px;
     color: #23203E;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
     font-weight: 500;
 }
-
 .next a:hover {
-  color: #8D8AA3;
+    color: #8D8AA3;
 }
-
-
 span {
-  content: "\00AB";
-  color: #23203E;
-  font-size: 20px
+    content: "\00AB";
+    color: #23203E;
+    font-size: 20px
 }
-
-
 span:hover {
-  content: "\00AB";
-  color: #8D8AA3;
+    content: "\00AB";
+    color: #8D8AA3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 @media (max-width: 1500px) {
-
     .sunbrellaInformationExtraLarge {
         display: none;
     }
-
     .sunbrellaInformationLarge {
         display: block;
     }
@@ -635,65 +477,46 @@ span:hover {
 
 
 
-
-
 @media (max-width: 1184px) {
-
     .sunbrellaImageOne {
         height: 100%;
     }
-
     #sunbrellaImages {
         height: 100%;
         float: right;
-
     }
 }
 
 
+
 @media (max-width: 1024px) {
-
-
     h2 {
         line-height: 30px;
         padding-bottom: 10px;
     }
-
     .aboutContainer {
         height: 1450px;
     }
-
     .scrunchInfo {
         margin-top: 230px;
         margin-left: 50px;
         margin-right: 0px;
         width: 660px;
     }
-
     .rollandtime {
         height: 230px;
     }
-
-
-    .scrunchContainer {
-    }
-
-
+    .scrunchContainer {}
     .endtoendexperiencemapproject {
         width: 660px !important;
         margin-bottom: 180px !important;
     }
-
-
-
     .aboutInfo {
         margin-top: 230px;
         margin-left: 50px;
         margin-right: 0px;
         width: 300px;
     }
-
-
     .history {
         margin-top: 230px;
         float: right;
@@ -701,99 +524,75 @@ span:hover {
         margin-right: 50px;
         margin-left: 0px;
     }
-
-
     .doughnutphoto {
         margin-bottom: 150px !important;
     }
-
-
-
-/*universal attributes*/
+    /*universal attributes*/
     .center {
         margin: auto;
         width: 765px;
     }
-
     .logo {
         padding-left: 50px;
     }
-
     .topnav {
         padding-right: 50px;
     }
-
-
-/*homepage*/
+    /*homepage*/
     .titleInformation {
         height: 600px;
     }
-
     .titleInformationText {
-        padding-left:50px;
+        padding-left: 50px;
         padding-right: 50px;
     }
-
     .scrunchInformation {
         height: 600px;
         width: 100%;
-
     }
-
     .sunbrellaInformationLarge {
         height: 600px;
         width: 100%;
         display: none;
     }
-
     .sunbrellaInformationMedium {
         display: block;
     }
-
     #sunbrellaImageTwo {
         width: 335px;
         margin-left: 0px;
         padding-left: 20px;
-
     }
-
-
     #sunbrellaImageFive {
         width: 365px;
         height: 600px;
         margin-left: 0px;
         float: right;
     }
-
     .portfolioInformation {
         height: 600px;
         width: 100%;
     }
-
     .leftDetails {
         float: top;
         padding-left: 0px;
         padding-left: 50px;
     }
-
     .rightImages {
         float: bottom;
         padding-right: 0px;
         margin-right: 0px;
     }
-
     .rightImagesSun {
         float: bottom;
         padding-right: 0px;
         margin-right: 0px;
     }
-
     .innerbox {
         margin-top: 150px;
-        width: 310px;   
+        width: 310px;
     }
-
-    #scrunchGraphic{
+    #scrunchGraphic {
         width: 310px;
         height: auto;
         margin-top: 140px;
@@ -802,17 +601,12 @@ span:hover {
         float: right;
         padding-right: 30px;
     }
-
-
     #portfolioImage {
         width: 300px;
         float: right;
         margin-top: 180px;
         padding-right: 30px;
     }
-
-
-
     #scrunchGraphicGif {
         float: right;
         width: 340px;
@@ -820,190 +614,128 @@ span:hover {
         margin-top: -220px;
         margin-right: 38px;
     }
-
     #sunbrellaImageOne {
         display: none;
     }
-
     #sunbrellaImageTwo {
         display: inline-block;
-
     }
-
-
     .socials {
         height: 160px;
         padding-left: 50px;
     }
-
     .footercaption {
         padding-left: 50px;
     }
-
     .copyright {
         padding-left: 50px;
     }
-
     footer {
         padding-bottom: 240px;
     }
-
-
     #computergif {
-    width: 600px;
-    margin-left: 30px;
+        width: 600px;
+        margin-left: 30px;
     }
-
 }
- 
-
-
-
-
-
-
-
-
-
 
 
 
 @media (max-width: 765px) {
-
-
     .aboutInfo {
         width: 280px;
         margin-top: 120px;
         margin-left: 40px;
     }
-
-
     .history {
         width: 280px;
         margin-top: 150px;
         margin-bottom: 150px;
         margin-right: 40px;
     }
-
-
     .aboutContainer {
         text-align: center;
     }
-
-
     .doughnutphoto {
-     width: 100%;
-     margin-bottom: 0px !important;
+        width: 100%;
+        margin-bottom: 0px !important;
     }
-
     .entity {
         width: 280px;
     }
-
     .title {
         padding-bottom: 10px;
     }
-
     #acute {
         height: 13px;
     }
-
-
-
     h1 {
         padding-top: 70px;
         font-size: 2.5em;
         text-align: center;
     }
-
     h3 {
         font-size: 2.4em;
         text-align: center;
     }
-
     h2 {
         font-size: 1.2em;
         text-align: center;
         line-height: 30px;
         padding-bottom: 5px;
     }
-
     h5 {
         float: none;
         text-align: center;
         margin-right: 0px;
         text-align: center;
     }
-
-
     button {
         text-align: center;
     }
-
-
     .footercaption {
         display: none;
     }
-
     footer {
         padding-bottom: 200px;
         padding-top: 120px;
-
     }
-
-
     .socials {
         padding-left: 0px;
         height: 300px;
     }
-
-
     .copyright {
         display: none;
     }
-
     .rollandtime {
         height: 200px;
     }
-
     .rollandtimeleft {
         float: none;
         width: 100%;
     }
-
     .rollandtimeright {
         float: none;
         width: 100%;
     }
-
-
-   
-
-
     .titleInformation {
         height: 570px;
     }
-
     .center {
         width: 360px;
     }
-
     .topnav a {
         margin-left: 50px;
     }
-
     .innerbox {
         width: 260px;
         margin-top: 100px;
         text-align: center;
     }
-
     .scrunchInformation {
         height: 820px;
         width: 100%;
     }
-
-
     #scrunchGraphic {
         margin-top: 50px;
         width: 300px;
@@ -1012,260 +744,196 @@ span:hover {
         padding: 0px;
         float: none;
     }
-
     #scrunchGraphicGif {
         float: right;
         height: auto;
         margin-top: -218px;
         margin-right: 15px;
     }
-
-
     .sunbrellaInformationMedium {
         display: none;
     }
-
     .sunbrellaInformationSmall {
         display: inherit;
         height: 800px;
         width: 100%;
     }
-
     #sunbrellaImageTwo {
         margin-top: 70px;
     }
-
-
     #portfolioImage {
         width: 300px;
         float: right;
         margin-top: 80px;
         padding-right: 30px;
     }
-
-
     .leftDetails {
         padding-left: 0px;
         padding-left: 50px;
         float: top;
     }
-
     .rightImages {
         padding-right: 0px;
         margin-right: 0px;
         float: bottom;
     }
-
     .fullwidthphoto {
         margin-top: 120px;
         margin-bottom: 120px;
     }
-
-
-
     .scrunchInfo {
         width: 280px;
         margin-left: 40px;
         text-align: center;
         margin-top: 120px;
     }
-
     .casestudycontent {
         margin-bottom: 120px;
     }
-
-
     .casestudyimage {
         margin-top: 120px;
         margin-bottom: 120px;
         width: 375px;
         margin-left: -48px;
     }
-
-
     .border {
         margin-bottom: 120px;
     }
-
-
     #computergif {
         width: 350px;
         margin-left: 0px;
     }
-
     .endtoendexperiencemapproject {
         width: 280px !important;
         text-align: center;
         margin-bottom: 100px !important;
     }
-
-
     .portfolioInformation {
         height: 800px;
         width: 100%;
     }
-
     #slightysmallimage {
         width: 90%;
     }
-
     .casestudytitle {
         margin-top: 10px;
     }
-
     #mobielresponse {
         width: 90%;
     }
-
     .awards {
         margin-top: 110px;
     }
-
 }
 
 
-@media (max-width: 450px) {
 
+@media (max-width: 450px) {
     .prevnextwrapper {
         display: none;
         padding-bottom: 180px;
         width: 200px;
         margin: auto;
     }
-
     .prevnextwrappersmall {
         display: block;
         padding-bottom: 180px;
         width: 250px;
         margin: auto;
     }
-
     .prev a {
         text-align: right;
         float: right;
         margin-right: 20px;
     }
-
     .next a {
         text-align: left;
         float: left;
         margin-left: 20px;
     }
-
     span {
         font-size: 20px;
     }
 }
 
 
-
-
-
 @media (max-width: 360px) {
-
     h2 {
         font-size: 1em;
     }
-
     h1 {
         font-size: 2.3em;
     }
-
     p {
         font-size: 0.9em;
     }
-
     h3 {
         font-size: 2.2em;
     }
-
-
-
     .center {
         width: 250px;
     }
-
-
     .scrunchInfo {
         margin-left: 0px;
         width: 250px;
     }
-
-
     .logo {
         padding-left: 10px;
     }
-
     .topnav {
         padding-right: 10px;
     }
-
     .topnav a {
         padding-left: 10px;
         margin-left: 20px;
     }
-
-
     .endtoendexperiencemapproject {
         width: 250px !important;
         margin-bottom: 100px !important;
     }
-
     .titleInformation {
-         height: 520px;
+        height: 520px;
     }
-
     .titleInformationText {
         padding-left: 0px;
         padding-right: 0px;
     }
-
     .leftDetails {
         padding-left: 0px;
     }
-
     .innerbox {
         width: 250px;
     }
-
     #scrunchGraphic {
         width: 260px;
         margin-left: 0px;
     }
-
     #scrunchGraphicGif {
         margin-top: -184px;
         margin-right: 6px;
         width: 270px;
     }
-
     #sunbrellaImageTwo {
         width: 260px;
         padding-left: 0px;
     }
-
     #portfolioImage {
         width: 250px;
         padding-right: 0px;
     }
-
     .portfolioInformation {
         height: 730px;
     }
-
     .scrunchInformation {
         height: 780px;
     }
-
     .sunbrellaInformationSmall {
         height: 730px;
     }
-
     .aboutInfo {
         width: 250px;
         margin-left: 0px;
     }
-
     .history {
         width: 250px;
         margin-left: 0px;
@@ -1273,57 +941,27 @@ span:hover {
         margin-top: 100px;
         margin-bottom: 100px
     }
-
     .entity {
         width: 250px;
     }
-
     .date {
         padding-bottom: 5px;
     }
-
     .title {
         padding-bottom: 5px;
     }
-
-
     .casestudyimage {
         width: 320px;
         margin-left: -35px;
     }
-
     .casestudyimage img {
         width: 90%;
     }
-
     #computergif {
         width: 280px;
     }
-
-
-
-
-
     footer {
         padding-bottom: 150px;
         padding-top: 60px;
     }
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
