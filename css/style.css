@@ -1096,7 +1096,7 @@ span:hover {
     .endtoendexperiencemapproject {
         width: 280px !important;
         text-align: center;
-        margin-bottom: 100px;
+        margin-bottom: 100px !important;
     }
 
 
@@ -1204,7 +1204,7 @@ span:hover {
 
     .endtoendexperiencemapproject {
         width: 250px !important;
-        margin-bottom: 100px;
+        margin-bottom: 100px !important;
     }
 
     .titleInformation {
