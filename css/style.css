@@ -195,7 +195,7 @@ nav {
   color: #23203E;
   text-align: center;
   margin-left: 80px;
-  padding-top: 15px;
+  margin-top: 15px;
   text-decoration: none;
   font-size: 17px;
   font-weight: 500;
@@ -776,7 +776,7 @@ footer {
     }
 
     footer {
-        padding-bottom: 230px;
+        padding-bottom: 240px;
     }
 
 
@@ -803,15 +803,17 @@ footer {
 
 
     .aboutInfo {
-        width: 260px;
-        margin-top: 150px;
+        width: 280px;
+        margin-top: 120px;
+        margin-left: 40px;
     }
 
 
     .history {
-        width: 260px;
+        width: 280px;
         margin-top: 150px;
         margin-bottom: 150px;
+        margin-right: 40px;
     }
 
 
@@ -826,7 +828,7 @@ footer {
     }
 
     .entity {
-        width: 255px;
+        width: 280px;
     }
 
     .title {
@@ -874,6 +876,12 @@ footer {
         display: none;
     }
 
+    footer {
+        padding-bottom: 200px;
+        padding-top: 120px;
+
+    }
+
 
     .socials {
         padding-left: 0px;
@@ -900,9 +908,7 @@ footer {
     }
 
 
-    .endtoendexperiencemapproject {
-        width: 250px !important;
-    }
+   
 
 
     .titleInformation {
@@ -981,12 +987,33 @@ footer {
         float: bottom;
     }
 
+    .fullwidthphoto {
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+
 
 
     .scrunchInfo {
-        width: 260px;
-        margin-left: 50px;
+        width: 280px;
+        margin-left: 40px;
         text-align: center;
+        margin-top: 120px;
+    }
+
+    .casestudycontent {
+        margin-bottom: 120px;
+    }
+
+
+    .casestudyimage {
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+
+
+    .border {
+        margin-bottom: 120px;
     }
 
 
@@ -996,17 +1023,155 @@ footer {
     }
 
     .endtoendexperiencemapproject {
-        width: 260px;
+        width: 280px !important;
         text-align: center;
     }
 
 
     .portfolioInformation {
-        height: 790px;
+        height: 800px;
         width: 100%;
     }
 
     
+}
+
+
+
+@media (max-width: 360px) {
+
+    h2 {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 2.3em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    h3 {
+        font-size: 2.2em;
+    }
+
+
+
+    .center {
+        width: 250px;
+    }
+
+
+    .scrunchInfo {
+        margin-left: 0px;
+        width: 250px;
+    }
+
+
+    .logo {
+        padding-left: 10px;
+    }
+
+    .topnav {
+        padding-right: 10px;
+    }
+
+    .topnav a {
+        padding-left: 10px;
+        margin-left: 20px;
+    }
+
+
+    .endtoendexperiencemapproject {
+        width: 250px !important;
+    }
+
+    .titleInformation {
+         height: 520px;
+    }
+
+    .titleInformationText {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .leftDetails {
+        padding-left: 0px;
+    }
+
+    .innerbox {
+        width: 250px;
+    }
+
+    #scrunchGraphic {
+        width: 260px;
+        margin-left: 0px;
+    }
+
+    #scrunchGraphicGif {
+        margin-top: -184px;
+        margin-right: 6px;
+        width: 270px;
+    }
+
+    #sunbrellaImageTwo {
+        width: 260px;
+        padding-left: 0px;
+    }
+
+    #portfolioImage {
+        width: 250px;
+        padding-right: 0px;
+    }
+
+    .portfolioInformation {
+        height: 730px;
+    }
+
+    .scrunchInformation {
+        height: 780px;
+    }
+
+    .sunbrellaInformationSmall {
+        height: 730px;
+    }
+
+    .aboutInfo {
+        width: 250px;
+        margin-left: 0px;
+    }
+
+    .history {
+        width: 250px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 100px;
+        margin-bottom: 100px
+    }
+
+    .entity {
+        width: 250px;
+    }
+
+    .date {
+        padding-bottom: 5px;
+    }
+
+    .title {
+        padding-bottom: 5px;
+    }
+
+
+
+
+    footer {
+        padding-bottom: 150px;
+        padding-top: 60px;
+    }
+
+
+
 }
 
 
