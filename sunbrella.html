@@ -9,7 +9,6 @@
 		<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-		<script type="text/javascript" src="js/javascript.js"></script>
 </head>
 <body>
 	<nav>
@@ -125,17 +124,15 @@
 			</p>
 		</div>
 		<div class="casestudyimage">
-			<img src="images/sunbrellaaearlydesign.jpg" width="100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"/>
+			<img id="myImg" src="images/sunbrellaaearlydesign.jpg">
 		</div>
 
-			<div id="myModal" class="modal">
-			  <span class="close cursor" onclick="closeModal()">&times;</span>
-				  <div class="modal-content">
-				    <div class="mySlides">
-				      <img src="images/sunbrellaaearlydesign.jpg" style="width:100%">
-				    </div>
-				  </div>
-			</div>
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="img01">
+		  <div id="caption"></div>
+		</div>
 	</div>
 
 	<div class="border">
@@ -428,6 +425,7 @@
 		</footer>
 
 </body>
+	<script type="text/javascript" src="js/javascript.js"></script>
 </html>
 
 
