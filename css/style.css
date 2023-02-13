@@ -25,7 +25,7 @@ a:hover {
 
 /*headings*/
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Domine', serif;
     color: #23203E;
     font-weight: 700;
     font-size: 3.250em;
@@ -118,8 +118,9 @@ p a:hover {
 
 /*universal attributes*/
 .center {
-    max-width: 960px;
+    max-width: 980px;
     margin: auto;
+    background-color: yellow;
 }
 button {
     background-color: #23203E;
@@ -161,22 +162,55 @@ button a:hover {
 
 /*navigation*/
 nav {
-    margin-top: 70px;
+    margin-top: 50px;
 }
+
+  
+
 .topnav {
+    display: flex;
+    align-items: center;
+    margin: auto;
     overflow: hidden;
-    margin-top: -50px;
+    max-width: 1240px;
 }
-.topnav a {
-    float: right;
+
+
+.topNavLeft {
+    justify-self : flex-start;
+}
+
+.logo {
+    flex-grow: 1;
+    width: 40px;
+    text-align: center;
+}
+
+.topNavRight {
+    justify-self : flex-end;
+}
+
+
+.topNavLeft a {
+    padding-right: 50px;
     color: #23203E;
     text-align: center;
-    margin-left: 80px;
-    margin-top: 15px;
     text-decoration: none;
     font-size: 17px;
     font-weight: 500;
 }
+
+.topNavRight a {
+    padding-left: 50px;
+    color: #23203E;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
 .topnav a:hover {
     color: #8D8AA3;
 }
@@ -184,6 +218,9 @@ nav {
     color: #23203E;
     font-weight: 800;
 }
+
+
+
 footer {
     padding-top: 150px;
     padding-bottom: 150px;
@@ -533,7 +570,7 @@ span:hover {
         width: 765px;
     }
     .logo {
-        padding-left: 50px;
+        margin: auto;
     }
     .topnav {
         padding-right: 50px;
@@ -545,6 +582,7 @@ span:hover {
     .titleInformationText {
         padding-left: 50px;
         padding-right: 50px;
+        font-family: 'Domine', serif;
     }
     .scrunchInformation {
         height: 600px;
@@ -897,6 +935,7 @@ span:hover {
     .titleInformationText {
         padding-left: 0px;
         padding-right: 0px;
+        font-family: 'Domine', serif;
     }
     .leftDetails {
         padding-left: 0px;
