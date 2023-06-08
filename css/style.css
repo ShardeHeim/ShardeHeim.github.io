@@ -3,10 +3,10 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    font-size: 16px;
-    color: #000000;
+    font-size: 20px;
+    color: #18143A;
     height: 100%;
-    background-color: #FCFCFC;
+    background-color: #FFFFFF;
 }
 html {
     margin: 0;
@@ -14,11 +14,12 @@ html {
     height: 100%;
 }
 a {
-    color: #0072b9;
+    color: #557FEC;
     text-decoration: none;
 }
 a:hover {
-    color: #044e7c;
+    color: #557FEC;
+    ont-weight: 500;
 }
 
 
@@ -26,18 +27,17 @@ a:hover {
 /*headings*/
 h1 {
     font-family: 'Domine', serif;
-    color: #23203E;
-    font-weight: 700;
-    font-size: 3.250em;
+    color: #18143A;
+    font-weight: 600;
+    font-size: 3.6em;
     text-align: left;
-    line-height: 1.2em;
-    padding-top: 200px;
+    margin: 0px
 }
-h1 a {
-    color: #FCFCFC;
-}
+
+
+
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Domine', serif;
     color: #23203E;
     font-weight: 700;
     font-size: 1.375em;
@@ -49,7 +49,7 @@ h2 a {
     color: #FCFCFC;
 }
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Domine', serif;
     color: #23203E;
     font-weight: 800;
     font-size: 2.875em;
@@ -59,7 +59,7 @@ h3 {
     margin-bottom: 10px;
 }
 h4 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Domine', serif;
     color: #23203E;
     font-weight: 500;
     font-size: 1.063em;
@@ -69,7 +69,7 @@ h4 {
     margin-bottom: 10px;
 }
 h5 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Domine', serif;
     font-weight: 700;
     font-size: 1.063em;
     text-align: left;
@@ -81,25 +81,26 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 1em;
-    color: #000000;
-    height: 100%;
-    line-height: 32px;
-    padding-bottom: 5px;
+    color: #18143A;
+    line-height: 40px;
+    margin: 0px;
+
 }
+
 p a {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    color: #000000;
+    font-weight: 300;
+    color: #557FEC;
     height: 100%;
-    line-height: 30px;
 }
+
 p a:hover {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     color: #6B697B;
     height: 100%;
-    line-height: 30px;
 }
+
 #outline {
     display: inline;
     color: #fcfcfc;
@@ -117,6 +118,8 @@ p a:hover {
 
 
 /*universal attributes*/
+
+
 .center {
     max-width: 980px;
     margin: auto;
@@ -196,8 +199,8 @@ nav {
     color: #23203E;
     text-align: center;
     text-decoration: none;
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .topNavRight a {
@@ -206,7 +209,7 @@ nav {
     text-align: center;
     text-decoration: none;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 
@@ -218,6 +221,8 @@ nav {
     color: #23203E;
     font-weight: 800;
 }
+
+
 
 
 
@@ -262,18 +267,142 @@ footer {
 
 
 /*home page*/
-.titleInformation {
-    display: block;
+
+.container1 {
+    display: grid;
+    grid-template-columns: minmax(1rem,1fr) minmax(1rem,130px) minmax(auto,630px) minmax(auto,350px)minmax(1rem,130px) minmax(1rem,1fr);
+    grid-template-rows: auto;
+    background-color: blue;
     width: 100%;
-    background-color: #FCFCFC;
-    height: 550px;
 }
+
+.sidepannel1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    height: 1240px;
+    background-color: yellow;
+}
+
+.sidepannel2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-row-end: 6;
+    height: 1240px;
+    background-color: pink;
+}
+
+
+
+.titleInformation {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: red;
+    height: 550px;
+    margin: auto;
+}
+
+.titleimg {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    height: 550px;
+    background-color: orangered;
+    margin: auto;
+}
+
+
+.helloTag {
+    padding: 8px 15px 8px 15px;
+    background-color: #18143A;
+    border-radius: 7px;
+    color: white;
+    height: 25px;
+    width: 200px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+
+
+
+.largeTitle {
+    background-color: purple;
+    height: 80px;
+    margin-top: 0px;
+    margin-top: 10px;
+    margin-right: 23%;
+
+}
+
+ .titleInformationText {
+    background-color: greenyellow;
+    margin-right: 23%;
+    margin-top: 10px;
+ }
+
+.anyFaces {
+    background-color: orange;
+    padding-top: 50px;
+}
+
+
+.anyFaces img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+
 #acute {
     z-index: 1;
     position: absolute;
     height: 18px;
     margin-left: 7px;
 }
+
+.informationpannel {
+    padding-top: 50px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: lightblue;
+    height: 300px;
+    text-align: center;
+    magin: auto;
+}
+
+
+
+
 .scrunchInformation {
     display: block;
     width: 100%;
@@ -575,15 +704,7 @@ span:hover {
     .topnav {
         padding-right: 50px;
     }
-    /*homepage*/
-    .titleInformation {
-        height: 600px;
-    }
-    .titleInformationText {
-        padding-left: 50px;
-        padding-right: 50px;
-        font-family: 'Domine', serif;
-    }
+
     .scrunchInformation {
         height: 600px;
         width: 100%;
