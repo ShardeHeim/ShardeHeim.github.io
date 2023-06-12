@@ -1,1127 +1,1459 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    color: #18143A;
-    height: 100%;
-    background-color: #FFFFFF;
+     margin: 0;
+     padding: 0;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 300;
+     font-size: 18px;
+     color: #18143A;
+     height: 100%;
+     background-color: #FFFFFF;
 }
-html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+ html {
+     margin: 0;
+     padding: 0;
+     height: 100%;
 }
-a {
-    color: #557FEC;
-    text-decoration: none;
+ a {
+     color: #557FEC;
+     text-decoration: none;
 }
-a:hover {
-    color: #557FEC;
-    ont-weight: 500;
+ a:hover {
+     color: #2B51B3;
+     font-weight: 500;
 }
-
-
 
 /*headings*/
-h1 {
-    font-family: 'Domine', serif;
-    color: #18143A;
-    font-weight: 600;
-    font-size: 3.6em;
-    text-align: left;
-    margin: 0px
+ h1 {
+     font-family: 'Domine', serif;
+     color: #18143A;
+     font-weight: 600;
+     font-size: 70px;
+     text-align: left;
+     margin: 0px 
 }
-
-
-
-h2 {
-    font-family: 'Domine', serif;
-    color: #23203E;
-    font-weight: 700;
-    font-size: 1.375em;
-    text-align: left;
-    line-height: 52px;
-    margin: 0px;
+ h2 {
+     font-family: 'Domine', serif;
+     color: #23203E;
+     font-weight: 700;
+     font-size: 1.375em;
+     text-align: left;
+     line-height: 52px;
+     margin: 0px;
 }
-h2 a {
-    color: #FCFCFC;
+ h2 a {
+     color: #FCFCFC;
 }
-h3 {
-    font-family: 'Domine', serif;
-    color: #23203E;
-    font-weight: 800;
-    font-size: 2.875em;
-    text-align: left;
-    line-height: 60px;
-    margin: 0px;
-    margin-bottom: 10px;
+ h3 {
+     font-family: 'Domine', serif;
+     color: #23203E;
+     font-weight: 800;
+     font-size: 2.875em;
+     text-align: left;
+     line-height: 60px;
+     margin: 0px;
+     margin-bottom: 10px;
 }
-h4 {
-    font-family: 'Domine', serif;
-    color: #23203E;
-    font-weight: 500;
-    font-size: 1.063em;
-    text-align: left;
-    line-height: 56px;
-    margin: 0px;
-    margin-bottom: 10px;
+ h4 {
+     font-family: 'Domine', serif;
+     color: #23203E;
+     font-weight: 500;
+     font-size: 1.063em;
+     text-align: left;
+     line-height: 56px;
+     margin: 0px;
+     margin-bottom: 10px;
 }
-h5 {
-    font-family: 'Domine', serif;
-    font-weight: 700;
-    font-size: 1.063em;
-    text-align: left;
-    color: #8D8AA3;
-    float: left;
-    margin-right: 60px;
+ h5 {
+     font-family: 'Domine', serif;
+     font-weight: 700;
+     font-size: 1.063em;
+     text-align: left;
+     color: #8D8AA3;
+     float: left;
+     margin-right: 60px;
 }
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 1em;
-    color: #18143A;
-    line-height: 40px;
-    margin: 0px;
-
+ p {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 300;
+     font-size: 20px;
+     color: #18143A;
+     line-height: 40px;
+     margin: 0px;
 }
-
-p a {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    color: #557FEC;
-    height: 100%;
+ p a {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 300;
+     color: #557FEC;
+     height: 100%;
 }
-
-p a:hover {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    color: #6B697B;
-    height: 100%;
+ p a:hover {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400;
+     color: #2B51B3;
+     height: 100%;
 }
-
-#outline {
-    display: inline;
-    color: #fcfcfc;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+ #outline {
+     display: inline;
+     color: #fcfcfc;
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-#outline a:hover {
-    color: #23203E;
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+ #outline a:hover {
+     color: #23203E;
+     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
-#outline a.active {
-    color: #fcfcfc;
+ #outline a.active {
+     color: #fcfcfc;
 }
-
-
 
 
 /*universal attributes*/
-
-
-.center {
-    max-width: 980px;
-    margin: auto;
-    background-color: yellow;
-}
-button {
-    background-color: #23203E;
-    border: none;
-    border-radius: 22px;
-    color: #fcfcfc;
-    padding: 11px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: 700;
-    font-size: 13px;
-    margin-top: 10px;
-}
-button a {
-    color: white;
-}
-button:hover {
-    background-color: #6B697B;
-    border: none;
-    border-radius: 22px;
-    color: #fcfcfc;
-    padding: 11px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: 700;
-    font-size: 13px;
-    margin-top: 10px;
-    -webkit-transition-duration: 0.3s;
-    /* Safari */
-    transition-duration: 0.3s;
-}
-button a:hover {
-    color: white;
+ .center {
+     max-width: 980px;
+     margin: auto;
 }
 
+/*buttons*/
+ button {
+     background-color: #23203E;
+     border: none;
+     border-radius: 22px;
+     color: #fcfcfc;
+     padding: 11px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-weight: 700;
+     font-size: 13px;
+     margin-top: 10px;
+}
+ button a {
+     color: white;
+}
+ button:hover {
+     background-color: #6B697B;
+     border: none;
+     border-radius: 22px;
+     color: #fcfcfc;
+     padding: 11px 25px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-weight: 700;
+     font-size: 13px;
+     margin-top: 10px;
+     -webkit-transition-duration: 0.3s;
+     transition-duration: 0.3s;
+}
+ button a:hover {
+     color: white;
+}
 
 
 /*navigation*/
-nav {
-    margin-top: 50px;
+/*main menu nav*/
+ nav {
+     margin-top: 30px;
 }
-
-  
-
-.topnav {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    overflow: hidden;
-    max-width: 1240px;
+ .topnav {
+     display: flex;
+     align-items: center;
+     margin: auto;
+     overflow: hidden;
+     max-width: 1240px;
 }
-
-
-.topNavLeft {
-    justify-self : flex-start;
+ .topNavLeft {
+     justify-self : flex-start;
 }
-
-.logo {
-    flex-grow: 1;
-    width: 40px;
-    text-align: center;
+ .logo {
+     flex-grow: 1;
+     width: 40px;
+     text-align: center;
 }
-
-.topNavRight {
-    justify-self : flex-end;
+ .topNavRight {
+     justify-self : flex-end;
 }
-
-
-.topNavLeft a {
-    padding-right: 50px;
-    color: #23203E;
-    text-align: center;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 300;
+ .topNavLeft a {
+     margin-right: 50px;
+     color: #23203E;
+     text-align: center;
+     text-decoration: none;
+     font-size: 15px;
+     font-weight: 300;
 }
-
-.topNavRight a {
-    padding-left: 50px;
-    color: #23203E;
-    text-align: center;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 300;
+ .topNavRight a {
+     margin-left: 50px;
+     color: #23203E;
+     text-align: center;
+     text-decoration: none;
+     font-size: 15px;
+     font-weight: 300;
 }
-
-
-
-.topnav a:hover {
-    color: #8D8AA3;
+ .topnav a:hover {
+     color: #557FEC;
+     font-weight: 300;
 }
-.topnav a.active {
-    color: #23203E;
-    font-weight: 800;
+ .topnav a.active {
+     color: #23203E;
+     font-weight: 800;
 }
 
 
+/*navigation mobile*/
+ .topMobilelNav {
+     display: none;
+     background-color: white;
+     height: 70px;
+}
+ .mobileNavbLogo {
+     margin-left: 25px;
+     float: left;
+}
+ .hamburger {
+     position: relative;
+     margin-top: 0px;
+     border-radius: 0px;
+     padding: 0px;
+     display: block;
+     cursor: pointer;
+     float: right;
+     margin-right: 25px;
+     width: 35px;
+     appearance: none;
+     background: none;
+     outline: none;
+     border: none;
+     z-index: 99;
+}
+ .hamburger .bar, .hamburger:after, .hamburger:before {
+     content: '';
+     display: block;
+     width: 100%;
+     height: 5px;
+     background-color: #18143A;
+     margin: 7px 0px;
+     transition: 0.4s;
+     border-radius: 5px;
+}
+ .hamburger.is-active:before {
+     transform: rotate(-45deg) translate(-9px, 7px);
+}
+ .hamburger.is-active:after {
+     transform: rotate(45deg) translate(-9px, -8px);
+}
+ .hamburger.is-active .bar {
+     opacity: 0;
+}
+ .topMobilelNav nav {
+     margin-top: 0px;
+}
+ .mobile-nav {
+     position: fixed;
+     display: block;
+     top: 0;
+     left: 100%;
+     width: 100%;
+     min-height: 100vh;
+     z-index: 98;
+     background-color: white;
+     padding-top: 120px;
+     transition: 0.4s;
+}
+ .mobile-nav.is-active {
+     left: 0;
+}
+ .mobile-nav a {
+     display: block;
+     margin-left: 30px;
+     margin-bottom: 15px;
+     text-align: left;
+     font-size: 50px;
+     font-family: 'Domine', serif;
+     font-weight: 500;
+     color: #18143A;
+}
+ .mobile-nav a:hover {
+     color: #557FEC;
+}
+ .topMobilelNav button:hover {
+     background-color: white;
+     border: none;
+     border-radius: 0px;
+     color: none;
+     padding: 0px;
+     text-decoration: none;
+     display: inline-block;
+     font-weight: 700;
+     font-size: 13px;
+     margin-top: 0px;
+     -webkit-transition-duration: 0.3s;
+     transition-duration: 0.3s;
+}
 
 
 
-footer {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    height: 220px;
-    border-top: solid 1px #ECE9E9;
+/* footer section*/
+ footer {
+     padding-top: 150px;
+     padding-bottom: 150px;
+     height: 220px;
+     border-top: solid 1px #ECE9E9;
 }
-.socials {
-    margin-top: 20px;
+ .socials {
+     margin-top: 20px;
 }
-.socials a {
-    color: #6B697B;
+ .socials a {
+     color: #6B697B;
 }
-.copyright {
-    color: #959595;
-    margin-top: 40px;
-    float: left;
+ .copyright {
+     color: #959595;
+     margin-top: 40px;
+     float: left;
 }
 
 
 /*Aimations*/
-@keyframes fade-in {
-    from {
-        opacity: 0;
-        transform: scale(.9, .9)
+ @keyframes fade-in {
+     from {
+         opacity: 0;
+         transform: scale(1, 1) 
     }
-    to {
-        opacity: 1;
+     to {
+         opacity: 1;
     }
 }
-.fade-in-element {
-    animation: fade-in 1.4s;
+ .fade-in-element {
+     animation: fade-in 1.4s;
 }
-.border {
-    border-bottom: #F3F3F3 solid 1px;
-    border-top: #F3F3F3 solid 1px;
-    width: 100%;
-    margin-bottom: 180px;
+
+ .border {
+     border-bottom: #F3F3F3 solid 1px;
+     border-top: #F3F3F3 solid 1px;
+     width: 100%;
+     margin-bottom: 180px;
 }
+
+
+
 
 
 /*home page*/
-
-.container1 {
-    display: grid;
-    grid-template-columns: minmax(1rem,1fr) minmax(1rem,130px) minmax(auto,630px) minmax(auto,350px)minmax(1rem,130px) minmax(1rem,1fr);
-    grid-template-rows: auto;
-    background-color: blue;
-    width: 100%;
+/* above the fold*/
+ .container1 {
+     display: grid;
+     grid-template-columns: minmax(1rem,1fr) minmax(1rem,130px) minmax(auto,630px) minmax(auto,350px)minmax(1rem,130px) minmax(1rem,1fr);
+     grid-template-rows: auto;
+     width: 100%;
 }
 
-.sidepannel1 {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-row-end: 3;
-    height: 1240px;
-    background-color: yellow;
+/* sidepannel1*/
+ .sidepannel1 {
+     grid-row-start: 1;
+     grid-row-end: 3;
+     grid-column-start: 2;
+     grid-row-end: 3;
+     height: 1200px;
+}
+ .leftSideIcons {
+     width: 20px;
+     height: auto;
+     margin-top:400px;
 }
 
-.sidepannel2 {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 5;
-    grid-row-end: 6;
-    height: 1240px;
-    background-color: pink;
+/* email icons*/
+ .EmailIcons {
+     height: 10px;
+     margin-bottom: 25px;
+}
+ .hoverEmailImage {
+     top: 0;
+     left: 0;
+     display: none;
+     width: 25px;
+     margin-left: -3px;
+     margin-top: -3px;
+     transition: all .5s ease-in-out;
+}
+ .EmailIcons:hover .hoverEmailImage {
+     display: inline;
+}
+ .EmailIcons:hover .activeEmailImage {
+     display: none;
+}
+
+/* camera icons*/
+ .CameraIcons {
+     height: 10px;
+     margin-bottom: 25px;
+}
+ .hoverCameraImage {
+     top: 0;
+     left: 0;
+     display: none;
+     width: 25px;
+     margin-left: -3px;
+     margin-top: -3px;
+     transition: all .5s ease-in-out;
+}
+ .CameraIcons:hover .hoverCameraImage {
+     display: inline;
+}
+ .CameraIcons:hover .activeCameraImage {
+     display: none;
+}
+
+/* instagram icons*/
+ .InstagramIcons {
+     height: 10px;
+     margin-bottom: 25px;
+}
+ .hoverInstagramImage {
+     top: 0;
+     left: 0;
+     display: none;
+     width: 25px;
+     margin-left: -3px;
+     margin-top: -3px;
+     transition: all .5s ease-in-out;
+}
+ .InstagramIcons:hover .hoverInstagramImage {
+     display: inline;
+}
+ .InstagramIcons:hover .activeInstagramImage {
+     display: none;
+}
+
+/* linkedIn icons*/
+ .LinkedinIcons {
+     height: 10px;
+     margin-bottom: 25px;
+}
+ .hoverLinkedinImage {
+     top: 0;
+     left: 0;
+     display: none;
+     width: 25px;
+     margin-left: -3px;
+     margin-top: -3px;
+}
+ .LinkedinIcons:hover .hoverLinkedinImage {
+     display: inline;
+}
+ .LinkedinIcons:hover .activeLinkedinImage {
+     display: none;
+}
+ .verticalLine {
+     border-left: 1.5px solid #18143A;
+     border-radius:0.2px;
+     height: 350px;
+     margin-left: 10px;
+     margin-top: 60px;
+}
+
+/* Side Pannel 2*/
+ .sidepannel2 {
+     z-index: 1;
+     grid-row-start: 1;
+     grid-row-end: 3;
+     grid-column-start: 5;
+     grid-row-end: 6;
+     height: 1200px;
+}
+ .emaiLandLineWrap {
+     margin-top: 350px;
+     width: 30px;
+     float: right;
+}
+ .sideEmail {
+     writing-mode: vertical-lr;
+     padding: 0px;
+}
+ .sideEmail p {
+     font-size: 15px;
+     pading: 0px;
+}
+ .sideEmail a {
+     color: #18143A;
+     transition: all .1s ease-in-out;
+}
+ .sideEmail a:hover {
+     margin-top: -30px;
+     margin-bottom: -32px;
+     background-color: #DEF0FF;
+     padding: 25px 15px 25px 15px;
+     border-radius: 30px;
+     font-weight: 300;
+     font-size: 16px;
+}
+ .verticalLine2 {
+     border-left: 1.5px solid #18143A;
+     border-radius:0.2px;
+     height: 350px;
+     margin-top: 50px;
+     float: right;
+     margin-right: 10px;
 }
 
 
-
-.titleInformation {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    background-color: red;
-    height: 550px;
-    margin: auto;
+/* Middle of grid styling (1-2)*/
+ .titleInformation {
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 3;
+     grid-column-end: 4;
+     height: 550px;
+     margin: auto;
+}
+ .titleimg {
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 4;
+     grid-column-end: 5;
+     height: 550px;
+     margin: auto;
 }
 
-.titleimg {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    height: 550px;
-    background-color: orangered;
-    margin: auto;
+/* Floating tool tip*/
+ .floatingtooltip {
+     animation: MoveUpDown 3s linear infinite;
+     position: relative;
+     left: 0;
+     bottom: 0;
+}
+ @keyframes MoveUpDown {
+     0%, 100% {
+         transform: translateY(0);
+    }
+     50% {
+         transform: translateY(-5px);
+    }
+}
+ .helloTagBody {
+     padding: 8px 15px 8px 15px;
+     background-color: #18143A;
+     border-radius: 8px;
+     color: white;
+     width: 195px;
+     margin-top: 130px;
+     margin-bottom: 0px;
+}
+ .helloTagBodyPointer {
+     height: 20px;
+     width: 20px;
+     margin-left: 100px;
+     background: #18143A;
+     transform: rotate(45deg);
+     border-radius: 0 0 5px 0;
+     margin-top: -10px;
+}
+ .wave {
+     animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+     animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+     animation-iteration-count: infinite;
+    /* Never stop waving :) */
+     transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+     display: inline-block;
+}
+ @keyframes wave-animation {
+     0% {
+         transform: rotate( 0.0deg) 
+    }
+     10% {
+         transform: rotate(14.0deg) 
+    }
+    /* The following five values can be played with to make the waving more or less extreme */
+     20% {
+         transform: rotate(-8.0deg) 
+    }
+     30% {
+         transform: rotate(14.0deg) 
+    }
+     40% {
+         transform: rotate(-4.0deg) 
+    }
+     50% {
+         transform: rotate(10.0deg) 
+    }
+     60% {
+         transform: rotate( 0.0deg) 
+    }
+    /* Reset for the last half to pause */
+     100% {
+         transform: rotate( 0.0deg) 
+    }
 }
 
 
-.helloTag {
-    padding: 8px 15px 8px 15px;
-    background-color: #18143A;
-    border-radius: 7px;
-    color: white;
-    height: 25px;
-    width: 200px;
-    margin-top: 150px;
-    margin-bottom: 0px;
+/*Sharde Heim heading*/
+ .largeTitle {
+     margin-top: 15px;
 }
-
-
-
-.wave {
-  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s;        /* Change to speed up or slow down */
-  animation-iteration-count: infinite;  /* Never stop waving :) */
-  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-  display: inline-block;
+ #acute {
+     z-index: 1;
+     position: absolute;
+     height: 18px;
+     margin-left: 7px;
 }
-
-@keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) }
-}
-
-
-
-
-.largeTitle {
-    background-color: purple;
-    height: 80px;
-    margin-top: 0px;
-    margin-top: 10px;
-    margin-right: 23%;
-
-}
-
+/* who I am text*/
  .titleInformationText {
-    background-color: greenyellow;
-    margin-right: 23%;
-    margin-top: 10px;
- }
-
-.anyFaces {
-    background-color: orange;
-    padding-top: 50px;
+     margin-right: 23%;
+     margin-top: 17px;
+     colour: 18143A;
+}
+ .titleInformationText a:hover {
+     margin-left: -2px;
 }
 
-
-.anyFaces img {
-    display: block;
-    width: 400px;
-    margin: 0 auto;
-    transition: 0.3s;
+/*Moving Images text*/
+ .anyFaces {
+     padding-top: 50px;
+     position: relative;
+     width: 400px;
+     height: 500px;
 }
-
-
-#acute {
-    z-index: 1;
-    position: absolute;
-    height: 18px;
-    margin-left: 7px;
+ .visible {
+     display: block;
 }
-
-.informationpannel {
-    padding-top: 50px;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    background-color: lightblue;
-    height: 300px;
-    text-align: center;
-    magin: auto;
+ .hidden {
+     display: none;
+}
+ .anyFaces img {
+     width: 100%;
+     height: 100%;
 }
 
 
-
-
-.scrunchInformation {
-    display: block;
-    width: 100%;
-    height: 800px;
-    background-color: #F1F2F7;
-}
-.sunbrellaInformationLarge {
-    display: block;
-    width: 100%;
-    height: 800px;
-}
-.sunbrellaInformationMedium {
-    display: none;
-    width: 100%;
-    height: 600px;
-}
-.sunbrellaInformationSmall {
-    display: none;
-}
-.portfolioInformation {
-    display: block;
-    width: 100%;
-    height: 800px;
-    background-color: #F1F2F7;
-}
-.leftDetails {
-    float: left;
-    height: 100%;
-}
-.leftDetailsSun {
-    float: left;
-    height: 100%;
-    margin-left: 19.5%;
-}
-.innerbox {
-    margin-top: 250px;
-    width: 350px;
-}
-.rightImages {
-    height: 100%;
-}
-.rightImagesSun {
-    height: 100%;
-    float: right;
-}
-#scrunchGraphic {
-    margin-top: 155px;
-    float: right;
-}
-#portfolioImage {
-    width: 500px;
-    float: right;
-    margin-top: 210px;
-}
-#scrunchGraphicGif {
-    float: right;
-    width: 522px;
-    height: auto;
-    margin-top: -325px;
-}
-#sunbrellaImageOne {
-    height: 800px;
-    float: right;
-}
-#sunbrellaImageThree {
-    width: 100%;
-    display: none;
+/* Tooltip text */
+ .anyFaces .tooltip {
+     visibility: hidden;
+     width: 223px;
+     background-color: #18143A;
+     color: #fff;
+     text-align: center;
+     padding: 8px 13px 8px 13px;
+     border-radius: 6px;
+     font-size: 18px;
+     opacity: 0;
+     transition: opacity .3s;
+    /* Position the tooltip text - see examples below! */
+     position: absolute;
+     z-index: 2;
+     margin-top: -420px;
+     margin-left: 170px;
 }
 
-
+/* Show the tooltip text when you mouse over the tooltip container */
+ .anyFaces:hover .tooltip {
+     visibility: visible;
+     opacity: 1;
+}
+/* Information section..with over 7 years.. */
+ .informationpannel {
+     padding-top: 50px;
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 3;
+     grid-column-end: 5;
+     magin: auto;
+     margin-left: 100px;
+     margin-right: 100px;
+}
+ .informationpannel p {
+     font-family: 'Domine', serif;
+     font-weight: 200;
+     font-size: 20px;
+     line-height: 40px;
+     text-align: left;
+     color: #18143A;
+}
 /*about page*/
-.aboutContainer {
-    height: 1150px;
-    margin-top: 230px;
-    margin-bottom: 50px;
+ .aboutContainer {
+     height: 1150px;
+     margin-top: 230px;
+     margin-bottom: 50px;
 }
-.aboutInfo {
-    float: left;
-    width: 380px;
-    margin-right: 150px;
+ .aboutInfo {
+     float: left;
+     width: 380px;
+     margin-right: 150px;
 }
-.history {
-    float: right;
-    float: left;
-    width: 350px;
-    margin-left: 80px;
+ .history {
+     float: right;
+     float: left;
+     width: 350px;
+     margin-left: 80px;
 }
-.awards {
-    margin-top: 80px;
+ .awards {
+     margin-top: 80px;
 }
-.entity {
-    padding-top: 20px;
-    width: 270px;
+ .entity {
+     padding-top: 20px;
+     width: 270px;
 }
-.date {
-    font-weight: 200;
-    color: #525252;
-    font-size: 14px;
-    padding-bottom: 10px;
+ .date {
+     font-weight: 200;
+     color: #525252;
+     font-size: 14px;
+     padding-bottom: 10px;
 }
-.title {
-    font-weight: 700;
-    color: #23203E;
+ .title {
+     font-weight: 700;
+     color: #23203E;
 }
-.place {
-    line-height: 20px;
-    margin-top: 5px;
-    padding-bottom: 20px;
+ .place {
+     line-height: 20px;
+     margin-top: 5px;
+     padding-bottom: 20px;
 }
-.resume {
-    margin-top: 60px;
+ .resume {
+     margin-top: 60px;
 }
-.doughnutphoto {
-    margin-bottom: 150px;
-}
-
-
-/* scrunch section*/
-.scrunchContainer {
-    height: height: 100%;
-    margin-top: 230px;
-    margin-bottom: 50px;
-}
-.scrunchInfo {
-    width: 100%;
-}
-.fullwidthphoto {
-    margin-top: 180px;
-    margin-bottom: 180px;
-}
-.fullwidthphotonomargin {
-    margin-bottom: -5px;
-}
-.rollandtimeleft {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    float: left;
-    margin-right: 100px
-}
-.rollandtimeright {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    padding-right: 15px;
-    float: left;
-}
-.rollandtime {
-    height: 100px;
-}
-.casestudytitle {
-    font-weight: 700;
-    color: #23203E;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.casestudycontent {
-    margin-bottom: 180px;
-}
-.casestudyimage {
-    margin-top: 180px;
-    margin-bottom: 180px;
-}
-.casestudyimage img {
-    width: 100%;
-}
-#computergif {
-    width: 800px;
-    margin-left: 80px;
-}
-.sunbrellaInformationExtraLarge {}
-.sunbrellaInformationLarge {
-    display: none;
-}
-#sunbrellaImageFour {
-    margin-left: 170px;
-    margin-bottom: -4px;
-    height: 800px;
-}
-.endtoendexperiencemapproject {
-    margin-bottom: 179px;
-}
-.prevnextwrapper {
-    padding-bottom: 180px;
-}
-.prevnextwrappersmall {
-    display: none;
-}
-.prev {
-    width: 50%;
-    float: left;
-}
-.prev a {
-    float: right;
-    margin-right: 30px;
-    color: #23203E;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 500;
-}
-.prev a:hover {
-    color: #8D8AA3;
-}
-.next {
-    width: 50%;
-    float: right;
-}
-.next a {
-    margin-left: 30px;
-    color: #23203E;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 500;
-}
-.next a:hover {
-    color: #8D8AA3;
-}
-span {
-    content: "\00AB";
-    color: #23203E;
-    font-size: 20px
-}
-span:hover {
-    content: "\00AB";
-    color: #8D8AA3;
+ .doughnutphoto {
+     margin-bottom: 150px;
 }
 
 
 
-@media (max-width: 1500px) {
-    .sunbrellaInformationExtraLarge {
-        display: none;
-    }
-    .sunbrellaInformationLarge {
-        display: block;
-    }
+
+
+
+/* scrunch page section*/
+ .scrunchContainer {
+     height: height: 100%;
+     margin-top: 230px;
+     margin-bottom: 50px;
+}
+ .scrunchInfo {
+     width: 100%;
+}
+ .fullwidthphoto {
+     margin-top: 180px;
+     margin-bottom: 180px;
+}
+ .fullwidthphotonomargin {
+     margin-bottom: -5px;
+}
+ .rollandtimeleft {
+     margin-top: 40px;
+     margin-bottom: 10px;
+     float: left;
+     margin-right: 100px 
+}
+ .rollandtimeright {
+     margin-top: 40px;
+     margin-bottom: 10px;
+     padding-right: 15px;
+     float: left;
+}
+ .rollandtime {
+     height: 100px;
+}
+ .casestudytitle {
+     font-weight: 700;
+     color: #23203E;
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+ .casestudycontent {
+     margin-bottom: 180px;
+}
+ .casestudyimage {
+     margin-top: 180px;
+     margin-bottom: 180px;
+}
+ .casestudyimage img {
+     width: 100%;
+}
+ #computergif {
+     width: 800px;
+     margin-left: 80px;
+}
+ .sunbrellaInformationExtraLarge {
+}
+ .sunbrellaInformationLarge {
+     display: none;
+}
+ #sunbrellaImageFour {
+     margin-left: 170px;
+     margin-bottom: -4px;
+     height: 800px;
+}
+ .endtoendexperiencemapproject {
+     margin-bottom: 179px;
+}
+ .prevnextwrapper {
+     padding-bottom: 180px;
+}
+ .prevnextwrappersmall {
+     display: none;
+}
+ .prev {
+     width: 50%;
+     float: left;
+}
+ .prev a {
+     float: right;
+     margin-right: 30px;
+     color: #23203E;
+     text-align: center;
+     text-decoration: none;
+     font-size: 17px;
+     font-weight: 500;
+}
+ .prev a:hover {
+     color: #8D8AA3;
+}
+ .next {
+     width: 50%;
+     float: right;
+}
+ .next a {
+     margin-left: 30px;
+     color: #23203E;
+     text-align: center;
+     text-decoration: none;
+     font-size: 17px;
+     font-weight: 500;
+}
+ .next a:hover {
+     color: #8D8AA3;
+}
+ span {
+     content: "\00AB";
+     color: #23203E;
+     font-size: 20px 
+}
+ span:hover {
+     content: "\00AB";
+     color: #8D8AA3;
 }
 
 
 
-@media (max-width: 1184px) {
-    .sunbrellaImageOne {
-        height: 100%;
+
+
+/* media 1280px*/
+ @media (max-width: 1280px) {
+     
+     .helloTagBody {
+         margin-top: 100px;
     }
-    #sunbrellaImages {
-        height: 100%;
-        float: right;
+     .topnav {
+         padding-right: 0px;
     }
-}
+     .topNavLeft {
+         padding-left: 30px;
+    }
+     .topNavRight{
+         padding-right: 30px;
+    }
+    /* media 1024px*/
+     @media (max-width: 1024px) {
+         h2 {
+             line-height: 30px;
+             padding-bottom: 10px;
+        }
+         h1 {
+             font-size: 60px;
+        }
+         p {
+             font-size: 17px;
+             line-height: 30px;
+        }
+         .helloTagBody {
+             margin-top: 100px;
+        }
+         .aboutContainer {
+             height: 1450px;
+        }
+         .scrunchInfo {
+             margin-top: 230px;
+             margin-left: 50px;
+             margin-right: 0px;
+             width: 660px;
+        }
+         .rollandtime {
+             height: 230px;
+        }
+         .scrunchContainer {
+        }
+         .endtoendexperiencemapproject {
+             width: 660px !important;
+             margin-bottom: 180px !important;
+        }
+         .aboutInfo {
+             margin-top: 230px;
+             margin-left: 50px;
+             margin-right: 0px;
+             width: 300px;
+        }
+         .history {
+             margin-top: 230px;
+             float: right;
+             width: 270px;
+             margin-right: 50px;
+             margin-left: 0px;
+        }
+         .doughnutphoto {
+             margin-bottom: 150px !important;
+        }
+        /*universal attributes*/
+         .center {
+             margin: auto;
+             width: 765px;
+        }
+         .logo {
+             margin: auto;
+        }
+         .scrunchInformation {
+             height: 600px;
+             width: 100%;
+        }
+         .sunbrellaInformationLarge {
+             height: 600px;
+             width: 100%;
+             display: none;
+        }
+         .sunbrellaInformationMedium {
+             display: block;
+        }
+         #sunbrellaImageTwo {
+             width: 335px;
+             margin-left: 0px;
+             padding-left: 20px;
+        }
+         #sunbrellaImageFive {
+             width: 365px;
+             height: 600px;
+             margin-left: 0px;
+             float: right;
+        }
+         .portfolioInformation {
+             height: 600px;
+             width: 100%;
+        }
+         .leftDetails {
+             float: top;
+             padding-left: 0px;
+             padding-left: 50px;
+        }
+         .rightImages {
+             float: bottom;
+             padding-right: 0px;
+             margin-right: 0px;
+        }
+         .rightImagesSun {
+             float: bottom;
+             padding-right: 0px;
+             margin-right: 0px;
+        }
+         .innerbox {
+             margin-top: 150px;
+             width: 310px;
+        }
+         #scrunchGraphic {
+             width: 310px;
+             height: auto;
+             margin-top: 140px;
+             margin-left: 0px;
+             padding-left: 0px;
+             float: right;
+             padding-right: 30px;
+        }
+         #portfolioImage {
+             width: 300px;
+             float: right;
+             margin-top: 180px;
+             padding-right: 30px;
+        }
+         #scrunchGraphicGif {
+             float: right;
+             width: 340px;
+             height: auto;
+             margin-top: -220px;
+             margin-right: 38px;
+        }
+         #sunbrellaImageOne {
+             display: none;
+        }
+         #sunbrellaImageTwo {
+             display: inline-block;
+        }
+         .socials {
+             height: 160px;
+             padding-left: 50px;
+        }
+         .footercaption {
+             padding-left: 50px;
+        }
+         .copyright {
+             padding-left: 50px;
+        }
+         footer {
+             padding-bottom: 240px;
+        }
+         #computergif {
+             width: 600px;
+             margin-left: 30px;
+        }
+    }
 
 
 
-@media (max-width: 1024px) {
-    h2 {
-        line-height: 30px;
-        padding-bottom: 10px;
-    }
-    .aboutContainer {
-        height: 1450px;
-    }
-    .scrunchInfo {
-        margin-top: 230px;
-        margin-left: 50px;
-        margin-right: 0px;
-        width: 660px;
-    }
-    .rollandtime {
-        height: 230px;
-    }
-    .scrunchContainer {}
-    .endtoendexperiencemapproject {
-        width: 660px !important;
-        margin-bottom: 180px !important;
-    }
-    .aboutInfo {
-        margin-top: 230px;
-        margin-left: 50px;
-        margin-right: 0px;
-        width: 300px;
-    }
-    .history {
-        margin-top: 230px;
-        float: right;
-        width: 270px;
-        margin-right: 50px;
-        margin-left: 0px;
-    }
-    .doughnutphoto {
-        margin-bottom: 150px !important;
-    }
-    /*universal attributes*/
-    .center {
-        margin: auto;
-        width: 765px;
-    }
-    .logo {
-        margin: auto;
-    }
-    .topnav {
-        padding-right: 50px;
-    }
 
-    .scrunchInformation {
-        height: 600px;
-        width: 100%;
+    /* media 780px*/
+     @media (max-width: 780px) {
+        /* navigation x*/
+         .topMobilelNav {
+             display: block;
+        }
+         .topnav {
+             display: none;
+        }
+         .sidepannel1 {
+             display: none;
+        }
+         .sidepannel2 {
+             display: none;
+        }
+         .tooltip {
+             display: none;
+        }
+         .container1 {
+             display: grid;
+             grid-template-columns: minmax(1rem,1fr) minmax(auto,500px) minmax(1rem,1fr);
+             grid-template-rows: auto;
+             width: 100%;
+        }
+         .titleInformation {
+             grid-row-start: 1;
+             grid-row-end: 2;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             height: 100%;
+             margin: auto;
+             width: 400px;
+        }
+         .titleimg {
+             grid-row-start: 2;
+             grid-row-end: 3;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             height: 400px;
+             margin: auto;
+        }
+         .anyFaces {
+             position: relative;
+             width: 100%;
+             height: 100%;
+             padding-top: 0px;
+        }
+         .anyFaces img {
+             width: 100%;
+             height: 100%;
+        }
+        /*Sharde Heim heading*/
+         .largeTitle h1 {
+             text-align: center;
+        }
+        /* who I am text*/
+         .titleInformationText {
+             margin-right: 0px;
+             margin-top: 17px;
+        }
+         .titleInformationText p {
+             text-align: center;
+        }
+         .informationpannel {
+             margin-top: 100px;
+             padding-top: 80px;
+             padding-bottom: 50px;
+             grid-row-start: 4;
+             grid-row-end: 5;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             margin: 0px;
+             padding-left: 5%;
+             padding-right: 5%;
+            ;
+             margin-bottom: 100px;
+        }
+         .informationpannel p {
+             text-align: center;
+             font-size: 18px;
+             line-height: 2;
+        }
+         .floatingtooltip {
+             animation: MoveUpDown 3s linear infinite;
+             position: relative;
+             margin: auto;
+             width: 180px;
+             left: 0px;
+             margin-top: 0px;
+        }
+         .helloTagBody {
+             padding: 6px 10px 6px 10px;
+             background-color: #18143A;
+             border-radius: 8px;
+             color: white;
+             width: 160px;
+             margin-top: 30px;
+             margin-bottom: 0px;
+             font-size: 15px;
+        }
+         .helloTagBodyPointer {
+             height: 17px;
+             width: 17px;
+             margin-left: 80px;
+             background: #18143A;
+             transform: rotate(45deg);
+             border-radius: 0 0 5px 0;
+             margin-top: -10px;
+        }
+         .aboutInfo {
+             width: 280px;
+             margin-top: 120px;
+             margin-left: 40px;
+        }
+         .history {
+             width: 280px;
+             margin-top: 150px;
+             margin-bottom: 150px;
+             margin-right: 40px;
+        }
+         .aboutContainer {
+             text-align: center;
+        }
+         .doughnutphoto {
+             width: 100%;
+             margin-bottom: 0px !important;
+        }
+         .entity {
+             width: 280px;
+        }
+         .title {
+             padding-bottom: 5px;
+        }
+         #acute {
+             height: 13px;
+        }
+         h1 {
+             font-size: 50px;
+        }
+         h3 {
+             font-size: 2.4em;
+             text-align: center;
+        }
+         h2 {
+             font-size: 1.2em;
+             text-align: center;
+             line-height: 30px;
+             padding-bottom: 5px;
+        }
+         h5 {
+             float: none;
+             text-align: center;
+             margin-right: 0px;
+             text-align: center;
+        }
+         button {
+             text-align: center;
+        }
+         .footercaption {
+             display: none;
+        }
+         footer {
+             padding-bottom: 200px;
+             padding-top: 120px;
+        }
+         .socials {
+             padding-left: 0px;
+             height: 300px;
+        }
+         .copyright {
+             display: none;
+        }
+         .rollandtime {
+             height: 200px;
+        }
+         .rollandtimeleft {
+             float: none;
+             width: 100%;
+        }
+         .rollandtimeright {
+             float: none;
+             width: 100%;
+        }
+         .center {
+             width: 360px;
+        }
+         .innerbox {
+             width: 260px;
+             margin-top: 100px;
+             text-align: center;
+        }
+         .scrunchInformation {
+             height: 820px;
+             width: 100%;
+        }
+         #scrunchGraphic {
+             margin-top: 50px;
+             width: 300px;
+             margin-left: 40px;
+             height: auto;
+             padding: 0px;
+             float: none;
+        }
+         #scrunchGraphicGif {
+             float: right;
+             height: auto;
+             margin-top: -218px;
+             margin-right: 15px;
+        }
+         .sunbrellaInformationMedium {
+             display: none;
+        }
+         .sunbrellaInformationSmall {
+             display: inherit;
+             height: 800px;
+             width: 100%;
+        }
+         #sunbrellaImageTwo {
+             margin-top: 70px;
+        }
+         #portfolioImage {
+             width: 300px;
+             float: right;
+             margin-top: 80px;
+             padding-right: 30px;
+        }
+         .leftDetails {
+             padding-left: 0px;
+             padding-left: 50px;
+             float: top;
+        }
+         .rightImages {
+             padding-right: 0px;
+             margin-right: 0px;
+             float: bottom;
+        }
+         .fullwidthphoto {
+             margin-top: 120px;
+             margin-bottom: 120px;
+        }
+         .scrunchInfo {
+             width: 280px;
+             margin-left: 40px;
+             text-align: center;
+             margin-top: 120px;
+        }
+         .casestudycontent {
+             margin-bottom: 120px;
+        }
+         .casestudyimage {
+             margin-top: 120px;
+             margin-bottom: 120px;
+             width: 375px;
+             margin-left: -48px;
+        }
+         .border {
+             margin-bottom: 120px;
+        }
+         #computergif {
+             width: 350px;
+             margin-left: 0px;
+        }
+         .endtoendexperiencemapproject {
+             width: 280px !important;
+             text-align: center;
+             margin-bottom: 100px !important;
+        }
+         .portfolioInformation {
+             height: 800px;
+             width: 100%;
+        }
+         #slightysmallimage {
+             width: 90%;
+        }
+         .casestudytitle {
+             margin-top: 10px;
+        }
+         #mobielresponse {
+             width: 90%;
+        }
+         .awards {
+             margin-top: 110px;
+        }
     }
-    .sunbrellaInformationLarge {
-        height: 600px;
-        width: 100%;
-        display: none;
-    }
-    .sunbrellaInformationMedium {
-        display: block;
-    }
-    #sunbrellaImageTwo {
-        width: 335px;
-        margin-left: 0px;
-        padding-left: 20px;
-    }
-    #sunbrellaImageFive {
-        width: 365px;
-        height: 600px;
-        margin-left: 0px;
-        float: right;
-    }
-    .portfolioInformation {
-        height: 600px;
-        width: 100%;
-    }
-    .leftDetails {
-        float: top;
-        padding-left: 0px;
-        padding-left: 50px;
-    }
-    .rightImages {
-        float: bottom;
-        padding-right: 0px;
-        margin-right: 0px;
-    }
-    .rightImagesSun {
-        float: bottom;
-        padding-right: 0px;
-        margin-right: 0px;
-    }
-    .innerbox {
-        margin-top: 150px;
-        width: 310px;
-    }
-    #scrunchGraphic {
-        width: 310px;
-        height: auto;
-        margin-top: 140px;
-        margin-left: 0px;
-        padding-left: 0px;
-        float: right;
-        padding-right: 30px;
-    }
-    #portfolioImage {
-        width: 300px;
-        float: right;
-        margin-top: 180px;
-        padding-right: 30px;
-    }
-    #scrunchGraphicGif {
-        float: right;
-        width: 340px;
-        height: auto;
-        margin-top: -220px;
-        margin-right: 38px;
-    }
-    #sunbrellaImageOne {
-        display: none;
-    }
-    #sunbrellaImageTwo {
-        display: inline-block;
-    }
-    .socials {
-        height: 160px;
-        padding-left: 50px;
-    }
-    .footercaption {
-        padding-left: 50px;
-    }
-    .copyright {
-        padding-left: 50px;
-    }
-    footer {
-        padding-bottom: 240px;
-    }
-    #computergif {
-        width: 600px;
-        margin-left: 30px;
-    }
-}
-
-
-
-@media (max-width: 765px) {
-    .aboutInfo {
-        width: 280px;
-        margin-top: 120px;
-        margin-left: 40px;
-    }
-    .history {
-        width: 280px;
-        margin-top: 150px;
-        margin-bottom: 150px;
-        margin-right: 40px;
-    }
-    .aboutContainer {
-        text-align: center;
-    }
-    .doughnutphoto {
-        width: 100%;
-        margin-bottom: 0px !important;
-    }
-    .entity {
-        width: 280px;
-    }
-    .title {
-        padding-bottom: 5px;
-    }
-    #acute {
-        height: 13px;
-    }
-    h1 {
-        padding-top: 70px;
-        font-size: 2.5em;
-        text-align: center;
-    }
-    h3 {
-        font-size: 2.4em;
-        text-align: center;
-    }
-    h2 {
-        font-size: 1.2em;
-        text-align: center;
-        line-height: 30px;
-        padding-bottom: 5px;
-    }
-    h5 {
-        float: none;
-        text-align: center;
-        margin-right: 0px;
-        text-align: center;
-    }
-    button {
-        text-align: center;
-    }
-    .footercaption {
-        display: none;
-    }
-    footer {
-        padding-bottom: 200px;
-        padding-top: 120px;
-    }
-    .socials {
-        padding-left: 0px;
-        height: 300px;
-    }
-    .copyright {
-        display: none;
-    }
-    .rollandtime {
-        height: 200px;
-    }
-    .rollandtimeleft {
-        float: none;
-        width: 100%;
-    }
-    .rollandtimeright {
-        float: none;
-        width: 100%;
-    }
-    .titleInformation {
-        height: 570px;
-    }
-    .center {
-        width: 360px;
-    }
-    .topnav a {
-        margin-left: 50px;
-    }
-    .innerbox {
-        width: 260px;
-        margin-top: 100px;
-        text-align: center;
-    }
-    .scrunchInformation {
-        height: 820px;
-        width: 100%;
-    }
-    #scrunchGraphic {
-        margin-top: 50px;
-        width: 300px;
-        margin-left: 40px;
-        height: auto;
-        padding: 0px;
-        float: none;
-    }
-    #scrunchGraphicGif {
-        float: right;
-        height: auto;
-        margin-top: -218px;
-        margin-right: 15px;
-    }
-    .sunbrellaInformationMedium {
-        display: none;
-    }
-    .sunbrellaInformationSmall {
-        display: inherit;
-        height: 800px;
-        width: 100%;
-    }
-    #sunbrellaImageTwo {
-        margin-top: 70px;
-    }
-    #portfolioImage {
-        width: 300px;
-        float: right;
-        margin-top: 80px;
-        padding-right: 30px;
-    }
-    .leftDetails {
-        padding-left: 0px;
-        padding-left: 50px;
-        float: top;
-    }
-    .rightImages {
-        padding-right: 0px;
-        margin-right: 0px;
-        float: bottom;
-    }
-    .fullwidthphoto {
-        margin-top: 120px;
-        margin-bottom: 120px;
-    }
-    .scrunchInfo {
-        width: 280px;
-        margin-left: 40px;
-        text-align: center;
-        margin-top: 120px;
-    }
-    .casestudycontent {
-        margin-bottom: 120px;
-    }
-    .casestudyimage {
-        margin-top: 120px;
-        margin-bottom: 120px;
-        width: 375px;
-        margin-left: -48px;
-    }
-    .border {
-        margin-bottom: 120px;
-    }
-    #computergif {
-        width: 350px;
-        margin-left: 0px;
-    }
-    .endtoendexperiencemapproject {
-        width: 280px !important;
-        text-align: center;
-        margin-bottom: 100px !important;
-    }
-    .portfolioInformation {
-        height: 800px;
-        width: 100%;
-    }
-    #slightysmallimage {
-        width: 90%;
-    }
-    .casestudytitle {
-        margin-top: 10px;
-    }
-    #mobielresponse {
-        width: 90%;
-    }
-    .awards {
-        margin-top: 110px;
-    }
-}
 
 
 
-@media (max-width: 450px) {
-    .prevnextwrapper {
-        display: none;
-        padding-bottom: 180px;
-        width: 200px;
-        margin: auto;
+     @media (max-width: 450px) {
+         .titleInformation {
+             height: 100%;
+             margin: auto;
+             width: 300px;
+        }
+         .largeTitle h1 {
+             font-size: 42px;
+             text-align: center;
+        }
+         .titleimg {
+             height: 350px;
+             margin: auto;
+        }
+         .prevnextwrapper {
+             display: none;
+             padding-bottom: 180px;
+             width: 200px;
+             margin: auto;
+        }
+         .prevnextwrappersmall {
+             display: block;
+             padding-bottom: 180px;
+             width: 250px;
+             margin: auto;
+        }
+         .prev a {
+             text-align: right;
+             float: right;
+             margin-right: 20px;
+        }
+         .next a {
+             text-align: left;
+             float: left;
+             margin-left: 20px;
+        }
+         span {
+             font-size: 20px;
+        }
     }
-    .prevnextwrappersmall {
-        display: block;
-        padding-bottom: 180px;
-        width: 250px;
-        margin: auto;
-    }
-    .prev a {
-        text-align: right;
-        float: right;
-        margin-right: 20px;
-    }
-    .next a {
-        text-align: left;
-        float: left;
-        margin-left: 20px;
-    }
-    span {
-        font-size: 20px;
-    }
-}
 
 
-@media (max-width: 360px) {
-    h2 {
-        font-size: 1em;
+
+     @media (max-width: 360px) {
+         .titleInformation {
+             height: 100%;
+             margin: auto;
+             width: 100%;
+        }
+         .largeTitle h1 {
+             font-size: 35px;
+             text-align: center;
+        }
+         .titleimg {
+             height: 100%;
+             margin: auto;
+        }
+         .mobile-nav a {
+             font-size: 40px;
+        }
+         #acute {
+             z-index: 1;
+             position: absolute;
+             height: 9px;
+             margin-left: 7px;
+        }
+         h2 {
+             font-size: 1em;
+        }
+         h1 {
+             font-size: 2.3em;
+        }
+         p {
+             font-size: 0.9em;
+        }
+         h3 {
+             font-size: 2.2em;
+        }
+         .center {
+             width: 250px;
+        }
+         .scrunchInfo {
+             margin-left: 0px;
+             width: 250px;
+        }
+         .logo {
+             padding-left: 10px;
+        }
+         .topnav {
+             padding-right: 10px;
+        }
+         .topnav a {
+             padding-left: 10px;
+             margin-left: 20px;
+        }
+         .endtoendexperiencemapproject {
+             width: 250px !important;
+             margin-bottom: 100px !important;
+        }
+         .leftDetails {
+             padding-left: 0px;
+        }
+         .innerbox {
+             width: 250px;
+        }
+         #scrunchGraphic {
+             width: 260px;
+             margin-left: 0px;
+        }
+         #scrunchGraphicGif {
+             margin-top: -184px;
+             margin-right: 6px;
+             width: 270px;
+        }
+         #sunbrellaImageTwo {
+             width: 260px;
+             padding-left: 0px;
+        }
+         #portfolioImage {
+             width: 250px;
+             padding-right: 0px;
+        }
+         .portfolioInformation {
+             height: 730px;
+        }
+         .scrunchInformation {
+             height: 780px;
+        }
+         .sunbrellaInformationSmall {
+             height: 730px;
+        }
+         .aboutInfo {
+             width: 250px;
+             margin-left: 0px;
+        }
+         .history {
+             width: 250px;
+             margin-left: 0px;
+             margin-right: 0px;
+             margin-top: 100px;
+             margin-bottom: 100px 
+        }
+         .entity {
+             width: 250px;
+        }
+         .date {
+             padding-bottom: 5px;
+        }
+         .title {
+             padding-bottom: 5px;
+        }
+         .casestudyimage {
+             width: 320px;
+             margin-left: -35px;
+        }
+         .casestudyimage img {
+             width: 90%;
+        }
+         #computergif {
+             width: 280px;
+        }
+         footer {
+             padding-bottom: 150px;
+             padding-top: 60px;
+        }
     }
-    h1 {
-        font-size: 2.3em;
-    }
-    p {
-        font-size: 0.9em;
-    }
-    h3 {
-        font-size: 2.2em;
-    }
-    .center {
-        width: 250px;
-    }
-    .scrunchInfo {
-        margin-left: 0px;
-        width: 250px;
-    }
-    .logo {
-        padding-left: 10px;
-    }
-    .topnav {
-        padding-right: 10px;
-    }
-    .topnav a {
-        padding-left: 10px;
-        margin-left: 20px;
-    }
-    .endtoendexperiencemapproject {
-        width: 250px !important;
-        margin-bottom: 100px !important;
-    }
-    .titleInformation {
-        height: 520px;
-    }
-    .titleInformationText {
-        padding-left: 0px;
-        padding-right: 0px;
-        font-family: 'Domine', serif;
-    }
-    .leftDetails {
-        padding-left: 0px;
-    }
-    .innerbox {
-        width: 250px;
-    }
-    #scrunchGraphic {
-        width: 260px;
-        margin-left: 0px;
-    }
-    #scrunchGraphicGif {
-        margin-top: -184px;
-        margin-right: 6px;
-        width: 270px;
-    }
-    #sunbrellaImageTwo {
-        width: 260px;
-        padding-left: 0px;
-    }
-    #portfolioImage {
-        width: 250px;
-        padding-right: 0px;
-    }
-    .portfolioInformation {
-        height: 730px;
-    }
-    .scrunchInformation {
-        height: 780px;
-    }
-    .sunbrellaInformationSmall {
-        height: 730px;
-    }
-    .aboutInfo {
-        width: 250px;
-        margin-left: 0px;
-    }
-    .history {
-        width: 250px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 100px;
-        margin-bottom: 100px
-    }
-    .entity {
-        width: 250px;
-    }
-    .date {
-        padding-bottom: 5px;
-    }
-    .title {
-        padding-bottom: 5px;
-    }
-    .casestudyimage {
-        width: 320px;
-        margin-left: -35px;
-    }
-    .casestudyimage img {
-        width: 90%;
-    }
-    #computergif {
-        width: 280px;
-    }
-    footer {
-        padding-bottom: 150px;
-        padding-top: 60px;
-    }
-}
+    

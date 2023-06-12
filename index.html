@@ -1,179 +1,184 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta content="images/metaphoto.png" property="og:image">
-	<meta content="website" property="og:type">
-	<meta content="https://www.shardeheim.com/" property="og:url">
-	<meta content="Shardé Heim" property="og:title">
-	<meta content="Shardé Heim is a Product Designer living in London" property="og:description">
-	<title>Shardé Heim</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,500,500i,700,800" rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<script src="js/jquery-3.3.1.min" type="text/javascript"></script>
-	<script src="js/javascript.js" type="text/javascript"></script>
-</head>
-<body>
+   <head>
+      <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <meta content="images/metaphoto.png" property="og:image">
+      <meta content="website" property="og:type">
+      <meta content="https://www.shardeheim.com/" property="og:url">
+      <meta content="Shardé Heim" property="og:title">
+      <meta content="Shardé Heim is a Product Designer living in London" property="og:description">
+      <title>Shardé Heim</title>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,500i,700,800" rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+      <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet" type="text/css">
+      <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+      <script src="js/javascript.js" type="text/javascript"></script>
+   </head>
+   <body>
 
-	<nav>
-		<div class='fade-in-element'>
-			<div class="topnav">
-				<div class="topNavLeft">
-					<a href="work.html">Work</a> 
-					<a href="/">Experience</a>
-				</div>
-				<div class="logo">
-					<a href="/"><img height="45" src="images/logo.svg"></a>
-				</div>
-				<div class="topNavRight">
-					<a href="about.html">About</a> 
-					<a href="/">Resume</a>
-				</div>
-			</div>
-		</div>
-	</nav>
+      <!-- nav one for web -->
+      <nav>
+         <div class='fade-in-element'>
+            <div class="topnav">
+               <div class="topNavLeft">
+                  <a href="work.html">Work</a> 
+                  <a href="/">Experience</a>
+               </div>
+               <div class="logo">
+                  <a href="/"><img height="45" src="images/logo.svg"></a>
+               </div>
+               <div class="topNavRight">
+                  <a href="about.html">About</a> 
+                  <a href="/">Resume</a>
+               </div>
+            </div>
+         </div>
+      </nav>
 
-<div class="container1">
-	<div class="sidepannel1">
-		.
-	</div>
-	<div class="titleInformation">
-			<div class="helloTag">
-				Hello! <span class="wave">👋</span> My name is 
-			</div>
-			<div class="largeTitle">
-				<h1> Shard<img id="acute" src="images/line.svg"/>e Heim.
-				</h1>
-			</div>	
-			<div class="titleInformationText">
-				<p>I’m a Product Designer who recently moved to London, previously working at <a href="https://www.curiousthing.io/" target="_blank"> Curious Thing</a> Sydney, Australia. </p>
-			</div>
-	</div>
-		<div class="titleimg">
-			<div class="anyFaces">
+      <!-- nav two for mobile -->
+      <div class="topMobilelNav">
+         <nav class="mobile-nav">
+            <a href="work.html">Work</a> 
+            <a href="/">Experience</a>
+            <a href="about.html">About</a> 
+            <a href="/">Resume</a>
+         </nav>
+         <div class="mobileNavbLogo">
+            <a href="/"><img height="45" src="images/logo.svg"></a>
+         </div>
+         <button class="hamburger">
+            <div class="bar">
+            </div>
+         </button>
+      </div>
 
-				<img src="images/" alt="manyImage" id="image" >
-				<script type="text/javascript">
-				let image = document.getElementById('image');
-				let images = ['productdesigner.png','uxdesigner.png','uidesigner.png','frontendengineer.png','anime.png','cheese.png','fantasy.png','fighter.png']
-				setInterval(funtion(){
-					let random = Math.floor(Math.random() * 4);
-					image.src = images[random];
-				}, 800);
-				</script>
-			</div>
+      <!-- above the fold main section -->
+      <div class="container1">
+         <!-- icons and line on the left side-->
+         <div class="sidepannel1">
+            <div class ="leftSideIcons">
+               <div class ="EmailIcons">
+                  <a href="mailto:hello@shardeheim.com" target="_blank"><img class="activeEmailImage" src="images/emailicon.svg"/></a>
+                  <a href="mailto:hello@shardeheim.com" target="_blank"><img class="hoverEmailImage" src="images/emailicondark.svg"/></a>
+               </div>
+               <div class ="CameraIcons">
+                  <a href="https://www.shardeheimphotography.com/" target="_blank"><img class="activeCameraImage" src="images/camericon.svg"/></a>
+                  <a href="https://www.shardeheimphotography.com/" target="_blank"><img class="hoverCameraImage" src="images/camericondark.svg"/></a>
+               </div>
+               <div class ="InstagramIcons">
+                  <a href="https://www.instagram.com/shardeheim/" target="_blank"><img class="activeInstagramImage" src="images/instagramicon.svg"/></a>
+                  <a href="https://www.instagram.com/shardeheim/" target="_blank"><img class="hoverInstagramImage" src="images/instagramicondark.svg"/></a>
+               </div>
+               <div class ="LinkedinIcons">
+                  <a href="https://www.linkedin.com/in/shardeheim/" target="_blank"><img class="activeLinkedinImage" src="images/linkedinicon.svg"/></a>
+                  <a href="https://www.linkedin.com/in/shardeheim/" target="_blank"><img class="hoverLinkedinImage" src="images/linkedinicondark.svg"/></a> 
+               </div>
+            </div>
+            <div class="verticalLine"> </div>
+         </div>
 
-		</div>
-	<div class="sidepannel2">
-		.
-	</div>
-	<div class="informationpannel">
-		<p> With over 7 year of experience designing value-focused end to end digital solutions,  I am adept at leading cross-functional product teams to success, driving focus on product development and user experiences. <br><br>
-		My strong background in defining the customer journey in early stage startups allows me to develop highly scalable product solutions from 0 to 1. </p> 
-	</div>
+         <!--main middle section-->
+         <div class="titleInformation">
+            <!--floating tool tip-->
+            <div class="floatingtooltip">
+               <div class="helloTagBody">
+                  Hello! <span class="wave">👋</span> &nbsp;My name is 
+               </div>
+               <div class="helloTagBodyPointer">
+               </div>
+            </div>
+            <!--Main large title-->
+            <div class="largeTitle">
+               <h1> Shard<img id="acute" src="images/line.svg"/>e Heim.
+               </h1>
+            </div>
+            <!--SubHeading-->
+            <div class="titleInformationText">
+               <p>I’m a Product Designer who recently moved to London, previously working at <a href="https://www.curiousthing.io/" target="_blank"> Curious Thing</a> Sydney, Australia. </p>
+            </div>
+         </div>
+         <!--Rapidly moving images of Sharde-->
+         <div class="titleimg">
+            <div class="anyFaces" alt="manyImages">
+               <img src="images/productdesigner.png"  id="img1" class="visible">
+               <img src="images/uxdesigner.png"  id="img2" class="hidden">
+               <img src="images/uidesigner.png"  id="img3" class="hidden">
+               <img src="images/frontendengineer.png"  id="img4" class="hidden">
+               <img src="images/anime.png"  id="img5" class="hidden">
+               <img src="images/cheese.png"  id="img6" class="hidden">
+               <img src="images/fantasy.png"  id="img7" class="hidden">
+               <img src="images/fighter.png"  id="img8" class="hidden">
+               <span class="tooltip"> Some of my many lives</span>
+            </div>
+            <script type="text/javascript">
+               var activeImageId=1;
+               var nextImageId=1;
+               
+               setInterval(function(){
+               	nextImageId=nextImageId+1;
+               
+               	if (nextImageId<8) {
+               		document.getElementById("img"+activeImageId).classList.replace("visible","hidden");
+               		document.getElementById("img"+nextImageId).classList.replace("hidden", "visible");
+               		activeImageId=nextImageId;
+               	} else {
+               
+               		document.getElementById("img"+activeImageId).classList.replace("visible", "hidden");
+               		document.getElementById("img"+nextImageId).classList.replace("hidden", "visible");
+               	activeImageId=8;
+               	nextImageId=0;
+               }
+               }, 250);
+            </script>
+         </div>
+         <!--Email and line in right side pannel-->
+         <div class="sidepannel2">
+            <div class="emaiLandLineWrap">
+               <div class ="sideEmail">
+                  <p><a href = "mailto: hello@shardeheim.com">hello@shardeheim.com</a></p>
+               </div>
+               <div class="verticalLine2"> 
+               </div>
+            </div>
+         </div>
+         <!--Main text description that sits in teh middle-->
+         <div class="informationpannel">
+            <p> With over 7 year of experience designing value-focused <b>end to end digital solutions,</b>  I am adept at leading cross-functional product teams to success, driving focus on product development and user experiences. <br><br>
+               My strong background in defining the customer journey in early stage startups allows me to develop <b> highly scalable product solutions from 0 to 1.</b>
+            </p>
+         </div>
+      </div>
 
-</div>
+
+      <!--Case study grid section-->
+      <div class="container2">
+      </div>
 
 
-
-	<div class="scrunchInformation">
-			<div class="center fade-in-element">
-				<div class="leftDetails">
-					<div class="innerbox">
-						<h2>UX DESIGN</h2>
-						<h3>SCRUNCH</h3>
-						<p>Designing the experience for Agencies, Brands and Influencers running social media marketing campaigns globally</p><button><a href="scrunch.html">VIEW MORE</a></button>
-					</div>
-				</div>
-				<div class="rightImages"><img alt="logo" height="400" id="scrunchGraphic" src="images/ScrunchGraphic.png"> <img alt="gif" height="400" id="scrunchGraphicGif" src="images/justmovingbits.gif"></div>
-			</div>
-		</div>
-		<div class="sunbrellaInformationLarge">
-			<div class="center">
-				<div class="leftDetails fade-in-element">
-					<div class="innerbox">
-						<h2>UX AND PRODUCT BUILD</h2>
-						<h3>SUNBRELLA</h3>
-						<p>Designing and building a working prototype for a UV detecting, interactive outdoor umbrella</p><button><a href="sunbrella.html">VIEW MORE</a></button>
-					</div>
-				</div>
-			</div>
-			<div class="rightImagesSun"><img alt="sunbrellaimages" id="sunbrellaImageOne" src="images/sunbrellaImages.png"></div>
-		</div>
-		<div class="sunbrellaInformationSmall">
-			<div class="center">
-				<div class="leftDetails fade-in-element">
-					<div class="innerbox">
-						<h2>UX AND PRODUCT BUILD</h2>
-						<h3>SUNBRELLA</h3>
-						<p>Designing and building a working prototype for a UV detecting, interactive outdoor umbrella</p><button><a href="sunbrella.html">VIEW MORE</a></button>
-					</div>
-				</div>
-				<div class="rightImages fade-in-element"><img alt="sunbrellaimages" id="sunbrellaImageTwo" src="images/sunbrellasinglephotoborder.png"></div>
-			</div>
-		</div>
-		<div class="sunbrellaInformationMedium">
-			<div class="center">
-				<div class="leftDetails fade-in-element">
-					<div class="innerbox">
-						<h2>UX AND PRODUCT BUILD</h2>
-						<h3>SUNBRELLA</h3>
-						<p>Designing and building a working prototype for a UV detecting, interactive outdoor umbrella</p><button><a href="sunbrella.html">VIEW MORE</a></button>
-					</div>
-				</div>
-				<div class="rightImages"><img alt="sunbrellaimages" id="sunbrellaImageFive" src="images/sunbrellaImagesmiddle.png"></div>
-			</div>
-		</div>
-		<div class="sunbrellaInformationExtraLarge">
-			<div class="center">
-				<div class="leftDetails fade-in-element">
-					<div class="innerbox">
-						<h2>UX AND PRODUCT BUILD</h2>
-						<h3>SUNBRELLA</h3>
-						<p>Designing and building a working prototype for a UV detecting, interactive outdoor umbrella</p><button><a href="sunbrella.html">VIEW MORE</a></button>
-					</div>
-				</div>
-			</div>
-			<div class="rightImages"><img alt="sunbrellaimages" id="sunbrellaImageFour" src="images/sunbrellaImagesmiddle.png"></div>
-		</div>
-		<div class="portfolioInformation">
-			<div class="center fade-in-element">
-				<div class="leftDetails">
-					<div class="innerbox">
-						<h2>UX AND FRONT END DEV</h2>
-						<h3>PORTFOLIO</h3>
-						<p>My design process: self branding, designing my website, logo/assests and development of my site</p><button><a href="portfolio.html">VIEW MORE</a></button>
-					</div>
-				</div>
-				<div class="rightImages"><img alt="portfolioImage" id="portfolioImage" src="images/portfolioImage.png"></div>
-			</div>
-		</div>
-
-	</div>
-		<footer>
-		<div class="center fade-in-element">
-			<div class="footercaption">
-				<h2>
-				WANT TO LEARN MORE <div id="outline"> <a href="about.html"> ABOUT ME</a> </div> AND WHAT I DO?
-				</h2>
-			</div>
-			<div class="socials">
-				<h5><a href="https://www.linkedin.com/in/shardeheim/" target="_blank"><img height="13" src="images/square-linkedin.svg"> LinkedIn</a></h5>
-				<h5><a href="https://www.instagram.com/shardeheim/" target="_blank"><img height="13" src="images/instagram.svg"> Instagram</a></h5>
-				<h5><a href="https://github.com/ShardeHeim" target="_blank"><img height="13" src="images/github.svg"> Github</a></h5>
-				<h5><a href="https://vimeo.com/shardeheim" target="_blank"><img height="13" src="images/vimeo.svg"> Vimeo</a></h5>
-				<h5><a href="https://www.shardeheimphotography.com/" target="_blank"><img height="13" src="images/camera.svg"> Photography</a></h5>
-				<h5><a href="mailto:hello@shardeheim.com"></a><img height="13" src="images/email.svg"> &nbsp;<a href="mailto:hello@shardeheim.com">Email</a></h5>
-			</div>
-			<div class="copyright">
-				Sharde Heim © 2022
-			</div>
-		</div>
-		</footer>
-</body>
+      <!--Footer-->
+      <footer>
+         <div class="center fade-in-element">
+            <div class="footercaption">
+               <h2>
+                  WANT TO LEARN MORE 
+                  <div id="outline"> <a href="about.html"> ABOUT ME</a> </div>
+                  AND WHAT I DO?
+               </h2>
+            </div>
+            <div class="socials">
+               <h5><a href="https://www.linkedin.com/in/shardeheim/" target="_blank"><img height="13" src="images/square-linkedin.svg"> LinkedIn</a></h5>
+               <h5><a href="https://www.instagram.com/shardeheim/" target="_blank"><img height="13" src="images/instagramicon.svg"> Instagram</a></h5>
+               <h5><a href="https://github.com/ShardeHeim" target="_blank"><img height="13" src="images/github.svg"> Github</a></h5>
+               <h5><a href="https://vimeo.com/shardeheim" target="_blank"><img height="13" src="images/vimeo.svg"> Vimeo</a></h5>
+               <h5><a href="https://www.shardeheimphotography.com/" target="_blank"><img height="13" src="images/camericon.svg"> Photography</a></h5>
+               <h5><a href="mailto:hello@shardeheim.com"></a><img height="13" src="images/email.svg"> &nbsp;<a href="mailto:hello@shardeheim.com">Email</a></h5>
+            </div>
+            <div class="copyright">
+               Sharde Heim © 2022
+            </div>
+         </div>
+      </footer>
+   </body>
 </html>
-
-
