@@ -1699,7 +1699,7 @@ footer {
              animation: MoveUpDown 3s linear infinite;
              position: relative;
              margin: auto;
-             width: 180px;
+             width: 190px;
              left: 0px;
              margin-top: 0px;
         }
@@ -1708,11 +1708,13 @@ footer {
              background-color: #18143A;
              border-radius: 8px;
              color: white;
-             width: 160px;
+             width: 170px;
              margin-top: 30px;
              margin-bottom: 0px;
              font-size: 15px;
         }
+
+
          .helloTagBodyPointer {
              height: 17px;
              width: 17px;
