@@ -1656,8 +1656,8 @@ footer {
         }
          .anyFaces {
              position: relative;
-             width: 300px;
-             height: 380px;
+             width: 350px;
+             height: 430px;
              padding-top: 0px;
         }
          .anyFaces img {
@@ -2052,8 +2052,8 @@ footer {
 
         .anyFaces {
              position: relative;
-             width: 250px;
-             height: 320px;
+             width: 320px;
+             height: 380px;
              padding-top: 0px;
         }
          .prevnextwrapper {
@@ -2247,6 +2247,20 @@ footer {
              margin: auto;
              width: 100%;
         }
+
+        .anyFaces {
+             position: relative;
+             width: 280px;
+             height: 340px;
+             padding-top: 0px;
+        }
+         .prevnextwrapper {
+             display: none;
+             padding-bottom: 180px;
+             width: 200px;
+             margin: auto;
+        }
+
          .largeTitle h1 {
              font-size: 35px;
              text-align: center;
