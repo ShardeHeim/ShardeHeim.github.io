@@ -13,6 +13,7 @@ body {
      padding: 0;
      height: 100%;
 }
+
  a {
      color: #557FEC;
      text-decoration: none;
@@ -33,9 +34,9 @@ body {
 }
  h2 {
      font-family: 'Domine', serif;
-     color: #23203E;
-     font-weight: 700;
-     font-size: 1.375em;
+     color: #18143A;
+     font-weight: 500;
+     font-size: 50px;
      text-align: left;
      line-height: 52px;
      margin: 0px;
@@ -45,21 +46,20 @@ body {
 }
  h3 {
      font-family: 'Domine', serif;
-     color: #23203E;
-     font-weight: 800;
-     font-size: 2.875em;
+     color: #18143A;
+     font-weight: 500;
+     font-size: 25px;
      text-align: left;
-     line-height: 60px;
+     line-height: 35px;
      margin: 0px;
-     margin-bottom: 10px;
 }
  h4 {
      font-family: 'Domine', serif;
-     color: #23203E;
+     color: #18143A;
      font-weight: 500;
-     font-size: 1.063em;
+     font-size: 30px;
      text-align: left;
-     line-height: 56px;
+     line-height: 55px;
      margin: 0px;
      margin-bottom: 10px;
 }
@@ -110,20 +110,21 @@ body {
  .center {
      max-width: 980px;
      margin: auto;
-}
+ }
 
 /*buttons*/
  button {
+     font-family: 'Domine', serif;
      background-color: #23203E;
      border: none;
      border-radius: 22px;
-     color: #fcfcfc;
+     color: #557FEC;
      padding: 11px 25px;
      text-align: center;
      text-decoration: none;
      display: inline-block;
      font-weight: 700;
-     font-size: 13px;
+     font-size: 25px;
      margin-top: 10px;
 }
  button a {
@@ -154,6 +155,9 @@ body {
  nav {
      margin-top: 30px;
 }
+
+
+
  .topnav {
      display: flex;
      align-items: center;
@@ -290,25 +294,6 @@ body {
 }
 
 
-
-/* footer section*/
- footer {
-     padding-top: 150px;
-     padding-bottom: 150px;
-     height: 220px;
-     border-top: solid 1px #ECE9E9;
-}
- .socials {
-     margin-top: 20px;
-}
- .socials a {
-     color: #6B697B;
-}
- .copyright {
-     color: #959595;
-     margin-top: 40px;
-     float: left;
-}
 
 
 /*Aimations*/
@@ -603,7 +588,7 @@ body {
      colour: 18143A;
 }
  .titleInformationText a:hover {
-     margin-left: -2px;
+     margin-left: -1px;
 }
 
 /*Moving Images text*/
@@ -668,6 +653,558 @@ body {
      text-align: left;
      color: #18143A;
 }
+
+#jumpToWorkSection{ 
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+/* second section*/
+ .container2 {
+    display: grid;
+    grid-template-columns: minmax(1rem,1fr) minmax(1rem,470px) minmax(1rem,470px) minmax(1rem,1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 42px;
+    grid-row-gap: 42px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.container2 h2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+#fade {
+    color: #EEEFF0;
+    display: inline;
+}
+
+
+.container2 a {
+    color: #18143A;
+    margin: 0px;
+}
+
+
+.container2 a:hover {
+    color: #18143A;
+    margin: 0px;
+    font-weight: 300;
+}
+
+
+
+/* main case studys*/
+ .griditem1 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 100%;
+    background-color: #DEF0FF;
+}
+
+
+
+.griditem1 a:hover {
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+
+
+ .griditem2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    height: 100%;
+    background-color: #D4F5ED
+}
+
+.griditem2 a:hover {
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+
+
+ .griditem3 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 100%;
+    background-color: #FFEBEB;
+}
+
+.griditem3 a:hover {
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+
+ .griditem4 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    height: 100%;
+    background-color: #EFEDFE;
+}
+
+.griditem4 a:hover {
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+
+ .griditem5 {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 100%;
+    background-color: #FFF7D9;
+}
+
+.griditem5 a:hover {
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+
+.fristHalfOfCaseStudy {
+    height: 260px;
+    line-height: 25px;
+}
+
+.caseStudyGridLogo {
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+
+.caseStudyGridTitle {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.caseStudyGridTags {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.caseStudyGridReadmore {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+
+.caseStudyGridImage {
+    margin-top: 70px;
+}
+
+
+.caseStudyGridImage img {
+    padding: 0px;
+    margin-bottom: -5px;
+    width: 85%;
+    margin-left: 15%;
+}
+
+
+.caseStudyGridImageCenter img {
+    margin: auto auto;
+    margin-left:10%;
+    margin-right:10%;
+    padding: 0px;
+    margin-bottom: -5px;
+    width: 80%;
+
+}
+
+.caseStudyGridImageSpace {
+    padding-bottom: 30px;
+}
+
+}
+
+#scrunchGraphic {
+    background-color: blue;
+}
+/*
+#scrunchGraphicGif {
+     margin-top: -345px;
+     width: 90%;
+     margin-left: 5%;
+     background-color: yellow;
+}
+*/
+
+
+
+/* third section*/
+ .container3 {
+    display: grid;
+    grid-template-columns: minmax(1rem,1fr) minmax(1rem,770px) minmax(1rem,1fr);
+    grid-template-rows: auto;
+    margin-bottom: 250px;
+    margin-top: 250px;
+}
+
+
+    .tabswrapper {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 670px;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  margin: auto auto;
+  height: 90px;
+  display: inline-block;
+  width: 100%;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  border-radius: 0px;
+  margin: 0;
+  background-color: white;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 13px 20px 12px 20px;
+  width: 170px;
+  font-size: 25px;
+  margin-left: 60px;
+  opacity: 0.4;
+  font-weight: 300;
+  transition: all .3s ease-in-out;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #DEF0FF;
+  padding: 11px 20px 12px 20px;
+  color: #557FEC;
+  font-weight: 500;
+  border-radius: 30px;
+  transition: all .3s ease-in-out;
+  opacity: 1;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: white;
+  border-bottom: 3px solid #557FEC;
+  transition: 0.2s;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.tab button.active:hover{
+  background-color: white;
+  border-bottom: 3px solid #557FEC;
+  border-radius: 0px;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  transition: 0.3s;
+}
+
+
+
+
+.experince-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.experince-table th,
+.experince-table td {
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+
+.experince-table tbody tr {
+    border-bottom: 1px solid #EEEFF0;
+}
+
+
+.experince-table tbody tr:last-of-type {
+    border-bottom: 0px;
+}
+
+
+.tableLabel {
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+}
+
+
+.tableSubLabel {
+    font-size: 18px;
+    text-align: right;
+    font-weight: 300;
+}
+
+
+.tableDate {
+    font-size: 13px;
+    text-align: right;
+    font-weight: 200;
+    color: #3C4866;
+    padding-top: 5px;
+}
+
+
+
+
+.viewFullResume {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 100%;
+    margin: auto;
+    font-weight: 400;
+}
+
+.skill-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.skill-table th,
+.skill-table td {
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+
+.skill-table tbody tr {
+    border-bottom: 1px solid #EEEFF0;
+}
+
+
+.skill-table tbody tr:last-of-type {
+    border-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .container4 {
+    display: grid;
+    grid-template-columns: minmax(1rem,1fr) minmax(1rem,980px) minmax(1rem,1fr);
+    grid-template-rows: auto;
+    margin-bottom: 250px;
+}
+
+
+    .container4  h4 {
+        margin: auto;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        height: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+        width: 90%;
+}
+
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: minmax(1rem,1fr) minmax(1rem,980px) minmax(1rem,1fr);
+    grid-template-rows: auto;
+}
+
+
+.footerwrapper {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 100%;
+    border: 2px solid #18143A;
+    border-radius: 10px;
+}
+
+.footerwrapper  h2 {
+    padding-top: 100px;
+    text-align: center;
+    }
+
+
+.footerwrapper  p {
+    margin: auto;
+    margin-top: 35px;
+    padding-bottom: 100px;
+    text-align: center;
+    width: 410px;
+    }
+
+
+.socials {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 100%;
+    margin: auto auto;
+    margin-top: 30px;
+}
+
+.footerIcons {
+     display: inline-block;
+     max-wdith: 100%;
+     height: 30px;
+}
+
+.footerIcons .EmailIcons {
+    display: inline-block;
+    margin-right: 10px;
+    height: 100%;
+}
+
+
+.footerIcons .CameraIcons {
+    display: inline-block;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.footerIcons .InstagramIcons {
+    display: inline-block;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.footerIcons .LinkedinIcons {
+    display: inline-block;
+    margin-right: 10px;
+    height: 100%;
+}
+
+
+
+ .footerIcons .hoverEmailImage {
+     top: 0;
+     left: 0;
+     display: none;
+     width: 25px;
+     margin-right: -2px;
+     margin-top: -3px;
+     margin-bottom: -3px;
+     transition: all .5s ease-in-out;
+}
+
+ .footerIcons .hoverCameraImage {
+     top: 0;
+     left: 0;
+     display: none;
+     width: 25px;
+     margin-right: -2px;
+     margin-top: -3px;
+     margin-bottom: -3px;
+     transition: all .5s ease-in-out;
+}
+
+ .footerIcons .hoverInstagramImage {
+     top: 0;
+     left: 0;
+     display: none;
+     width: 25px;
+     margin-right: -2px;
+     margin-top: -3px;
+     margin-bottom: -3px;
+     transition: all .5s ease-in-out;
+}
+
+ .footerIcons .hoverLinkedinImage {
+     top: 0;
+     left: 0;
+     display: none;
+     width: 25px;
+     margin-right: -2px;
+     margin-top: -3px;
+     margin-bottom: -3px;
+     transition: all .5s ease-in-out;
+}
+
+
+
+
+.madeBy {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 100%;
+    margin: auto auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*about page*/
  .aboutContainer {
      height: 1150px;
@@ -713,6 +1250,9 @@ body {
  .doughnutphoto {
      margin-bottom: 150px;
 }
+
+
+
 
 
 
@@ -849,15 +1389,24 @@ body {
      .topNavRight{
          padding-right: 30px;
     }
+
     /* media 1024px*/
      @media (max-width: 1024px) {
          h2 {
+            font-size: 40px;
              line-height: 30px;
              padding-bottom: 10px;
         }
          h1 {
              font-size: 60px;
         }
+
+        h3 {
+             font-size: 23px;
+             line-height: 30px;
+        }
+
+
          p {
              font-size: 17px;
              line-height: 30px;
@@ -865,6 +1414,71 @@ body {
          .helloTagBody {
              margin-top: 100px;
         }
+
+        .fristHalfOfCaseStudy {
+            height: 230px;
+            font-size: 15px;
+        }
+
+
+        .caseStudyGridLogo {
+            padding-top: 30px;
+            margin-left: 30px;
+        }
+
+
+        .caseStudyGridTitle {
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+
+        .caseStudyGridTags {
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+
+        .caseStudyGridReadmore {
+            margin-top: 20px;
+            margin-left: 30px;
+            font-weight: 600;
+        }
+
+        .tabswrapper {
+            padding: 40px;
+            height: 630px;
+        }
+
+        .tab {
+          overflow: hidden;
+          margin: auto;
+          height: 90px;
+          display: block;
+          width: 600px;
+
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+          border-radius: 0px;
+          margin: 0;
+          background-color: white;
+          cursor: pointer;
+          font-size: 17px;
+          padding: 13px 20px 12px 20px;
+          width: 170px;
+          font-size: 25px;
+          margin-left: 20px;
+          opacity: 0.4;
+          font-weight: 300;
+        }
+
+
+
+
          .aboutContainer {
              height: 1450px;
         }
@@ -953,50 +1567,42 @@ body {
              margin-top: 150px;
              width: 310px;
         }
-         #scrunchGraphic {
-             width: 310px;
-             height: auto;
-             margin-top: 140px;
-             margin-left: 0px;
-             padding-left: 0px;
-             float: right;
-             padding-right: 30px;
-        }
+
          #portfolioImage {
              width: 300px;
              float: right;
              margin-top: 180px;
              padding-right: 30px;
         }
-         #scrunchGraphicGif {
-             float: right;
-             width: 340px;
-             height: auto;
-             margin-top: -220px;
-             margin-right: 38px;
-        }
+
          #sunbrellaImageOne {
              display: none;
         }
          #sunbrellaImageTwo {
              display: inline-block;
         }
-         .socials {
-             height: 160px;
-             padding-left: 50px;
-        }
-         .footercaption {
-             padding-left: 50px;
-        }
-         .copyright {
-             padding-left: 50px;
-        }
-         footer {
-             padding-bottom: 240px;
-        }
+
          #computergif {
              width: 600px;
              margin-left: 30px;
+        }
+
+
+        footer {
+            padding-left:20px;
+            padding-right: 20px;
+        }
+
+
+
+        .footerwrapper  h2 {
+            padding-top: 75px;
+        }
+
+
+        .footerwrapper  p {
+            padding-bottom: 75px;
+            width: 380px
         }
     }
 
@@ -1005,6 +1611,10 @@ body {
 
     /* media 780px*/
      @media (max-width: 780px) {
+
+
+
+
         /* navigation x*/
          .topMobilelNav {
              display: block;
@@ -1078,7 +1688,7 @@ body {
              padding-left: 5%;
              padding-right: 5%;
             ;
-             margin-bottom: 100px;
+             margin-bottom: 70px;
         }
          .informationpannel p {
              text-align: center;
@@ -1112,6 +1722,105 @@ body {
              border-radius: 0 0 5px 0;
              margin-top: -10px;
         }
+
+
+         .container2 {
+            display: grid;
+            grid-template-columns: minmax(1rem,1fr) minmax(1rem,470px) minmax(1rem,1fr);
+            grid-template-rows: auto;
+            grid-row-gap: 30px;
+            grid-column-gap: 15px;
+            margin-bottom: 100px;
+            margin-top: 30px;
+}
+
+        .container2 h2 {
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            margin-left: 0px;
+            text-align: left;
+            font-size: 30px;
+        }
+
+
+         .griditem1 {
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            height: 100%;
+        }
+
+
+         .griditem2 {
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            height: 100%;
+        }
+
+
+         .griditem3 {
+            grid-row-start: 4;
+            grid-row-end: 5;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            height: 100%;
+        }
+
+
+         .griditem4 {
+            grid-row-start: 5;
+            grid-row-end: 6;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            height: 100%;
+        }
+
+
+         .griditem5 {
+            grid-row-start: 6;
+            grid-row-end: 7;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            height: 100%;
+        }
+
+         .caseStudyGridImage {
+            margin-top: 60px;
+
+        }
+
+
+        .fristHalfOfCaseStudy {
+            height: 200px;
+        }
+
+        .caseStudyGridReadmore {
+        font-size: 14px;
+        margin-top: 5px;
+        }
+
+
+        .container3 {
+            margin-bottom: 150px;
+            margin-top: 100px;
+        }
+
+         .container4 {
+            margin-bottom: 150px;
+        }
+
+
+        .container4  h4 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+
          .aboutInfo {
              width: 280px;
              margin-top: 120px;
@@ -1142,10 +1851,7 @@ body {
          h1 {
              font-size: 50px;
         }
-         h3 {
-             font-size: 2.4em;
-             text-align: center;
-        }
+
          h2 {
              font-size: 1.2em;
              text-align: center;
@@ -1161,20 +1867,55 @@ body {
          button {
              text-align: center;
         }
-         .footercaption {
-             display: none;
+
+        .tabswrapper {
+            padding: 10px;
+            height: 700px;
         }
-         footer {
-             padding-bottom: 200px;
-             padding-top: 120px;
+
+        .tab {
+        display: block;
+        width: 420px;
+        margin: auto;
         }
-         .socials {
-             padding-left: 0px;
-             height: 300px;
+
+
+        .tab button {
+          border-radius: 0px;
+          margin: 0;
+          background-color: white;
+          cursor: pointer;
+          font-size: 17px;
+          padding: 13px 5px 13px 5px;
+          width: 126px;
+          font-size: 20px;
+          margin-right: 5px;
+         }
+
+
+        .tab button:hover {
+          padding: 13px 5px 13px 5px;
+      }
+
+
+        .tab button.active {
+          padding: 13px 3px 13px 3px;
+         }
+
+
+
+
+        .footerwrapper img {
+            height: 15px;
         }
-         .copyright {
-             display: none;
+
+        .footerwrapper h2 {
+             font-size: 30px;
+             text-align: center;
         }
+
+
+
          .rollandtime {
              height: 200px;
         }
@@ -1198,20 +1939,8 @@ body {
              height: 820px;
              width: 100%;
         }
-         #scrunchGraphic {
-             margin-top: 50px;
-             width: 300px;
-             margin-left: 40px;
-             height: auto;
-             padding: 0px;
-             float: none;
-        }
-         #scrunchGraphicGif {
-             float: right;
-             height: auto;
-             margin-top: -218px;
-             margin-right: 15px;
-        }
+
+
          .sunbrellaInformationMedium {
              display: none;
         }
@@ -1300,6 +2029,12 @@ body {
              font-size: 42px;
              text-align: center;
         }
+
+        h3 {
+            font-size: 20px;
+
+        }
+
          .titleimg {
              height: 350px;
              margin: auto;
@@ -1329,7 +2064,163 @@ body {
          span {
              font-size: 20px;
         }
+
+
+
+        .caseStudyGridImage {
+            margin-top: 80px;
+
+        }
+
+        .caseStudyGridImage img {
+            padding: 0px;
+            margin-bottom: -5px;
+            width: 85%;
+            margin-left: 15%;
+
+        }
+
+        .caseStudyGridImageCenter img {
+            margin: auto auto;
+            margin-left:10%;
+            margin-right:10%;
+            padding: 0px;
+            margin-bottom: -5px;
+            width: 80%;
+
+}
+
+
+        .caseStudyGridTags {
+             font-size: 14px;
+        }
+
+
+        .caseStudyGridReadmore {
+            margin-top: 10px;
+            font-size: 15px;
+        }
+
+
+        .fristHalfOfCaseStudy {
+            height: 200px;
+        }
+
+
+
+        .tabswrapper {
+            height: 500px;
+
+        }
+
+
+
+        .tab {
+                display: block;
+                width: 330px;
+                margin: auto;
+                height: 60px;
+        }
+
+
+        .tab button {
+          border-radius: 0px;
+          margin: 0;
+          background-color: white;
+          cursor: pointer;
+          font-size: 17px;
+          padding: 5px 1px 5px 1px;
+          width: 100px;
+          font-size: 18px;
+          margin-right: 5px;
+         }
+
+
+
+         .tab button:hover {
+          padding: padding: 5px 1px 5px 1px;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+          font-weight: 500;
+          padding: 5px 5px 5px 5px;
+        }
+
+
+
+        .tableLabel {
+            font-size: 15px;
+        }
+
+        .tableSubLabel {
+            font-size: 13px;
+        }
+
+         .tableLDate {
+            font-size: 13px;
+        }
+
+
+
+        .experince-table th,
+        .experince-table td {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+
+
+
+        .skill-table th,
+        .skill-table td {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .viewFullResume {
+            font-size: 15px;
+        }
+
+
+        .viewFullResume img {
+            height: 10px;
+        }
+
+
+
+
+        .footerwrapper  h2 {
+            padding-top: 50px;
+            font-size: 25px;
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+
+        .footerwrapper  p {
+            font-size: 15px;
+            margin: auto;
+            margin-top: 25px;
+            padding-bottom: 50px;
+            text-align: center;
+            width: 90%;
+            line-height: 25px;
+        }
+
+
+        .madeBy {
+            font-size: 12px;
+
+        }
+
+
+
     }
+
+
+
 
 
 
@@ -1362,12 +2253,160 @@ body {
          h1 {
              font-size: 2.3em;
         }
+
+        h3 {
+             font-size: 18px;
+             line-height: 26px;
+        }
+
          p {
              font-size: 0.9em;
         }
-         h3 {
-             font-size: 2.2em;
+
+        .container2 {
+            display: grid;
+            grid-template-columns: minmax(1rem,1fr) minmax(1rem,470px) minmax(1rem,1fr);
+            grid-template-rows: auto;
+            grid-row-gap: 20px;
+            grid-column-gap: 5px;
+            margin-bottom: 100px;
+            margin-top: 0px;
         }
+
+
+        .caseStudyGridLogo {
+            padding-top: 30px;
+            margin-left: 20px;
+        }
+
+
+        .caseStudyGridTitle {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+
+        .caseStudyGridTags {
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+
+        .caseStudyGridReadmore {
+            margin-top: 10px;
+            margin-left: 20px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+
+
+        .fristHalfOfCaseStudy {
+            height: 200px;
+        }
+
+        .caseStudyGridImage {
+            margin-top: 60px;
+
+        }
+
+        .tabswrapper {
+            height: 450px;
+
+        }
+
+
+        .tab {
+                display: block;
+                width: 230px;
+                margin: auto;
+                height: 60px;
+        }
+
+
+        .tab button {
+          border-radius: 0px;
+          margin: 0;
+          background-color: white;
+          cursor: pointer;
+          font-size: 12px;
+          padding: 5px 1px 5px 1px;
+          width: 73px;
+         }
+
+
+
+         .tab button:hover {
+          padding: padding: 5px 1px 5px 1px;
+         font-size: 10px;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+          font-weight: 500;
+          padding: 5px 1px 5px 1px;
+          font-size: 12px;
+        }
+
+
+
+        .tableLabel {
+            font-size: 13px;
+        }
+
+        .tableSubLabel {
+            font-size: 10px;
+        }
+
+         .tableDate {
+            font-size: 10px;
+        }
+
+
+
+        .experince-table th,
+        .experince-table td {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+
+
+
+        .skill-table th,
+        .skill-table td {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+
+
+        .viewFullResume {
+            font-size: 13px;
+        }
+
+
+        .footerwrapper  h2 {
+            line-height: 15px;
+            font-size: 20px;
+        }
+
+
+        .footerwrapper  h2 img{
+            display: none;
+        }
+
+
+        .footerwrapper  p {
+            margin-top: 15px;
+            padding-bottom: 35px;
+        }
+
+
+
+
          .center {
              width: 250px;
         }
@@ -1395,15 +2434,8 @@ body {
          .innerbox {
              width: 250px;
         }
-         #scrunchGraphic {
-             width: 260px;
-             margin-left: 0px;
-        }
-         #scrunchGraphicGif {
-             margin-top: -184px;
-             margin-right: 6px;
-             width: 270px;
-        }
+
+
          #sunbrellaImageTwo {
              width: 260px;
              padding-left: 0px;
@@ -1450,10 +2482,6 @@ body {
         }
          #computergif {
              width: 280px;
-        }
-         footer {
-             padding-bottom: 150px;
-             padding-top: 60px;
         }
     }
     

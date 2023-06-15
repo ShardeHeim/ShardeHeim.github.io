@@ -11,16 +11,43 @@
 	<script src="js/javascript.js" type="text/javascript"></script>
 </head>
 <body>
-	<nav>
-		<div class='center fade-in-element'>
-			<div class="logo">
-				<a href="/"><img height="50" src="images/logo.svg"></a>
-			</div>
-			<div class="topnav">
-				<a class="active" href="about.html">about</a> <a href="/">work</a>
-			</div>
-		</div>
-	</nav>
+
+
+<!-- nav one for web -->
+      <nav>
+         <div class='fade-in-element'>
+            <div class="topnav">
+               <div class="topNavLeft">
+                  <a href="/#jumpToWorkSection">Work</a> 
+                  <a href="/">Experience</a>
+               </div>
+               <div class="logo">
+                  <a href="/"><img height="45" src="images/logo.svg"></a>
+               </div>
+               <div class="topNavRight">
+                  <a href="about.html">About</a>
+                  <a href="/">Resume</a>
+               </div>
+            </div>
+         </div>
+      </nav>
+
+      <!-- nav two for mobile -->
+      <div class="topMobilelNav">
+         <nav class="mobile-nav">
+            <a href="">Work</a> 
+            <a href="/">Experience</a>
+            <a href="about.html">About</a> 
+            <a href="/">Resume</a>
+         </nav>
+         <div class="mobileNavbLogo">
+            <a href="/"><img height="45" src="images/logo.svg"></a>
+         </div>
+         <button class="hamburger">
+            <div class="bar">
+            </div>
+         </button>
+      </div>
 	<div class="aboutContainer center fade-in-element">
 		<div class="aboutInfo">
 			<h2>ABOUT ME</h2>
@@ -118,26 +145,40 @@
 		</div>
 	</div>
 	<div class="doughnutphoto center fade-in-element"><img src="images/smalltassypic.jpg" width="100%"></div>
-	<footer>
-			<div class="center fade-in-element">
-				<div class="footercaption">
-					<h2>
-					INTERESTED IN SEEING MORE OF MY <div id="outline"> <a href="/"> WORK?</a> </div>
-					</h2>
-				</div>	
-				<div class="socials">
-				<h5><a href="https://www.linkedin.com/in/shardeheim/" target="_blank"><img height="13" src="images/square-linkedin.svg"> LinkedIn</a></h5>
-				<h5><a href="https://www.instagram.com/shardeheim/" target="_blank"><img height="13" src="images/instagram.svg"> Instagram</a></h5>
-				<h5><a href="https://github.com/ShardeHeim" target="_blank"><img height="13" src="images/github.svg"> Github</a></h5>
-				<h5><a href="https://vimeo.com/shardeheim" target="_blank"><img height="13" src="images/vimeo.svg"> Vimeo</a></h5>
-				<h5><a href="https://www.shardeheimphotography.com/" target="_blank"><img height="13" src="images/camera.svg"> Photography</a></h5>
-				<h5><a href="mailto:hello@shardeheim.com"></a><img height="13" src="images/email.svg"> &nbsp;<a href="mailto:hello@shardeheim.com">Email</a></h5>
-			</div>
-			<div class="copyright">
-				Sharde Heim © 2022
-			</div>
-			</div>
-		</footer>
+	<!--Footer-->
+      <footer>
+         <div class="footerwrapper">
+            <a href = "mailto: hello@shardeheim.com">
+            <h2>Say hi, don't be shy &nbsp;<img height="30" src="images/arrow-right.svg">  </h2>
+            <p> Feel free to reach out for collaborations or just a friendly hello 🥹 <b>Let's chat.</b></p>
+            </a>
+         </div>
+
+         <div class="socials">
+            <div class="footerIcons">
+               <div class ="EmailIcons">
+                  <a href="mailto:hello@shardeheim.com" target="_blank"><img class="activeEmailImage" src="images/emailicon.svg"/></a>
+                  <a href="mailto:hello@shardeheim.com" target="_blank"><img class="hoverEmailImage" src="images/emailicondark.svg"/></a>
+               </div>
+               <div class ="CameraIcons">
+                  <a href="https://www.shardeheimphotography.com/" target="_blank"><img class="activeCameraImage" src="images/camericon.svg"/></a>
+                  <a href="https://www.shardeheimphotography.com/" target="_blank"><img class="hoverCameraImage" src="images/camericondark.svg"/></a>
+               </div>
+               <div class ="InstagramIcons">
+                  <a href="https://www.instagram.com/shardeheim/" target="_blank"><img class="activeInstagramImage" src="images/instagramicon.svg"/></a>
+                  <a href="https://www.instagram.com/shardeheim/" target="_blank"><img class="hoverInstagramImage" src="images/instagramicondark.svg"/></a>
+               </div>
+               <div class ="LinkedinIcons">
+                  <a href="https://www.linkedin.com/in/shardeheim/" target="_blank"><img class="activeLinkedinImage" src="images/linkedinicon.svg"/></a>
+                  <a href="https://www.linkedin.com/in/shardeheim/" target="_blank"><img class="hoverLinkedinImage" src="images/linkedinicondark.svg"/></a> 
+               </div>
+            </div>
+         </div>
+
+         <div class="madeBy">
+           Designed and built by Shardé Heim © 2023
+         </div>
+      </footer>
 </body>
 </html>
 
