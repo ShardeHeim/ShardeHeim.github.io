@@ -1656,14 +1656,21 @@ footer {
         }
          .anyFaces {
              position: relative;
-             width: 100%;
-             height: 100%;
+             width: 300px;
+             height: 380px;
              padding-top: 0px;
         }
          .anyFaces img {
              width: 100%;
              height: 100%;
         }
+
+
+
+
+
+
+
         /*Sharde Heim heading*/
          .largeTitle h1 {
              text-align: center;
@@ -2040,6 +2047,14 @@ footer {
          .titleimg {
              height: 350px;
              margin: auto;
+        }
+
+
+        .anyFaces {
+             position: relative;
+             width: 250px;
+             height: 320px;
+             padding-top: 0px;
         }
          .prevnextwrapper {
              display: none;
