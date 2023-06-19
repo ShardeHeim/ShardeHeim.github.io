@@ -199,7 +199,12 @@ body {
      font-weight: 300;
 }
  .topnav .activeLink {
-     font-weight: 600;
+     border-bottom: 1px solid #23203E;
+}
+
+ .topnav .activeLink:hover {
+     color: #23203E;;
+
 }
 
 
@@ -1220,6 +1225,8 @@ footer {
 }
 
 
+
+
 .aboutWrapper {
     width: 10000%;
     flex-flow: row;
@@ -1310,7 +1317,7 @@ footer {
      margin-bottom: 200px;
      row-gap: 150px;
      column-gap: 20px;
-}
+    }
 
 
 .AboutMeHelloImage {
