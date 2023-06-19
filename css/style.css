@@ -1256,6 +1256,7 @@ footer {
     font-weight: 600;
     line-height: 125px;
     left: 10px;
+    font-family: 'Domine', serif;
 }
 
 .h1AboutLight {
@@ -1267,6 +1268,7 @@ footer {
     text-decoration: none;
     display: block;
     position: absolute;
+    font-family: 'Domine', serif;
 }
 
 
@@ -1404,6 +1406,7 @@ footer {
 .AboutMainSection h3 {
     text-align: left;
     margin-bottom: 20px;
+    font-family: 'Domine', serif;
 }
 
 
@@ -1811,6 +1814,7 @@ footer {
              width: 350px;
              height: 430px;
              padding-top: 0px;
+             margin-left: 15px;
         }
          .anyFaces img {
              width: 100%;
@@ -2506,6 +2510,7 @@ footer {
              width: 250px;
              height: 320px;
              padding-top: 0px;
+             margin-left: 0px;
         }
          .prevnextwrapper {
              display: none;
