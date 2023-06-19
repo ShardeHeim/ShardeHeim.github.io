@@ -75,9 +75,9 @@ body {
  p {
      font-family: 'Montserrat', sans-serif;
      font-weight: 300;
-     font-size: 20px;
+     font-size: 18px;
      color: #18143A;
-     line-height: 40px;
+     line-height: 35px;
      margin: 0px;
 }
  p a {
@@ -199,9 +199,7 @@ body {
      font-weight: 300;
 }
  .topnav .activeLink {
-     border-bottom: solid 1px;
-     border-color: #557FEC;
-     color: #557FEC;
+     font-weight: 600;
 }
 
 
@@ -338,7 +336,7 @@ body {
      grid-row-start: 1;
      grid-row-end: 3;
      grid-column-start: 2;
-     grid-row-end: 3;
+     grid-column-end: 3;
      height: 1200px;
 }
  .leftSideIcons {
@@ -443,7 +441,7 @@ body {
      grid-row-start: 1;
      grid-row-end: 3;
      grid-column-start: 5;
-     grid-row-end: 6;
+     grid-column-end: 6;
      height: 1200px;
 }
  .emaiLandLineWrap {
@@ -590,6 +588,11 @@ body {
      margin-top: 17px;
      colour: 18143A;
 }
+
+.titleInformationText p{
+    font-size: 20px;
+}
+
  .titleInformationText a:hover {
      margin-left: -1px;
 }
@@ -1204,61 +1207,203 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
 /*about page*/
- .aboutContainer {
-     height: 1150px;
-     margin-top: 230px;
-     margin-bottom: 50px;
-}
- .aboutInfo {
-     float: left;
-     width: 380px;
-     margin-right: 150px;
-}
- .history {
-     float: right;
-     float: left;
-     width: 350px;
-     margin-left: 80px;
-}
- .awards {
-     margin-top: 80px;
-}
- .entity {
-     padding-top: 20px;
-     width: 270px;
-}
- .date {
-     font-weight: 200;
-     color: #525252;
-     font-size: 14px;
-     padding-bottom: 10px;
-}
- .title {
-     font-weight: 700;
-     color: #23203E;
-}
- .place {
-     line-height: 20px;
-     margin-top: 5px;
-     padding-bottom: 20px;
-}
- .resume {
-     margin-top: 60px;
-}
- .doughnutphoto {
-     margin-bottom: 150px;
+.AboutTop {
+    padding-top: 50px;
+    margin: auto;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
+
+.aboutWrapper {
+    width: 10000%;
+    flex-flow: row;
+    margin-top: 440px;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+
+.h1AboutDark {
+    z-index: 50;
+    color: #04071D;
+    flex-wrap: nowrap;
+    flex: 0 auto;
+    margin-top: 0px;
+    margin-left: 250px;
+    font-size: 160px;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    width: auto;
+    margin-bottom: 10px;
+    font-weight: 600;
+    line-height: 125px;
+    left: 10px;
+}
+
+.h1AboutLight {
+    z-index: 0;
+    color: #EEEFF0;
+    margin-top: -137px;
+    margin-left: -500px;
+    font-size: 160px;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+}
+
+
+.TopAboutImageWrapper {
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 0;
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.aboutHeroBlock {
+    width: 550px;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+
+.SanFranImage {
+    width: 100%;
+    height: auto;
+    max-width: none;
+    margin-top: -50px;
+    margin-left: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+.AboutMainSection {
+    display: grid;
+     grid-template-columns: minmax(1rem,1fr) minmax(1rem,380px) minmax(auto,600px) minmax(1rem,1fr);
+     grid-template-rows: auto;
+     width: 100%;
+     margin-top: 100px;
+     margin-bottom: 200px;
+     row-gap: 150px;
+     column-gap: 20px;
+}
+
+
+.AboutMeHelloImage {
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     height: 100%;
+     width: 100%;
+ }
+
+
+
+.AboutMeHelloText {
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 3;
+     grid-column-end: 4;
+     height: 100%;
+     width: 100%;
+}
+
+
+
+.AboutMeWorkImage {
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     margin-left: 0px;
+     height: 100%;
+     width: 100%;
+}
+
+
+
+
+.AboutMeWorkText {
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 3;
+     grid-column-end: 4;
+      height: 100%;
+     width: 100%;
+}
+
+
+
+.AboutMeSomeFunImage {
+     grid-row-start: 3;
+     grid-row-end: 4;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     margin-left: 0px;
+     height: 100%;
+     width: 100%;
+}
+
+
+
+.AboutMeSomeFunText {
+     grid-row-start: 3;
+     grid-row-end: 4;
+     grid-column-start: 3;
+     grid-column-end: 4;
+      height: 100%;
+     width: 100%;
+}
+
+.AboutMainSection p {
+    font-size: 18px;
+}
+
+.AboutMainSection p b {
+    font-weight: 400;
+}
+
+
+.AboutMainSection p a {
+    font-weight: 400;
+}
+
+
+.AboutMainSection h3 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.AboutMainSection img {
+    position: relative;
+    top: 35%;
+}
 
 
 
@@ -1386,7 +1531,7 @@ footer {
  @media (max-width: 1280px) {
      
      .helloTagBody {
-         margin-top: 100px;
+         margin-top: 130px;
     }
      .topnav {
          padding-right: 0px;
@@ -1420,12 +1565,16 @@ footer {
              line-height: 30px;
         }
          .helloTagBody {
-             margin-top: 100px;
+             margin-top: 110px;
         }
 
         .fristHalfOfCaseStudy {
             height: 230px;
             font-size: 15px;
+        }
+
+        .titleInformationText p {
+        font-size: 17px;
         }
 
 
@@ -1487,9 +1636,12 @@ footer {
 
 
 
-         .aboutContainer {
-             height: 1450px;
-        }
+
+        /* About Section */
+
+
+
+
          .scrunchInfo {
              margin-top: 230px;
              margin-left: 50px;
@@ -1505,22 +1657,7 @@ footer {
              width: 660px !important;
              margin-bottom: 180px !important;
         }
-         .aboutInfo {
-             margin-top: 230px;
-             margin-left: 50px;
-             margin-right: 0px;
-             width: 300px;
-        }
-         .history {
-             margin-top: 230px;
-             float: right;
-             width: 270px;
-             margin-right: 50px;
-             margin-left: 0px;
-        }
-         .doughnutphoto {
-             margin-bottom: 150px !important;
-        }
+
         /*universal attributes*/
          .center {
              margin: auto;
@@ -1673,10 +1810,9 @@ footer {
              height: 100%;
         }
 
-
-
-
-
+        #acute {
+            height: 13px;
+        }
 
 
         /*Sharde Heim heading*/
@@ -1690,6 +1826,8 @@ footer {
         }
          .titleInformationText p {
              text-align: center;
+             padding-left: 10px;
+             padding-right: 10px;
         }
          .informationpannel {
              margin-top: 100px;
@@ -1838,33 +1976,7 @@ footer {
         }
 
 
-         .aboutInfo {
-             width: 280px;
-             margin-top: 120px;
-             margin-left: 40px;
-        }
-         .history {
-             width: 280px;
-             margin-top: 150px;
-             margin-bottom: 150px;
-             margin-right: 40px;
-        }
-         .aboutContainer {
-             text-align: center;
-        }
-         .doughnutphoto {
-             width: 100%;
-             margin-bottom: 0px !important;
-        }
-         .entity {
-             width: 280px;
-        }
-         .title {
-             padding-bottom: 5px;
-        }
-         #acute {
-             height: 13px;
-        }
+        
          h1 {
              font-size: 50px;
         }
@@ -1931,6 +2043,118 @@ footer {
              text-align: center;
         }
 
+
+        /*About Section*/
+
+        .AboutTop {
+            padding-top: 0px;
+        }
+
+
+        .aboutHeroBlock {
+            width: 350px;
+            height: 450px;
+        }
+
+
+        .AboutMainSection p {
+            font-size: 17px;
+        }
+
+        .aboutWrapper {
+            margin-top: 300px;
+        }
+
+        .h1AboutDark {
+            font-size: 90px;
+            margin-left: 110px;
+            margin-top: -70px;
+        }
+
+        .h1AboutLight {
+            font-size: 90px;
+        }
+
+
+
+
+        .AboutMainSection {
+            display: grid;
+            grid-template-columns: minmax(1rem,1fr) minmax(1rem,780px) minmax(1rem,1fr);
+            grid-template-rows: auto;
+            width: 100%;
+            margin-top: 50px;
+            row-gap: 25px;
+            column-gap: 15px;
+            padding: 0px;
+            margin-bottom: 100px;
+        }
+
+
+        .AboutMainSection img {
+            top: 0px;
+            display: block;
+            margin: auto;
+            height: 90%;
+            padding-bottom: 80px;
+        }
+
+
+        .AboutMeHelloImage {
+             grid-row-start: 2;
+             grid-row-end: 3;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             height: 100%;
+         }
+
+
+        .AboutMeHelloText {
+             grid-row-start: 1;
+             grid-row-end: 2;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             height: 100%;
+        }
+
+
+
+
+      .AboutMeWorkImage {
+             grid-row-start: 4;
+             grid-row-end: 5;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             height: 100%;
+        }
+
+
+        .AboutMeWorkText {
+             grid-row-start: 3;
+             grid-row-end: 4;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             height: 100%;
+        }
+
+
+
+        .AboutMeSomeFunImage {
+             grid-row-start: 6;
+             grid-row-end: 7;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             height: 100%;
+        }
+
+
+        .AboutMeSomeFunText {
+             grid-row-start: 5;
+             grid-row-end: 6;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             height: 100%;
+        }
 
 
          .rollandtime {
@@ -2240,8 +2464,22 @@ footer {
 
         }
 
+         .SanFranImage {
+            margin-left:20px;
+        }
 
+        .AboutMainSection p {
+            font-size: 15px;
+        }
 
+          .AboutMainSection img {
+            top: 0px;
+            display: block;
+            margin: auto;
+            height: 80%;
+            width: 90%;
+            padding-bottom: 80px;
+        }
     }
 
 
@@ -2258,8 +2496,8 @@ footer {
 
         .anyFaces {
              position: relative;
-             width: 280px;
-             height: 340px;
+             width: 250px;
+             height: 320px;
              padding-top: 0px;
         }
          .prevnextwrapper {
@@ -2302,12 +2540,16 @@ footer {
              font-size: 0.9em;
         }
 
+        .titleInformationText p {
+            font-size: 0.9em;
+        }
+
         .container2 {
             display: grid;
             grid-template-columns: minmax(1rem,1fr) minmax(1rem,470px) minmax(1rem,1fr);
             grid-template-rows: auto;
             grid-row-gap: 20px;
-            grid-column-gap: 5px;
+            grid-column-gap: 0px;
             margin-bottom: 100px;
             margin-top: 0px;
         }
@@ -2444,6 +2686,40 @@ footer {
         }
 
 
+        .aboutHeroBlock {
+            width: 260px;
+            height: 350px;
+        }
+
+        .h1AboutDark {
+            font-size: 40px;
+            margin-left: 70px;
+            margin-top: -120px;
+        }
+
+         .h1AboutLight {
+            font-size: 40px;
+            margin-top: -120px;
+        }
+
+        .AboutMainSection {
+            column-gap: 10px;
+            margin-top: 10px;
+    
+        }
+
+
+         .AboutMainSection img {
+            top: 0px;
+            display: block;
+            margin: auto;
+            height: 80%;
+            width: 80%;
+            padding-bottom: 60px;
+
+        }
+
+
 
 
          .center {
@@ -2492,26 +2768,7 @@ footer {
          .sunbrellaInformationSmall {
              height: 730px;
         }
-         .aboutInfo {
-             width: 250px;
-             margin-left: 0px;
-        }
-         .history {
-             width: 250px;
-             margin-left: 0px;
-             margin-right: 0px;
-             margin-top: 100px;
-             margin-bottom: 100px 
-        }
-         .entity {
-             width: 250px;
-        }
-         .date {
-             padding-bottom: 5px;
-        }
-         .title {
-             padding-bottom: 5px;
-        }
+         
          .casestudyimage {
              width: 320px;
              margin-left: -35px;
