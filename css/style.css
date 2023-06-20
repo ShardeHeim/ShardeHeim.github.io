@@ -317,10 +317,11 @@ body {
 }
 
  .border {
-     border-bottom: #F3F3F3 solid 1px;
-     border-top: #F3F3F3 solid 1px;
+     border-bottom: #EEEFF0 solid 1px;
+     border-top: #EEEFF0 solid 1px;
      width: 100%;
-     margin-bottom: 180px;
+     margin-bottom: 100px;
+     margin-top: 100px;
 }
 
 
@@ -1172,7 +1173,7 @@ footer {
      display: none;
      width: 25px;
      margin-right: -2px;
-     margin-top: -3px;
+     margin-top: -4px;
      margin-bottom: -3px;
      transition: all .5s ease-in-out;
 }
@@ -1402,122 +1403,228 @@ footer {
 
 
 
+/* Case study template section*/
 
-
-
-
-
-/* scrunch page section*/
- .scrunchContainer {
-     height: height: 100%;
-     margin-top: 230px;
-     margin-bottom: 50px;
-}
- .scrunchInfo {
+.caseStudyTopContainer {
+     display: grid;
+     grid-template-columns: minmax(1rem,1fr) minmax(auto,850px) minmax(auto,130px) minmax(1rem,1fr);
+     grid-template-rows: auto;
      width: 100%;
-}
- .fullwidthphoto {
-     margin-top: 180px;
-     margin-bottom: 180px;
-}
- .fullwidthphotonomargin {
+     margin-top: 170px;
      margin-bottom: 100px;
 }
- .rollandtimeleft {
-     margin-top: 40px;
-     margin-bottom: 10px;
-     float: left;
-     margin-right: 100px 
+
+.companyInfo {
+    grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 2;
+     grid-column-end: 4;
+     margin-bottom: 50px;
 }
 
- .rollandtimeright {
-     margin-top: 40px;
-     margin-bottom: 10px;
-     padding-right: 15px;
-     float: left;
+.companyInfo h1 {
+    float: left;
 }
 
- .rollandtime {
-     height: 100px;
+
+.companyInfo img {
+    float: right;
+    margin-top: 30px;
 }
+
+.caseStudyTopContainer h3 {
+    margin-bottom: 20px;
+}
+
+.rollandtimeleft {
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     height: 100%;
+}
+
+.rollandtimeright {
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 3;
+     grid-column-end: 4;
+     height: 100%;
+}
+
+
+.caseStudyDescription {
+     grid-row-start: 3;
+     grid-row-end: 4;
+     grid-column-start: 2;
+     grid-column-end: 4;
+     height: 100%;
+     margin-top: 40px;
+}
+
+.caseStudyTopContainer .tableDate{
+    text-align: left;;
+    padding-top: 0px;
+}
+
+.UXTag {
+    background-color: #E1FCF5;
+    border: 1px solid #557FEC;
+    color: #557FEC;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 10px;
+}
+
+.UITag {
+    background-color: #EBF6FF;
+    border: 1px solid #1AA684;
+    color: #1AA684;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.DevTag {
+    background-color: #FCE9CE;
+    border: 1px solid #DC5B32;
+    color: #DC5B32;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 10px;
+}
+
+.ContTag {
+    background-color: #FFE3F6;
+    border: 1px solid #CE1BA7;
+    color: #CE1BA7;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 70px;
+}
+
+.ProductBuildTag {
+    background-color: #E1F5FC;
+    border: 1px solid #11C1B7;
+    color: #11C1B7;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 70px;
+}
+
+
+.BrandTag {
+    background-color: #FCFBE1;
+    border: 1px solid #A6BF08;
+    color: #A6BF08;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+.fullwidthphoto {
+    margin-bottom: 100px;
+}
+
+
+.caseStudyContentWrapper {
+     display: grid;
+     grid-template-columns: minmax(1rem,1fr) minmax(auto,980px) minmax(1rem,1fr);
+     grid-template-rows: auto;
+     width: 100%;
+     margin-bottom: 100px;
+}
+
+.caseStudyContent {
+    grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 2;
+     grid-column-end: 3;
+}
+
+.caseStudyContent h4 {
+    margin-bottom: 20px;
+    font-size: 35px;
+
+}
+
  .casestudytitle {
      font-weight: 700;
      color: #23203E;
-     margin-top: 30px;
      margin-bottom: 30px;
+     font-size: 20px;
 }
- .casestudycontent {
-     margin-bottom: 180px;
-}
+
  .casestudyimage {
-     margin-top: 180px;
-     margin-bottom: 180px;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     width: 100%;
 }
  .casestudyimage img {
      width: 100%;
 }
+
+
  #computergif {
-     width: 800px;
-     margin-left: 80px;
+    margin: auto auto;
+    width: 80%;
+    display: flex;
 }
- .sunbrellaInformationExtraLarge {
-}
- .sunbrellaInformationLarge {
-     display: none;
-}
- #sunbrellaImageFour {
-     margin-left: 170px;
-     margin-bottom: -4px;
-     height: 800px;
-}
- .endtoendexperiencemapproject {
-     margin-bottom: 179px;
-}
+
+ 
+
+
+ /* Prev and Next buttons*/
  .prevnextwrapper {
-     padding-bottom: 180px;
+     margin-top: 100px;
 }
- .prevnextwrappersmall {
-     display: none;
-}
+
  .prev {
-     width: 50%;
      float: left;
 }
+
  .prev a {
-     float: right;
      margin-right: 30px;
-     color: #23203E;
+     color: #557FEC;
      text-align: center;
      text-decoration: none;
      font-size: 17px;
      font-weight: 500;
 }
+
  .prev a:hover {
-     color: #8D8AA3;
+     color: #2B51B3;
 }
+
  .next {
-     width: 50%;
      float: right;
 }
+
  .next a {
-     margin-left: 30px;
-     color: #23203E;
+     color: #557FEC;
      text-align: center;
      text-decoration: none;
      font-size: 17px;
      font-weight: 500;
 }
+
  .next a:hover {
-     color: #8D8AA3;
-}
- span {
-     content: "\00AB";
-     color: #23203E;
-     font-size: 20px 
-}
- span:hover {
-     content: "\00AB";
-     color: #8D8AA3;
+     color: #2B51B3;
 }
 
 
@@ -1630,112 +1737,24 @@ footer {
           font-weight: 300;
         }
 
-
-
-
-
-        /* About Section */
-
-
-
-
-         .scrunchInfo {
-             margin-top: 230px;
-             margin-left: 50px;
-             margin-right: 0px;
-             width: 660px;
+        .caseStudyTopContainer {
+            column-gap: 30px;
         }
-         .rollandtime {
-             height: 230px;
+
+        .caseStudyContentWrapper {
+             column-gap: 30px;
         }
-         .scrunchContainer {
-        }
-         .endtoendexperiencemapproject {
-             width: 660px !important;
-             margin-bottom: 180px !important;
-        }
+
 
         /*universal attributes*/
-         .center {
-             margin: auto;
-             width: 765px;
-        }
          .logo {
              margin: auto;
         }
-         .scrunchInformation {
-             height: 600px;
-             width: 100%;
-        }
-         .sunbrellaInformationLarge {
-             height: 600px;
-             width: 100%;
-             display: none;
-        }
-         .sunbrellaInformationMedium {
-             display: block;
-        }
-         #sunbrellaImageTwo {
-             width: 335px;
-             margin-left: 0px;
-             padding-left: 20px;
-        }
-         #sunbrellaImageFive {
-             width: 365px;
-             height: 600px;
-             margin-left: 0px;
-             float: right;
-        }
-         .portfolioInformation {
-             height: 600px;
-             width: 100%;
-        }
-         .leftDetails {
-             float: top;
-             padding-left: 0px;
-             padding-left: 50px;
-        }
-         .rightImages {
-             float: bottom;
-             padding-right: 0px;
-             margin-right: 0px;
-        }
-         .rightImagesSun {
-             float: bottom;
-             padding-right: 0px;
-             margin-right: 0px;
-        }
-         .innerbox {
-             margin-top: 150px;
-             width: 310px;
-        }
-
-         #portfolioImage {
-             width: 300px;
-             float: right;
-             margin-top: 180px;
-             padding-right: 30px;
-        }
-
-         #sunbrellaImageOne {
-             display: none;
-        }
-         #sunbrellaImageTwo {
-             display: inline-block;
-        }
-
-         #computergif {
-             width: 600px;
-             margin-left: 30px;
-        }
-
 
         footer {
             padding-left:20px;
             padding-right: 20px;
         }
-
-
 
         .footerwrapper  h2 {
             padding-top: 75px;
@@ -1753,9 +1772,6 @@ footer {
 
     /* media 780px*/
      @media (max-width: 780px) {
-
-
-
 
         /* navigation x*/
          .topMobilelNav {
@@ -2031,8 +2047,6 @@ footer {
          }
 
 
-
-
         .footerwrapper img {
             height: 15px;
         }
@@ -2073,8 +2087,6 @@ footer {
         .h1AboutLight {
             font-size: 90px;
         }
-
-
 
 
         .AboutMainSection {
@@ -2155,100 +2167,87 @@ footer {
              height: 100%;
         }
 
-
-         .rollandtime {
-             height: 200px;
-        }
-         .rollandtimeleft {
-             float: none;
-             width: 100%;
-        }
-         .rollandtimeright {
-             float: none;
-             width: 100%;
-        }
-         .center {
-             width: 360px;
-        }
-         .innerbox {
-             width: 260px;
-             margin-top: 100px;
-             text-align: center;
-        }
-         .scrunchInformation {
-             height: 820px;
-             width: 100%;
+        .caseStudyTopContainer {
+            margin-top: 100px;
+            column-gap: 15px;
         }
 
+        .UXTag {
+            margin-bottom: 5px;
+            margin-right: 5px;
+            font-size: 12px;
+            padding: 3px 10px 3px 10px;
+        }
 
-         .sunbrellaInformationMedium {
-             display: none;
+        .UITag {
+            margin-bottom: 5px;
+            margin-right: 5px;
+            font-size: 12px;
+            padding: 3px 10px 3px 10px;
         }
-         .sunbrellaInformationSmall {
-             display: inherit;
-             height: 800px;
-             width: 100%;
+
+        .DevTag {
+            margin-bottom: 5px;
+            margin-right: 5px;
+            font-size: 12px;
+            padding: 3px 10px 3px 10px;
         }
-         #sunbrellaImageTwo {
-             margin-top: 70px;
+
+        .ContTag {
+            margin-bottom: 5px;
+            margin-right: 5px;
+            font-size: 12px;
+            padding: 3px 10px 3px 10px;
         }
-         #portfolioImage {
-             width: 300px;
-             float: right;
-             margin-top: 80px;
-             padding-right: 30px;
+
+        .BrandTag {
+            margin-bottom: 5px;
+            margin-right: 5px;
+            font-size: 12px;
+            padding: 3px 10px 3px 10px;
         }
-         .leftDetails {
-             padding-left: 0px;
-             padding-left: 50px;
-             float: top;
+
+
+        .ProductBuildTag {
+            margin-bottom: 5px;
+            margin-right: 5px;
+            font-size: 12px;
+            padding: 3px 10px 3px 10px;
         }
-         .rightImages {
-             padding-right: 0px;
-             margin-right: 0px;
-             float: bottom;
+
+        .companyInfo img {
+            margin-top: 17px;
+            height: 20px;
         }
+
+
          .fullwidthphoto {
-             margin-top: 120px;
-             margin-bottom: 120px;
+             margin-top: 100px;
+             margin-bottom: 100px;
         }
-         .scrunchInfo {
-             width: 280px;
-             margin-left: 40px;
-             text-align: center;
-             margin-top: 120px;
+
+
+        .caseStudyContentWrapper {
+            grid-gap: 15px;
         }
-         .casestudycontent {
-             margin-bottom: 120px;
-        }
-         .casestudyimage {
-             margin-top: 120px;
-             margin-bottom: 120px;
-             width: 375px;
-             margin-left: -48px;
-        }
+
+
          .border {
-             margin-bottom: 120px;
+             margin-bottom: 75px;
+             margin-top: 75px;
         }
-         #computergif {
-             width: 350px;
-             margin-left: 0px;
-        }
-         .endtoendexperiencemapproject {
-             width: 280px !important;
-             text-align: center;
-             margin-bottom: 100px !important;
-        }
-         .portfolioInformation {
-             height: 800px;
+
+         .casestudyimage {
+             margin-top: 50px;
+             margin-bottom: 50px;
              width: 100%;
         }
-         #slightysmallimage {
-             width: 90%;
+
+        .prevnextwrapper {
+            margin-top: 75px;
         }
-         .casestudytitle {
-             margin-top: 10px;
-        }
+
+
          #mobielresponse {
              width: 90%;
         }
@@ -2287,37 +2286,11 @@ footer {
              height: 390px;
              padding-top: 0px;
         }
-         .prevnextwrapper {
-             display: none;
-             padding-bottom: 180px;
-             width: 200px;
-             margin: auto;
-        }
-         .prevnextwrappersmall {
-             display: block;
-             padding-bottom: 180px;
-             width: 250px;
-             margin: auto;
-        }
-         .prev a {
-             text-align: right;
-             float: right;
-             margin-right: 20px;
-        }
-         .next a {
-             text-align: left;
-             float: left;
-             margin-left: 20px;
-        }
-         span {
-             font-size: 20px;
-        }
 
 
 
         .caseStudyGridImage {
             margin-top: 80px;
-
         }
 
         .caseStudyGridImage img {
@@ -2325,7 +2298,6 @@ footer {
             margin-bottom: -5px;
             width: 85%;
             margin-left: 15%;
-
         }
 
         .caseStudyGridImageCenter img {
@@ -2335,8 +2307,7 @@ footer {
             padding: 0px;
             margin-bottom: -5px;
             width: 80%;
-
-}
+        }
 
 
         .caseStudyGridTags {
@@ -2358,7 +2329,6 @@ footer {
 
         .tabswrapper {
             height: 500px;
-
         }
 
 
@@ -2410,14 +2380,11 @@ footer {
         }
 
 
-
         .experince-table th,
         .experince-table td {
             padding-top: 20px;
             padding-bottom: 20px;
         }
-
-
 
 
         .skill-table th,
@@ -2434,8 +2401,6 @@ footer {
         .viewFullResume img {
             height: 10px;
         }
-
-
 
 
         .footerwrapper  h2 {
@@ -2460,7 +2425,6 @@ footer {
 
         .madeBy {
             font-size: 12px;
-
         }
 
          .SanFranImage {
@@ -2471,13 +2435,120 @@ footer {
             font-size: 15px;
         }
 
-          .AboutMainSection img {
+        .AboutMainSection img {
             top: 0px;
             display: block;
             margin: auto;
             height: 80%;
             width: 90%;
             padding-bottom: 80px;
+        }
+
+        .fullwidthphoto {
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+
+        .companyInfo h1 {
+            font-size: 40px;
+        }
+
+
+        .companyInfo img {
+            display: none;
+        }
+
+        .caseStudyTopContainer .tableDate {
+            font-size: 15px;
+        }
+
+
+         .caseStudyTopContainer {
+            margin-top: 30px;
+            column-gap: 5px;
+            margin-bottom: 0px;
+        }
+
+
+        .caseStudyContentWrapper {
+            column-gap: 5px;
+        }
+
+
+        .rollandtimeright {
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            height: 100%;
+            margin-bottom: 25px;
+        }
+
+        .rollandtimeleft {
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            height: 100%;
+        }
+
+
+        .caseStudyDescription {
+            grid-row-start: 4;
+            grid-row-end: 5;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            height: 100%;
+            margin-top: 20px;
+        }
+
+        .caseStudyContent h4 {
+            font-size: 25px;
+            line-height: 30px;
+        }
+
+        .caseStudyContent p {
+            font-size: 15px;
+        }
+
+        .caseStudyDescription p {
+            font-size: 15px;
+        }
+
+        .casestudytitle {
+            font-size: 17px;
+        }
+
+
+        .caseStudyTopContainer h3 {
+            margin-bottom: 5px;
+        }
+
+        .prevnextwrapper {
+            margin-top: 40px;
+        }
+
+        .prevnextwrapper img {
+            height: 10px;
+        }
+
+
+        .prev a {
+             font-size: 13px;
+        }  
+
+        .next a {
+             font-size: 13px;
+        }  
+
+
+        #computergif {
+            width: 100%;
+        }
+
+        .border {
+            margin-top: 50px;
+            margin-bottom: 50px;
         }
     }
 
@@ -2499,12 +2570,6 @@ footer {
              height: 320px;
              padding-top: 0px;
              margin-left: 10px;
-        }
-         .prevnextwrapper {
-             display: none;
-             padding-bottom: 180px;
-             width: 200px;
-             margin: auto;
         }
 
          .largeTitle h1 {
@@ -2590,12 +2655,10 @@ footer {
 
         .caseStudyGridImage {
             margin-top: 60px;
-
         }
 
         .tabswrapper {
             height: 450px;
-
         }
 
 
@@ -2618,7 +2681,6 @@ footer {
          }
 
 
-
          .tab button:hover {
           padding: padding: 5px 1px 5px 1px;
          font-size: 10px;
@@ -2630,7 +2692,6 @@ footer {
           padding: 5px 1px 5px 1px;
           font-size: 12px;
         }
-
 
 
         .tableLabel {
@@ -2646,7 +2707,6 @@ footer {
         }
 
 
-
         .experince-table th,
         .experince-table td {
             padding-top: 20px;
@@ -2654,14 +2714,11 @@ footer {
         }
 
 
-
-
         .skill-table th,
         .skill-table td {
             padding-top: 20px;
             padding-bottom: 20px;
         }
-
 
 
         .viewFullResume {
@@ -2705,7 +2762,7 @@ footer {
         .AboutMainSection {
             column-gap: 10px;
             margin-top: 10px;
-    
+
         }
 
 
@@ -2716,19 +2773,8 @@ footer {
             height: 80%;
             width: 80%;
             padding-bottom: 60px;
-
         }
 
-
-
-
-         .center {
-             width: 250px;
-        }
-         .scrunchInfo {
-             margin-left: 0px;
-             width: 250px;
-        }
          .logo {
              padding-left: 10px;
         }
@@ -2739,45 +2785,25 @@ footer {
              padding-left: 10px;
              margin-left: 20px;
         }
-         .endtoendexperiencemapproject {
-             width: 250px !important;
-             margin-bottom: 100px !important;
-        }
-         .leftDetails {
-             padding-left: 0px;
-        }
          .innerbox {
              width: 250px;
         }
 
+        .caseStudyContentWrapper {
+            margin-bottom: 50px;
+        }
 
-         #sunbrellaImageTwo {
-             width: 260px;
-             padding-left: 0px;
+        .prevnextwrapper img {
+            height: 7px;
         }
-         #portfolioImage {
-             width: 250px;
-             padding-right: 0px;
+
+        .prev a {
+            font-size: 10px;
         }
-         .portfolioInformation {
-             height: 730px;
+
+        .next a {
+            font-size: 10px;
         }
-         .scrunchInformation {
-             height: 780px;
-        }
-         .sunbrellaInformationSmall {
-             height: 730px;
-        }
-         
-         .casestudyimage {
-             width: 320px;
-             margin-left: -35px;
-        }
-         .casestudyimage img {
-             width: 90%;
-        }
-         #computergif {
-             width: 280px;
-        }
+   
     }
     
