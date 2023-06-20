@@ -1468,7 +1468,7 @@ footer {
 }
 
 .UXTag {
-    background-color: #E1FCF5;
+    background-color: #EBF6FF;
     border: 1px solid #557FEC;
     color: #557FEC;
     font-size: 15px;
@@ -1479,7 +1479,7 @@ footer {
 }
 
 .UITag {
-    background-color: #EBF6FF;
+    background-color: #E1FCF5;
     border: 1px solid #1AA684;
     color: #1AA684;
     font-size: 15px;
@@ -1526,8 +1526,8 @@ footer {
 
 .BrandTag {
     background-color: #FCFBE1;
-    border: 1px solid #A6BF08;
-    color: #A6BF08;
+    border: 1px solid #CDD026;
+    color: #CDD026;
     font-size: 15px;
     padding: 5px 15px 5px 15px;
     border-radius: 25px;
