@@ -1535,6 +1535,17 @@ footer {
     margin-right: 10px;
 }
 
+.ProductDesignTag {
+    background-color: #F2EBFF;
+    border: 1px solid #555BEC;
+    color: #555BEC;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 10px;
+}
+
 
 
 .fullwidthphoto {
@@ -2209,6 +2220,13 @@ footer {
 
 
         .ProductBuildTag {
+            margin-bottom: 5px;
+            margin-right: 5px;
+            font-size: 12px;
+            padding: 3px 10px 3px 10px;
+        }
+
+        .ProductDesignTag {
             margin-bottom: 5px;
             margin-right: 5px;
             font-size: 12px;
