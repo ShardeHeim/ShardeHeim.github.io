@@ -605,7 +605,7 @@ body {
 
 /*Moving Images text*/
  .anyFaces {
-     padding-top: 50px;
+     padding-top: 30px;
      position: relative;
      width: 400px;
      height: 500px;
@@ -653,7 +653,7 @@ body {
      grid-row-end: 3;
      grid-column-start: 3;
      grid-column-end: 5;
-     magin: auto;
+     margin: auto;
      margin-left: 100px;
      margin-right: 100px;
 }
@@ -1646,7 +1646,7 @@ footer {
  @media (max-width: 1280px) {
      
      .helloTagBody {
-         margin-top: 130px;
+         margin-top: 120px;
     }
      .topnav {
          padding-right: 0px;
@@ -1656,6 +1656,14 @@ footer {
     }
      .topNavRight{
          padding-right: 30px;
+    }
+
+    h1 {
+             font-size: 60px;
+        }
+
+    .titleInformationText {
+        margin-right: 20%;
     }
 
     /* media 1024px*/
@@ -1680,7 +1688,7 @@ footer {
              line-height: 30px;
         }
          .helloTagBody {
-             margin-top: 110px;
+             margin-top: 90px;
         }
 
         .fristHalfOfCaseStudy {
@@ -1691,6 +1699,7 @@ footer {
         .titleInformationText p {
         font-size: 17px;
         }
+
 
 
         .caseStudyGridLogo {
@@ -1866,9 +1875,9 @@ footer {
              margin: 0px;
              padding-left: 5%;
              padding-right: 5%;
-            ;
              margin-bottom: 70px;
         }
+
          .informationpannel p {
              text-align: center;
              font-size: 18px;
@@ -2584,8 +2593,8 @@ footer {
 
         .anyFaces {
              position: relative;
-             width: 250px;
-             height: 320px;
+             width: 240px;
+             height: 310px;
              padding-top: 0px;
              margin-left: 10px;
         }
@@ -2625,6 +2634,11 @@ footer {
 
         .titleInformationText p {
             font-size: 0.9em;
+        }
+
+        .informationpannel {
+             padding-left: 0px;
+             padding-right: 0px;
         }
 
         .container2 {
