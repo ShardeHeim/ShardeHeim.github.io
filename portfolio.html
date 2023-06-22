@@ -85,8 +85,80 @@
 			I decided to treat the process like I would any other UX problem: with research, early stage design, testing, and mockups. I built my site using HTML, CSS and Javascript. Because it highlights both my front-end development knowledge and my design process, I chose to include it as one of my portfolio’s case studies.
 		</p>
 		</div>
+
 	</div>
 
+
+	<!-- Different versions tabs -->
+	 <div class="portfoliosSection fade-in-element">
+         <div class="tabsPortfolioWrapper">
+           <div class="tab">
+              <button class="tablinks" onclick="openVersion(event, '2023')" id="defaultOpen">2023 version</button>
+              <button class="tablinks" onclick="openVersion(event, '2019')">2019 version</button>
+            </div>
+
+            <!--2023-->
+            <div id="2023" class="tabcontent">
+            	
+
+	<div class="fullwidthphoto fade-in-element"><img src="images/PortfolioBanner.jpg" width="100%"></div>
+
+
+<div class="caseStudyContentWrapper fade-in-element">
+	<div class="caseStudyContent">
+		<h4>PORTFOLIO PROJECT</h4>
+		<div class="casestudytitle">
+			The Challenge
+		</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+	<div class="border"></div>
+
+		<div class="casestudytitle">
+			Research
+		</div>
+	
+	
+		<div class="casestudyimage"><img src="images/Heim-4.jpg"></div>
+
+	<div class="border"></div>
+	
+		<div class="casestudytitle">
+			Early Design Sketches
+		</div>
+	
+			<p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+	
+		<div class="casestudyimage"><img src="images/Heim-4.jpg"></div>
+		<p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+		<!-- Prev and Before Buttons -->
+		<div class="prevnextwrapper">
+			<div class="prev">
+				<a href="scrunch"><img height="13"src="images/blue-arrow-left.svg"> &nbsp;Scrunch Project</a>
+			</div>
+			<div class="next">
+				<a href="sunbrella">Sunbrella Project &nbsp;<img height="13" src="images/blue-arrow.svg"> </a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="fullwidthphoto fade-in-element"><img src="images/Heim-4.jpg" width="100%"></div>
+      
+
+               
+
+
+
+
+            </div>
+
+             <!--My Skills section-->
+            <div id="2019" class="tabcontent">
+            	
 
 	<div class="fullwidthphoto fade-in-element"><img src="images/portfoliobannerheader.png" width="100%"></div>
 
@@ -205,6 +277,34 @@
 
 	<div class="fullwidthphoto fade-in-element"><img src="images/shardeportfolioimage.jpg" width="100%"></div>
       
+
+              
+
+
+
+
+            </div>
+            <script>
+            function openVersion(evt, versionName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(versionName).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+            </script>
+         </div>
+      </div>
+
 
       <!--Footer-->
       <footer>
