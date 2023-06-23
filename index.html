@@ -11,7 +11,6 @@
    <meta content="Portfolio, Design Portfolio, Product Designer, UX Designer, UI Designer, Interface Designer, London Designer" name="keywords">
    <title>Shardé Heim Portfolio</title>
    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,500i,700,800" rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
    <link href="css/style.css" rel="stylesheet" type="text/css">
    <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
@@ -27,7 +26,7 @@
                <a href="#work">Work</a> <a href="#experience">Experience</a>
             </div>
             <div class="logo">
-               <a href="/"><img height="45" src="images/logo.svg"></a>
+               <a href="/"><img height="45" src="images/logo.svg" alt="Logo"></a>
             </div>
             <div class="topNavRight">
                <a href="about">About</a> <a href="https://www.shardeheim.com/images/sharderesume.pdf" target="_blank">Resumé</a>
@@ -42,8 +41,8 @@
          <a href="about.html">About</a> <a href="https://www.shardeheim.com/images/sharderesume.pdf" target="_blank">Resumé</a>
       </nav>
       <div class="mobileNavbLogo">
-         <a href="/"><img height="45" src="images/logo.svg"></a>
-      </div><button class="hamburger">
+         <a href="/"><img height="45" src="images/logo.svg" alt="MobileLogo"></a>
+      </div><button class="hamburger" aria-label="Hamburger Menu"> 
       <div class="bar"></div></button>
    </div>
 
@@ -53,16 +52,24 @@
       <div class="sidepannel1">
          <div class="leftSideIcons">
             <div class="EmailIcons">
-               <a href="mailto:hello@shardeheim.com" target="_blank"><img class="activeEmailImage" src="images/emailicon.svg"></a> <a href="mailto:hello@shardeheim.com" target="_blank"><img class="hoverEmailImage" src="images/emailicondark.svg"></a>
+               <a href="mailto:hello@shardeheim.com" target="_blank">
+                  <img class="activeEmailImage" src="images/emailicon.svg" alt="EmailIconLight"></a> <a href="mailto:hello@shardeheim.com" target="_blank">
+                  <img class="hoverEmailImage" src="images/emailicondark.svg" alt="EmailIcondDark"></a>
             </div>
             <div class="CameraIcons">
-               <a href="https://www.shardeheimphotography.com/" target="_blank"><img class="activeCameraImage" src="images/camericon.svg"></a> <a href="https://www.shardeheimphotography.com/" target="_blank"><img class="hoverCameraImage" src="images/camericondark.svg"></a>
+               <a href="https://www.shardeheimphotography.com/" target="_blank">
+                  <img class="activeCameraImage" src="images/camericon.svg" alt="CameraIconLight"></a> <a href="https://www.shardeheimphotography.com/" target="_blank">
+                  <img class="hoverCameraImage" src="images/camericondark.svg" alt="CameraIconDark"></a>
             </div>
             <div class="InstagramIcons">
-               <a href="https://www.instagram.com/shardeheim/" target="_blank"><img class="activeInstagramImage" src="images/instagramicon.svg"></a> <a href="https://www.instagram.com/shardeheim/" target="_blank"><img class="hoverInstagramImage" src="images/instagramicondark.svg"></a>
+               <a href="https://www.instagram.com/shardeheim/" target="_blank">
+                  <img class="activeInstagramImage" src="images/instagramicon.svg" alt="InstagramIconLight"></a> <a href="https://www.instagram.com/shardeheim/" target="_blank">
+                  <img class="hoverInstagramImage" src="images/instagramicondark.svg" alt="InstagramIconDark"></a>
             </div>
             <div class="LinkedinIcons">
-               <a href="https://www.linkedin.com/in/shardeheim/" target="_blank"><img class="activeLinkedinImage" src="images/linkedinicon.svg"></a> <a href="https://www.linkedin.com/in/shardeheim/" target="_blank"><img class="hoverLinkedinImage" src="images/linkedinicondark.svg"></a>
+               <a href="https://www.linkedin.com/in/shardeheim/" target="_blank">
+                  <img class="activeLinkedinImage" src="images/linkedinicon.svg" alt="LinkedinIconLight"></a> <a href="https://www.linkedin.com/in/shardeheim/" target="_blank">
+                  <img class="hoverLinkedinImage" src="images/linkedinicondark.svg" alt="LinkedinIconDark"></a>
             </div>
          </div>
          <div class="verticalLine"></div>
@@ -78,7 +85,7 @@
          </div>
          <!--Main large title-->
          <div class="largeTitle">
-            <h1>Shard<img id="acute" src="images/line.svg">e Heim.</h1>
+            <h1>Shard<img id="acute" src="images/line.svg" alt="Acute">e Heim.</h1>
          </div>
          <!--SubHeading-->
          <div class="titleInformationText">
@@ -88,7 +95,15 @@
       <!--Rapidly moving images of Sharde-->
       <div class="titleimg">
          <div class="anyFaces">
-            <img class="visible" id="img1" src="images/productdesigner.png"> <img class="hidden" id="img2" src="images/uxdesigner.png"> <img class="hidden" id="img3" src="images/uidesigner.png"> <img class="hidden" id="img4" src="images/frontendengineer.png"> <img class="hidden" id="img5" src="images/anime.png"> <img class="hidden" id="img6" src="images/cheese.png"> <img class="hidden" id="img7" src="images/fantasy.png"> <img class="hidden" id="img8" src="images/fighter.png"> <span class="tooltip">Some of my many lives</span>
+            <img class="visible" id="img1" src="images/productdesigner.png" alt="ProductDesignerImage"> 
+            <img class="hidden" id="img2" src="images/uxdesigner.png" alt="UXDesignerImage"> 
+            <img class="hidden" id="img3" src="images/uidesigner.png" alt="UIDesignerImage"> 
+            <img class="hidden" id="img4" src="images/frontendengineer.png" alt="FrontEndDevImage"> 
+            <img class="hidden" id="img5" src="images/anime.png" alt="AnimeLoverImage"> 
+            <img class="hidden" id="img6" src="images/cheese.png" alt="CheeseImage"> 
+            <img class="hidden" id="img7" src="images/fantasy.png" alt="FantasyImage"> 
+            <img class="hidden" id="img8" src="images/fighter.png" alt="FighterImage"> 
+            <span class="tooltip">Some of my many lives</span>
          </div>
          <!--Javascript to make the images move quickly-->
          <script type="text/javascript">
@@ -139,49 +154,49 @@
       <div class="griditem1">
          <a href="voiceai">
          <div class="fristHalfOfCaseStudy">
-            <div class="caseStudyGridLogo"><img height="24" src="images/CTlogoCasestudy.svg"></div>
+            <div class="caseStudyGridLogo"><img height="24" src="images/CTlogoCasestudy.svg" alt="CTLogo"></div>
             <div class="caseStudyGridTitle">
                <h3>Defining conversation experiences using Voice AI</h3>
             </div>
             <div class="caseStudyGridTags">
                Product Design, UX and UI Design
             </div>
-            <div class="caseStudyGridReadmore">Read case study &nbsp; <img height="13" src="images/arrow-right.svg"></div>
+            <div class="caseStudyGridReadmore">Read case study &nbsp; <img height="13" src="images/arrow-right.svg" alt="ArrowRightImage"></div>
          </div>
-         <div class="caseStudyGridImage"><img src="images/casestudy1image.png"></div></a>
+         <div class="caseStudyGridImage"><img src="images/casestudy1image.png" alt="VoiceAiImage"></div></a>
       </div>
 
       <!--Second Case Study-->
       <div class="griditem2">
          <a href="airecruitment">
          <div class="fristHalfOfCaseStudy">
-            <div class="caseStudyGridLogo"><img height="24" src="images/CTlogoCasestudy.svg"></div>
+            <div class="caseStudyGridLogo"><img height="24" src="images/CTlogoCasestudy.svg" alt="CTLogo"></div>
             <div class="caseStudyGridTitle">
                <h3>Designing the client experience for AI Recruitment</h3>
             </div>
             <div class="caseStudyGridTags">
                Product Design, UX and UI Design
             </div>
-            <div class="caseStudyGridReadmore">Read case study &nbsp; <img height="13" src="images/arrow-right.svg"></div>
+            <div class="caseStudyGridReadmore">Read case study &nbsp; <img height="13" src="images/arrow-right.svg" alt="ArrowRightImage"></div>
          </div>
-         <div class="caseStudyGridImage"><img src="images/casestudy2image.png"></div></a>
+         <div class="caseStudyGridImage"><img src="images/casestudy2image.png" alt="AiRecruitmentImage"></div></a>
       </div>
 
       <!--Third Case Study-->
       <div class="griditem3">
          <a href="scrunch">
          <div class="fristHalfOfCaseStudy">
-            <div class="caseStudyGridLogo"><img height="23" src="images/ScrunchLogo.png"></div>
+            <div class="caseStudyGridLogo"><img height="23" src="images/ScrunchLogo.png" alt="ScrunchLogo"></div>
             <div class="caseStudyGridTitle">
                <h3>Redefinding the end-to-end influencer marketing journey</h3>
             </div>
             <div class="caseStudyGridTags">
                UX and UI Design
             </div>
-            <div class="caseStudyGridReadmore">Read case study &nbsp; <img height="13" src="images/arrow-right.svg"></div>
+            <div class="caseStudyGridReadmore">Read case study &nbsp; <img height="13" src="images/arrow-right.svg" alt="ProductDesignerImage"></div>
          </div>
          <div class="caseStudyGridImage caseStudyGridImageCenter">
-            <img alt="logo" id="scrunchGraphic" src="images/caseStudyScrunchsmall.png"> 
+            <img alt="logo" id="scrunchGraphic" src="images/caseStudyScrunchsmall.png" alt="ScrunchCaseStudyImage"> 
          </div></a>
       </div>
 
@@ -189,32 +204,32 @@
       <div class="griditem4">
          <a href="portfolio">
          <div class="fristHalfOfCaseStudy">
-            <div class="caseStudyGridLogo"><img height="20" src="images/PersonalLogo.png"></div>
+            <div class="caseStudyGridLogo"><img height="20" src="images/PersonalLogo.png" alt="Logo"></div>
             <div class="caseStudyGridTitle">
                <h3>Personal portfolio and identity branding</h3>
             </div>
             <div class="caseStudyGridTags">
                UX and UI Design, Front End Dev, Identity Branding and Animation
             </div>
-            <div class="caseStudyGridReadmore">Read case study &nbsp; <img height="13" src="images/arrow-right.svg"></div>
+            <div class="caseStudyGridReadmore">Read case study &nbsp; <img height="13" src="images/arrow-right.svg" alt="ArrowRightImage"></div>
          </div>
-         <div class="caseStudyGridImage caseStudyGridImageCenter"><img src="images/caseStudyPortfolio.png"></div></a>
+         <div class="caseStudyGridImage caseStudyGridImageCenter"><img src="images/caseStudyPortfolio.png" alt="PortfolioCaseStudyImage"></div></a>
       </div>
 
       <!--Firth Case Study-->
       <div class="griditem5">
          <a href="sunbrella">
          <div class="fristHalfOfCaseStudy">
-            <div class="caseStudyGridLogo"><img height="21" src="images/UKLogo.png"></div>
+            <div class="caseStudyGridLogo"><img height="21" src="images/UKLogo.png" alt="UQLogo"></div>
             <div class="caseStudyGridTitle">
                <h3>Prototype for a UV detecting, interactive outdoor umbrella</h3>
             </div>
             <div class="caseStudyGridTags">
                UX and Product Build
             </div>
-            <div class="caseStudyGridReadmore">Read case study &nbsp; <img height="13" src="images/arrow-right.svg"></div>
+            <div class="caseStudyGridReadmore">Read case study &nbsp; <img height="13" src="images/arrow-right.svg" alt="ArrowRightLogo"></div>
          </div>
-         <div class="caseStudyGridImage caseStudyGridImageCenter caseStudyGridImageSpace"><img src="images/casestudySunbrella.png"></div></a>
+         <div class="caseStudyGridImage caseStudyGridImageCenter caseStudyGridImageSpace"><img src="images/casestudySunbrella.png" alt="SunbrellaCaseStudyImage"></div></a>
       </div>
    </div>
 
@@ -222,7 +237,7 @@
    <div class="container3 fade-in-element" id="experience">
       <div class="tabswrapper">
          <div class="tab">
-            <button class="tablinks" id="defaultOpen" onclick="openSkill(event, 'Experince')">Experience</button> <button class="tablinks" onclick="openSkill(event, 'My Skills')">My Skills</button> <button class="tablinks" onclick="openSkill(event, 'Education')">Education</button>
+            <button class="tablinks" id="defaultOpen" aria-label="Experience Tab" onclick="openSkill(event, 'Experince')">Experience</button> <button class="tablinks" aria-label="My Skills Tab" onclick="openSkill(event, 'My Skills')">My Skills</button> <button class="tablinks" aria-label="Education Tab" onclick="openSkill(event, 'Education')">Education</button>
          </div>
          <!--Experience section-->
          <div class="tabcontent" id="Experince">
@@ -448,7 +463,7 @@
          </script>
       </div>
       <div class="viewFullResume">
-         <a href="https://www.shardeheim.com/images/sharderesume.pdf" target="_blank">View full resume &nbsp;<img height="13" src="images/blue-arrow.svg"></a>
+         <a href="https://www.shardeheim.com/images/sharderesume.pdf" target="_blank">View full resume &nbsp;<img height="13" src="images/blue-arrow.svg" alt="BlueArrowRightImage"></a>
       </div>
    </div>
 
@@ -461,22 +476,30 @@
    <footer>
       <div class="footerwrapper">
          <a href="mailto:%20hello@shardeheim.com">
-         <h2>Say hi, don't be shy &nbsp;<img height="30" src="images/arrow-right.svg"></h2>
+         <h2>Say hi, don't be shy &nbsp;<img height="30" src="images/arrow-right.svg" alt="ArrowRightImage"></h2>
          <p>Feel free to reach out for collaborations or just a friendly hello 🥹 <b>Let's chat.</b></p></a>
       </div>
       <div class="socials">
          <div class="footerIcons">
             <div class="EmailIcons">
-               <a href="mailto:hello@shardeheim.com" target="_blank"><img class="activeEmailImage" src="images/emailicon.svg"></a> <a href="mailto:hello@shardeheim.com" target="_blank"><img class="hoverEmailImage" src="images/emailicondark.svg"></a>
+               <a href="mailto:hello@shardeheim.com" target="_blank">
+                  <img class="activeEmailImage" src="images/emailicon.svg" alt="EmailIconLight"></a> <a href="mailto:hello@shardeheim.com" target="_blank">
+                  <img class="hoverEmailImage" src="images/emailicondark.svg" alt="EmailIcondDark"></a>
             </div>
             <div class="CameraIcons">
-               <a href="https://www.shardeheimphotography.com/" target="_blank"><img class="activeCameraImage" src="images/camericon.svg"></a> <a href="https://www.shardeheimphotography.com/" target="_blank"><img class="hoverCameraImage" src="images/camericondark.svg"></a>
+               <a href="https://www.shardeheimphotography.com/" target="_blank">
+                  <img class="activeCameraImage" src="images/camericon.svg" alt="CameraIconLight"></a> <a href="https://www.shardeheimphotography.com/" target="_blank">
+                  <img class="hoverCameraImage" src="images/camericondark.svg" alt="CameraIconDark"></a>
             </div>
             <div class="InstagramIcons">
-               <a href="https://www.instagram.com/shardeheim/" target="_blank"><img class="activeInstagramImage" src="images/instagramicon.svg"></a> <a href="https://www.instagram.com/shardeheim/" target="_blank"><img class="hoverInstagramImage" src="images/instagramicondark.svg"></a>
+               <a href="https://www.instagram.com/shardeheim/" target="_blank">
+                  <img class="activeInstagramImage" src="images/instagramicon.svg" alt="InstagramIconLight"></a> <a href="https://www.instagram.com/shardeheim/" target="_blank">
+                  <img class="hoverInstagramImage" src="images/instagramicondark.svg" alt="InstagramIconDark"></a>
             </div>
             <div class="LinkedinIcons">
-               <a href="https://www.linkedin.com/in/shardeheim/" target="_blank"><img class="activeLinkedinImage" src="images/linkedinicon.svg"></a> <a href="https://www.linkedin.com/in/shardeheim/" target="_blank"><img class="hoverLinkedinImage" src="images/linkedinicondark.svg"></a>
+               <a href="https://www.linkedin.com/in/shardeheim/" target="_blank">
+                  <img class="activeLinkedinImage" src="images/linkedinicon.svg" alt="LinkedinIconLight"></a> <a href="https://www.linkedin.com/in/shardeheim/" target="_blank">
+                  <img class="hoverLinkedinImage" src="images/linkedinicondark.svg" alt="LinkedinIconDark"></a>
             </div>
          </div>
       </div>

@@ -8,7 +8,6 @@
     <meta content="Portfolio, Design Portfolio, Product Designer, UX Designer, UI Designer, Interface Designer, London Designer" name="keywords">
 	<title>Portfolio</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,500,500i,700,800" rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
@@ -24,7 +23,7 @@
 					<a class="activeLink" href="/#work">Work</a> <a href="/#experience">Experience</a>
 				</div>
 				<div class="logo">
-					<a href="/"><img height="45" src="images/logo.svg"></a>
+					<a href="/"><img height="45" src="images/logo.svg" alt="logo"></a>
 				</div>
 				<div class="topNavRight">
 					<a href="about">About</a> <a href="https://www.shardeheim.com/images/sharderesume.pdf" target="_blank">Resumé</a>
@@ -39,15 +38,15 @@
 			<a href="/#work">Work</a> <a href="/#experience">Experience</a> <a href="about">About</a> <a href="https://www.shardeheim.com/images/sharderesume.pdf" target="_blank">Resumé</a>
 		</nav>
 		<div class="mobileNavbLogo">
-			<a href="/"><img height="45" src="images/logo.svg"></a>
-		</div><button class="hamburger">
+			<a href="/"><img height="45" src="images/logo.svg" alt="moiblelogoimage"></a>
+		</div><button class="hamburger" aria-label="Hamburger Menu">
 		<div class="bar"></div></button>
 	</div>
 
 	<!-- case study above fold -->
 	<div class="caseStudyTopContainer fade-in-element">
 		<div class="companyInfo">
-		<h1>Portfolio</h1><img height="23" src="images/PersonalLogo.png"></div>
+		<h1>Portfolio</h1><img height="23" src="images/PersonalLogo.png" alt="Logo"></div>
 		<div class="rollandtimeleft">
 			<h3>Roles</h3>
 			<div class="roleTags">
@@ -82,12 +81,12 @@
 	<div class="portfoliosSection fade-in-element">
 		<div class="tabsPortfolioWrapper">
 			<div class="tab">
-				<button class="tablinks" id="defaultOpen" onclick="openVersion(event, '2023')">2023 version</button> <button class="tablinks" onclick="openVersion(event, '2019')">2019 version</button>
+				<button class="tablinks" id="defaultOpen" aria-label="2023 Tab" onclick="openVersion(event, '2023')">2023 version</button> <button class="tablinks" aria-label="2019 Tab" onclick="openVersion(event, '2019')">2019 version</button>
 			</div>
 
 			<!--2023-->
 			<div class="tabcontent" id="2023">
-				<div class="fullwidthphoto fade-in-element"><img src="images/PortfolioBanner2.jpg" width="100%"></div>
+				<div class="fullwidthphoto fade-in-element"><img src="images/PortfolioBanner2.jpg" width="100%" alt="PortfolioBannerImage"></div>
 				<div class="caseStudyContentWrapper fade-in-element">
 					<div class="caseStudyContent">
 						<h4>PORTFOLIO PROJECT</h4>
@@ -99,30 +98,32 @@
 						<div class="casestudytitle">
 							Research
 						</div>
-						<div class="casestudyimage"><img src="images/Heim-4.jpg"></div>
+						<div class="casestudyimage"><img src="images/Heim-4.jpg" alt="PlaceHolderImage"></div>
 						<div class="border"></div>
 						<div class="casestudytitle">
 							Early Design Sketches
 						</div>
 						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-						<div class="casestudyimage"><img src="images/Heim-4.jpg"></div>
-						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><!-- Prev and Before Buttons -->
+						<div class="casestudyimage"><img src="images/Heim-4.jpg" alt="PlaceHolderImage"></div>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+						<!-- Prev and Before Buttons -->
 						<div class="prevnextwrapper">
 							<div class="prev">
-								<a href="scrunch"><img height="13" src="images/blue-arrow-left.svg"> &nbsp;Scrunch Project</a>
+								<a href="scrunch"><img height="13" src="images/blue-arrow-left.svg" alt="BlueArrowLeftImage"> &nbsp;Scrunch Project</a>
 							</div>
 							<div class="next">
-								<a href="sunbrella">Sunbrella Project &nbsp;<img height="13" src="images/blue-arrow.svg"></a>
+								<a href="sunbrella">Sunbrella Project &nbsp;<img height="13" src="images/blue-arrow.svg" alt="BlueArrowLeftImage"></a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="fullwidthphoto fade-in-element"><img src="images/Heim-4.jpg" width="100%"></div>
+				<div class="fullwidthphoto fade-in-element"><img src="images/Heim-4.jpg" width="100%" alt="PlaceHolderImage"></div>
 			</div>
 
 			<!--My Skills section-->
 			<div class="tabcontent" id="2019">
-				<div class="fullwidthphoto fade-in-element"><img src="images/portfoliobannerheader.png" width="100%"></div>
+				<div class="fullwidthphoto fade-in-element"><img src="images/portfoliobannerheader.png" width="100%" alt="PortfolioBannerImage"></div>
 				<div class="caseStudyContentWrapper fade-in-element">
 					<div class="caseStudyContent">
 						<h4>PORTFOLIO PROJECT</h4>
@@ -137,42 +138,42 @@
 						<p>I found a 2019 article on the top 21 UX resumes and their designers: people who have worked at Google, Facebook, Spotify etc.<br>
 						<br>
 						Following through each portfolio I quickly realised there were two main formats being used. Individual cards in a grid format, or large, full-width scroll cards displaying their work.</p>
-						<div class="casestudyimage"><img src="images/portfolioexamples.gif"></div>
+						<div class="casestudyimage"><img src="images/portfolioexamples.gif" alt="PortfolioExampleGifImage"></div>
 						<div class="border"></div>
 						<div class="casestudytitle">
 							Early Design Sketches
 						</div>
 						<p>I sketched out what the two types of portfolios might look like. Some advice from a fellow designer ended up shaping my choice between them. He told me that people would judge my capability based on the least-impressive piece of my work.</p>
-						<div class="casestudyimage"><img src="images/portfoliosketches.jpg"></div>
+						<div class="casestudyimage"><img src="images/portfoliosketches.jpg" alt="PortfolioSketchesImage"></div>
 						<p>I narrowed down my work to three case studies which best represented my skills. This fit best in the full-width scrolling card display, so I went with that.</p>
 						<div class="border"></div>
 						<div class="casestudytitle">
 							Branding
 						</div>
 						<p>Before I could start with the higher fidelity designs of my site, I needed to do some self branding. First I needed a logo. I did some rough sketches of variations of my initials ‘SH’ and my name.</p>
-						<div class="casestudyimage"><img src="images/logosketches.jpg"></div>
+						<div class="casestudyimage"><img src="images/logosketches.jpg" alt="LogoSketchesImage"></div>
 						<p>A round of testing with Graphic and UX Designers identified two logos as clear favourites: my full name in cursive, and the logo circled in green. After mocking up both I settled on the simple ‘S’ as it took up less space and looked more professional overall.</p>
-						<div class="casestudyimage"><img src="images/logolines.jpg"></div>
+						<div class="casestudyimage"><img src="images/logolines.jpg" alt="LogoLinesImage"></div>
 						<p>A photo I took of a sunset in the Maldives made it easy to decide on my colours. The pallet is a good balance of cool professionalism in the darker navy, with orange and yellow tones providing some warmth.</p>
-						<div class="casestudyimage"><img src="images/logocolours.jpg"></div>
+						<div class="casestudyimage"><img src="images/logocolours.jpg" alt="LogoColourImage"></div>
 						<p>My logo with different coloured tiles.</p>
-						<div class="casestudyimage"><img src="images/logobackgroundtiles.jpg"></div>
+						<div class="casestudyimage"><img src="images/logobackgroundtiles.jpg" alt="LogoBackGroundTiles"></div>
 						<div class="border"></div>
 						<div class="casestudytitle">
 							Higher Fidelity Designs
 						</div>
 						<p>Now that I had my logo, color range and decided the format of my portfolio, I started on some higher fidelity designs. I went through a couple of different variations of colour using Sketch.</p>
-						<div class="casestudyimage"><img src="images/homepagedifferentcolours.jpg"></div>
+						<div class="casestudyimage"><img src="images/homepagedifferentcolours.jpg" alt="HomePageDifferentColours"></div>
 						<p>I tested the different coloured home page designs, and received overwhelming responses preferring the dark navy look. “It’s more professional and you can always use pops of colour in your illustrations” was the main feedback.</p>
-						<div class="casestudyimage"><img src="images/scrunchdifferenthomepages.jpg"></div>
+						<div class="casestudyimage"><img src="images/scrunchdifferenthomepages.jpg" alt="ScrunchDifferentHomePagesImages"></div>
 						<p>I designed the layout of the home page, going through a lot of different combinations of tiles and layouts.</p>
 						<div class="border"></div>
 						<div class="casestudytitle">
 							Development
 						</div>
 						<p>I hosted my site on Github Pages which made everything easy. The task that consumed the most time was making everything responsive on all different devices. For the Sunbrella section in particular, the image itself changes depending on the size of your screen.</p>
-						<div class="casestudyimage"><img src="images/responsivesunbrella.gif"></div>
-						<div class="casestudyimage"><img id="mobielresponse" src="images/responsivemobile.png"></div>
+						<div class="casestudyimage"><img src="images/responsivesunbrella.gif" alt="ResponsiveSunbrellaImage"></div>
+						<div class="casestudyimage"><img id="mobielresponse" src="images/responsivemobile.png" alt="ResponsiveMobileImage"></div>
 						<div class="border"></div>
 						<div class="casestudytitle">
 							Final round of testing
@@ -186,18 +187,20 @@
 						</div>
 						<p>I am really happy with how my portfolio turned out. Next time, I would probably spend longer considering what parts of each project are the most interesting, and seek to highlight these in my layout and graphics.<br>
 						<br>
-						Feel free to give me feedback on your experience. I am a keen and fast learner and am always looking to improve my website.</p><!-- Prev and Before Buttons -->
+						Feel free to give me feedback on your experience. I am a keen and fast learner and am always looking to improve my website.</p>
+
+						<!-- Prev and Before Buttons -->
 						<div class="prevnextwrapper">
 							<div class="prev">
-								<a href="scrunch"><img height="13" src="images/blue-arrow-left.svg"> &nbsp;Scrunch Project</a>
+								<a href="scrunch"><img height="13" src="images/blue-arrow-left.svg"  alt="BlueArrowLeftImage"> &nbsp;Scrunch Project</a>
 							</div>
 							<div class="next">
-								<a href="sunbrella">Sunbrella Project &nbsp;<img height="13" src="images/blue-arrow.svg"></a>
+								<a href="sunbrella">Sunbrella Project &nbsp;<img height="13" src="images/blue-arrow.svg" alt="BlueArrowImage"></a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="fullwidthphoto fade-in-element"><img src="images/shardeportfolioimage.jpg" width="100%"></div>
+				<div class="fullwidthphoto fade-in-element"><img src="images/shardeportfolioimage.jpg" width="100%" alt="ShardePortfolioImage"></div>
 			</div>
 			<!--tab javascript -->
 			<script>
@@ -222,31 +225,39 @@
 	</div>
 
 	<!--Footer-->
-	<footer>
-		<div class="footerwrapper fade-in-element">
-			<a href="mailto:%20hello@shardeheim.com">
-			<h2>Say hi, don't be shy &nbsp;<img height="30" src="images/arrow-right.svg"></h2>
-			<p>Feel free to reach out for collaborations or just a friendly hello 🥹 <b>Let's chat.</b></p></a>
-		</div>
-		<div class="socials">
-			<div class="footerIcons">
-				<div class="EmailIcons">
-					<a href="mailto:hello@shardeheim.com" target="_blank"><img class="activeEmailImage" src="images/emailicon.svg"></a> <a href="mailto:hello@shardeheim.com" target="_blank"><img class="hoverEmailImage" src="images/emailicondark.svg"></a>
-				</div>
-				<div class="CameraIcons">
-					<a href="https://www.shardeheimphotography.com/" target="_blank"><img class="activeCameraImage" src="images/camericon.svg"></a> <a href="https://www.shardeheimphotography.com/" target="_blank"><img class="hoverCameraImage" src="images/camericondark.svg"></a>
-				</div>
-				<div class="InstagramIcons">
-					<a href="https://www.instagram.com/shardeheim/" target="_blank"><img class="activeInstagramImage" src="images/instagramicon.svg"></a> <a href="https://www.instagram.com/shardeheim/" target="_blank"><img class="hoverInstagramImage" src="images/instagramicondark.svg"></a>
-				</div>
-				<div class="LinkedinIcons">
-					<a href="https://www.linkedin.com/in/shardeheim/" target="_blank"><img class="activeLinkedinImage" src="images/linkedinicon.svg"></a> <a href="https://www.linkedin.com/in/shardeheim/" target="_blank"><img class="hoverLinkedinImage" src="images/linkedinicondark.svg"></a>
-				</div>
-			</div>
-		</div>
-		<div class="madeBy">
-			Designed and built by Shardé Heim © 2023
-		</div>
-	</footer>
+   <footer>
+      <div class="footerwrapper">
+         <a href="mailto:%20hello@shardeheim.com">
+         <h2>Say hi, don't be shy &nbsp;<img height="30" src="images/arrow-right.svg" alt="ArrowRightImage"></h2>
+         <p>Feel free to reach out for collaborations or just a friendly hello 🥹 <b>Let's chat.</b></p></a>
+      </div>
+      <div class="socials">
+         <div class="footerIcons">
+            <div class="EmailIcons">
+               <a href="mailto:hello@shardeheim.com" target="_blank">
+                  <img class="activeEmailImage" src="images/emailicon.svg" alt="EmailIconLight"></a> <a href="mailto:hello@shardeheim.com" target="_blank">
+                  <img class="hoverEmailImage" src="images/emailicondark.svg" alt="EmailIcondDark"></a>
+            </div>
+            <div class="CameraIcons">
+               <a href="https://www.shardeheimphotography.com/" target="_blank">
+                  <img class="activeCameraImage" src="images/camericon.svg" alt="CameraIconLight"></a> <a href="https://www.shardeheimphotography.com/" target="_blank">
+                  <img class="hoverCameraImage" src="images/camericondark.svg" alt="CameraIconDark"></a>
+            </div>
+            <div class="InstagramIcons">
+               <a href="https://www.instagram.com/shardeheim/" target="_blank">
+                  <img class="activeInstagramImage" src="images/instagramicon.svg" alt="InstagramIconLight"></a> <a href="https://www.instagram.com/shardeheim/" target="_blank">
+                  <img class="hoverInstagramImage" src="images/instagramicondark.svg" alt="InstagramIconDark"></a>
+            </div>
+            <div class="LinkedinIcons">
+               <a href="https://www.linkedin.com/in/shardeheim/" target="_blank">
+                  <img class="activeLinkedinImage" src="images/linkedinicon.svg" alt="LinkedinIconLight"></a> <a href="https://www.linkedin.com/in/shardeheim/" target="_blank">
+                  <img class="hoverLinkedinImage" src="images/linkedinicondark.svg" alt="LinkedinIconDark"></a>
+            </div>
+         </div>
+      </div>
+      <div class="madeBy">
+         Designed and built by Shardé Heim © 2023
+      </div>
+   </footer>
 </body>
 </html>
