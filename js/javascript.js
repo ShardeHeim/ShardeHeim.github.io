@@ -10,7 +10,6 @@ window.onload = function () {
 }
 
 
-
 $(document).on('scroll',function(){
     $('.h1AboutDark').css("left", Math.max(10 - 0.35*window.scrollY)
         + "px");

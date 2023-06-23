@@ -8,6 +8,7 @@ body {
      height: 100%;
      background-color: #FFFFFF;
 }
+
  html {
      margin: 0;
      padding: 0;
@@ -64,15 +65,6 @@ body {
      margin: 0px;
      margin-bottom: 10px;
 }
- h5 {
-     font-family: 'Domine', serif;
-     font-weight: 700;
-     font-size: 1.063em;
-     text-align: left;
-     color: #8D8AA3;
-     float: left;
-     margin-right: 60px;
-}
  p {
      font-family: 'Montserrat', sans-serif;
      font-weight: 300;
@@ -93,27 +85,7 @@ body {
      color: #2B51B3;
      height: 100%;
 }
- #outline {
-     display: inline;
-     color: #fcfcfc;
-     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
- #outline a:hover {
-     color: #23203E;
-     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
-}
- #outline a.active {
-     color: #fcfcfc;
-}
 
-
-
-
-/*universal attributes*/
- .center {
-     max-width: 980px;
-     margin: auto;
- }
 
 /*buttons*/
  button {
@@ -152,15 +124,11 @@ body {
      color: white;
 }
 
-
 /*navigation*/
 /*main menu nav*/
  nav {
      margin-top: 30px;
 }
-
-
-
  .topnav {
      display: flex;
      align-items: center;
@@ -202,12 +170,9 @@ body {
  .topnav .activeLink {
      border-bottom: 1px solid #23203E;
 }
-
  .topnav .activeLink:hover {
-     color: #23203E;;
-
+     color: #23203E;
 }
-
 
 /*navigation mobile*/
  .topMobilelNav {
@@ -300,9 +265,6 @@ body {
      transition-duration: 0.3s;
 }
 
-
-
-
 /*Aimations*/
  @keyframes fade-in {
      from {
@@ -316,7 +278,6 @@ body {
  .fade-in-element {
      animation: fade-in 1.4s;
 }
-
  .border {
      border-bottom: #EEEFF0 solid 1px;
      border-top: #EEEFF0 solid 1px;
@@ -324,10 +285,6 @@ body {
      margin-bottom: 100px;
      margin-top: 100px;
 }
-
-
-
-
 
 /*home page*/
 /* above the fold*/
@@ -486,7 +443,6 @@ body {
      margin-right: 10px;
 }
 
-
 /* Middle of grid styling (1-2)*/
  .titleInformation {
      grid-row-start: 1;
@@ -578,7 +534,6 @@ body {
     }
 }
 
-
 /*Sharde Heim heading*/
  .largeTitle {
      margin-top: 15px;
@@ -589,17 +544,16 @@ body {
      height: 18px;
      margin-left: 7px;
 }
+
 /* who I am text*/
  .titleInformationText {
      margin-right: 23%;
      margin-top: 17px;
-     colour: 18143A;
+     colour: #18143A;
 }
-
-.titleInformationText p{
-    font-size: 20px;
+ .titleInformationText p{
+     font-size: 20px;
 }
-
  .titleInformationText a:hover {
      margin-left: -1px;
 }
@@ -621,7 +575,6 @@ body {
      width: 100%;
      height: 100%;
 }
-
 
 /* Tooltip text */
  .anyFaces .tooltip {
@@ -647,6 +600,7 @@ body {
      visibility: visible;
      opacity: 1;
 }
+
 /* Information section..with over 7 years.. */
  .informationpannel {
      padding-top: 50px;
@@ -665,476 +619,350 @@ body {
      text-align: left;
      color: #18143A;
 }
-
-#jumpToWorkSection{ 
-    scroll-behavior: smooth;
+ #jumpToWorkSection{
+     scroll-behavior: smooth;
 }
-
-
-
-
-
-
 
 /* second section*/
  .container2 {
-    display: grid;
-    grid-template-columns: minmax(1rem,1fr) minmax(1rem,470px) minmax(1rem,470px) minmax(1rem,1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 42px;
-    grid-row-gap: 42px;
-    margin-bottom: 100px;
-    margin-top: 100px;
+     display: grid;
+     grid-template-columns: minmax(1rem,1fr) minmax(1rem,470px) minmax(1rem,470px) minmax(1rem,1fr);
+     grid-template-rows: auto;
+     grid-column-gap: 42px;
+     grid-row-gap: 42px;
+     margin-bottom: 100px;
+     margin-top: 100px;
 }
-
-.container2 h2 {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
+ .container2 h2 {
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 2;
+     grid-column-end: 3;
 }
-
-
-#fade {
-    color: #EEEFF0;
-    display: inline;
+ #fade {
+     color: #EEEFF0;
+     display: inline;
 }
-
-
-.container2 a {
-    color: #18143A;
-    margin: 0px;
+ .container2 a {
+     color: #18143A;
+     margin: 0px;
 }
-
-
-.container2 a:hover {
-    color: #18143A;
-    margin: 0px;
-    font-weight: 300;
+ .container2 a:hover {
+     color: #18143A;
+     margin: 0px;
+     font-weight: 300;
 }
-
-
 
 /* main case studys*/
  .griditem1 {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    height: 100%;
-    background-color: #DEF0FF;
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     height: 100%;
+     background-color: #DEF0FF;
 }
-
-
-
-.griditem1 a:hover {
-    display: block;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+ .griditem1 a:hover {
+     display: block;
+     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
-
-
-
  .griditem2 {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    height: 100%;
-    background-color: #D4F5ED
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 3;
+     grid-column-end: 4;
+     height: 100%;
+     background-color: #D4F5ED 
 }
-
-.griditem2 a:hover {
-    display: block;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+ .griditem2 a:hover {
+     display: block;
+     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
-
-
-
  .griditem3 {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    height: 100%;
-    background-color: #FFEBEB;
+     grid-row-start: 3;
+     grid-row-end: 4;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     height: 100%;
+     background-color: #FFEBEB;
 }
-
-.griditem3 a:hover {
-    display: block;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+ .griditem3 a:hover {
+     display: block;
+     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
-
-
  .griditem4 {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    height: 100%;
-    background-color: #EFEDFE;
+     grid-row-start: 3;
+     grid-row-end: 4;
+     grid-column-start: 3;
+     grid-column-end: 4;
+     height: 100%;
+     background-color: #EFEDFE;
 }
-
-.griditem4 a:hover {
-    display: block;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+ .griditem4 a:hover {
+     display: block;
+     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
-
-
  .griditem5 {
-    grid-row-start: 4;
-    grid-row-end: 5;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    height: 100%;
-    background-color: #FFF7D9;
+     grid-row-start: 4;
+     grid-row-end: 5;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     height: 100%;
+     background-color: #FFF7D9;
 }
-
-.griditem5 a:hover {
-    display: block;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+ .griditem5 a:hover {
+     display: block;
+     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
-
-
-.fristHalfOfCaseStudy {
-    height: 260px;
-    line-height: 25px;
+ .fristHalfOfCaseStudy {
+     height: 260px;
+     line-height: 25px;
 }
-
-.caseStudyGridLogo {
-    padding-top: 50px;
-    margin-left: 50px;
+ .caseStudyGridLogo {
+     padding-top: 50px;
+     margin-left: 50px;
 }
-
-
-.caseStudyGridTitle {
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+ .caseStudyGridTitle {
+     margin-top: 20px;
+     margin-left: 50px;
+     margin-right: 50px;
 }
-
-
-.caseStudyGridTags {
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+ .caseStudyGridTags {
+     margin-top: 20px;
+     margin-left: 50px;
+     margin-right: 50px;
 }
-
-
-.caseStudyGridReadmore {
-    margin-top: 20px;
-    margin-left: 50px;
-    font-weight: 600;
+ .caseStudyGridReadmore {
+     margin-top: 20px;
+     margin-left: 50px;
+     font-weight: 600;
 }
-
-
-.caseStudyGridImage {
-    margin-top: 70px;
+ .caseStudyGridImage {
+     margin-top: 70px;
 }
-
-
-.caseStudyGridImage img {
-    padding: 0px;
-    margin-bottom: -5px;
-    width: 85%;
-    margin-left: 15%;
+ .caseStudyGridImage img {
+     padding: 0px;
+     margin-bottom: -5px;
+     width: 85%;
+     margin-left: 15%;
 }
-
-
-.caseStudyGridImageCenter img {
-    margin: auto auto;
-    margin-left:10%;
-    margin-right:10%;
-    padding: 0px;
-    margin-bottom: -5px;
-    width: 80%;
-
+ .caseStudyGridImageCenter img {
+     margin: auto auto;
+     margin-left:10%;
+     margin-right:10%;
+     padding: 0px;
+     margin-bottom: -5px;
+     width: 80%;
 }
-
-.caseStudyGridImageSpace {
-    padding-bottom: 30px;
+ .caseStudyGridImageSpace {
+     padding-bottom: 30px;
 }
-
-}
-
-#scrunchGraphic {
-    background-color: blue;
-}
-/*
-#scrunchGraphicGif {
-     margin-top: -345px;
-     width: 90%;
-     margin-left: 5%;
-     background-color: yellow;
-}
-*/
-
-
 
 /* third section*/
  .container3 {
-    display: grid;
-    grid-template-columns: minmax(1rem,1fr) minmax(1rem,770px) minmax(1rem,1fr);
-    grid-template-rows: auto;
-    margin-bottom: 250px;
-    margin-top: 250px;
+     display: grid;
+     grid-template-columns: minmax(1rem,1fr) minmax(1rem,770px) minmax(1rem,1fr);
+     grid-template-rows: auto;
+     margin-bottom: 250px;
+     margin-top: 250px;
 }
-
-
-    .tabswrapper {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    height: 670px;
+ .tabswrapper {
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     height: 670px;
 }
-
-
 
 /* Style the tab */
-.tab {
-  overflow: hidden;
-  margin: auto auto;
-  height: 90px;
-  display: inline-block;
-  width: 100%;
-
+ .tab {
+     overflow: hidden;
+     margin: auto auto;
+     height: 90px;
+     display: inline-block;
+     width: 100%;
 }
 
 /* Style the buttons inside the tab */
-.tab button {
-  border-radius: 0px;
-  margin: 0;
-  background-color: white;
-  cursor: pointer;
-  font-size: 17px;
-  padding: 13px 20px 12px 20px;
-  width: 175px;
-  font-size: 25px;
-  margin-left: 60px;
-  opacity: 0.4;
-  font-weight: 300;
-  transition: all .3s ease-in-out;
+ .tab button {
+     border-radius: 0px;
+     margin: 0;
+     background-color: white;
+     cursor: pointer;
+     font-size: 17px;
+     padding: 13px 20px 12px 20px;
+     width: 175px;
+     font-size: 25px;
+     margin-left: 60px;
+     opacity: 0.4;
+     font-weight: 300;
+     transition: all .3s ease-in-out;
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #DEF0FF;
-  padding: 11px 20px 12px 20px;
-  color: #557FEC;
-  font-weight: 500;
-  border-radius: 30px;
-  transition: all .3s ease-in-out;
-  opacity: 1;
+ .tab button:hover {
+     background-color: #DEF0FF;
+     padding: 11px 20px 12px 20px;
+     color: #557FEC;
+     font-weight: 500;
+     border-radius: 30px;
+     transition: all .3s ease-in-out;
+     opacity: 1;
 }
 
 /* Create an active/current tablink class */
-.tab button.active {
-  background-color: white;
-  border-bottom: 3px solid #557FEC;
-  transition: 0.2s;
-  font-weight: 500;
-  opacity: 1;
+ .tab button.active {
+     background-color: white;
+     border-bottom: 3px solid #557FEC;
+     transition: 0.2s;
+     font-weight: 500;
+     opacity: 1;
 }
-
-.tab button.active:hover{
-  background-color: white;
-  border-bottom: 3px solid #557FEC;
-  border-radius: 0px;
+ .tab button.active:hover{
+     background-color: white;
+     border-bottom: 3px solid #557FEC;
+     border-radius: 0px;
 }
 
 /* Style the tab content */
-.tabcontent {
-  display: none;
-  transition: 0.3s;
+ .tabcontent {
+     display: none;
+     transition: 0.3s;
 }
-
-
-
-
-.experince-table {
-    border-collapse: collapse;
-    width: 100%;
+ .experince-table {
+     border-collapse: collapse;
+     width: 100%;
 }
-
-
-.experince-table th,
-.experince-table td {
-    padding-top: 33px;
-    padding-bottom: 33px;
+ .experince-table th, .experince-table td {
+     padding-top: 33px;
+     padding-bottom: 33px;
 }
-
-
-.experince-table tbody tr {
-    border-bottom: 1px solid #EEEFF0;
+ .experince-table tbody tr {
+     border-bottom: 1px solid #EEEFF0;
 }
-
-
-.experince-table tbody tr:last-of-type {
-    border-bottom: 0px;
+ .experince-table tbody tr:last-of-type {
+     border-bottom: 0px;
 }
-
-
-.tableLabel {
-    font-size: 20px;
-    text-align: left;
-    font-weight: 500;
+ .tableLabel {
+     font-size: 20px;
+     text-align: left;
+     font-weight: 500;
 }
-
-
-.tableSubLabel {
-    font-size: 18px;
-    text-align: right;
-    font-weight: 300;
+ .tableSubLabel {
+     font-size: 18px;
+     text-align: right;
+     font-weight: 300;
 }
-
-
-.tableDate {
-    font-size: 13px;
-    text-align: right;
-    font-weight: 200;
-    color: #3C4866;
-    padding-top: 5px;
+ .tableDate {
+     font-size: 13px;
+     text-align: right;
+     font-weight: 200;
+     color: #3C4866;
+     padding-top: 5px;
 }
-
-
-
-
-.viewFullResume {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    height: 22px;
-    margin: auto;
-    font-weight: 400;
-    transition: 0.2s;
-    padding: 10px 20px 10px 20px;
+ .viewFullResume {
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     height: 22px;
+     margin: auto;
+     font-weight: 400;
+     transition: 0.2s;
+     padding: 10px 20px 10px 20px;
 }
-
-
-
-
-.skill-table {
-    border-collapse: collapse;
-    width: 100%;
+ .skill-table {
+     border-collapse: collapse;
+     width: 100%;
 }
-
-
-.skill-table th,
-.skill-table td {
-    padding-top: 42px;
-    padding-bottom: 42px;
+ .skill-table th, .skill-table td {
+     padding-top: 42px;
+     padding-bottom: 42px;
 }
-
-
-.skill-table tbody tr {
-    border-bottom: 1px solid #EEEFF0;
+ .skill-table tbody tr {
+     border-bottom: 1px solid #EEEFF0;
 }
-
-
-.skill-table tbody tr:last-of-type {
-    border-bottom: 0px;
+ .skill-table tbody tr:last-of-type {
+     border-bottom: 0px;
 }
-
-
  .container4 {
-    display: grid;
-    grid-template-columns: minmax(1rem,1fr) minmax(1rem,980px) minmax(1rem,1fr);
-    grid-template-rows: auto;
-    margin-bottom: 250px;
+     display: grid;
+     grid-template-columns: minmax(1rem,1fr) minmax(1rem,980px) minmax(1rem,1fr);
+     grid-template-rows: auto;
+     margin-bottom: 250px;
+}
+ .container4 h4 {
+     margin: auto;
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     height: 100%;
+     text-align: center;
+     margin-bottom: 0px;
+     width: 90%;
 }
 
-
-    .container4  h4 {
-        margin: auto;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        height: 100%;
-        text-align: center;
-        margin-bottom: 0px;
-        width: 90%;
+/* footer styling*/
+ footer {
+     display: grid;
+     grid-template-columns: minmax(1rem,1fr) minmax(1rem,980px) minmax(1rem,1fr);
+     grid-template-rows: auto;
 }
-
-
-
-
-footer {
-    display: grid;
-    grid-template-columns: minmax(1rem,1fr) minmax(1rem,980px) minmax(1rem,1fr);
-    grid-template-rows: auto;
+ .footerwrapper {
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     height: 100%;
+     border: 2px solid #18143A;
+     border-radius: 10px;
 }
-
-
-.footerwrapper {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    height: 100%;
-    border: 2px solid #18143A;
-    border-radius: 10px;
+ .footerwrapper h2 {
+     padding-top: 100px;
+     text-align: center;
 }
-
-.footerwrapper  h2 {
-    padding-top: 100px;
-    text-align: center;
-    }
-
-
-.footerwrapper  p {
-    margin: auto;
-    margin-top: 35px;
-    padding-bottom: 100px;
-    text-align: center;
-    width: 410px;
-    }
-
-
-.socials {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    height: 100%;
-    margin: auto auto;
-    margin-top: 30px;
+ .footerwrapper p {
+     margin: auto;
+     margin-top: 35px;
+     padding-bottom: 100px;
+     text-align: center;
+     width: 410px;
 }
-
-.footerIcons {
+ .socials {
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     height: 100%;
+     margin: auto auto;
+     margin-top: 30px;
+}
+ .footerIcons {
      display: inline-block;
      max-wdith: 100%;
      height: 30px;
 }
-
-.footerIcons .EmailIcons {
-    display: inline-block;
-    margin-right: 10px;
-    height: 100%;
+ .footerIcons .EmailIcons {
+     display: inline-block;
+     margin-right: 10px;
+     height: 100%;
 }
-
-
-.footerIcons .CameraIcons {
-    display: inline-block;
-    margin-right: 10px;
-    height: 100%;
+ .footerIcons .CameraIcons {
+     display: inline-block;
+     margin-right: 10px;
+     height: 100%;
 }
-
-.footerIcons .InstagramIcons {
-    display: inline-block;
-    margin-right: 10px;
-    height: 100%;
+ .footerIcons .InstagramIcons {
+     display: inline-block;
+     margin-right: 10px;
+     height: 100%;
 }
-
-.footerIcons .LinkedinIcons {
-    display: inline-block;
-    margin-right: 10px;
-    height: 100%;
+ .footerIcons .LinkedinIcons {
+     display: inline-block;
+     margin-right: 10px;
+     height: 100%;
 }
-
-
-
  .footerIcons .hoverEmailImage {
      top: 0;
      left: 0;
@@ -1145,7 +973,6 @@ footer {
      margin-bottom: -3px;
      transition: all .5s ease-in-out;
 }
-
  .footerIcons .hoverCameraImage {
      top: 0;
      left: 0;
@@ -1156,7 +983,6 @@ footer {
      margin-bottom: -3px;
      transition: all .5s ease-in-out;
 }
-
  .footerIcons .hoverInstagramImage {
      top: 0;
      left: 0;
@@ -1167,7 +993,6 @@ footer {
      margin-bottom: -3px;
      transition: all .5s ease-in-out;
 }
-
  .footerIcons .hoverLinkedinImage {
      top: 0;
      left: 0;
@@ -1178,126 +1003,105 @@ footer {
      margin-bottom: -3px;
      transition: all .5s ease-in-out;
 }
-
-
-
-
-.madeBy {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    height: 100%;
-    margin: auto auto;
-    margin-top: 30px;
-    text-align: center;
-    font-size: 15px;
+ .madeBy {
+     grid-row-start: 3;
+     grid-row-end: 4;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     height: 100%;
+     margin: auto auto;
+     margin-top: 30px;
+     text-align: center;
+     font-size: 15px;
 }
-
-
-
 
 
 /*about page*/
-.AboutTop {
-    padding-top: 50px;
-    margin: auto;
-    overflow: hidden;
-    width: auto;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+/* above fold moving text section*/
+ .AboutTop {
+     padding-top: 50px;
+     margin: auto;
+     overflow: hidden;
+     width: auto;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+}
+ .aboutWrapper {
+     width: 10000%;
+     flex-flow: row;
+     margin-top: 440px;
+     display: flex;
+     position: absolute;
+     top: 0%;
+     bottom: 0%;
+     left: 0%;
+     right: 0%;
+}
+ .h1AboutDark {
+     z-index: 50;
+     color: #04071D;
+     flex-wrap: nowrap;
+     flex: 0 auto;
+     margin-top: 0px;
+     margin-left: 250px;
+     font-size: 160px;
+     text-decoration: none;
+     display: block;
+     position: absolute;
+     width: auto;
+     margin-bottom: 10px;
+     font-weight: 600;
+     line-height: 125px;
+     left: 10px;
+     font-family: 'Domine', serif;
+}
+ .h1AboutLight {
+     z-index: 0;
+     color: #EEEFF0;
+     margin-top: -137px;
+     margin-left: -500px;
+     font-size: 160px;
+     text-decoration: none;
+     display: block;
+     position: absolute;
+     font-family: 'Domine', serif;
+}
+ .TopAboutImageWrapper {
+     max-width: 100%;
+     flex-direction: column;
+     justify-content: center;
+     align-items: stretch;
+     margin-top: 0;
+     position: relative;
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+}
+ .aboutHeroBlock {
+     width: 550px;
+     height: 650px;
+     justify-content: center;
+     align-items: center;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+     overflow: hidden;
+}
+ .SanFranImage {
+     width: 100%;
+     height: auto;
+     max-width: none;
+     margin-top: -50px;
+     margin-left: 40px;
+     display: inline-block;
+     vertical-align: middle;
 }
 
-
-
-
-.aboutWrapper {
-    width: 10000%;
-    flex-flow: row;
-    margin-top: 440px;
-    display: flex;
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-}
-
-
-.h1AboutDark {
-    z-index: 50;
-    color: #04071D;
-    flex-wrap: nowrap;
-    flex: 0 auto;
-    margin-top: 0px;
-    margin-left: 250px;
-    font-size: 160px;
-    text-decoration: none;
-    display: block;
-    position: absolute;
-    width: auto;
-    margin-bottom: 10px;
-    font-weight: 600;
-    line-height: 125px;
-    left: 10px;
-    font-family: 'Domine', serif;
-}
-
-.h1AboutLight {
-    z-index: 0;
-    color: #EEEFF0;
-    margin-top: -137px;
-    margin-left: -500px;
-    font-size: 160px;
-    text-decoration: none;
-    display: block;
-    position: absolute;
-    font-family: 'Domine', serif;
-}
-
-
-.TopAboutImageWrapper {
-    max-width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    margin-top: 0;
-    position: relative;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.aboutHeroBlock {
-    width: 550px;
-    height: 650px;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    overflow: hidden;
-}
-
-
-.SanFranImage {
-    width: 100%;
-    height: auto;
-    max-width: none;
-    margin-top: -50px;
-    margin-left: 40px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-
-
-
-.AboutMainSection {
-    display: grid;
+/* about content section*/
+ .AboutMainSection {
+     display: grid;
      grid-template-columns: minmax(1rem,1fr) minmax(1rem,380px) minmax(auto,600px) minmax(1rem,1fr);
      grid-template-rows: auto;
      width: 100%;
@@ -1305,21 +1109,16 @@ footer {
      margin-bottom: 200px;
      row-gap: 150px;
      column-gap: 20px;
-    }
-
-
-.AboutMeHelloImage {
+}
+ .AboutMeHelloImage {
      grid-row-start: 1;
      grid-row-end: 2;
      grid-column-start: 2;
      grid-column-end: 3;
      height: 100%;
      width: 100%;
- }
-
-
-
-.AboutMeHelloText {
+}
+ .AboutMeHelloText {
      grid-row-start: 1;
      grid-row-end: 2;
      grid-column-start: 3;
@@ -1327,10 +1126,7 @@ footer {
      height: 100%;
      width: 100%;
 }
-
-
-
-.AboutMeWorkImage {
+ .AboutMeWorkImage {
      grid-row-start: 2;
      grid-row-end: 3;
      grid-column-start: 2;
@@ -1339,22 +1135,15 @@ footer {
      height: 100%;
      width: 100%;
 }
-
-
-
-
-.AboutMeWorkText {
+ .AboutMeWorkText {
      grid-row-start: 2;
      grid-row-end: 3;
      grid-column-start: 3;
      grid-column-end: 4;
-      height: 100%;
+     height: 100%;
      width: 100%;
 }
-
-
-
-.AboutMeSomeFunImage {
+ .AboutMeSomeFunImage {
      grid-row-start: 3;
      grid-row-end: 4;
      grid-column-start: 2;
@@ -1363,98 +1152,75 @@ footer {
      height: 100%;
      width: 100%;
 }
-
-
-
-.AboutMeSomeFunText {
+ .AboutMeSomeFunText {
      grid-row-start: 3;
      grid-row-end: 4;
      grid-column-start: 3;
      grid-column-end: 4;
-      height: 100%;
+     height: 100%;
      width: 100%;
 }
-
-.AboutMainSection p {
-    font-size: 18px;
+ .AboutMainSection p {
+     font-size: 18px;
 }
-
-.AboutMainSection p b {
-    font-weight: 400;
+ .AboutMainSection p b {
+     font-weight: 400;
 }
-
-
-.AboutMainSection p a {
-    font-weight: 400;
+ .AboutMainSection p a {
+     font-weight: 400;
 }
-
-
-.AboutMainSection h3 {
-    text-align: left;
-    margin-bottom: 20px;
-    font-family: 'Domine', serif;
-    font-size: 30px;
+ .AboutMainSection h3 {
+     text-align: left;
+     margin-bottom: 20px;
+     font-family: 'Domine', serif;
+     font-size: 30px;
 }
-
-
-.AboutMainSection img {
-    position: relative;
-    top: 35%;
+ .AboutMainSection img {
+     position: relative;
+     top: 35%;
 }
-
-
 
 /* Case study template section*/
-
-.caseStudyTopContainer {
+ .caseStudyTopContainer {
      display: grid;
      grid-template-columns: minmax(1rem,1fr) minmax(auto,850px) minmax(auto,130px) minmax(1rem,1fr);
      grid-template-rows: auto;
      width: 100%;
-     margin-top: 170px;
+     margin-top: 130px;
      margin-bottom: 100px;
 }
-
-.companyInfo {
-    grid-row-start: 1;
+ .companyInfo {
+     grid-row-start: 1;
      grid-row-end: 2;
      grid-column-start: 2;
      grid-column-end: 4;
      margin-bottom: 50px;
 }
-
-.companyInfo h1 {
-    float: left;
+ .companyInfo h1 {
+     float: left;
 }
-
-
-.companyInfo img {
-    float: right;
-    margin-top: 30px;
+ .companyInfo img {
+     float: right;
+     margin-top: 30px;
 }
-
-.caseStudyTopContainer h3 {
-    margin-bottom: 20px;
+ .caseStudyTopContainer h3 {
+     margin-bottom: 20px;
 }
-
-.rollandtimeleft {
+ .rollandtimeleft {
      grid-row-start: 2;
      grid-row-end: 3;
      grid-column-start: 2;
      grid-column-end: 3;
      height: 100%;
 }
-
-.rollandtimeright {
+ .rollandtimeright {
      grid-row-start: 2;
      grid-row-end: 3;
      grid-column-start: 3;
      grid-column-end: 4;
      height: 100%;
 }
-
-
-.caseStudyDescription {
+ .caseStudyDescription {
      grid-row-start: 3;
      grid-row-end: 4;
      grid-column-start: 2;
@@ -1462,175 +1228,149 @@ footer {
      height: 100%;
      margin-top: 40px;
 }
-
-.caseStudyTopContainer .tableDate{
-    text-align: left;;
-    padding-top: 0px;
+ .caseStudyTopContainer .tableDate{
+     text-align: left;
+    ;
+     padding-top: 0px;
+}
+/* tag styling*/
+ .UXTag {
+     background-color: #EBF6FF;
+     border: 1px solid #557FEC;
+     color: #557FEC;
+     font-size: 15px;
+     padding: 5px 15px 5px 15px;
+     border-radius: 25px;
+     float: left;
+     margin-right: 10px;
+}
+ .UITag {
+     background-color: #E1FCF5;
+     border: 1px solid #1AA684;
+     color: #1AA684;
+     font-size: 15px;
+     padding: 5px 15px 5px 15px;
+     border-radius: 25px;
+     float: left;
+     margin-right: 10px;
+}
+ .DevTag {
+     background-color: #FCE9CE;
+     border: 1px solid #DC5B32;
+     color: #DC5B32;
+     font-size: 15px;
+     padding: 5px 15px 5px 15px;
+     border-radius: 25px;
+     float: left;
+     margin-right: 10px;
+}
+ .ContTag {
+     background-color: #FFE3F6;
+     border: 1px solid #CE1BA7;
+     color: #CE1BA7;
+     font-size: 15px;
+     padding: 5px 15px 5px 15px;
+     border-radius: 25px;
+     float: left;
+     margin-right: 70px;
+}
+ .ProductBuildTag {
+     background-color: #E1F5FC;
+     border: 1px solid #11C1B7;
+     color: #11C1B7;
+     font-size: 15px;
+     padding: 5px 15px 5px 15px;
+     border-radius: 25px;
+     float: left;
+     margin-right: 70px;
+}
+ .BrandTag {
+     background-color: #FCFBE1;
+     border: 1px solid #CDD026;
+     color: #CDD026;
+     font-size: 15px;
+     padding: 5px 15px 5px 15px;
+     border-radius: 25px;
+     float: left;
+     margin-right: 10px;
+}
+ .ProductDesignTag {
+     background-color: #F2EBFF;
+     border: 1px solid #555BEC;
+     color: #555BEC;
+     font-size: 15px;
+     padding: 5px 15px 5px 15px;
+     border-radius: 25px;
+     float: left;
+     margin-right: 10px;
 }
 
-.UXTag {
-    background-color: #EBF6FF;
-    border: 1px solid #557FEC;
-    color: #557FEC;
-    font-size: 15px;
-    padding: 5px 15px 5px 15px;
-    border-radius: 25px;
-    float: left;
-    margin-right: 10px;
-}
-
-.UITag {
-    background-color: #E1FCF5;
-    border: 1px solid #1AA684;
-    color: #1AA684;
-    font-size: 15px;
-    padding: 5px 15px 5px 15px;
-    border-radius: 25px;
-    float: left;
-    margin-right: 10px;
-}
-
-
-.DevTag {
-    background-color: #FCE9CE;
-    border: 1px solid #DC5B32;
-    color: #DC5B32;
-    font-size: 15px;
-    padding: 5px 15px 5px 15px;
-    border-radius: 25px;
-    float: left;
-    margin-right: 10px;
-}
-
-.ContTag {
-    background-color: #FFE3F6;
-    border: 1px solid #CE1BA7;
-    color: #CE1BA7;
-    font-size: 15px;
-    padding: 5px 15px 5px 15px;
-    border-radius: 25px;
-    float: left;
-    margin-right: 70px;
-}
-
-.ProductBuildTag {
-    background-color: #E1F5FC;
-    border: 1px solid #11C1B7;
-    color: #11C1B7;
-    font-size: 15px;
-    padding: 5px 15px 5px 15px;
-    border-radius: 25px;
-    float: left;
-    margin-right: 70px;
-}
-
-
-.BrandTag {
-    background-color: #FCFBE1;
-    border: 1px solid #CDD026;
-    color: #CDD026;
-    font-size: 15px;
-    padding: 5px 15px 5px 15px;
-    border-radius: 25px;
-    float: left;
-    margin-right: 10px;
-}
-
-.ProductDesignTag {
-    background-color: #F2EBFF;
-    border: 1px solid #555BEC;
-    color: #555BEC;
-    font-size: 15px;
-    padding: 5px 15px 5px 15px;
-    border-radius: 25px;
-    float: left;
-    margin-right: 10px;
-}
-
-
-
-.portfoliosSection {
+/* Potfolio tabs styling*/
+ .portfoliosSection {
      display: grid;
      grid-template-columns: minmax(1rem,1fr) minmax(auto, 980px) minmax(1rem,1fr);
      grid-template-rows: auto;
      width: 100%;
      margin-top: 50px;
+     margin-bottom: 0px;
+}
+ .tabsPortfolioWrapper {
+     grid-row-start: 1;
+     grid-row-end: 4;
+     grid-column-start: 1;
+     grid-column-end: 4;
+     height: 100%;
+}
+ .tabsPortfolioWrapper .tab {
+     margin: auto;
+     width: 980px;
+     display: flex;
+     margin-bottom: 50px;
+     height: 60px;
+}
+ .tabsPortfolioWrapper .tab button {
+     width: 100%;
+     margin-left: 0px;
+     margin-left: 12%;
+     margin-right: 12%;
+}
+ .tabsPortfolioWrapper .tab button:hover {
+     border-radius: 50px;
+}
+ .tabsPortfolioWrapper .tab button:hover.active {
+     border-radius: 0px;
+}
+
+/* full image width styling*/
+ .fullwidthphoto {
      margin-bottom: 100px;
 }
 
-.tabsPortfolioWrapper {
-    grid-row-start: 1;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    height: 100%;
-}
 
-
-.tabsPortfolioWrapper .tab {
-    margin: auto;
-    width: 980px;
-    display: flex;
-    margin-bottom: 50px;
-    height: 60px;
-}
-
-
-.tabsPortfolioWrapper .tab button {
-    width: 100%;
-    margin-left: 0px;
-    margin-left: 12%;
-    margin-right: 12%;
-}
-
-
-.tabsPortfolioWrapper .tab button:hover {
-    border-radius: 50px;
-}
-
-.tabsPortfolioWrapper .tab button:hover.active {
-    border-radius: 0px;
-}
-
-
-
-
-
-
-
-.fullwidthphoto {
-    margin-bottom: 100px;
-}
-
-
-.caseStudyContentWrapper {
+/* Case Study conent styling*/
+ .caseStudyContentWrapper {
      display: grid;
      grid-template-columns: minmax(1rem,1fr) minmax(auto,980px) minmax(1rem,1fr);
      grid-template-rows: auto;
      width: 100%;
      margin-bottom: 100px;
 }
-
-.caseStudyContent {
-    grid-row-start: 1;
+ .caseStudyContent {
+     grid-row-start: 1;
      grid-row-end: 2;
      grid-column-start: 2;
      grid-column-end: 3;
 }
-
-.caseStudyContent h4 {
-    margin-bottom: 20px;
-    font-size: 35px;
-
+ .caseStudyContent h4 {
+     margin-bottom: 20px;
+     font-size: 35px;
 }
-
  .casestudytitle {
      font-weight: 700;
      color: #23203E;
      margin-bottom: 30px;
      font-size: 20px;
 }
-
  .casestudyimage {
      margin-top: 100px;
      margin-bottom: 100px;
@@ -1639,28 +1379,19 @@ footer {
  .casestudyimage img {
      width: 100%;
 }
-
-
  #computergif {
-    margin: auto auto;
-    width: 80%;
-    display: flex;
+     margin: auto auto;
+     width: 80%;
+     display: flex;
 }
 
-
-
- 
-
-
- /* Prev and Next buttons*/
+/* Prev and Next buttons*/
  .prevnextwrapper {
      margin-top: 100px;
 }
-
  .prev {
      float: left;
 }
-
  .prev a {
      margin-right: 30px;
      color: #557FEC;
@@ -1669,15 +1400,12 @@ footer {
      font-size: 17px;
      font-weight: 500;
 }
-
  .prev a:hover {
      color: #2B51B3;
 }
-
  .next {
      float: right;
 }
-
  .next a {
      color: #557FEC;
      text-align: center;
@@ -1685,18 +1413,12 @@ footer {
      font-size: 17px;
      font-weight: 500;
 }
-
  .next a:hover {
      color: #2B51B3;
 }
 
-
-
-
-
 /* media 1280px*/
  @media (max-width: 1280px) {
-     
      .helloTagBody {
          margin-top: 120px;
     }
@@ -1709,32 +1431,27 @@ footer {
      .topNavRight{
          padding-right: 30px;
     }
-
-    h1 {
-             font-size: 60px;
-        }
-
-    .titleInformationText {
-        margin-right: 20%;
+     h1 {
+         font-size: 60px;
+    }
+     .titleInformationText {
+         margin-right: 20%;
     }
 
     /* media 1024px*/
      @media (max-width: 1024px) {
          h2 {
-            font-size: 40px;
+             font-size: 40px;
              line-height: 30px;
              padding-bottom: 10px;
         }
          h1 {
              font-size: 60px;
         }
-
-        h3 {
+         h3 {
              font-size: 23px;
              line-height: 30px;
         }
-
-
          p {
              font-size: 17px;
              line-height: 30px;
@@ -1742,126 +1459,94 @@ footer {
          .helloTagBody {
              margin-top: 90px;
         }
-
-        .fristHalfOfCaseStudy {
-            height: 230px;
-            font-size: 15px;
+         .fristHalfOfCaseStudy {
+             height: 230px;
+             font-size: 15px;
         }
-
-        .titleInformationText p {
-        font-size: 17px;
+         .titleInformationText p {
+             font-size: 17px;
         }
-
-
-
-        .caseStudyGridLogo {
-            padding-top: 30px;
-            margin-left: 30px;
+         .caseStudyGridLogo {
+             padding-top: 30px;
+             margin-left: 30px;
         }
-
-
-        .caseStudyGridTitle {
-            margin-top: 20px;
-            margin-left: 30px;
-            margin-right: 30px;
+         .caseStudyGridTitle {
+             margin-top: 20px;
+             margin-left: 30px;
+             margin-right: 30px;
         }
-
-
-        .caseStudyGridTags {
-            margin-top: 20px;
-            margin-left: 30px;
-            margin-right: 30px;
+         .caseStudyGridTags {
+             margin-top: 20px;
+             margin-left: 30px;
+             margin-right: 30px;
         }
-
-
-        .caseStudyGridReadmore {
-            margin-top: 20px;
-            margin-left: 30px;
-            font-weight: 600;
+         .caseStudyGridReadmore {
+             margin-top: 20px;
+             margin-left: 30px;
+             font-weight: 600;
         }
-
-        .tabswrapper {
-            padding: 40px;
-            height: 630px;
+         .tabswrapper {
+             padding: 40px;
+             height: 630px;
         }
-
-        .tab {
-          overflow: hidden;
-          margin: auto;
-          height: 90px;
-          display: block;
-          width: 600px;
-
+         .tab {
+             overflow: hidden;
+             margin: auto;
+             height: 90px;
+             display: block;
+             width: 600px;
         }
-
         /* Style the buttons inside the tab */
-        .tab button {
-          border-radius: 0px;
-          margin: 0;
-          background-color: white;
-          cursor: pointer;
-          font-size: 17px;
-          padding: 13px 20px 12px 20px;
-          width: 175px;
-          font-size: 25px;
-          margin-left: 20px;
-          opacity: 0.4;
-          font-weight: 300;
+         .tab button {
+             border-radius: 0px;
+             margin: 0;
+             background-color: white;
+             cursor: pointer;
+             font-size: 17px;
+             padding: 13px 20px 12px 20px;
+             width: 175px;
+             font-size: 25px;
+             margin-left: 20px;
+             opacity: 0.4;
+             font-weight: 300;
         }
-
-        .caseStudyTopContainer {
-            column-gap: 30px;
-        }
-
-        .caseStudyContentWrapper {
+         .caseStudyTopContainer {
              column-gap: 30px;
         }
-
-
-
-        .tabsPortfolioWrapper .tab {
-            margin: auto;
-            width: 100%;
-            display: flex;
-            margin-bottom: 50px;
-            height: 60px;
+         .caseStudyContentWrapper {
+             column-gap: 30px;
         }
-
-
-        .tabsPortfolioWrapper .tab button {
-            width: 100%;
-            margin-left: 10%;
-            margin-right: 10%;
+         .tabsPortfolioWrapper .tab {
+             margin: auto;
+             width: 100%;
+             display: flex;
+             margin-bottom: 50px;
+             height: 60px;
         }
-
-
+         .tabsPortfolioWrapper .tab button {
+             width: 100%;
+             margin-left: 10%;
+             margin-right: 10%;
+        }
         /*universal attributes*/
          .logo {
              margin: auto;
         }
-
-        footer {
-            padding-left:20px;
-            padding-right: 20px;
+         footer {
+             padding-left:20px;
+             padding-right: 20px;
         }
-
-        .footerwrapper  h2 {
-            padding-top: 75px;
+         .footerwrapper h2 {
+             padding-top: 75px;
         }
-
-
-        .footerwrapper  p {
-            padding-bottom: 75px;
-            width: 380px
+         .footerwrapper p {
+             padding-bottom: 75px;
+             width: 380px 
         }
     }
 
-
-
-
     /* media 780px*/
      @media (max-width: 780px) {
-
         /* navigation x*/
          .topMobilelNav {
              display: block;
@@ -1908,17 +1593,13 @@ footer {
              padding-top: 0px;
              margin-left: 15px;
         }
-
          .anyFaces img {
              width: 100%;
              height: 100%;
         }
-
-        #acute {
-            height: 13px;
+         #acute {
+             height: 13px;
         }
-
-
         /*Sharde Heim heading*/
          .largeTitle h1 {
              text-align: center;
@@ -1946,7 +1627,6 @@ footer {
              padding-right: 5%;
              margin-bottom: 70px;
         }
-
          .informationpannel p {
              text-align: center;
              font-size: 18px;
@@ -1970,121 +1650,92 @@ footer {
              margin-bottom: 0px;
              font-size: 15px;
         }
-
-
          .helloTagBodyPointer {
              height: 17px;
              width: 17px;
-             margin-left: 80px;
+             margin-left: 85px;
              background: #18143A;
              transform: rotate(45deg);
              border-radius: 0 0 5px 0;
              margin-top: -10px;
         }
-
-
          .container2 {
-            display: grid;
-            grid-template-columns: minmax(1rem,1fr) minmax(1rem,470px) minmax(1rem,1fr);
-            grid-template-rows: auto;
-            grid-row-gap: 30px;
-            grid-column-gap: 15px;
-            margin-bottom: 100px;
-            margin-top: 30px;
-}
-
-        .container2 h2 {
-            grid-row-start: 1;
-            grid-row-end: 2;
-            grid-column-start: 2;
-            grid-column-end: 3;
-            margin-left: 0px;
-            text-align: left;
-            font-size: 30px;
+             display: grid;
+             grid-template-columns: minmax(1rem,1fr) minmax(1rem,470px) minmax(1rem,1fr);
+             grid-template-rows: auto;
+             grid-row-gap: 30px;
+             grid-column-gap: 15px;
+             margin-bottom: 100px;
+             margin-top: 30px;
         }
-
-
+         .container2 h2 {
+             grid-row-start: 1;
+             grid-row-end: 2;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             margin-left: 0px;
+             text-align: left;
+             font-size: 30px;
+        }
          .griditem1 {
-            grid-row-start: 2;
-            grid-row-end: 3;
-            grid-column-start: 2;
-            grid-column-end: 3;
-            height: 100%;
+             grid-row-start: 2;
+             grid-row-end: 3;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             height: 100%;
         }
-
-
          .griditem2 {
-            grid-row-start: 3;
-            grid-row-end: 4;
-            grid-column-start: 2;
-            grid-column-end: 3;
-            height: 100%;
+             grid-row-start: 3;
+             grid-row-end: 4;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             height: 100%;
         }
-
-
          .griditem3 {
-            grid-row-start: 4;
-            grid-row-end: 5;
-            grid-column-start: 2;
-            grid-column-end: 3;
-            height: 100%;
+             grid-row-start: 4;
+             grid-row-end: 5;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             height: 100%;
         }
-
-
          .griditem4 {
-            grid-row-start: 5;
-            grid-row-end: 6;
-            grid-column-start: 2;
-            grid-column-end: 3;
-            height: 100%;
+             grid-row-start: 5;
+             grid-row-end: 6;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             height: 100%;
         }
-
-
          .griditem5 {
-            grid-row-start: 6;
-            grid-row-end: 7;
-            grid-column-start: 2;
-            grid-column-end: 3;
-            height: 100%;
+             grid-row-start: 6;
+             grid-row-end: 7;
+             grid-column-start: 2;
+             grid-column-end: 3;
+             height: 100%;
         }
-
          .caseStudyGridImage {
-            margin-top: 60px;
-
+             margin-top: 60px;
         }
-
-
-        .fristHalfOfCaseStudy {
-            height: 200px;
+         .fristHalfOfCaseStudy {
+             height: 200px;
         }
-
-        .caseStudyGridReadmore {
-        font-size: 14px;
-        margin-top: 5px;
+         .caseStudyGridReadmore {
+             font-size: 14px;
+             margin-top: 5px;
         }
-
-
-        .container3 {
-            margin-bottom: 150px;
-            margin-top: 100px;
+         .container3 {
+             margin-bottom: 150px;
+             margin-top: 100px;
         }
-
          .container4 {
-            margin-bottom: 150px;
+             margin-bottom: 150px;
         }
-
-
-        .container4  h4 {
-            font-size: 20px;
-            line-height: 30px;
+         .container4 h4 {
+             font-size: 20px;
+             line-height: 30px;
         }
-
-
-        
          h1 {
              font-size: 50px;
         }
-
          h2 {
              font-size: 1.2em;
              text-align: center;
@@ -2100,250 +1751,191 @@ footer {
          button {
              text-align: center;
         }
-
-        .tabswrapper {
-            padding: 10px;
-            height: 700px;
+         .tabswrapper {
+             padding: 10px;
+             height: 700px;
         }
-
-        .tab {
-        display: block;
-        width: 420px;
-        margin: auto;
+         .tab {
+             display: block;
+             width: 420px;
+             margin: auto;
         }
-
-
-        .tab button {
-          border-radius: 0px;
-          margin: 0;
-          background-color: white;
-          cursor: pointer;
-          font-size: 17px;
-          padding: 13px 5px 13px 5px;
-          width: 126px;
-          font-size: 20px;
-          margin-right: 5px;
-         }
-
-
-        .tab button:hover {
-          padding: 13px 5px 13px 5px;
-      }
-
-
-        .tab button.active {
-          padding: 13px 3px 13px 3px;
-         }
-
-
-        .footerwrapper img {
-            height: 15px;
+         .tab button {
+             border-radius: 0px;
+             margin: 0;
+             background-color: white;
+             cursor: pointer;
+             font-size: 17px;
+             padding: 13px 5px 13px 5px;
+             width: 126px;
+             font-size: 20px;
+             margin-right: 5px;
         }
-
-        .footerwrapper h2 {
+         .tab button:hover {
+             padding: 13px 5px 13px 5px;
+        }
+         .tab button.active {
+             padding: 13px 3px 13px 3px;
+        }
+         .footerwrapper img {
+             height: 15px;
+        }
+         .footerwrapper h2 {
              font-size: 30px;
              text-align: center;
         }
-
-
         /*About Section*/
-
-        .AboutTop {
-            padding-top: 0px;
+         .AboutTop {
+             padding-top: 0px;
         }
-
-
-        .aboutHeroBlock {
-            width: 350px;
-            height: 450px;
+         .aboutHeroBlock {
+             width: 350px;
+             height: 450px;
         }
-
-
-        .AboutMainSection p {
-            font-size: 17px;
+         .AboutMainSection p {
+             font-size: 17px;
         }
-
-        .aboutWrapper {
-            margin-top: 300px;
+         .aboutWrapper {
+             margin-top: 300px;
         }
-
-        .h1AboutDark {
-            font-size: 90px;
-            margin-left: 110px;
-            margin-top: -70px;
+         .h1AboutDark {
+             font-size: 90px;
+             margin-left: 110px;
+             margin-top: -70px;
         }
-
-        .h1AboutLight {
-            font-size: 90px;
+         .h1AboutLight {
+             font-size: 90px;
         }
-
-
-        .AboutMainSection {
-            display: grid;
-            grid-template-columns: minmax(1rem,1fr) minmax(1rem,780px) minmax(1rem,1fr);
-            grid-template-rows: auto;
-            width: 100%;
-            margin-top: 50px;
-            row-gap: 25px;
-            column-gap: 15px;
-            padding: 0px;
-            margin-bottom: 100px;
+         .AboutMainSection {
+             display: grid;
+             grid-template-columns: minmax(1rem,1fr) minmax(1rem,780px) minmax(1rem,1fr);
+             grid-template-rows: auto;
+             width: 100%;
+             margin-top: 50px;
+             row-gap: 25px;
+             column-gap: 15px;
+             padding: 0px;
+             margin-bottom: 100px;
         }
-
-
-        .AboutMainSection img {
-            top: 0px;
-            display: block;
-            margin: auto;
-            height: 90%;
-            padding-bottom: 80px;
+         .AboutMainSection img {
+             top: 0px;
+             display: block;
+             margin: auto;
+             height: 80%;
+             width: 50%;
+             padding-bottom: 80px;
         }
-
-
-        .AboutMeHelloImage {
+         .AboutMeHelloImage {
              grid-row-start: 2;
              grid-row-end: 3;
              grid-column-start: 2;
              grid-column-end: 3;
              height: 100%;
-         }
-
-
-        .AboutMeHelloText {
+        }
+         .AboutMeHelloText {
              grid-row-start: 1;
              grid-row-end: 2;
              grid-column-start: 2;
              grid-column-end: 3;
              height: 100%;
         }
-
-
-
-
-      .AboutMeWorkImage {
+         .AboutMeWorkImage {
              grid-row-start: 4;
              grid-row-end: 5;
              grid-column-start: 2;
              grid-column-end: 3;
              height: 100%;
         }
-
-
-        .AboutMeWorkText {
+         .AboutMeWorkText {
              grid-row-start: 3;
              grid-row-end: 4;
              grid-column-start: 2;
              grid-column-end: 3;
              height: 100%;
         }
-
-
-
-        .AboutMeSomeFunImage {
+         .AboutMeSomeFunImage {
              grid-row-start: 6;
              grid-row-end: 7;
              grid-column-start: 2;
              grid-column-end: 3;
              height: 100%;
         }
-
-
-        .AboutMeSomeFunText {
+         .AboutMeSomeFunText {
              grid-row-start: 5;
              grid-row-end: 6;
              grid-column-start: 2;
              grid-column-end: 3;
              height: 100%;
         }
-
-        .caseStudyTopContainer {
-            margin-top: 100px;
-            column-gap: 15px;
+         .caseStudyTopContainer {
+             margin-top: 100px;
+             column-gap: 15px;
         }
-
-        .UXTag {
-            margin-bottom: 5px;
-            margin-right: 5px;
-            font-size: 12px;
-            padding: 3px 10px 3px 10px;
+         .UXTag {
+             margin-bottom: 5px;
+             margin-right: 5px;
+             font-size: 12px;
+             padding: 3px 10px 3px 10px;
         }
-
-        .UITag {
-            margin-bottom: 5px;
-            margin-right: 5px;
-            font-size: 12px;
-            padding: 3px 10px 3px 10px;
+         .UITag {
+             margin-bottom: 5px;
+             margin-right: 5px;
+             font-size: 12px;
+             padding: 3px 10px 3px 10px;
         }
-
-        .DevTag {
-            margin-bottom: 5px;
-            margin-right: 5px;
-            font-size: 12px;
-            padding: 3px 10px 3px 10px;
+         .DevTag {
+             margin-bottom: 5px;
+             margin-right: 5px;
+             font-size: 12px;
+             padding: 3px 10px 3px 10px;
         }
-
-        .ContTag {
-            margin-bottom: 5px;
-            margin-right: 5px;
-            font-size: 12px;
-            padding: 3px 10px 3px 10px;
+         .ContTag {
+             margin-bottom: 5px;
+             margin-right: 5px;
+             font-size: 12px;
+             padding: 3px 10px 3px 10px;
         }
-
-        .BrandTag {
-            margin-bottom: 5px;
-            margin-right: 5px;
-            font-size: 12px;
-            padding: 3px 10px 3px 10px;
+         .BrandTag {
+             margin-bottom: 5px;
+             margin-right: 5px;
+             font-size: 12px;
+             padding: 3px 10px 3px 10px;
         }
-
-
-        .ProductBuildTag {
-            margin-bottom: 5px;
-            margin-right: 5px;
-            font-size: 12px;
-            padding: 3px 10px 3px 10px;
+         .ProductBuildTag {
+             margin-bottom: 5px;
+             margin-right: 5px;
+             font-size: 12px;
+             padding: 3px 10px 3px 10px;
         }
-
-        .ProductDesignTag {
-            margin-bottom: 5px;
-            margin-right: 5px;
-            font-size: 12px;
-            padding: 3px 10px 3px 10px;
+         .ProductDesignTag {
+             margin-bottom: 5px;
+             margin-right: 5px;
+             font-size: 12px;
+             padding: 3px 10px 3px 10px;
         }
-
-        .companyInfo img {
-            margin-top: 17px;
-            height: 20px;
+         .companyInfo img {
+             margin-top: 17px;
+             height: 20px;
         }
-
-
          .fullwidthphoto {
              margin-top: 100px;
              margin-bottom: 100px;
         }
-
-
-        .caseStudyContentWrapper {
-            grid-gap: 15px;
+         .caseStudyContentWrapper {
+             grid-gap: 15px;
         }
-
-
          .border {
              margin-bottom: 75px;
              margin-top: 75px;
         }
-
          .casestudyimage {
              margin-top: 50px;
              margin-bottom: 50px;
              width: 100%;
         }
-
-        .prevnextwrapper {
-            margin-top: 75px;
+         .prevnextwrapper {
+             margin-top: 75px;
         }
-
-
          #mobielresponse {
              width: 90%;
         }
@@ -2351,9 +1943,7 @@ footer {
              margin-top: 110px;
         }
     }
-
-
-
+    /* media @450 resize section*/
      @media (max-width: 450px) {
          .titleInformation {
              height: 100%;
@@ -2364,322 +1954,232 @@ footer {
              font-size: 42px;
              text-align: center;
         }
-
-        h3 {
-            font-size: 20px;
-
+         h3 {
+             font-size: 20px;
         }
-
          .titleimg {
              height: 350px;
              margin: auto;
         }
-
-
-        .anyFaces {
+         .anyFaces {
              position: relative;
              width: 320px;
              height: 390px;
              padding-top: 0px;
         }
-
-
-
-        .caseStudyGridImage {
-            margin-top: 80px;
+         .caseStudyGridImage {
+             margin-top: 80px;
         }
-
-        .caseStudyGridImage img {
-            padding: 0px;
-            margin-bottom: -5px;
-            width: 85%;
-            margin-left: 15%;
+         .caseStudyGridImage img {
+             padding: 0px;
+             margin-bottom: -5px;
+             width: 85%;
+             margin-left: 15%;
         }
-
-        .caseStudyGridImageCenter img {
-            margin: auto auto;
-            margin-left:10%;
-            margin-right:10%;
-            padding: 0px;
-            margin-bottom: -5px;
-            width: 80%;
+         .caseStudyGridImageCenter img {
+             margin: auto auto;
+             margin-left:10%;
+             margin-right:10%;
+             padding: 0px;
+             margin-bottom: -5px;
+             width: 80%;
         }
-
-
-        .caseStudyGridTags {
+         .caseStudyGridTags {
              font-size: 14px;
         }
-
-
-        .caseStudyGridReadmore {
-            margin-top: 10px;
-            font-size: 15px;
+         .caseStudyGridReadmore {
+             margin-top: 10px;
+             font-size: 15px;
         }
-
-
-        .fristHalfOfCaseStudy {
-            height: 200px;
+         .fristHalfOfCaseStudy {
+             height: 200px;
         }
-
-
-
-        .tabswrapper {
-            height: 500px;
+         .tabswrapper {
+             height: 500px;
         }
-
-
-
-        .tab {
-                display: block;
-                width: 330px;
-                margin: auto;
-                height: 60px;
+         .tab {
+             display: block;
+             width: 330px;
+             margin: auto;
+             height: 60px;
         }
-
-
-        .tab button {
-          border-radius: 0px;
-          margin: 0;
-          background-color: white;
-          cursor: pointer;
-          font-size: 17px;
-          padding: 5px 1px 5px 1px;
-          width: 100px;
-          font-size: 17px;
-          margin-right: 5px;
-         }
-
-
-
+         .tab button {
+             border-radius: 0px;
+             margin: 0;
+             background-color: white;
+             cursor: pointer;
+             font-size: 17px;
+             padding: 5px 1px 5px 1px;
+             width: 100px;
+             font-size: 17px;
+             margin-right: 5px;
+        }
          .tab button:hover {
-          padding: padding: 5px 1px 5px 1px;
+             padding: padding: 5px 1px 5px 1px;
         }
-
         /* Create an active/current tablink class */
-        .tab button.active {
-          font-weight: 500;
-          padding: 5px 1px 5px 1px;
+         .tab button.active {
+             font-weight: 500;
+             padding: 5px 1px 5px 1px;
         }
-
-        .tabsPortfolioWrapper .tab {
-            margin-bottom: 0px;
-            height: 40px;
+         .tabsPortfolioWrapper .tab {
+             margin-bottom: 0px;
+             height: 40px;
         }
-
-
-        .tabsPortfolioWrapper .tab button {
-            margin-left: 9%;
-            margin-right: 9%;
+         .tabsPortfolioWrapper .tab button {
+             margin-left: 9%;
+             margin-right: 9%;
         }
-
-
-
-
-        .tableLabel {
-            font-size: 15px;
+         .tableLabel {
+             font-size: 15px;
         }
-
-        .tableSubLabel {
-            font-size: 13px;
+         .tableSubLabel {
+             font-size: 13px;
         }
-
          .tableLDate {
-            font-size: 13px;
+             font-size: 13px;
         }
-
-
-        .experince-table th,
-        .experince-table td {
-            padding-top: 20px;
-            padding-bottom: 20px;
+         .experince-table th, .experince-table td {
+             padding-top: 20px;
+             padding-bottom: 20px;
         }
-
-
-        .skill-table th,
-        .skill-table td {
-            padding-top: 20px;
-            padding-bottom: 20px;
+         .skill-table th, .skill-table td {
+             padding-top: 20px;
+             padding-bottom: 20px;
         }
-
-        .viewFullResume {
-            font-size: 15px;
+         .viewFullResume {
+             font-size: 15px;
         }
-
-
-        .viewFullResume img {
-            height: 10px;
+         .viewFullResume img {
+             height: 10px;
         }
-
-
-        .footerwrapper  h2 {
-            padding-top: 50px;
-            font-size: 25px;
-            text-align: center;
-            padding-left: 10px;
-            padding-right: 10px;
+         .footerwrapper h2 {
+             padding-top: 50px;
+             font-size: 25px;
+             text-align: center;
+             padding-left: 10px;
+             padding-right: 10px;
         }
-
-
-        .footerwrapper  p {
-            font-size: 15px;
-            margin: auto;
-            margin-top: 25px;
-            padding-bottom: 50px;
-            text-align: center;
-            width: 90%;
-            line-height: 25px;
+         .footerwrapper p {
+             font-size: 13px;
+             margin: auto;
+             margin-top: 25px;
+             padding-bottom: 50px;
+             text-align: center;
+             width: 90%;
+             line-height: 25px;
         }
-
-
-        .madeBy {
-            font-size: 12px;
+         .madeBy {
+             font-size: 12px;
         }
-
          .SanFranImage {
-            margin-left:20px;
+             margin-left:20px;
         }
-
-        .AboutMainSection p {
-            font-size: 15px;
+         .AboutMainSection p {
+             font-size: 15px;
         }
-
-        .AboutMainSection img {
-            top: 0px;
-            display: block;
-            margin: auto;
-            height: 80%;
-            width: 90%;
-            padding-bottom: 80px;
+         .AboutMainSection img {
+             top: 0px;
+             display: block;
+             margin: auto;
+             height: 80%;
+             width: 90%;
+             padding-bottom: 80px;
         }
-
-        .fullwidthphoto {
-            margin-top: 70px;
-            margin-bottom: 70px;
+         .fullwidthphoto {
+             margin-top: 70px;
+             margin-bottom: 70px;
         }
-
-        .companyInfo h1 {
-            font-size: 40px;
+         .companyInfo h1 {
+             font-size: 40px;
         }
-
-
-        .companyInfo img {
-            display: none;
+         .companyInfo img {
+             display: none;
         }
-
-        .caseStudyTopContainer .tableDate {
-            font-size: 15px;
+         .caseStudyTopContainer .tableDate {
+             font-size: 15px;
         }
-
-
          .caseStudyTopContainer {
-            margin-top: 30px;
-            column-gap: 5px;
-            margin-bottom: 0px;
+             margin-top: 30px;
+             column-gap: 5px;
+             margin-bottom: 0px;
         }
-
-
-        .caseStudyContentWrapper {
-            column-gap: 5px;
+         .caseStudyContentWrapper {
+             column-gap: 5px;
         }
-
-
-        .rollandtimeright {
-            grid-row-start: 2;
-            grid-row-end: 3;
-            grid-column-start: 2;
-            grid-column-end: 4;
-            height: 100%;
-            margin-bottom: 25px;
+         .rollandtimeright {
+             grid-row-start: 2;
+             grid-row-end: 3;
+             grid-column-start: 2;
+             grid-column-end: 4;
+             height: 100%;
+             margin-bottom: 25px;
         }
-
-        .rollandtimeleft {
-            grid-row-start: 3;
-            grid-row-end: 4;
-            grid-column-start: 2;
-            grid-column-end: 4;
-            height: 100%;
+         .rollandtimeleft {
+             grid-row-start: 3;
+             grid-row-end: 4;
+             grid-column-start: 2;
+             grid-column-end: 4;
+             height: 100%;
         }
-
-
-        .caseStudyDescription {
-            grid-row-start: 4;
-            grid-row-end: 5;
-            grid-column-start: 2;
-            grid-column-end: 4;
-            height: 100%;
-            margin-top: 20px;
+         .caseStudyDescription {
+             grid-row-start: 4;
+             grid-row-end: 5;
+             grid-column-start: 2;
+             grid-column-end: 4;
+             height: 100%;
+             margin-top: 20px;
         }
-
-        .caseStudyContent h4 {
-            font-size: 25px;
-            line-height: 30px;
+         .caseStudyContent h4 {
+             font-size: 25px;
+             line-height: 30px;
         }
-
-        .caseStudyContent p {
-            font-size: 15px;
+         .caseStudyContent p {
+             font-size: 15px;
         }
-
-        .caseStudyDescription p {
-            font-size: 15px;
+         .caseStudyDescription p {
+             font-size: 15px;
         }
-
-        .casestudytitle {
-            font-size: 17px;
+         .casestudytitle {
+             font-size: 17px;
         }
-
-
-        .caseStudyTopContainer h3 {
-            margin-bottom: 5px;
+         .caseStudyTopContainer h3 {
+             margin-bottom: 5px;
         }
-
-        .prevnextwrapper {
-            margin-top: 40px;
+         .prevnextwrapper {
+             margin-top: 40px;
         }
-
-        .prevnextwrapper img {
-            height: 10px;
+         .prevnextwrapper img {
+             height: 10px;
         }
-
-
-        .prev a {
+         .prev a {
              font-size: 13px;
-        }  
-
-        .next a {
-             font-size: 13px;
-        }  
-
-
-        #computergif {
-            width: 100%;
         }
-
-        .border {
-            margin-top: 50px;
-            margin-bottom: 50px;
+         .next a {
+             font-size: 13px;
+        }
+         #computergif {
+             width: 100%;
+        }
+         .border {
+             margin-top: 50px;
+             margin-bottom: 50px;
         }
     }
-
-
-
-
-
-
+    /* media resizing 360 section*/
      @media (max-width: 360px) {
          .titleInformation {
              height: 100%;
              margin: auto;
              width: 100%;
         }
-
-        .anyFaces {
+         .anyFaces {
              position: relative;
              width: 240px;
              height: 310px;
              padding-top: 0px;
              margin-left: 10px;
         }
-
          .largeTitle h1 {
              font-size: 35px;
              text-align: center;
@@ -2703,191 +2203,139 @@ footer {
          h1 {
              font-size: 2.3em;
         }
-
-        h3 {
+         h3 {
              font-size: 18px;
              line-height: 26px;
         }
-
          p {
              font-size: 0.9em;
         }
-
-        .titleInformationText p {
-            font-size: 0.9em;
+         .titleInformationText p {
+             font-size: 0.9em;
         }
-
-        .informationpannel {
+         .informationpannel {
              padding-left: 0px;
              padding-right: 0px;
         }
-
-        .container2 {
-            display: grid;
-            grid-template-columns: minmax(1rem,1fr) minmax(1rem,470px) minmax(1rem,1fr);
-            grid-template-rows: auto;
-            grid-row-gap: 20px;
-            grid-column-gap: 0px;
-            margin-bottom: 100px;
-            margin-top: 0px;
+         .container2 {
+             display: grid;
+             grid-template-columns: minmax(1rem,1fr) minmax(1rem,470px) minmax(1rem,1fr);
+             grid-template-rows: auto;
+             grid-row-gap: 20px;
+             grid-column-gap: 0px;
+             margin-bottom: 100px;
+             margin-top: 0px;
         }
-
-
-        .caseStudyGridLogo {
-            padding-top: 30px;
-            margin-left: 20px;
+         .caseStudyGridLogo {
+             padding-top: 30px;
+             margin-left: 20px;
         }
-
-
-        .caseStudyGridTitle {
-            margin-top: 10px;
-            margin-left: 20px;
-            margin-right: 20px;
+         .caseStudyGridTitle {
+             margin-top: 10px;
+             margin-left: 20px;
+             margin-right: 20px;
         }
-
-
-        .caseStudyGridTags {
-            margin-top: 10px;
-            margin-left: 20px;
-            margin-right: 20px;
+         .caseStudyGridTags {
+             margin-top: 10px;
+             margin-left: 20px;
+             margin-right: 20px;
         }
-
-
-        .caseStudyGridReadmore {
-            margin-top: 10px;
-            margin-left: 20px;
-            font-weight: 600;
-            font-size: 14px;
+         .caseStudyGridReadmore {
+             margin-top: 10px;
+             margin-left: 20px;
+             font-weight: 600;
+             font-size: 14px;
         }
-
-
-
-        .fristHalfOfCaseStudy {
-            height: 200px;
+         .fristHalfOfCaseStudy {
+             height: 200px;
         }
-
-        .caseStudyGridImage {
-            margin-top: 60px;
+         .caseStudyGridImage {
+             margin-top: 60px;
         }
-
-        .tabswrapper {
-            height: 450px;
+         .tabswrapper {
+             height: 450px;
         }
-
-
-        .tab {
-                display: block;
-                width: 230px;
-                margin: auto;
-                height: 60px;
+         .tab {
+             display: block;
+             width: 230px;
+             margin: auto;
+             height: 60px;
         }
-
-
-        .tab button {
-          border-radius: 0px;
-          margin: 0;
-          background-color: white;
-          cursor: pointer;
-          font-size: 12px;
-          padding: 5px 1px 5px 1px;
-          width: 73px;
-         }
-
-
+         .tab button {
+             border-radius: 0px;
+             margin: 0;
+             background-color: white;
+             cursor: pointer;
+             font-size: 12px;
+             padding: 5px 1px 5px 1px;
+             width: 73px;
+        }
          .tab button:hover {
-          padding: padding: 5px 1px 5px 1px;
-         font-size: 10px;
+             padding: padding: 5px 1px 5px 1px;
+             font-size: 10px;
         }
-
         /* Create an active/current tablink class */
-        .tab button.active {
-          font-weight: 500;
-          padding: 5px 1px 5px 1px;
-          font-size: 12px;
+         .tab button.active {
+             font-weight: 500;
+             padding: 5px 1px 5px 1px;
+             font-size: 12px;
         }
-
-
-        .tableLabel {
-            font-size: 13px;
+         .tableLabel {
+             font-size: 13px;
         }
-
-        .tableSubLabel {
-            font-size: 10px;
+         .tableSubLabel {
+             font-size: 10px;
         }
-
          .tableDate {
-            font-size: 10px;
+             font-size: 10px;
         }
-
-
-        .experince-table th,
-        .experince-table td {
-            padding-top: 20px;
-            padding-bottom: 20px;
+         .experince-table th, .experince-table td {
+             padding-top: 20px;
+             padding-bottom: 20px;
         }
-
-
-        .skill-table th,
-        .skill-table td {
-            padding-top: 20px;
-            padding-bottom: 20px;
+         .skill-table th, .skill-table td {
+             padding-top: 20px;
+             padding-bottom: 20px;
         }
-
-
-        .viewFullResume {
-            font-size: 13px;
+         .viewFullResume {
+             font-size: 13px;
         }
-
-
-        .footerwrapper  h2 {
-            line-height: 15px;
-            font-size: 20px;
+         .footerwrapper h2 {
+             line-height: 15px;
+             font-size: 20px;
         }
-
-
-        .footerwrapper  h2 img{
-            display: none;
+         .footerwrapper h2 img{
+             display: none;
         }
-
-
-        .footerwrapper  p {
-            margin-top: 15px;
-            padding-bottom: 35px;
+         .footerwrapper p {
+             margin-top: 15px;
+             padding-bottom: 35px;
         }
-
-
-        .aboutHeroBlock {
-            width: 260px;
-            height: 350px;
+         .aboutHeroBlock {
+             width: 260px;
+             height: 350px;
         }
-
-        .h1AboutDark {
-            font-size: 40px;
-            margin-left: 70px;
-            margin-top: -120px;
+         .h1AboutDark {
+             font-size: 40px;
+             margin-left: 70px;
+             margin-top: -120px;
         }
-
          .h1AboutLight {
-            font-size: 40px;
-            margin-top: -120px;
+             font-size: 40px;
+             margin-top: -120px;
         }
-
-        .AboutMainSection {
-            column-gap: 10px;
-            margin-top: 10px;
-
+         .AboutMainSection {
+             column-gap: 10px;
+             margin-top: 10px;
         }
-
-
          .AboutMainSection img {
-            top: 0px;
-            display: block;
-            margin: auto;
-            height: 80%;
-            width: 80%;
-            padding-bottom: 60px;
+             top: 0px;
+             display: block;
+             margin: auto;
+             height: 80%;
+             width: 80%;
+             padding-bottom: 60px;
         }
-
          .logo {
              padding-left: 10px;
         }
@@ -2901,22 +2349,16 @@ footer {
          .innerbox {
              width: 250px;
         }
-
-        .caseStudyContentWrapper {
-            margin-bottom: 50px;
+         .caseStudyContentWrapper {
+             margin-bottom: 50px;
         }
-
-        .prevnextwrapper img {
-            height: 7px;
+         .prevnextwrapper img {
+             height: 7px;
         }
-
-        .prev a {
-            font-size: 10px;
+         .prev a {
+             font-size: 10px;
         }
-
-        .next a {
-            font-size: 10px;
+         .next a {
+             font-size: 10px;
         }
-   
     }
-    
