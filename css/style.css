@@ -1477,6 +1477,8 @@ body {
      margin-right: auto;
      position: relative;
      height: 600px;
+     align-items: flex-start;
+     flex-direction: column;
 }
 
  .imageSwivelPortfolio {
@@ -1488,12 +1490,15 @@ body {
      margin-right: auto;
      position: relative;
      height: 700px;
+     align-items: flex-start;
+     flex-direction: column;
 }
 
  .imageSwivelWrapper {
      width: 1000%;
      flex-flow: row;
      display: flex;
+     align-items: flex-start;
      position: absolute;
      top: 0%;
      bottom: 0%;
@@ -1506,6 +1511,8 @@ body {
      width: 1000%;
      flex-flow: row;
      display: flex;
+     align-items: flex-start;
+     flex-direction: column;
      position: absolute;
      top: 0%;
      bottom: 0%;
@@ -1524,6 +1531,8 @@ body {
      width: auto;
      margin-bottom: 10px;
      left: 10px;
+     align-items: flex-start;
+     flex-direction: column;
 }
 
 
@@ -1538,6 +1547,8 @@ body {
      margin-bottom: 10px;
      left: 10px;
      margin-left: -260px;
+     align-items: flex-start;
+     flex-direction: column;
 }
 
 
@@ -1552,6 +1563,8 @@ body {
      width: auto;
      margin-bottom: 10px;
      left: 10px;
+     align-items: flex-start;
+     flex-direction: column;
 }
 
  .SwivelDownImagePortfolio {
@@ -1565,6 +1578,8 @@ body {
      margin-bottom: 10px;
      left: 10px;
      margin-left: -290px;
+     align-items: flex-start;
+     flex-direction: column;
 }
 
 
@@ -1896,42 +1911,6 @@ body {
 
 
 
-/* Potfolio tabs styling*/
- .portfoliosSection {
-     display: grid;
-     grid-template-columns: minmax(1rem,1fr) minmax(auto, 980px) minmax(1rem,1fr);
-     grid-template-rows: auto;
-     width: 100%;
-     margin-top: 50px;
-     margin-bottom: 0px;
-}
- .tabsPortfolioWrapper {
-     grid-row-start: 1;
-     grid-row-end: 4;
-     grid-column-start: 1;
-     grid-column-end: 4;
-     height: 100%;
-}
- .tabsPortfolioWrapper .tab {
-     margin: auto;
-     width: 980px;
-     display: flex;
-     margin-bottom: 50px;
-     height: 60px;
-}
- .tabsPortfolioWrapper .tab button {
-     width: 100%;
-     margin-left: 0px;
-     margin-left: 12%;
-     margin-right: 12%;
-}
- .tabsPortfolioWrapper .tab button:hover {
-     border-radius: 50px;
-}
- .tabsPortfolioWrapper .tab button:hover.active {
-     border-radius: 0px;
-}
-
 /* full image width styling*/
  .fullwidthphoto {
      margin-bottom: 100px;
@@ -2218,18 +2197,6 @@ body {
         }
 
 
-         .tabsPortfolioWrapper .tab {
-             margin: auto;
-             width: 100%;
-             display: flex;
-             margin-bottom: 50px;
-             height: 60px;
-        }
-         .tabsPortfolioWrapper .tab button {
-             width: 100%;
-             margin-left: 10%;
-             margin-right: 10%;
-        }
         /*universal attributes*/
          .logo {
              margin: auto;
@@ -3002,14 +2969,7 @@ body {
              font-weight: 500;
              padding: 5px 1px 5px 1px;
         }
-         .tabsPortfolioWrapper .tab {
-             margin-bottom: 0px;
-             height: 40px;
-        }
-         .tabsPortfolioWrapper .tab button {
-             margin-left: 9%;
-             margin-right: 9%;
-        }
+
          .tableLabel {
              font-size: 15px;
         }
