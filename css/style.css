@@ -134,45 +134,142 @@ body {
      align-items: center;
      margin: auto;
      overflow: hidden;
-     max-width: 1240px;
+     max-width: 1280px;
+     height: 45px;
 }
- .topNavLeft {
-     justify-self : flex-start;
-}
+
+/* logo icons*/
  .logo {
      flex-grow: 1;
-     width: 40px;
+     width: 43px;
      text-align: center;
+     display: inline-block;
+     transition: 0.3s;
+     transition: all .5s ease-in-out;
+     opactiy: 1;
+}
+.Hlogo {
+     flex-grow: 1;
+     width: 50px;
+     text-align: center;
+}
+ .LogoIcons img {
+    height: 45px;
+    margin-top: 4px;
+}
+ .hoverLogoIcons {
+     top: 0;
+     left: 0;
+     display: none;
+}
+ .LogoIcons:hover .hoverLogoIcons {
+     display: inline;
+    transition: 0.3s;
+}
+ .LogoIcons:hover .activeLogoIcons {
+     display: none;
+    transition: 0.3s;
+}
+
+
+
+/* Top Nav*/
+ .topNavLeft {
+     justify-self : flex-start;
+     width: 660px;
+     height: 40px;
+}
+.navleftwidth1 {
+    margin-top: 7px;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.navleftwidth2 {
+    margin-top: 7px;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+ .topNavLeft a {
+     color: #23203E;
+     text-align: center;
+     text-decoration: none;
+     font-size: 15px;
+     font-weight: 300;
+     transition: all .1s ease-in-out;
+}
+ .topNavLeft a:hover {
+     color: #557FEC;
+     font-weight: 300;
+     background-color: #DEF0FF;
+     padding: 10px 25px 10px 25px;
+     border-radius: 250px;
+     marging-left: 0px;
+     font-size: 16px;
 }
  .topNavRight {
      justify-self : flex-end;
+     float: right;
+     width: 660px;
+     height: 40px;
 }
- .topNavLeft a {
-     margin-right: 50px;
-     color: #23203E;
-     text-align: center;
-     text-decoration: none;
-     font-size: 15px;
-     font-weight: 300;
+.navrightwidth3 {
+    margin-top: 7px;
+    float: right;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    display: inline-block;
+}
+.navrightwidth4 {
+    margin-top: 7px;
+    float: right;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    display: inline-block;
 }
  .topNavRight a {
-     margin-left: 50px;
      color: #23203E;
-     text-align: center;
+     text-align: right;
      text-decoration: none;
      font-size: 15px;
      font-weight: 300;
+     transition: all .1s ease-in-out;
 }
- .topnav a:hover {
+
+ .topNavRight a:hover {
      color: #557FEC;
      font-weight: 300;
+     background-color: #DEF0FF;
+     padding: 10px 25px 10px 25px;
+     border-radius: 250px;
+     marging-left: 0px;
+     font-size: 16px;
 }
- .topnav .activeLink {
-     border-bottom: 1px solid #23203E;
+
+ .dotnav {
+     align-items: center;
+     margin: auto;
+     max-width: 1280px;
 }
- .topnav .activeLink:hover {
-     color: #23203E;
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: #557FEC;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 1;
+  margin-right: 185px;
+  margin-top: -9px;
+  float: right;
 }
+
+
+
 
 /*navigation mobile*/
  .topMobilelNav {
@@ -481,7 +578,7 @@ body {
      background-color: #18143A;
      border-radius: 8px;
      color: white;
-     width: 195px;
+     width: 187px;
      margin-top: 130px;
      margin-bottom: 0px;
 }
@@ -628,8 +725,8 @@ body {
      display: grid;
      grid-template-columns: minmax(1rem,1fr) minmax(1rem,470px) minmax(1rem,470px) minmax(1rem,1fr);
      grid-template-rows: auto;
-     grid-column-gap: 42px;
-     grid-row-gap: 42px;
+     grid-column-gap: 20px;
+     grid-row-gap: 0px;
      margin-bottom: 100px;
      margin-top: 100px;
 }
@@ -643,120 +740,109 @@ body {
      color: #EEEFF0;
      display: inline;
 }
- .container2 a {
-     color: #18143A;
-     margin: 0px;
-}
- .container2 a:hover {
-     color: #18143A;
-     margin: 0px;
-     font-weight: 300;
+.container2 h2 {
+    margin-bottom: 20px;
 }
 
+
+
 /* main case studys*/
+ .caseStudyGridImage img {
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 94%;
+    transition: all .2s ease-in-out;
+    box-shadow: rgba(17, 12, 46, 0.05) 0px 48px 100px 0px;
+    border-radius: 17px;
+}
+
  .griditem1 {
      grid-row-start: 2;
      grid-row-end: 3;
      grid-column-start: 2;
      grid-column-end: 3;
-     height: 100%;
-     background-color: #DEF0FF;
+     width: 480px;
+     height: 665px;
+     transition: all .2s ease-in-out;
 }
- .griditem1 a:hover {
-     display: block;
-     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+ .griditem1 img:hover {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
+    border-radius: 17px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    transition: all .2s ease-in-out;
 }
  .griditem2 {
      grid-row-start: 2;
      grid-row-end: 3;
      grid-column-start: 3;
      grid-column-end: 4;
-     height: 100%;
-     background-color: #D4F5ED 
+     width: 480px;
+     height: 665px;
+     transition: all .2s ease-in-out;
 }
- .griditem2 a:hover {
-     display: block;
-     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+.griditem2 img:hover {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
+    border-radius: 17px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    transition: all .2s ease-in-out;
 }
  .griditem3 {
      grid-row-start: 3;
      grid-row-end: 4;
      grid-column-start: 2;
      grid-column-end: 3;
-     height: 100%;
-     background-color: #FFEBEB;
+     width: 480px;
+     height: 665px;
+     transition: all .2s ease-in-out;
 }
- .griditem3 a:hover {
-     display: block;
-     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+ .griditem3 img:hover {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
+    border-radius: 17px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    transition: all .2s ease-in-out;
 }
  .griditem4 {
      grid-row-start: 3;
      grid-row-end: 4;
      grid-column-start: 3;
      grid-column-end: 4;
-     height: 100%;
-     background-color: #EFEDFE;
+     width: 480px;
+     height: 665px;
+     transition: all .2s ease-in-out;
 }
- .griditem4 a:hover {
-     display: block;
-     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+ .griditem4 img:hover  {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
+    border-radius: 17px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    transition: all .2s ease-in-out;
 }
  .griditem5 {
      grid-row-start: 4;
      grid-row-end: 5;
      grid-column-start: 2;
      grid-column-end: 3;
-     height: 100%;
-     background-color: #FFF7D9;
+     width: 480px;
+     height: 665px;
+     transition: all .2s ease-in-out;
 }
- .griditem5 a:hover {
-     display: block;
-     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+ .griditem5 img:hover  {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
+    border-radius: 17px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    transition: all .2s ease-in-out;
 }
- .fristHalfOfCaseStudy {
-     height: 260px;
-     line-height: 25px;
-}
- .caseStudyGridLogo {
-     padding-top: 50px;
-     margin-left: 50px;
-}
- .caseStudyGridTitle {
-     margin-top: 20px;
-     margin-left: 50px;
-     margin-right: 50px;
-}
- .caseStudyGridTags {
-     margin-top: 20px;
-     margin-left: 50px;
-     margin-right: 50px;
-}
- .caseStudyGridReadmore {
-     margin-top: 20px;
-     margin-left: 50px;
-     font-weight: 600;
-}
- .caseStudyGridImage {
-     margin-top: 70px;
-}
- .caseStudyGridImage img {
-     padding: 0px;
-     margin-bottom: -5px;
-     width: 85%;
-     margin-left: 15%;
-}
- .caseStudyGridImageCenter img {
-     margin: auto auto;
-     margin-left:10%;
-     margin-right:10%;
-     padding: 0px;
-     margin-bottom: -5px;
-     width: 80%;
-}
- .caseStudyGridImageSpace {
-     padding-bottom: 30px;
-}
+
+
 
 /* third section*/
  .container3 {
@@ -854,7 +940,7 @@ body {
      font-weight: 300;
 }
  .tableDate {
-     font-size: 13px;
+     font-size: 15px;
      text-align: right;
      font-weight: 200;
      color: #3C4866;
@@ -1105,9 +1191,9 @@ body {
      grid-template-columns: minmax(1rem,1fr) minmax(1rem,380px) minmax(auto,600px) minmax(1rem,1fr);
      grid-template-rows: auto;
      width: 100%;
-     margin-top: 100px;
+     margin-top: 200px;
      margin-bottom: 200px;
-     row-gap: 150px;
+     row-gap: 300px;
      column-gap: 20px;
 }
  .AboutMeHelloImage {
@@ -1161,7 +1247,7 @@ body {
      width: 100%;
 }
  .AboutMainSection p {
-     font-size: 18px;
+     font-size: 17px;
 }
  .AboutMainSection p b {
      font-weight: 400;
@@ -1171,19 +1257,22 @@ body {
 }
  .AboutMainSection h3 {
      text-align: left;
-     margin-bottom: 20px;
-     font-family: 'Domine', serif;
-     font-size: 30px;
+     margin-bottom: 40px;
+     font-family: 'Montserrat', sans-serif;
+     line-height: 45px;
+     font-size: 32px;
+
 }
  .AboutMainSection img {
      position: relative;
-     top: 35%;
+     border-radius: 10px;
+     top: 40%;
 }
 
 /* Case study template section*/
  .caseStudyTopContainer {
      display: grid;
-     grid-template-columns: minmax(1rem,1fr) minmax(auto,850px) minmax(auto,130px) minmax(1rem,1fr);
+     grid-template-columns: minmax(1rem,1fr) minmax(auto,840px) minmax(auto,150px) minmax(1rem,1fr);
      grid-template-rows: auto;
      width: 100%;
      margin-top: 130px;
@@ -1194,45 +1283,91 @@ body {
      grid-row-end: 2;
      grid-column-start: 2;
      grid-column-end: 4;
-     margin-bottom: 50px;
+     margin-bottom: 20px;
 }
- .companyInfo h1 {
+
+.companyInfoSmaller {
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 2;
+     grid-column-end: 4;
+     margin-bottom: 20px;
+}
+
+ .caseStudyDescription {
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 2;
+     grid-column-end: 4;
+     height: 100%;
+     width: 49%;
+}
+
+
+.caseStudyDescriptionLarger {
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 2;
+     grid-column-end: 4;
+     height: 100%;
+     width: 65%;
+}
+
+.caseStudyDescription p {
+    font-size: 20px;
+    }
+
+.companyInfo h1 {
      float: left;
+     font-size: 40px;
+}
+
+.companyInfoSmaller h1 {
+     float: left;
+     font-size: 40px;
 }
  .companyInfo img {
      float: right;
-     margin-top: 30px;
+     margin-top: 0px;
 }
+
+ .companyInfoSmaller img {
+     float: right;
+     margin-top: 0px;
+}
+
  .caseStudyTopContainer h3 {
-     margin-bottom: 20px;
+     margin-top: 50px;
 }
+
+
  .rollandtimeleft {
-     grid-row-start: 2;
-     grid-row-end: 3;
+     grid-row-start: 3;
+     grid-row-end: 4;
      grid-column-start: 2;
      grid-column-end: 3;
      height: 100%;
 }
  .rollandtimeright {
-     grid-row-start: 2;
-     grid-row-end: 3;
+     grid-row-start: 3;
+     grid-row-end: 4;
      grid-column-start: 3;
      grid-column-end: 4;
      height: 100%;
 }
- .caseStudyDescription {
-     grid-row-start: 3;
-     grid-row-end: 4;
-     grid-column-start: 2;
-     grid-column-end: 4;
-     height: 100%;
-     margin-top: 40px;
-}
+
+
  .caseStudyTopContainer .tableDate{
      text-align: left;
-    ;
-     padding-top: 0px;
+     padding-top: 15px;
 }
+
+.roleTags {
+    margin-top: 10px;
+}
+
+
+
 /* tag styling*/
  .UXTag {
      background-color: #EBF6FF;
@@ -1243,6 +1378,7 @@ body {
      border-radius: 25px;
      float: left;
      margin-right: 10px;
+     margin-top: 5px;
 }
  .UITag {
      background-color: #E1FCF5;
@@ -1253,6 +1389,7 @@ body {
      border-radius: 25px;
      float: left;
      margin-right: 10px;
+     margin-top: 5px;
 }
  .DevTag {
      background-color: #FCE9CE;
@@ -1263,6 +1400,8 @@ body {
      border-radius: 25px;
      float: left;
      margin-right: 10px;
+     margin-top: 5px;
+
 }
  .ContTag {
      background-color: #FFE3F6;
@@ -1273,6 +1412,7 @@ body {
      border-radius: 25px;
      float: left;
      margin-right: 70px;
+     margin-top: 5px;
 }
  .ProductBuildTag {
      background-color: #E1F5FC;
@@ -1283,6 +1423,7 @@ body {
      border-radius: 25px;
      float: left;
      margin-right: 70px;
+     margin-top: 5px;
 }
  .BrandTag {
      background-color: #FCFBE1;
@@ -1293,6 +1434,7 @@ body {
      border-radius: 25px;
      float: left;
      margin-right: 10px;
+     margin-top: 5px;
 }
  .ProductDesignTag {
      background-color: #F2EBFF;
@@ -1303,7 +1445,438 @@ body {
      border-radius: 25px;
      float: left;
      margin-right: 10px;
+     margin-top: 5px;
 }
+
+
+/* imageSwivel*/
+ .imageSwivel {
+     padding-top: 50px;
+     margin: auto;
+     overflow: hidden;
+     width: auto;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     height: 600px;
+}
+
+ .imageSwivelPortfolio {
+     padding-top: 50px;
+     margin: auto;
+     overflow: hidden;
+     width: auto;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     height: 700px;
+}
+
+ .imageSwivelWrapper {
+     width: 1000%;
+     flex-flow: row;
+     display: flex;
+     position: absolute;
+     top: 0%;
+     bottom: 0%;
+     left: 0%;
+     right: 0%;
+}
+
+
+ .imageSwivelWrapperPortfolio {
+     width: 1000%;
+     flex-flow: row;
+     display: flex;
+     position: absolute;
+     top: 0%;
+     bottom: 0%;
+     left: 0%;
+     right: 0%;
+}
+
+ .SwivelTopImage {
+     z-index: 0;
+     flex-wrap: nowrap;
+     flex: 0 auto;
+     margin-top: 0px;
+     margin-left: -50px;
+     display: block;
+     position: absolute;
+     width: auto;
+     margin-bottom: 10px;
+     left: 10px;
+}
+
+
+ .SwivelDownImage {
+     z-index: 0;
+     flex-wrap: nowrap;
+     flex: 0 auto;
+     margin-top: 260px;
+     display: block;
+     position: absolute;
+     width: auto;
+     margin-bottom: 10px;
+     left: 10px;
+     margin-left: -260px;
+}
+
+
+ .SwivelTopImagePortfolio {
+     z-index: 0;
+     flex-wrap: nowrap;
+     flex: 0 auto;
+     margin-top: 0px;
+     margin-left: -110px;
+     display: block;
+     position: absolute;
+     width: auto;
+     margin-bottom: 10px;
+     left: 10px;
+}
+
+ .SwivelDownImagePortfolio {
+     z-index: 0;
+     flex-wrap: nowrap;
+     flex: 0 auto;
+     margin-top: 305px;
+     display: block;
+     position: absolute;
+     width: auto;
+     margin-bottom: 10px;
+     left: 10px;
+     margin-left: -290px;
+}
+
+
+
+
+
+
+/* Case Study conent styling*/
+.container-wrapper {
+     display: block;
+}
+
+.sidebar-menu{
+     position: webkit-sticky;
+     position: sticky;
+     top: 125px;
+}
+
+.nav-sidebar {
+    justify-content: flex-start;
+    padding-top: 0;
+    display: flex;
+    position: sticky;
+    top: 10px;
+}
+
+.NavBarWrapper {
+    min-width: 25%;
+    flex-flow: column;
+    align-content: flex-start;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: auto;
+    left: auto;
+    right: auto;
+}
+
+.LittleNav {
+    z-index: 1000;
+    position: relative;
+}
+
+
+.sidebar {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 30%;
+    display: flex;
+    position: absolute;
+}
+
+.LittleNavMenu {
+    float: right;
+    position: relative;
+}
+
+.nav-item-icon {
+    align-items: center;
+    transition: opacity .2s, transform .2s;
+    display: flex;
+}
+
+
+.nav-item-icon:hover {
+    transform: translate(5px);
+}
+
+
+.nav-link {
+    vertical-align: top;
+    color: #3C4866;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+
+.sidebar a {
+    color: #3C4866;
+    transition: opacity .2s;
+    display: block;
+    font-size: 15px;
+}
+
+.container-content a {
+    color: #557FEC;
+    vertical-align: top;
+    position: relative;
+    font-weight: 500;
+}
+
+
+.container-content a:hover {
+    color: #2B51B3;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.subHeading {
+    font-weight: 500;
+    font-size: 19px;
+    padding-bottom: 17px;
+    line-height: 30px;
+}
+
+
+
+.container-content span {
+    font-size: 25px;
+} 
+
+.active  {
+    font-weight: 800;
+}
+
+.nav-link-sidebar {
+    color: #3C4866;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+
+
+#section-1 {
+    margin-top: -590px;
+    margin-bottom: 90px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+
+#section-1-smaller {
+            margin-top: -480px;
+            margin-bottom: 90px;
+            justify-content: center;
+            display: flex;
+            padding-top: 40px;
+        }
+
+#section-2 {
+    margin-bottom: 90px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+#section-3 {
+    margin-bottom: 90px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+#section-4 {
+    margin-bottom: 150px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+#section-5 {
+    margin-bottom: 150px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+
+#section-6 {
+    margin-bottom: 150px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+#section-7 {
+    margin-bottom: 150px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+
+#section-8 {
+    margin-bottom: 150px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+
+#section-9 {
+    margin-bottom: 150px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+#section-10 {
+    margin-bottom: 150px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+#section-11 {
+    margin-bottom: 150px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+#section-12 {
+    margin-bottom: 150px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+#section-13 {
+    margin-bottom: 150px;
+    justify-content: center;
+    display: flex;
+    padding-top: 40px;
+}
+
+
+.container-content {
+    padding-left: 300px;
+    max-width: 780px;
+    min-height: 100%;
+    background-color: #fff;
+    padding-bottom: 0;
+}
+
+
+.sectionImage img {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+
+.SmallerSectionImage img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subHeading img{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+}
+
+.ImageSubHeading {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 100;
+    opacity: 0.5;
+    text-align: center;
+    margin-top: -40px;
+    padding-bottom: 50px;
+    line-height: 15px;
+}
+
+.AIReqImageSubHeading {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 100;
+    opacity: 0.5;
+    text-align: center;
+    margin-top: -60px;
+    padding-bottom: 50px;
+    line-height: 15px;
+}
+
+.SmallerImageSubHeading {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 100;
+    opacity: 0.5;
+    text-align: center;
+    margin-top: -80px;
+    padding-bottom: 40px;
+    line-height: 20px;
+}
+
+.ImageSubHeadingNoPaddingBottom{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 100;
+    opacity: 0.5;
+    text-align: center;
+    margin-top: -50px;
+    padding-bottom: 0px;
+    line-height: 20px;
+}
+
+
+.container-content h4 {
+     margin-bottom: 40px;
+     font-size: 35px;
+}
+
+
+.container-content p {
+    font-size: 17px;
+    color: #18143A;
+}
+
+.container-content p b {
+    font-weight: 500;
+}
+
+.indent {
+    margin-left: 15px;
+}
+
+
 
 /* Potfolio tabs styling*/
  .portfoliosSection {
@@ -1344,41 +1917,11 @@ body {
 /* full image width styling*/
  .fullwidthphoto {
      margin-bottom: 100px;
-}
-
-
-/* Case Study conent styling*/
- .caseStudyContentWrapper {
-     display: grid;
-     grid-template-columns: minmax(1rem,1fr) minmax(auto,980px) minmax(1rem,1fr);
-     grid-template-rows: auto;
-     width: 100%;
-     margin-bottom: 100px;
-}
- .caseStudyContent {
-     grid-row-start: 1;
-     grid-row-end: 2;
-     grid-column-start: 2;
-     grid-column-end: 3;
-}
- .caseStudyContent h4 {
-     margin-bottom: 20px;
-     font-size: 35px;
-}
- .casestudytitle {
-     font-weight: 700;
-     color: #23203E;
-     margin-bottom: 30px;
-     font-size: 20px;
-}
- .casestudyimage {
      margin-top: 100px;
-     margin-bottom: 100px;
-     width: 100%;
 }
- .casestudyimage img {
-     width: 100%;
-}
+
+
+
  #computergif {
      margin: auto auto;
      width: 80%;
@@ -1387,7 +1930,11 @@ body {
 
 /* Prev and Next buttons*/
  .prevnextwrapper {
-     margin-top: 100px;
+    margin: auto;
+     margin-top: 200px;
+     max-width: 780px;
+     padding-bottom: 100px;
+     transition: all .1s ease-in-out;
 }
  .prev {
      float: left;
@@ -1397,25 +1944,48 @@ body {
      color: #557FEC;
      text-align: center;
      text-decoration: none;
-     font-size: 17px;
+     font-size: 20px;
      font-weight: 500;
+     font-family: 'Domine', serif;
+     transition: all .1s ease-in-out;
 }
  .prev a:hover {
-     color: #2B51B3;
+     padding: 15px 25px 15px 25px;
+     background-color: #DEF0FF;
+     border-radius: 30px;
+     margin-left: -27px;
+     font-size: 21px;
+     transition: all .1s ease-in-out;
 }
+
+
  .next {
      float: right;
 }
+
+
  .next a {
      color: #557FEC;
      text-align: center;
      text-decoration: none;
-     font-size: 17px;
+     font-size: 20px;
      font-weight: 500;
+     font-family: 'Domine', serif;
+     transition: all .1s ease-in-out;
 }
+
+
  .next a:hover {
-     color: #2B51B3;
+    padding: 15px 25px 15px 25px;
+     background-color: #DEF0FF;
+     border-radius: 30px;
+     margin-right: -27px;
+     font-size: 21px;
+     transition: all .1s ease-in-out;
 }
+
+
+
 
 /* media 1280px*/
  @media (max-width: 1280px) {
@@ -1425,18 +1995,91 @@ body {
      .topnav {
          padding-right: 0px;
     }
-     .topNavLeft {
-         padding-left: 30px;
+
+    .dotnav {
+        margin-right: 0px;
     }
-     .topNavRight{
-         padding-right: 30px;
-    }
+
+
      h1 {
          font-size: 60px;
     }
      .titleInformationText {
          margin-right: 20%;
     }
+
+    .container-content {
+        padding-left: 250px;
+    }
+
+
+    .NavBarWrapper {
+        min-width: 20%;
+    }
+
+    .sidebar {
+    margin-left: 20%;
+}
+
+    .sidebar a {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .caseStudyTopContainer {
+        column-gap: 45px;
+
+    }
+
+        .imageSwivelWrapper img{
+            height: 200px;
+        }
+
+        .imageSwivelWrapperPortfolio img{
+            height: 290px;
+        }
+
+        .SwivelDownImage {
+            margin-top: 190px;
+        }
+
+        .imageSwivel {
+             height: 450px;
+        }
+
+        .SwivelDownImagePortfolio {
+            margin-top: 250px;
+        }
+
+        .imageSwivelPortfolio {
+             height: 580px;
+        }
+
+        #section-1 {
+            margin-top: -550px;
+        }
+
+
+        #section-1-smaller {
+            margin-top: -400;
+        }
+
+
+        .container-content {
+            padding-left: 200px;
+            max-width: 600px;
+        }
+
+        .NavBarWrapper {
+            min-width: 25%;
+        }
+
+        .ImageSubHeading {
+            font-size: 13px;
+            line-height: 20px;
+        }
+
+
 
     /* media 1024px*/
      @media (max-width: 1024px) {
@@ -1454,37 +2097,55 @@ body {
         }
          p {
              font-size: 17px;
-             line-height: 30px;
+             line-height: 35px;
         }
+        .LogoIcons img {
+            margin-top: 0px;
+        }
+
          .helloTagBody {
              margin-top: 90px;
         }
-         .fristHalfOfCaseStudy {
-             height: 230px;
-             font-size: 15px;
+
+
+        .container2 {
+            display: grid;
+            grid-template-columns: minmax(1rem,1fr) minmax(1rem,350px) minmax(1rem,350px) minmax(1rem,1fr);
+            grid-template-rows: auto;
+            grid-column-gap: 20px;
         }
-         .titleInformationText p {
-             font-size: 17px;
+
+         .caseStudyGridImage img {
+            margin-left: 10px;
+            margin-top: 15px;
+            width: 94%;
         }
-         .caseStudyGridLogo {
-             padding-top: 30px;
-             margin-left: 30px;
+
+        .griditem1 {
+             width: 350px;
+             height: 490px;
         }
-         .caseStudyGridTitle {
-             margin-top: 20px;
-             margin-left: 30px;
-             margin-right: 30px;
+
+         .griditem2 {
+             width: 350px;
+             height: 490px;
         }
-         .caseStudyGridTags {
-             margin-top: 20px;
-             margin-left: 30px;
-             margin-right: 30px;
+
+         .griditem3 {
+             width: 350px;
+             height: 490px;
         }
-         .caseStudyGridReadmore {
-             margin-top: 20px;
-             margin-left: 30px;
-             font-weight: 600;
+
+         .griditem4 {
+             width: 350px;
+             height: 490px;
         }
+
+         .griditem5 {
+             width: 350px;
+             height: 490px;
+        }
+
          .tabswrapper {
              padding: 40px;
              height: 630px;
@@ -1496,6 +2157,8 @@ body {
              display: block;
              width: 600px;
         }
+
+
         /* Style the buttons inside the tab */
          .tab button {
              border-radius: 0px;
@@ -1510,12 +2173,33 @@ body {
              opacity: 0.4;
              font-weight: 300;
         }
-         .caseStudyTopContainer {
-             column-gap: 30px;
+        .container-content {
+            padding-left: 230px;
+            max-width: 500px;
         }
-         .caseStudyContentWrapper {
-             column-gap: 30px;
+
+        .NavBarWrapper {
+            min-width: 30%
         }
+
+        #section-1 {
+            margin-top: -550px;
+            margin-bottom: 150px;
+            justify-content: center;
+            display: flex;
+            padding-top: 40px;
+        }
+
+
+        #section-1-smaller {
+            margin-top: -460px;
+            margin-bottom: 150px;
+            justify-content: center;
+            display: flex;
+            padding-top: 40px;
+        }
+
+
          .tabsPortfolioWrapper .tab {
              margin: auto;
              width: 100%;
@@ -1543,6 +2227,7 @@ body {
              padding-bottom: 75px;
              width: 380px 
         }
+
     }
 
     /* media 780px*/
@@ -1554,6 +2239,12 @@ body {
          .topnav {
              display: none;
         }
+
+        .dotnav {
+            display: none;
+        }
+
+
          .sidepannel1 {
              display: none;
         }
@@ -1663,7 +2354,7 @@ body {
              display: grid;
              grid-template-columns: minmax(1rem,1fr) minmax(1rem,470px) minmax(1rem,1fr);
              grid-template-rows: auto;
-             grid-row-gap: 30px;
+             grid-row-gap: 15px;
              grid-column-gap: 15px;
              margin-bottom: 100px;
              margin-top: 30px;
@@ -1676,13 +2367,20 @@ body {
              margin-left: 0px;
              text-align: left;
              font-size: 30px;
+             margin-bottom: 10px;
         }
+
+        .caseStudyGridImage {
+            margin-top: 0px;
+        }
+
          .griditem1 {
              grid-row-start: 2;
              grid-row-end: 3;
              grid-column-start: 2;
              grid-column-end: 3;
              height: 100%;
+             width: 100%;
         }
          .griditem2 {
              grid-row-start: 3;
@@ -1690,6 +2388,7 @@ body {
              grid-column-start: 2;
              grid-column-end: 3;
              height: 100%;
+             width: 100%;
         }
          .griditem3 {
              grid-row-start: 4;
@@ -1697,6 +2396,7 @@ body {
              grid-column-start: 2;
              grid-column-end: 3;
              height: 100%;
+             width: 100%;
         }
          .griditem4 {
              grid-row-start: 5;
@@ -1704,6 +2404,7 @@ body {
              grid-column-start: 2;
              grid-column-end: 3;
              height: 100%;
+             width: 100%;
         }
          .griditem5 {
              grid-row-start: 6;
@@ -1711,17 +2412,9 @@ body {
              grid-column-start: 2;
              grid-column-end: 3;
              height: 100%;
+             width: 100%;
         }
-         .caseStudyGridImage {
-             margin-top: 60px;
-        }
-         .fristHalfOfCaseStudy {
-             height: 200px;
-        }
-         .caseStudyGridReadmore {
-             font-size: 14px;
-             margin-top: 5px;
-        }
+         
          .container3 {
              margin-bottom: 150px;
              margin-top: 100px;
@@ -1733,6 +2426,31 @@ body {
              font-size: 20px;
              line-height: 30px;
         }
+
+
+        .sidebar-menu {
+            display: none;
+        }
+
+        .container-content {
+            padding:15px;
+            width: 100%;
+            max-width: 600px;
+            padding-left: 0px;
+            padding: 15px;
+        }
+
+
+        #section-1 {
+            margin-top: 0px;
+        }
+
+        #section-1-smaller {
+            margin-top: 0px;
+        }
+
+
+
          h1 {
              font-size: 50px;
         }
@@ -1815,15 +2533,15 @@ body {
              row-gap: 25px;
              column-gap: 15px;
              padding: 0px;
-             margin-bottom: 100px;
+             margin-bottom: 20px;
         }
          .AboutMainSection img {
-             top: 0px;
+             top: 20px;
              display: block;
              margin: auto;
-             height: 80%;
-             width: 50%;
-             padding-bottom: 80px;
+             height: 55%;
+             width: 60%;
+             margin-bottom: 150px;
         }
          .AboutMeHelloImage {
              grid-row-start: 2;
@@ -1913,11 +2631,46 @@ body {
              font-size: 12px;
              padding: 3px 10px 3px 10px;
         }
-         .companyInfo img {
-             margin-top: 17px;
-             height: 20px;
+
+        .companyInfo h1 {
+            font-size: 35px;
         }
-         .fullwidthphoto {
+
+        .companyInfoSmaller h1 {
+            font-size: 35px;
+        }
+
+         .companyInfo img {
+             margin-top: 3px;
+             height: 30px;
+        }
+
+        .companyInfoSmaller img {
+             margin-top: 3px;
+             height: 15px;
+        }
+
+        .caseStudyDescription p {
+                font-size: 17px;
+                line-height: 28px;
+            }
+
+        .caseStudyDescription {
+               width: 65%;
+        }
+
+
+        .caseStudyDescriptioLargern p {
+                font-size: 17px;
+                line-height: 28px;
+            }
+
+        .caseStudyDescriptionLarger {
+               width: 65%;
+        }
+
+
+        .fullwidthphoto {
              margin-top: 100px;
              margin-bottom: 100px;
         }
@@ -1934,14 +2687,224 @@ body {
              width: 100%;
         }
          .prevnextwrapper {
-             margin-top: 75px;
+             margin-top: 35px;
+             padding-left: 60px;
+             padding-right: 60px;
+             padding-bottom: 30px;
         }
+
+
          #mobielresponse {
              width: 90%;
         }
          .awards {
              margin-top: 110px;
         }
+
+        .imageSwivel {
+            height: 430px;
+        }
+
+        .imageSwivelPortfolio {
+            height: 520px;
+        }
+
+
+        .container-content h4 {
+            font-size: 30px;
+            margin-bottom: 30px;
+            line-height: 38px;
+        }
+
+        .sectionImage img {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .subHeading img {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .ImageSubHeading {
+            margin-top: -25px;
+            font-size: 12px;
+        }
+
+        .SmallerImageSubHeading {
+            margin-top: -40px;
+            font-size: 12px;
+        }
+
+        .ImageSubHeadingNoPaddingBottom {
+            margin-top: -30px;
+            font-size: 12px;
+
+        }
+
+
+        #section-1{
+            margin-bottom: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #section-1-smaller {
+            margin-bottom: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #section-2{
+            margin-bottom: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #section-3{
+            margin-bottom: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #section-4{
+            margin-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #section-5{
+            margin-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #section-6{
+            margin-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #section-7{
+            margin-bottom: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #section-8{
+            margin-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #section-9{
+            margin-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #section-10{
+            margin-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #section-11{
+            margin-bottom: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #section-12{
+            margin-bottom: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #section-13{
+            margin-bottom: 0px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .prevnextwrapper img {
+            height: 10px;
+        }
+
+        .prevnextwrapper {
+             margin-top: 75px;
+             padding-left: 30px;
+             padding-right: 30px;
+             padding-bottom: 30px;
+        }
+
+
+
+         .prev a {
+             margin-right: 30px;
+             color: #557FEC;
+             text-align: center;
+             text-decoration: none;
+             font-size: 12px;
+             font-weight: 500;
+             font-family: 'Domine', serif;
+        }
+         .prev a:hover {
+             padding: 15px 25px 15px 25px;
+             background-color: #DEF0FF;
+             border-radius: 30px;
+             margin-left: -27px;
+             font-size: 13px;
+             transition: all .1s ease-in-out;
+        }
+
+        .next a {
+             color: #557FEC;
+             text-align: center;
+             text-decoration: none;
+             font-size: 12px;
+             font-weight: 500;
+             font-family: 'Domine', serif;
+        }
+         .next a:hover {
+             padding: 15px 25px 15px 25px;
+             background-color: #DEF0FF;
+             border-radius: 30px;
+             margin-left: -27px;
+             font-size: 13px;
+             transition: all .1s ease-in-out;
+        }
+
+
+        .imageSwivelWrapperPortfolio img{
+            height: 170px;
+        }
+
+        .SwivelDownImagePortfolio {
+            margin-top: 150px;
+        }
+
+        .imageSwivelPortfolio {
+             height: 300px;
+        }
+
+
+        .imageSwivelWrapper img{
+            height: 130px;
+        }
+
+        .SwivelDownImage {
+            margin-top: 120px;
+        }
+
+
+        .imageSwivel {
+             height: 250px;
+        }
+
+
+
+
     }
     /* media @450 resize section*/
      @media (max-width: 450px) {
@@ -1967,33 +2930,12 @@ body {
              height: 390px;
              padding-top: 0px;
         }
-         .caseStudyGridImage {
-             margin-top: 80px;
-        }
-         .caseStudyGridImage img {
-             padding: 0px;
-             margin-bottom: -5px;
-             width: 85%;
-             margin-left: 15%;
-        }
-         .caseStudyGridImageCenter img {
-             margin: auto auto;
-             margin-left:10%;
-             margin-right:10%;
-             padding: 0px;
-             margin-bottom: -5px;
-             width: 80%;
-        }
-         .caseStudyGridTags {
-             font-size: 14px;
-        }
-         .caseStudyGridReadmore {
-             margin-top: 10px;
-             font-size: 15px;
-        }
-         .fristHalfOfCaseStudy {
-             height: 200px;
-        }
+
+         .container2 h2 {
+            margin-bottom: 0px;
+         }
+
+
          .tabswrapper {
              height: 500px;
         }
@@ -2076,44 +3018,85 @@ body {
              margin-left:20px;
         }
          .AboutMainSection p {
-             font-size: 15px;
+             font-size: 17px;
         }
          .AboutMainSection img {
              top: 0px;
              display: block;
              margin: auto;
-             height: 80%;
-             width: 90%;
-             padding-bottom: 80px;
+             height: 60%;
+             width: 100%;
+             margin-bottom: 150px;
+             margin-top: 10px;
         }
+
+        .AboutMainSection h3 {
+            text-align: left;
+            margin-bottom: 30px;
+            line-height: 38px;
+            font-size: 25px;
+        }
+
+
          .fullwidthphoto {
              margin-top: 70px;
              margin-bottom: 70px;
         }
          .companyInfo h1 {
-             font-size: 40px;
+             font-size: 30px;
         }
+
+        .companyInfoSmaller h1 {
+             font-size: 30px;
+        } 
          .companyInfo img {
              display: none;
         }
+
+        .companyInfoSmaller img {
+             display: none;
+        }
          .caseStudyTopContainer .tableDate {
-             font-size: 15px;
+             font-size: 12px;
         }
          .caseStudyTopContainer {
              margin-top: 30px;
              column-gap: 5px;
-             margin-bottom: 0px;
+             margin-bottom: 50px;
         }
          .caseStudyContentWrapper {
              column-gap: 5px;
         }
-         .rollandtimeright {
+
+         .caseStudyDescription {
              grid-row-start: 2;
              grid-row-end: 3;
              grid-column-start: 2;
              grid-column-end: 4;
              height: 100%;
-             margin-bottom: 25px;
+             margin-top: 0px;
+             width: 100%;
+             margin-bottom: 20px;
+        }
+
+        .caseStudyDescriptionLarger {
+             grid-row-start: 2;
+             grid-row-end: 3;
+             grid-column-start: 2;
+             grid-column-end: 4;
+             height: 100%;
+             margin-top: 0px;
+             width: 100%;
+             margin-bottom: 20px;
+        }
+
+         .rollandtimeright {
+             grid-row-start: 4;
+             grid-row-end: 5;
+             grid-column-start: 2;
+             grid-column-end: 4;
+             height: 100%;
+             padding-top: 0px;
         }
          .rollandtimeleft {
              grid-row-start: 3;
@@ -2122,17 +3105,17 @@ body {
              grid-column-end: 4;
              height: 100%;
         }
-         .caseStudyDescription {
-             grid-row-start: 4;
-             grid-row-end: 5;
-             grid-column-start: 2;
-             grid-column-end: 4;
-             height: 100%;
-             margin-top: 20px;
+         .caseStudyTopContainer .tableDate{
+             padding-top: 0px;
         }
+
+        .roleTags {
+            margin-top: 5px;
+        }
+
          .caseStudyContent h4 {
              font-size: 25px;
-             line-height: 30px;
+             line-height: 35px;
         }
          .caseStudyContent p {
              font-size: 15px;
@@ -2140,24 +3123,52 @@ body {
          .caseStudyDescription p {
              font-size: 15px;
         }
+
+        .caseStudyDescriptionLarger p {
+             font-size: 15px;
+        }
          .casestudytitle {
              font-size: 17px;
         }
          .caseStudyTopContainer h3 {
              margin-bottom: 5px;
+             margin-top: 20px;
         }
-         .prevnextwrapper {
-             margin-top: 40px;
-        }
+
          .prevnextwrapper img {
              height: 10px;
         }
+         .prevnextwrapper {
+            display: block;
+            height: 50px;
+             margin-top: 40px;
+        }
+
+        .prev {
+            width: 100%;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        .next {
+            width: 100%;
+            text-align: center;
+        }
+
          .prev a {
-             font-size: 13px;
+             font-size: 16px;
+             width: 100%;
         }
-         .next a {
-             font-size: 13px;
+        .next a {
+             font-size: 16px;
+             width: 100%;
+             text-align: center;
         }
+
+
+
+
+
          #computergif {
              width: 100%;
         }
@@ -2165,6 +3176,46 @@ body {
              margin-top: 50px;
              margin-bottom: 50px;
         }
+
+        .container-content p {
+            font-size: 13px;
+            line-height: 26px;
+        }
+
+        .subHeading {
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        .imageSwivelWrapper img{
+            height: 90px;
+        }
+
+        .SwivelDownImage {
+            margin-top: 85px;
+        }
+
+
+        .imageSwivel {
+             height: 160px;
+        }
+
+
+        .imageSwivelWrapperPortfolio img{
+            height: 150px;
+        }
+
+        .SwivelDownImagePortfolio {
+            margin-top: 130px;
+        }
+
+
+        .imageSwivelPortfolio {
+             height: 250px;
+        }
+
+
+
     }
     /* media resizing 360 section*/
      @media (max-width: 360px) {
@@ -2221,37 +3272,17 @@ body {
              display: grid;
              grid-template-columns: minmax(1rem,1fr) minmax(1rem,470px) minmax(1rem,1fr);
              grid-template-rows: auto;
-             grid-row-gap: 20px;
+             grid-row-gap: 0px;
              grid-column-gap: 0px;
              margin-bottom: 100px;
              margin-top: 0px;
         }
-         .caseStudyGridLogo {
-             padding-top: 30px;
-             margin-left: 20px;
+
+        .caseStudyGridImage img {
+            margin-left: 5px;
+            width: 95%;
         }
-         .caseStudyGridTitle {
-             margin-top: 10px;
-             margin-left: 20px;
-             margin-right: 20px;
-        }
-         .caseStudyGridTags {
-             margin-top: 10px;
-             margin-left: 20px;
-             margin-right: 20px;
-        }
-         .caseStudyGridReadmore {
-             margin-top: 10px;
-             margin-left: 20px;
-             font-weight: 600;
-             font-size: 14px;
-        }
-         .fristHalfOfCaseStudy {
-             height: 200px;
-        }
-         .caseStudyGridImage {
-             margin-top: 60px;
-        }
+
          .tabswrapper {
              height: 450px;
         }
@@ -2332,9 +3363,12 @@ body {
              top: 0px;
              display: block;
              margin: auto;
-             height: 80%;
-             width: 80%;
-             padding-bottom: 60px;
+             height: 60%;
+             width: 100%;
+             margin-bottom: 100px;
+        }
+        .AboutMainSection p {
+            font-size: 15px;
         }
          .logo {
              padding-left: 10px;
@@ -2352,13 +3386,42 @@ body {
          .caseStudyContentWrapper {
              margin-bottom: 50px;
         }
+        .container-content {
+            padding: 0px;
+        }
+
+
          .prevnextwrapper img {
              height: 7px;
         }
-         .prev a {
-             font-size: 10px;
+
+        .prevnextwrapper {
+            display: block;
+            height: 50px;
+
         }
-         .next a {
-             font-size: 10px;
+
+        .prev {
+            width: 100%;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        .next {
+            width: 100%;
+            text-align: center;
+        }
+
+         .prev a {
+             font-size: 13px;
+             width: 100%;
+        }
+        .next a {
+             font-size: 13px;
+             width: 100%;
+             text-align: center;
+        }
+
+
         }
     }
