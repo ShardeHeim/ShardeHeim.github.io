@@ -3122,6 +3122,7 @@ body {
         }
          .AboutMainSection p {
              font-size: 15px;
+             line-height: 30px;
         }
          .logo {
              padding-left: 10px;
