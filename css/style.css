@@ -1915,7 +1915,7 @@ body {
          margin-top: -470px;
     }
      #section-1-smaller {
-         margin-top: -400;
+         margin-top: -400px;
     }
      .container-content {
          padding-left: 200px;
@@ -2025,7 +2025,7 @@ body {
              padding-top: 40px;
         }
          #section-1-smaller {
-             margin-top: -460px;
+             margin-top: -400px;
              margin-bottom: 150px;
              justify-content: center;
              display: flex;
@@ -2472,7 +2472,7 @@ body {
          .caseStudyDescription {
              width: 65%;
         }
-         .caseStudyDescriptioLargern p {
+         .caseStudyDescriptioLarger p {
              font-size: 17px;
              line-height: 28px;
         }
@@ -2551,7 +2551,7 @@ body {
              margin-bottom: 0px;
              padding-left: 20px;
              padding-right: 20px;
-             padding-top: 70px;
+             padding-top: 10px;
         }
          #section-2{
              margin-bottom: 0px;
@@ -2826,7 +2826,7 @@ body {
         }
          .caseStudyTopContainer {
              margin-top: 30px;
-             column-gap: 5px;
+             column-gap: 15px;
              margin-bottom: 50px;
         }
          .caseStudyContentWrapper {
@@ -2888,6 +2888,7 @@ body {
         }
          .caseStudyDescriptionLarger p {
              font-size: 15px;
+             line-height: 30px;
         }
          .casestudytitle {
              font-size: 17px;
@@ -3040,6 +3041,10 @@ body {
          .caseStudyGridImage img {
              margin-left: 5px;
              width: 95%;
+        }
+
+        .caseStudyTopContainer {
+             column-gap: 5px;
         }
          .container3 {
              margin-top: 10px;
