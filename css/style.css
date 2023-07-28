@@ -1104,7 +1104,7 @@ body {
 /*about page*/
 /* above fold moving text section*/
  .AboutTop {
-     padding-top: 100px;
+     padding-top: 70px;
      margin: auto;
      overflow: hidden;
      width: auto;
@@ -1116,7 +1116,7 @@ body {
  .aboutWrapper {
      width: 10000%;
      flex-flow: row;
-     margin-top: 500px;
+     margin-top: 530px;
      display: flex;
      position: absolute;
      top: 0%;
