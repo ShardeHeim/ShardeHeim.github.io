@@ -8,21 +8,21 @@ body {
      height: 100%;
      background-color: #FFFFFF;
 }
-
  html {
      margin: 0;
      padding: 0;
      height: 100%;
      scroll-behavior: smooth;
 }
-
  a {
      color: #557FEC;
      text-decoration: none;
+     transition: all .2s ease-in-out;
 }
  a:hover {
      color: #2B51B3;
      font-weight: 500;
+     transition: all .2s ease-in-out;
 }
 
 /*headings*/
@@ -86,7 +86,6 @@ body {
      height: 100%;
 }
 
-
 /*buttons*/
  button {
      font-family: 'Domine', serif;
@@ -135,7 +134,7 @@ body {
      margin: auto;
      overflow: hidden;
      max-width: 1280px;
-     height: 45px;
+     height: 47px;
 }
 
 /* logo icons*/
@@ -148,14 +147,14 @@ body {
      transition: all .5s ease-in-out;
      opactiy: 1;
 }
-.Hlogo {
+ .Hlogo {
      flex-grow: 1;
      width: 50px;
      text-align: center;
 }
  .LogoIcons img {
-    height: 45px;
-    margin-top: 4px;
+     height: 45px;
+     margin-top: 4px;
 }
  .hoverLogoIcons {
      top: 0;
@@ -164,14 +163,12 @@ body {
 }
  .LogoIcons:hover .hoverLogoIcons {
      display: inline;
-    transition: 0.3s;
+     transition: 0.3s;
 }
  .LogoIcons:hover .activeLogoIcons {
      display: none;
-    transition: 0.3s;
+     transition: 0.3s;
 }
-
-
 
 /* Top Nav*/
  .topNavLeft {
@@ -179,19 +176,19 @@ body {
      width: 660px;
      height: 40px;
 }
-.navleftwidth1 {
-    margin-top: 7px;
-    width: 100px;
-    height: 30px;
-    display: inline-block;
-    text-align: center;
+ .navleftwidth1 {
+     margin-top: 7px;
+     width: 100px;
+     height: 30px;
+     display: inline-block;
+     text-align: center;
 }
-.navleftwidth2 {
-    margin-top: 7px;
-    width: 150px;
-    height: 30px;
-    display: inline-block;
-    text-align: center;
+ .navleftwidth2 {
+     margin-top: 7px;
+     width: 150px;
+     height: 30px;
+     display: inline-block;
+     text-align: center;
 }
  .topNavLeft a {
      color: #23203E;
@@ -216,21 +213,21 @@ body {
      width: 660px;
      height: 40px;
 }
-.navrightwidth3 {
-    margin-top: 7px;
-    float: right;
-    text-align: center;
-    width: 130px;
-    height: 30px;
-    display: inline-block;
+ .navrightwidth3 {
+     margin-top: 7px;
+     float: right;
+     text-align: center;
+     width: 130px;
+     height: 30px;
+     display: inline-block;
 }
-.navrightwidth4 {
-    margin-top: 7px;
-    float: right;
-    text-align: center;
-    width: 120px;
-    height: 30px;
-    display: inline-block;
+ .navrightwidth4 {
+     margin-top: 7px;
+     float: right;
+     text-align: center;
+     width: 120px;
+     height: 30px;
+     display: inline-block;
 }
  .topNavRight a {
      color: #23203E;
@@ -240,46 +237,38 @@ body {
      font-weight: 300;
      transition: all .1s ease-in-out;
 }
-
-.navActive {
-    font-weight: 500;
-    display: inline-block;
+ .navActive {
+     font-weight: 500;
+     display: inline-block;
 }
-
  .topNavRight a:hover {
      color: #557FEC;
      font-weight: 300;
      background-color: #DEF0FF;
      padding: 10px 25px 10px 25px;
      border-radius: 250px;
-     marging-left: 0px;
+     margin-left: 0px;
      font-size: 16px;
 }
-
-
-.navActive:hover {
-    font-weight: 300;
+ .navActive:hover {
+     font-weight: 300;
 }
-
  .dotnav {
      align-items: center;
      margin: auto;
      max-width: 1280px;
 }
-.dot {
-  height: 5px;
-  width: 5px;
-  background-color: #557FEC;
-  border-radius: 50%;
-  display: inline-block;
-  z-index: 1;
-  margin-right: 185px;
-  margin-top: -9px;
-  float: right;
+ .dot {
+     height: 5px;
+     width: 5px;
+     background-color: #557FEC;
+     border-radius: 50%;
+     display: inline-block;
+     z-index: 1;
+     margin-right: 185px;
+     margin-top: -9px;
+     float: right;
 }
-
-
-
 
 /*navigation mobile*/
  .topMobilelNav {
@@ -526,7 +515,7 @@ body {
 }
  .sideEmail p {
      font-size: 15px;
-     pading: 0px;
+     padding: 0px;
 }
  .sideEmail a {
      color: #18143A;
@@ -662,7 +651,7 @@ body {
      font-size: 20px;
 }
  .titleInformationText a:hover {
-     margin-left: -1px;
+     margin-left: 0px;
 }
 
 /*Moving Images text*/
@@ -750,22 +739,19 @@ body {
      color: #EEEFF0;
      display: inline;
 }
-.container2 h2 {
-    margin-bottom: 20px;
+ .container2 h2 {
+     margin-bottom: 20px;
 }
-
-
 
 /* main case studys*/
  .caseStudyGridImage img {
-    margin-left: 15px;
-    margin-top: 20px;
-    width: 94%;
-    transition: all .2s ease-in-out;
-    box-shadow: rgba(17, 12, 46, 0.05) 0px 48px 100px 0px;
-    border-radius: 17px;
+     margin-left: 15px;
+     margin-top: 20px;
+     width: 94%;
+     transition: all .2s ease-in-out;
+     box-shadow: rgba(17, 12, 46, 0.05) 0px 48px 100px 0px;
+     border-radius: 17px;
 }
-
  .griditem1 {
      grid-row-start: 2;
      grid-row-end: 3;
@@ -776,12 +762,12 @@ body {
      transition: all .2s ease-in-out;
 }
  .griditem1 img:hover {
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
-    border-radius: 17px;
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 0px;
-    transition: all .2s ease-in-out;
+     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
+     border-radius: 17px;
+     width: 100%;
+     margin-left: 0px;
+     margin-top: 0px;
+     transition: all .2s ease-in-out;
 }
  .griditem2 {
      grid-row-start: 2;
@@ -792,13 +778,13 @@ body {
      height: 665px;
      transition: all .2s ease-in-out;
 }
-.griditem2 img:hover {
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
-    border-radius: 17px;
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 0px;
-    transition: all .2s ease-in-out;
+ .griditem2 img:hover {
+     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
+     border-radius: 17px;
+     width: 100%;
+     margin-left: 0px;
+     margin-top: 0px;
+     transition: all .2s ease-in-out;
 }
  .griditem3 {
      grid-row-start: 3;
@@ -810,12 +796,12 @@ body {
      transition: all .2s ease-in-out;
 }
  .griditem3 img:hover {
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
-    border-radius: 17px;
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 0px;
-    transition: all .2s ease-in-out;
+     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
+     border-radius: 17px;
+     width: 100%;
+     margin-left: 0px;
+     margin-top: 0px;
+     transition: all .2s ease-in-out;
 }
  .griditem4 {
      grid-row-start: 3;
@@ -826,13 +812,13 @@ body {
      height: 665px;
      transition: all .2s ease-in-out;
 }
- .griditem4 img:hover  {
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
-    border-radius: 17px;
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 0px;
-    transition: all .2s ease-in-out;
+ .griditem4 img:hover {
+     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
+     border-radius: 17px;
+     width: 100%;
+     margin-left: 0px;
+     margin-top: 0px;
+     transition: all .2s ease-in-out;
 }
  .griditem5 {
      grid-row-start: 4;
@@ -843,16 +829,14 @@ body {
      height: 665px;
      transition: all .2s ease-in-out;
 }
- .griditem5 img:hover  {
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
-    border-radius: 17px;
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 0px;
-    transition: all .2s ease-in-out;
+ .griditem5 img:hover {
+     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.1) 0px 50px 100px -20px, rgba(0, 0, 0, 0.1) 0px 30px 60px -30px;
+     border-radius: 17px;
+     width: 100%;
+     margin-left: 0px;
+     margin-top: 0px;
+     transition: all .2s ease-in-out;
 }
-
-
 
 /* third section*/
  .container3 {
@@ -862,20 +846,18 @@ body {
      margin-bottom: 250px;
      margin-top: 70px;
 }
-
-.smallHeight {
-            display: block;
-            height: 5px;
-            width: 100%;
-            margin-top: 160px;
-         }
-
+ .smallHeight {
+     display: block;
+     height: 5px;
+     width: 100%;
+     margin-top: 160px;
+}
  .tabswrapper {
      grid-row-start: 1;
      grid-row-end: 2;
      grid-column-start: 2;
      grid-column-end: 3;
-     height: 670px;
+     height: 690px;
 }
 
 /* Style the tab */
@@ -909,7 +891,7 @@ body {
      padding: 11px 20px 12px 20px;
      color: #557FEC;
      font-weight: 500;
-     border-radius: 30px;
+     border-radius: 50px;
      transition: all .3s ease-in-out;
      opacity: 1;
 }
@@ -972,7 +954,7 @@ body {
      height: 22px;
      margin: auto;
      font-weight: 400;
-     transition: 0.2s;
+     ransition: all .2s ease-in-out;
      padding: 10px 20px 10px 20px;
 }
  .skill-table {
@@ -1118,7 +1100,6 @@ body {
      text-align: center;
      font-size: 15px;
 }
-
 
 /*about page*/
 /* above fold moving text section*/
@@ -1279,7 +1260,6 @@ body {
      font-family: 'Montserrat', sans-serif;
      line-height: 45px;
      font-size: 32px;
-
 }
  .AboutMainSection img {
      position: relative;
@@ -1303,15 +1283,13 @@ body {
      grid-column-end: 4;
      margin-bottom: 20px;
 }
-
-.companyInfoSmaller {
+ .companyInfoSmaller {
      grid-row-start: 1;
      grid-row-end: 2;
      grid-column-start: 2;
      grid-column-end: 4;
      margin-bottom: 20px;
 }
-
  .caseStudyDescription {
      grid-row-start: 2;
      grid-row-end: 3;
@@ -1320,9 +1298,7 @@ body {
      height: 100%;
      width: 49%;
 }
-
-
-.caseStudyDescriptionLarger {
+ .caseStudyDescriptionLarger {
      grid-row-start: 2;
      grid-row-end: 3;
      grid-column-start: 2;
@@ -1330,17 +1306,14 @@ body {
      height: 100%;
      width: 65%;
 }
-
-.caseStudyDescription p {
-    font-size: 20px;
-    }
-
-.companyInfo h1 {
+ .caseStudyDescription p {
+     font-size: 20px;
+}
+ .companyInfo h1 {
      float: left;
      font-size: 40px;
 }
-
-.companyInfoSmaller h1 {
+ .companyInfoSmaller h1 {
      float: left;
      font-size: 40px;
 }
@@ -1348,17 +1321,13 @@ body {
      float: right;
      margin-top: 0px;
 }
-
  .companyInfoSmaller img {
      float: right;
      margin-top: 0px;
 }
-
  .caseStudyTopContainer h3 {
      margin-top: 50px;
 }
-
-
  .rollandtimeleft {
      grid-row-start: 3;
      grid-row-end: 4;
@@ -1373,18 +1342,13 @@ body {
      grid-column-end: 4;
      height: 100%;
 }
-
-
  .caseStudyTopContainer .tableDate{
      text-align: left;
      padding-top: 15px;
 }
-
-.roleTags {
-    margin-top: 10px;
+ .roleTags {
+     margin-top: 10px;
 }
-
-
 
 /* tag styling*/
  .UXTag {
@@ -1419,7 +1383,6 @@ body {
      float: left;
      margin-right: 10px;
      margin-top: 5px;
-
 }
  .ContTag {
      background-color: #FFE3F6;
@@ -1466,7 +1429,6 @@ body {
      margin-top: 5px;
 }
 
-
 /* imageSwivel*/
  .imageSwivel {
      padding-top: 50px;
@@ -1480,7 +1442,6 @@ body {
      align-items: flex-start;
      flex-direction: column;
 }
-
  .imageSwivelPortfolio {
      padding-top: 50px;
      margin: auto;
@@ -1493,7 +1454,6 @@ body {
      align-items: flex-start;
      flex-direction: column;
 }
-
  .imageSwivelWrapper {
      width: 1000%;
      flex-flow: row;
@@ -1505,8 +1465,6 @@ body {
      left: 0%;
      right: 0%;
 }
-
-
  .imageSwivelWrapperPortfolio {
      width: 1000%;
      flex-flow: row;
@@ -1519,7 +1477,6 @@ body {
      left: 0%;
      right: 0%;
 }
-
  .SwivelTopImage {
      z-index: 0;
      flex-wrap: nowrap;
@@ -1534,8 +1491,6 @@ body {
      align-items: flex-start;
      flex-direction: column;
 }
-
-
  .SwivelDownImage {
      z-index: 0;
      flex-wrap: nowrap;
@@ -1550,8 +1505,6 @@ body {
      align-items: flex-start;
      flex-direction: column;
 }
-
-
  .SwivelTopImagePortfolio {
      z-index: 0;
      flex-wrap: nowrap;
@@ -1566,7 +1519,6 @@ body {
      align-items: flex-start;
      flex-direction: column;
 }
-
  .SwivelDownImagePortfolio {
      z-index: 0;
      flex-wrap: nowrap;
@@ -1582,343 +1534,272 @@ body {
      flex-direction: column;
 }
 
-
-
-
-
-
 /* Case Study conent styling*/
-.container-wrapper {
+ .container-wrapper {
      display: block;
 }
-
-.sidebar-menu{
+ .sidebar-menu{
      position: webkit-sticky;
      position: sticky;
      top: 125px;
 }
-
-.nav-sidebar {
-    justify-content: flex-start;
-    padding-top: 0;
-    display: flex;
-    position: sticky;
-    top: 10px;
+ .nav-sidebar {
+     justify-content: flex-start;
+     padding-top: 0;
+     display: flex;
+     position: sticky;
+     top: 10px;
 }
-
-.NavBarWrapper {
-    min-width: 25%;
-    flex-flow: column;
-    align-content: flex-start;
-    margin-top: 0;
-    padding-top: 0;
-    display: flex;
-    position: -webkit-sticky;
-    position: sticky;
-    bottom: auto;
-    left: auto;
-    right: auto;
+ .NavBarWrapper {
+     min-width: 25%;
+     flex-flow: column;
+     align-content: flex-start;
+     margin-top: 0;
+     padding-top: 0;
+     display: flex;
+     position: -webkit-sticky;
+     position: sticky;
+     bottom: auto;
+     left: auto;
+     right: auto;
 }
-
-.LittleNav {
-    z-index: 1000;
-    position: relative;
+ .LittleNav {
+     z-index: 1000;
+     position: relative;
 }
-
-
-.sidebar {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 10px;
-    margin-left: 30%;
-    display: flex;
-    position: absolute;
+ .sidebar {
+     flex-direction: column;
+     align-items: flex-start;
+     margin-top: 10px;
+     margin-left: 30%;
+     display: flex;
+     position: absolute;
 }
-
-.LittleNavMenu {
-    float: right;
-    position: relative;
+ .LittleNavMenu {
+     float: right;
+     position: relative;
 }
-
-.nav-item-icon {
-    align-items: center;
-    transition: opacity .2s, transform .2s;
-    display: flex;
+ .nav-item-icon {
+     align-items: center;
+     transition: opacity .2s, transform .2s;
+     display: flex;
 }
-
-
-.nav-item-icon:hover {
-    transform: translate(5px);
+ .nav-item-icon:hover {
+     transform: translate(5px);
 }
-
-
-.nav-link {
-    vertical-align: top;
-    color: #3C4866;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
+ .nav-link {
+     vertical-align: top;
+     color: #3C4866;
+     text-align: left;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 20px;
+     text-decoration: none;
+     display: inline-block;
+     position: relative;
 }
-
-
-.sidebar a {
-    color: #3C4866;
-    transition: opacity .2s;
-    display: block;
-    font-size: 15px;
+ .sidebar a {
+     color: #3C4866;
+     transition: opacity .2s;
+     display: block;
+     font-size: 15px;
 }
-
-.container-content a {
-    color: #557FEC;
-    vertical-align: top;
-    position: relative;
-    font-weight: 500;
+ .container-content a {
+     color: #557FEC;
+     vertical-align: top;
+     position: relative;
+     font-weight: 500;
 }
-
-
-.container-content a:hover {
-    color: #2B51B3;
-    font-weight: 500;
-    cursor: pointer;
+ .container-content a:hover {
+     color: #2B51B3;
+     font-weight: 500;
+     cursor: pointer;
 }
-
-.subHeading {
-    font-weight: 500;
-    font-size: 19px;
-    padding-bottom: 17px;
-    line-height: 30px;
+ .subHeading {
+     font-weight: 500;
+     font-size: 19px;
+     padding-bottom: 17px;
+     line-height: 30px;
 }
-
-
-
-.container-content span {
-    font-size: 25px;
-} 
-
-.active  {
-    font-weight: 800;
+ .container-content span {
+     font-size: 25px;
 }
-
-.nav-link-sidebar {
-    color: #3C4866;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+ .active {
+     font-weight: 800;
 }
-
-
-
-#section-1 {
-    margin-top: -590px;
-    margin-bottom: 90px;
-    justify-content: center;
-    display: flex;
-    padding-top: 40px;
+ .nav-link-sidebar {
+     color: #3C4866;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 20px;
 }
-
-
-#section-1-smaller {
-            margin-top: -480px;
-            margin-bottom: 90px;
-            justify-content: center;
-            display: flex;
-            padding-top: 40px;
-        }
-
-#section-2 {
-    margin-bottom: 90px;
-    justify-content: center;
-    display: flex;
-    padding-top: 40px;
+ #section-1 {
+     margin-top: -590px;
+     margin-bottom: 90px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-#section-3 {
-    margin-bottom: 90px;
-    justify-content: center;
-    display: flex;
-    padding-top: 40px;
+ #section-1-smaller {
+     margin-top: -480px;
+     margin-bottom: 90px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-#section-4 {
-    margin-bottom: 150px;
-    justify-content: center;
-    display: flex;
-    padding-top: 40px;
+ #section-2 {
+     margin-bottom: 90px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-#section-5 {
-    margin-bottom: 150px;
-    justify-content: center;
-    display: flex;
-    padding-top: 40px;
+ #section-3 {
+     margin-bottom: 90px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-
-#section-6 {
-    margin-bottom: 150px;
-    justify-content: center;
-    display: flex;
-    padding-top: 40px;
+ #section-4 {
+     margin-bottom: 150px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-#section-7 {
-    margin-bottom: 150px;
-    justify-content: center;
-    display: flex;
-    padding-top: 40px;
+ #section-5 {
+     margin-bottom: 150px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-
-#section-8 {
-    margin-bottom: 150px;
-    justify-content: center;
-    display: flex;
-    padding-top: 40px;
+ #section-6 {
+     margin-bottom: 150px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-
-#section-9 {
-    margin-bottom: 150px;
-    justify-content: center;
-    display: flex;
-    padding-top: 40px;
+ #section-7 {
+     margin-bottom: 150px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-#section-10 {
-    margin-bottom: 150px;
-    justify-content: center;
-    display: flex;
-    padding-top: 40px;
+ #section-8 {
+     margin-bottom: 150px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-#section-11 {
-    margin-bottom: 150px;
-    justify-content: center;
-    display: flex;
-    padding-top: 40px;
+ #section-9 {
+     margin-bottom: 150px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-#section-12 {
-    margin-bottom: 150px;
-    justify-content: center;
-    display: flex;
-    padding-top: 40px;
+ #section-10 {
+     margin-bottom: 150px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-#section-13 {
-    margin-bottom: 150px;
-    justify-content: center;
-    display: flex;
-    padding-top: 40px;
+ #section-11 {
+     margin-bottom: 150px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-
-.container-content {
-    padding-left: 300px;
-    max-width: 780px;
-    min-height: 100%;
-    background-color: #fff;
-    padding-bottom: 0;
+ #section-12 {
+     margin-bottom: 150px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-
-.sectionImage img {
-    margin-top: 70px;
-    margin-bottom: 70px;
+ #section-13 {
+     margin-bottom: 150px;
+     justify-content: center;
+     display: flex;
+     padding-top: 40px;
 }
-
-
-
-.SmallerSectionImage img {
-    margin-top: 40px;
-    margin-bottom: 40px;
+ .container-content {
+     padding-left: 300px;
+     max-width: 780px;
+     min-height: 100%;
+     background-color: #fff;
+     padding-bottom: 0;
 }
-
-.subHeading img{
-    display: inline-block;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-right: 10px;
+ .sectionImage img {
+     margin-top: 70px;
+     margin-bottom: 70px;
 }
-
-.ImageSubHeading {
-    font-size: 15px;
-    font-style: italic;
-    font-weight: 100;
-    opacity: 0.5;
-    text-align: center;
-    margin-top: -40px;
-    padding-bottom: 50px;
-    line-height: 15px;
+ .SmallerSectionImage img {
+     margin-top: 40px;
+     margin-bottom: 40px;
 }
-
-.AIReqImageSubHeading {
-    font-size: 15px;
-    font-style: italic;
-    font-weight: 100;
-    opacity: 0.5;
-    text-align: center;
-    margin-top: -60px;
-    padding-bottom: 50px;
-    line-height: 15px;
+ .subHeading img{
+     display: inline-block;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     padding-right: 10px;
 }
-
-.SmallerImageSubHeading {
-    font-size: 15px;
-    font-style: italic;
-    font-weight: 100;
-    opacity: 0.5;
-    text-align: center;
-    margin-top: -80px;
-    padding-bottom: 40px;
-    line-height: 20px;
+ .ImageSubHeading {
+     font-size: 15px;
+     font-style: italic;
+     font-weight: 100;
+     opacity: 0.5;
+     text-align: center;
+     margin-top: -40px;
+     padding-bottom: 50px;
+     line-height: 15px;
 }
-
-.ImageSubHeadingNoPaddingBottom{
-    font-size: 13px;
-    font-style: italic;
-    font-weight: 100;
-    opacity: 0.5;
-    text-align: center;
-    margin-top: -50px;
-    padding-bottom: 0px;
-    line-height: 20px;
+ .AIReqImageSubHeading {
+     font-size: 15px;
+     font-style: italic;
+     font-weight: 100;
+     opacity: 0.5;
+     text-align: center;
+     margin-top: -60px;
+     padding-bottom: 50px;
+     line-height: 15px;
 }
-
-
-.container-content h4 {
+ .SmallerImageSubHeading {
+     font-size: 15px;
+     font-style: italic;
+     font-weight: 100;
+     opacity: 0.5;
+     text-align: center;
+     margin-top: -80px;
+     padding-bottom: 40px;
+     line-height: 20px;
+}
+ .ImageSubHeadingNoPaddingBottom{
+     font-size: 13px;
+     font-style: italic;
+     font-weight: 100;
+     opacity: 0.5;
+     text-align: center;
+     margin-top: -50px;
+     padding-bottom: 0px;
+     line-height: 20px;
+}
+ .container-content h4 {
      margin-bottom: 40px;
      font-size: 35px;
 }
-
-
-.container-content p {
-    font-size: 17px;
-    color: #18143A;
+ .container-content p {
+     font-size: 17px;
+     color: #18143A;
 }
-
-.container-content p b {
-    font-weight: 500;
+ .container-content p b {
+     font-weight: 500;
 }
-
-.indent {
-    margin-left: 15px;
+ .indent {
+     margin-left: 15px;
 }
-
-
 
 /* full image width styling*/
  .fullwidthphoto {
      margin-bottom: 100px;
      margin-top: 100px;
 }
-
-
-
  #computergif {
      margin: auto auto;
      width: 80%;
@@ -1927,7 +1808,7 @@ body {
 
 /* Prev and Next buttons*/
  .prevnextwrapper {
-    margin: auto;
+     margin: auto;
      margin-top: 200px;
      max-width: 780px;
      padding-bottom: 100px;
@@ -1954,13 +1835,9 @@ body {
      font-size: 21px;
      transition: all .1s ease-in-out;
 }
-
-
  .next {
      float: right;
 }
-
-
  .next a {
      color: #557FEC;
      text-align: center;
@@ -1970,19 +1847,14 @@ body {
      font-family: 'Domine', serif;
      transition: all .1s ease-in-out;
 }
-
-
  .next a:hover {
-    padding: 15px 25px 15px 25px;
+     padding: 15px 25px 15px 25px;
      background-color: #DEF0FF;
      border-radius: 30px;
      margin-right: -27px;
      font-size: 21px;
      transition: all .1s ease-in-out;
 }
-
-
-
 
 /* media 1280px*/
  @media (max-width: 1280px) {
@@ -1992,91 +1864,66 @@ body {
      .topnav {
          padding-right: 0px;
     }
-
-    .dotnav {
-        margin-right: 0px;
+     .dotnav {
+         margin-right: 0px;
     }
-
-
      h1 {
          font-size: 60px;
     }
      .titleInformationText {
          margin-right: 20%;
     }
-
-    .container-content {
-        padding-left: 250px;
+     .container-content {
+         padding-left: 250px;
     }
-
-
-    .NavBarWrapper {
-        min-width: 20%;
+     .NavBarWrapper {
+         min-width: 20%;
     }
-
-    .sidebar {
-    margin-left: 20%;
-}
-
-    .sidebar a {
-        font-size: 12px;
-        line-height: 16px;
+     .sidebar {
+         margin-left: 20%;
     }
-
-    .caseStudyTopContainer {
-        column-gap: 45px;
-
+     .sidebar a {
+         font-size: 12px;
+         line-height: 16px;
     }
-
-        .imageSwivelWrapper img{
-            height: 200px;
-        }
-
-        .imageSwivelWrapperPortfolio img{
-            height: 290px;
-        }
-
-        .SwivelDownImage {
-            margin-top: 190px;
-        }
-
-        .imageSwivel {
-             height: 450px;
-        }
-
-        .SwivelDownImagePortfolio {
-            margin-top: 250px;
-        }
-
-        .imageSwivelPortfolio {
-             height: 580px;
-        }
-
-        #section-1 {
-            margin-top: -550px;
-        }
-
-
-        #section-1-smaller {
-            margin-top: -400;
-        }
-
-
-        .container-content {
-            padding-left: 200px;
-            max-width: 600px;
-        }
-
-        .NavBarWrapper {
-            min-width: 25%;
-        }
-
-        .ImageSubHeading {
-            font-size: 13px;
-            line-height: 20px;
-        }
-
-
+     .caseStudyTopContainer {
+         column-gap: 45px;
+    }
+     .imageSwivelWrapper img{
+         height: 200px;
+    }
+     .imageSwivelWrapperPortfolio img{
+         height: 290px;
+    }
+     .SwivelDownImage {
+         margin-top: 190px;
+    }
+     .imageSwivel {
+         height: 450px;
+    }
+     .SwivelDownImagePortfolio {
+         margin-top: 250px;
+    }
+     .imageSwivelPortfolio {
+         height: 580px;
+    }
+     #section-1 {
+         margin-top: -550px;
+    }
+     #section-1-smaller {
+         margin-top: -400;
+    }
+     .container-content {
+         padding-left: 200px;
+         max-width: 600px;
+    }
+     .NavBarWrapper {
+         min-width: 25%;
+    }
+     .ImageSubHeading {
+         font-size: 13px;
+         line-height: 20px;
+    }
 
     /* media 1024px*/
      @media (max-width: 1024px) {
@@ -2096,53 +1943,43 @@ body {
              font-size: 17px;
              line-height: 35px;
         }
-        .LogoIcons img {
-            margin-top: 0px;
+         .LogoIcons img {
+             margin-top: 0px;
         }
-
          .helloTagBody {
              margin-top: 90px;
         }
-
-
-        .container2 {
-            display: grid;
-            grid-template-columns: minmax(1rem,1fr) minmax(1rem,350px) minmax(1rem,350px) minmax(1rem,1fr);
-            grid-template-rows: auto;
-            grid-column-gap: 20px;
+         .container2 {
+             display: grid;
+             grid-template-columns: minmax(1rem,1fr) minmax(1rem,350px) minmax(1rem,350px) minmax(1rem,1fr);
+             grid-template-rows: auto;
+             grid-column-gap: 20px;
         }
-
          .caseStudyGridImage img {
-            margin-left: 10px;
-            margin-top: 15px;
-            width: 94%;
+             margin-left: 10px;
+             margin-top: 15px;
+             width: 94%;
         }
-
-        .griditem1 {
+         .griditem1 {
              width: 350px;
              height: 490px;
         }
-
          .griditem2 {
              width: 350px;
              height: 490px;
         }
-
          .griditem3 {
              width: 350px;
              height: 490px;
         }
-
          .griditem4 {
              width: 350px;
              height: 490px;
         }
-
          .griditem5 {
              width: 350px;
              height: 490px;
         }
-
          .tabswrapper {
              padding: 40px;
              height: 630px;
@@ -2154,7 +1991,6 @@ body {
              display: block;
              width: 600px;
         }
-
 
         /* Style the buttons inside the tab */
          .tab button {
@@ -2170,47 +2006,39 @@ body {
              opacity: 0.4;
              font-weight: 300;
         }
-        .container-content {
-            padding-left: 230px;
-            max-width: 500px;
+         .container-content {
+             padding-left: 230px;
+             max-width: 500px;
         }
-
-        .NavBarWrapper {
-            min-width: 30%
+         .NavBarWrapper {
+             min-width: 30% 
         }
-
-        #section-1 {
-            margin-top: -550px;
-            margin-bottom: 150px;
-            justify-content: center;
-            display: flex;
-            padding-top: 40px;
+         #section-1 {
+             margin-top: -550px;
+             margin-bottom: 150px;
+             justify-content: center;
+             display: flex;
+             padding-top: 40px;
         }
-
-
-        #section-1-smaller {
-            margin-top: -460px;
-            margin-bottom: 150px;
-            justify-content: center;
-            display: flex;
-            padding-top: 40px;
+         #section-1-smaller {
+             margin-top: -460px;
+             margin-bottom: 150px;
+             justify-content: center;
+             display: flex;
+             padding-top: 40px;
         }
-
 
         /*universal attributes*/
          .logo {
              margin: auto;
         }
-
-        .container3 {
+         .container3 {
              margin-bottom: 180px;
              margin-top: 20px;
         }
-
-        .titleInformationText p {
-            font-size: 17px;
+         .titleInformationText p {
+             font-size: 17px;
         }
-
          footer {
              padding-left:20px;
              padding-right: 20px;
@@ -2222,9 +2050,7 @@ body {
              padding-bottom: 75px;
              width: 380px 
         }
-
     }
-
     /* media 780px*/
      @media (max-width: 780px) {
         /* navigation x*/
@@ -2234,12 +2060,9 @@ body {
          .topnav {
              display: none;
         }
-
-        .dotnav {
-            display: none;
+         .dotnav {
+             display: none;
         }
-
-
          .sidepannel1 {
              display: none;
         }
@@ -2286,10 +2109,12 @@ body {
          #acute {
              height: 13px;
         }
+
         /*Sharde Heim heading*/
          .largeTitle h1 {
              text-align: center;
         }
+
         /* who I am text*/
          .titleInformationText {
              margin-right: 0px;
@@ -2299,6 +2124,7 @@ body {
              text-align: center;
              padding-left: 10px;
              padding-right: 10px;
+             line-height: 30px;
         }
          .informationpannel {
              margin-top: 100px;
@@ -2315,8 +2141,8 @@ body {
         }
          .informationpannel p {
              text-align: center;
-             font-size: 18px;
-             line-height: 2;
+             font-size: 17px;
+             line-height: 32px;
         }
          .floatingtooltip {
              animation: MoveUpDown 3s linear infinite;
@@ -2364,11 +2190,9 @@ body {
              font-size: 30px;
              margin-bottom: 10px;
         }
-
-        .caseStudyGridImage {
-            margin-top: 0px;
+         .caseStudyGridImage {
+             margin-top: 0px;
         }
-
          .griditem1 {
              grid-row-start: 2;
              grid-row-end: 3;
@@ -2409,21 +2233,16 @@ body {
              height: 100%;
              width: 100%;
         }
-         
          .container3 {
              margin-bottom: 150px;
              margin-top: 30px;
         }
-
-
-        .smallHeight {
-            display: block;
-            height: 5px;
-            width: 100%;
-            margin-top: 120px;
-         }
-
-
+         .smallHeight {
+             display: block;
+             height: 5px;
+             width: 100%;
+             margin-top: 120px;
+        }
          .container4 {
              margin-bottom: 150px;
         }
@@ -2431,31 +2250,22 @@ body {
              font-size: 20px;
              line-height: 30px;
         }
-
-
-        .sidebar-menu {
-            display: none;
+         .sidebar-menu {
+             display: none;
         }
-
-        .container-content {
-            padding:15px;
-            width: 100%;
-            max-width: 600px;
-            padding-left: 0px;
-            padding: 15px;
+         .container-content {
+             padding:15px;
+             width: 100%;
+             max-width: 600px;
+             padding-left: 0px;
+             padding: 15px;
         }
-
-
-        #section-1 {
-            margin-top: 0px;
+         #section-1 {
+             margin-top: 0px;
         }
-
-        #section-1-smaller {
-            margin-top: 0px;
+         #section-1-smaller {
+             margin-top: 0px;
         }
-
-
-
          h1 {
              font-size: 50px;
         }
@@ -2475,7 +2285,7 @@ body {
              text-align: center;
         }
          .tabswrapper {
-             padding: 10px;
+             padding: 15px;
              height: 700px;
         }
          .tab {
@@ -2507,6 +2317,7 @@ body {
              font-size: 30px;
              text-align: center;
         }
+
         /*About Section*/
          .AboutTop {
              padding-top: 0px;
@@ -2636,46 +2447,35 @@ body {
              font-size: 12px;
              padding: 3px 10px 3px 10px;
         }
-
-        .companyInfo h1 {
-            font-size: 35px;
+         .companyInfo h1 {
+             font-size: 35px;
         }
-
-        .companyInfoSmaller h1 {
-            font-size: 35px;
+         .companyInfoSmaller h1 {
+             font-size: 35px;
         }
-
          .companyInfo img {
              margin-top: 3px;
              height: 30px;
         }
-
-        .companyInfoSmaller img {
+         .companyInfoSmaller img {
              margin-top: 3px;
              height: 15px;
         }
-
-        .caseStudyDescription p {
-                font-size: 17px;
-                line-height: 28px;
-            }
-
-        .caseStudyDescription {
-               width: 65%;
+         .caseStudyDescription p {
+             font-size: 17px;
+             line-height: 28px;
         }
-
-
-        .caseStudyDescriptioLargern p {
-                font-size: 17px;
-                line-height: 28px;
-            }
-
-        .caseStudyDescriptionLarger {
-               width: 65%;
+         .caseStudyDescription {
+             width: 65%;
         }
-
-
-        .fullwidthphoto {
+         .caseStudyDescriptioLargern p {
+             font-size: 17px;
+             line-height: 28px;
+        }
+         .caseStudyDescriptionLarger {
+             width: 65%;
+        }
+         .fullwidthphoto {
              margin-top: 100px;
              margin-bottom: 100px;
         }
@@ -2697,154 +2497,125 @@ body {
              padding-right: 60px;
              padding-bottom: 30px;
         }
-
-
+         .tableDate {
+             font-size: 13px;
+        }
          #mobielresponse {
              width: 90%;
         }
          .awards {
              margin-top: 110px;
         }
-
-        .imageSwivel {
-            height: 430px;
+         .imageSwivel {
+             height: 430px;
         }
-
-        .imageSwivelPortfolio {
-            height: 520px;
+         .imageSwivelPortfolio {
+             height: 520px;
         }
-
-
-        .container-content h4 {
-            font-size: 30px;
-            margin-bottom: 30px;
-            line-height: 38px;
+         .container-content h4 {
+             font-size: 30px;
+             margin-bottom: 30px;
+             line-height: 38px;
         }
-
-        .sectionImage img {
-            margin-top: 40px;
-            margin-bottom: 40px;
+         .sectionImage img {
+             margin-top: 40px;
+             margin-bottom: 40px;
         }
-
-        .subHeading img {
-            margin-top: 0px;
-            margin-bottom: 0px;
+         .subHeading img {
+             margin-top: 0px;
+             margin-bottom: 0px;
         }
-
-        .ImageSubHeading {
-            margin-top: -25px;
-            font-size: 12px;
+         .ImageSubHeading {
+             margin-top: -25px;
+             font-size: 12px;
         }
-
-        .SmallerImageSubHeading {
-            margin-top: -40px;
-            font-size: 12px;
+         .SmallerImageSubHeading {
+             margin-top: -40px;
+             font-size: 12px;
         }
-
-        .ImageSubHeadingNoPaddingBottom {
-            margin-top: -30px;
-            font-size: 12px;
-
+         .ImageSubHeadingNoPaddingBottom {
+             margin-top: -30px;
+             font-size: 12px;
         }
-
-
-        #section-1{
-            margin-bottom: 0px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-1{
+             margin-bottom: 0px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        #section-1-smaller {
-            margin-bottom: 0px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-1-smaller {
+             margin-bottom: 0px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        #section-2{
-            margin-bottom: 0px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-2{
+             margin-bottom: 0px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        #section-3{
-            margin-bottom: 0px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-3{
+             margin-bottom: 0px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        #section-4{
-            margin-bottom: 20px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-4{
+             margin-bottom: 20px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        #section-5{
-            margin-bottom: 20px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-5{
+             margin-bottom: 20px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        #section-6{
-            margin-bottom: 20px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-6{
+             margin-bottom: 20px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        #section-7{
-            margin-bottom: 0px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-7{
+             margin-bottom: 0px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        #section-8{
-            margin-bottom: 20px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-8{
+             margin-bottom: 20px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        #section-9{
-            margin-bottom: 20px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-9{
+             margin-bottom: 20px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        #section-10{
-            margin-bottom: 20px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-10{
+             margin-bottom: 20px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        #section-11{
-            margin-bottom: 0px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-11{
+             margin-bottom: 0px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        #section-12{
-            margin-bottom: 0px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-12{
+             margin-bottom: 0px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        #section-13{
-            margin-bottom: 0px;
-            padding-left: 20px;
-            padding-right: 20px;
+         #section-13{
+             margin-bottom: 0px;
+             padding-left: 20px;
+             padding-right: 20px;
         }
-
-        .prevnextwrapper img {
-            height: 10px;
+         .prevnextwrapper img {
+             height: 10px;
         }
-
-        .prevnextwrapper {
+         .prevnextwrapper {
              margin-top: 75px;
              padding-left: 30px;
              padding-right: 30px;
              padding-bottom: 30px;
         }
-
-
-
          .prev a {
              margin-right: 30px;
              color: #557FEC;
@@ -2862,8 +2633,7 @@ body {
              font-size: 13px;
              transition: all .1s ease-in-out;
         }
-
-        .next a {
+         .next a {
              color: #557FEC;
              text-align: center;
              text-decoration: none;
@@ -2879,37 +2649,24 @@ body {
              font-size: 13px;
              transition: all .1s ease-in-out;
         }
-
-
-        .imageSwivelWrapperPortfolio img{
-            height: 170px;
+         .imageSwivelWrapperPortfolio img{
+             height: 170px;
         }
-
-        .SwivelDownImagePortfolio {
-            margin-top: 150px;
+         .SwivelDownImagePortfolio {
+             margin-top: 150px;
         }
-
-        .imageSwivelPortfolio {
+         .imageSwivelPortfolio {
              height: 300px;
         }
-
-
-        .imageSwivelWrapper img{
-            height: 130px;
+         .imageSwivelWrapper img{
+             height: 130px;
         }
-
-        .SwivelDownImage {
-            margin-top: 120px;
+         .SwivelDownImage {
+             margin-top: 120px;
         }
-
-
-        .imageSwivel {
+         .imageSwivel {
              height: 250px;
         }
-
-
-
-
     }
     /* media @450 resize section*/
      @media (max-width: 450px) {
@@ -2935,14 +2692,12 @@ body {
              height: 390px;
              padding-top: 0px;
         }
-
          .container2 h2 {
-            margin-bottom: 0px;
-         }
-
-
+             margin-bottom: 0px;
+        }
          .tabswrapper {
              height: 500px;
+             padding: 15px;
         }
          .tab {
              display: block;
@@ -2962,14 +2717,13 @@ body {
              margin-right: 5px;
         }
          .tab button:hover {
-             padding: padding: 5px 1px 5px 1px;
+             padding: 5px 1px 5px 1px;
         }
         /* Create an active/current tablink class */
          .tab button.active {
              font-weight: 500;
              padding: 5px 1px 5px 1px;
         }
-
          .tableLabel {
              font-size: 15px;
         }
@@ -3027,15 +2781,12 @@ body {
              margin-bottom: 150px;
              margin-top: 10px;
         }
-
-        .AboutMainSection h3 {
-            text-align: left;
-            margin-bottom: 30px;
-            line-height: 38px;
-            font-size: 25px;
+         .AboutMainSection h3 {
+             text-align: left;
+             margin-bottom: 30px;
+             line-height: 38px;
+             font-size: 25px;
         }
-
-
          .fullwidthphoto {
              margin-top: 70px;
              margin-bottom: 70px;
@@ -3043,15 +2794,13 @@ body {
          .companyInfo h1 {
              font-size: 30px;
         }
-
-        .companyInfoSmaller h1 {
+         .companyInfoSmaller h1 {
              font-size: 30px;
-        } 
+        }
          .companyInfo img {
              display: none;
         }
-
-        .companyInfoSmaller img {
+         .companyInfoSmaller img {
              display: none;
         }
          .caseStudyTopContainer .tableDate {
@@ -3065,7 +2814,6 @@ body {
          .caseStudyContentWrapper {
              column-gap: 5px;
         }
-
          .caseStudyDescription {
              grid-row-start: 2;
              grid-row-end: 3;
@@ -3076,8 +2824,7 @@ body {
              width: 100%;
              margin-bottom: 20px;
         }
-
-        .caseStudyDescriptionLarger {
+         .caseStudyDescriptionLarger {
              grid-row-start: 2;
              grid-row-end: 3;
              grid-column-start: 2;
@@ -3087,7 +2834,6 @@ body {
              width: 100%;
              margin-bottom: 20px;
         }
-
          .rollandtimeright {
              grid-row-start: 4;
              grid-row-end: 5;
@@ -3106,11 +2852,12 @@ body {
          .caseStudyTopContainer .tableDate{
              padding-top: 0px;
         }
-
-        .roleTags {
-            margin-top: 5px;
+         .tableDate {
+             font-size: 12px;
         }
-
+         .roleTags {
+             margin-top: 5px;
+        }
          .caseStudyContent h4 {
              font-size: 25px;
              line-height: 35px;
@@ -3121,8 +2868,7 @@ body {
          .caseStudyDescription p {
              font-size: 15px;
         }
-
-        .caseStudyDescriptionLarger p {
+         .caseStudyDescriptionLarger p {
              font-size: 15px;
         }
          .casestudytitle {
@@ -3132,41 +2878,38 @@ body {
              margin-bottom: 5px;
              margin-top: 20px;
         }
-
          .prevnextwrapper img {
              height: 10px;
         }
          .prevnextwrapper {
-            display: block;
-            height: 50px;
+             display: block;
+             height: 50px;
              margin-top: 40px;
         }
-
-        .prev {
-            width: 100%;
-            text-align: center;
-            padding-bottom: 15px;
+         .prev {
+             width: 100%;
+             text-align: center;
+             padding-bottom: 15px;
         }
-
-        .next {
-            width: 100%;
-            text-align: center;
+         .next {
+             width: 100%;
+             text-align: center;
         }
-
          .prev a {
              font-size: 16px;
              width: 100%;
         }
-        .next a {
+         .next a {
              font-size: 16px;
              width: 100%;
              text-align: center;
         }
-
-
-
-
-
+         .tab button.active {
+             border-bottom: 2px solid #557FEC;
+        }
+         .tab button.active:hover {
+             border-bottom: 2px solid #557FEC;
+        }
          #computergif {
              width: 100%;
         }
@@ -3174,57 +2917,41 @@ body {
              margin-top: 50px;
              margin-bottom: 50px;
         }
-
-        .container-content p {
-            font-size: 13px;
-            line-height: 26px;
+         .container-content p {
+             font-size: 13px;
+             line-height: 26px;
         }
-
-        .subHeading {
-            font-size: 15px;
-            line-height: 25px;
+         .subHeading {
+             font-size: 15px;
+             line-height: 25px;
         }
-
-        .imageSwivelWrapper img{
-            height: 90px;
+         .imageSwivelWrapper img{
+             height: 90px;
         }
-
-        .SwivelDownImage {
-            margin-top: 85px;
+         .SwivelDownImage {
+             margin-top: 85px;
         }
-
-
-        .imageSwivel {
+         .imageSwivel {
              height: 160px;
         }
-
-
-        .imageSwivelWrapperPortfolio img{
-            height: 150px;
+         .imageSwivelWrapperPortfolio img{
+             height: 150px;
         }
-
-        .SwivelDownImagePortfolio {
-            margin-top: 130px;
+         .SwivelDownImagePortfolio {
+             margin-top: 130px;
         }
-
-
-        .imageSwivelPortfolio {
+         .imageSwivelPortfolio {
              height: 250px;
         }
-
-        .container3 {
+         .container3 {
              margin-top: 10px;
         }
-
-        .smallHeight {
-            display: block;
-            height: 5px;
-            width: 100%;
-            margin-top: 70px;
-         }
-
-
-
+         .smallHeight {
+             display: block;
+             height: 5px;
+             width: 100%;
+             margin-top: 70px;
+        }
     }
     /* media resizing 360 section*/
      @media (max-width: 360px) {
@@ -3236,8 +2963,8 @@ body {
          .anyFaces {
              position: relative;
              width: 240px;
-             height: 310px;
-             padding-top: 0px;
+             height: 290px;
+             padding-top: 10px;
              margin-left: 10px;
         }
          .largeTitle h1 {
@@ -3272,10 +2999,16 @@ body {
         }
          .titleInformationText p {
              font-size: 0.9em;
+             line-height: 28px;
         }
          .informationpannel {
              padding-left: 0px;
              padding-right: 0px;
+        }
+         .informationpannel p {
+             text-align: center;
+             font-size: 15px;
+             line-height: 30px;
         }
          .container2 {
              display: grid;
@@ -3286,25 +3019,22 @@ body {
              margin-bottom: 100px;
              margin-top: 0px;
         }
-
-        .caseStudyGridImage img {
-            margin-left: 5px;
-            width: 95%;
+         .caseStudyGridImage img {
+             margin-left: 5px;
+             width: 95%;
         }
-
-        .container3 {
+         .container3 {
              margin-top: 10px;
         }
-
-        .smallHeight {
-            display: block;
-            height: 5px;
-            width: 100%;
-            margin-top: 100px;
-         }
-
+         .smallHeight {
+             display: block;
+             height: 5px;
+             width: 100%;
+             margin-top: 100px;
+        }
          .tabswrapper {
              height: 450px;
+             padding: 5px;
         }
          .tab {
              display: block;
@@ -3322,7 +3052,7 @@ body {
              width: 73px;
         }
          .tab button:hover {
-             padding: padding: 5px 1px 5px 1px;
+             padding: 5px 1px 5px 1px;
              font-size: 10px;
         }
         /* Create an active/current tablink class */
@@ -3338,7 +3068,7 @@ body {
              font-size: 10px;
         }
          .tableDate {
-             font-size: 10px;
+             font-size: 9px;
         }
          .experince-table th, .experince-table td {
              padding-top: 20px;
@@ -3349,7 +3079,10 @@ body {
              padding-bottom: 20px;
         }
          .viewFullResume {
-             font-size: 13px;
+             font-size: 12px;
+        }
+         .viewFullResume img {
+             height: 8px;
         }
          .footerwrapper h2 {
              line-height: 15px;
@@ -3387,8 +3120,8 @@ body {
              width: 100%;
              margin-bottom: 100px;
         }
-        .AboutMainSection p {
-            font-size: 15px;
+         .AboutMainSection p {
+             font-size: 15px;
         }
          .logo {
              padding-left: 10px;
@@ -3406,42 +3139,33 @@ body {
          .caseStudyContentWrapper {
              margin-bottom: 50px;
         }
-        .container-content {
-            padding: 0px;
+         .container-content {
+             padding: 0px;
         }
-
-
          .prevnextwrapper img {
              height: 7px;
         }
-
-        .prevnextwrapper {
-            display: block;
-            height: 50px;
-
+         .prevnextwrapper {
+             display: block;
+             height: 50px;
         }
-
-        .prev {
-            width: 100%;
-            text-align: center;
-            padding-bottom: 15px;
+         .prev {
+             width: 100%;
+             text-align: center;
+             padding-bottom: 15px;
         }
-
-        .next {
-            width: 100%;
-            text-align: center;
+         .next {
+             width: 100%;
+             text-align: center;
         }
-
          .prev a {
              font-size: 13px;
              width: 100%;
         }
-        .next a {
+         .next a {
              font-size: 13px;
              width: 100%;
              text-align: center;
         }
-
-
-        }
     }
+}
