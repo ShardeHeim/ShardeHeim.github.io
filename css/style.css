@@ -1884,7 +1884,11 @@ body {
     }
      .sidebar a {
          font-size: 12px;
-         line-height: 16px;
+         line-height: 10px;
+    }
+
+    .nav-item-icon img {
+    height: 14px; 
     }
      .caseStudyTopContainer {
          column-gap: 45px;
@@ -1908,7 +1912,7 @@ body {
          height: 580px;
     }
      #section-1 {
-         margin-top: -550px;
+         margin-top: -470px;
     }
      #section-1-smaller {
          margin-top: -400;
@@ -2014,7 +2018,7 @@ body {
              min-width: 30% 
         }
          #section-1 {
-             margin-top: -550px;
+             margin-top: -470px;
              margin-bottom: 150px;
              justify-content: center;
              display: flex;
