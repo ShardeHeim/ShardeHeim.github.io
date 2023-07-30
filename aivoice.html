@@ -25,7 +25,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css"> 
     <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
-    <script src="js/javascript.js" type="text/javascript"></script>
+    <script src="js/javascript.js" type="text/javascript" defer></script>
   </head>
 <body>
 
@@ -205,10 +205,84 @@
                <br><br>
                <b>The Team:</b> I worked with a front-end and a back-end engineer to bring this to life, a junior UI designer and the customer success team manager.
             </p>
-            <div><img src="images/BeforeAndAfterSlider.jpg" width="100%" alt="placeholderimage"></div>
-            <div class="ImageSubHeading">
+
+            <!-- Image Slider Before and After -->
+          <div class="sliderWrapper">
+                <div class="BeforeAndAfterSliderContainer">
+                    <div class="BeforeAndAfterSlider">
+                        <div class="SliderImageOne"><img src="images/SliderImageOne.jpg" height="570px" width="100%" alt="beforeImage"></div>
+                        <div class="SliderImageTwo"><img src="images/SliderImageTwo.jpg" height="570px" width="100%" alt="afterImage"></div>
+                    </div>
+                    <input 
+                    type="range" 
+                    min="0" 
+                    max="100"
+                    value="50" 
+                    class="slider" 
+                    aria-label="percentage of before photo shown"/>
+                    <div class="slider-line"> </div>
+                    <div class="slider-button" aria-hidden="true"> 
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg"  
+                            width="30" 
+                            height="30" 
+                            fill="currentColor"
+                            viewBox="0 0 256 256">
+                            <rect 
+                                width="256" 
+                                height="256" 
+                                fill="none"/>
+                            <line 
+                                x1="128" 
+                                y1="40" 
+                                x2="128" 
+                                y2="216" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                stroke-linecap="round" 
+                                stroke-linejoin="round" 
+                                stroke-width="16"/>
+                            <line 
+                                x1="96" 
+                                y1="128" 
+                                x2="16" 
+                                y2="128" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                stroke-linecap="round" 
+                                stroke-linejoin="round" 
+                                stroke-width="16"/>
+                            <polyline 
+                                points="48 160 16 128 48 96" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                stroke-linecap="round" 
+                                stroke-linejoin="round" 
+                                stroke-width="16"/>
+                            <line 
+                                x1="160" 
+                                y1="128" 
+                                x2="240" 
+                                y2="128" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                stroke-linecap="round" 
+                                stroke-linejoin="round" 
+                                stroke-width="16"/>
+                            <polyline 
+                                points="208 96 240 128 208 160" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                stroke-linecap="round" 
+                                stroke-linejoin="round" 
+                                stroke-width="16"/>
+                        </svg>
+                    </div>
+                </div>
+            <div class="ImageSubHeadingNoPaddingTop">
                Analytics Page UI - Before and After Redesign
-            </div>
+            </div> 
+            </div> 
             <br>
          </div>
       </section>

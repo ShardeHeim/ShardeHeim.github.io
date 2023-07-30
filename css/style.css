@@ -1542,6 +1542,7 @@ body {
      position: webkit-sticky;
      position: sticky;
      top: 125px;
+     width: 30%;
 }
  .nav-sidebar {
      justify-content: flex-start;
@@ -1551,7 +1552,7 @@ body {
      top: 10px;
 }
  .NavBarWrapper {
-     min-width: 25%;
+     width: 100%;
      flex-flow: column;
      align-content: flex-start;
      margin-top: 0;
@@ -1723,7 +1724,6 @@ body {
      padding-left: 300px;
      max-width: 780px;
      min-height: 100%;
-     background-color: #fff;
      padding-bottom: 0;
 }
  .sectionImage img {
@@ -1770,7 +1770,7 @@ body {
      padding-bottom: 40px;
      line-height: 20px;
 }
- .ImageSubHeadingNoPaddingBottom{
+ .ImageSubHeadingNoPaddingBottom {
      font-size: 13px;
      font-style: italic;
      font-weight: 100;
@@ -1779,6 +1779,91 @@ body {
      margin-top: -50px;
      padding-bottom: 0px;
      line-height: 20px;
+}
+ .ImageSubHeadingNoPaddingTop {
+     font-size: 13px;
+     font-style: italic;
+     font-weight: 100;
+     opacity: 0.5;
+     text-align: center;
+     margin-top: 30px;
+     padding-bottom: 0px;
+     line-height: 20px;
+}
+.sliderWrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.BeforeAndAfterSliderContainer {
+    place-content: center;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    --position: 50%;
+}
+.BeforeAndAfterSlider {
+    max-width: 780px;
+    max-height: 90vh;
+}
+.SliderImageOne img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    object-fit: cover;
+    object-position: left;
+    position: absolute;
+    inset: 0;
+    width: var(--position);
+}
+.SliderImageTwo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    object-fit: cover;
+    object-position: left;
+}
+.slider {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    opacity: 0;
+    /*fore firefox*/
+    width: 100%;
+    height: 100%;
+}
+
+.slider:focus-visible ~ .slider-button{
+    outline: 5px solid black;
+    outline-offset: 3px;
+}   
+.slider-line {
+    position: absolute;
+    inset: 0;
+    width: 0.3rem;
+    height: 100%;
+    background-color: #557FEC;
+    z-index: 10;
+    left: var(--position);
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+.slider-button {
+    position: absolute;
+    background-color: #557FEC;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 100px;
+    display: grid;
+    place-items: center;
+    top: 50%;
+    left: var(--position);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 100;
 }
  .container-content h4 {
      margin-bottom: 40px;
@@ -1880,7 +1965,7 @@ body {
          min-width: 20%;
     }
      .sidebar {
-         margin-left: 20%;
+         margin-left: 15%;
     }
      .sidebar a {
          font-size: 12px;
@@ -2525,6 +2610,31 @@ body {
              margin-top: 40px;
              margin-bottom: 40px;
         }
+        .SliderImageOne img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            object-fit: cover;
+            object-position: left;
+            position: absolute;
+            inset: 0;
+            width: var(--position);
+        }
+        .SliderImageTwo img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            object-fit: cover;
+            object-position: left;
+        }
+        .slider-button svg{
+            width: 20px;
+            height: 20px;
+        }
          .subHeading img {
              margin-top: 0px;
              margin-bottom: 0px;
@@ -2541,6 +2651,11 @@ body {
              margin-top: -30px;
              font-size: 12px;
         }
+        .ImageSubHeadingNoPaddingTop {
+             margin-top: 20px;
+             font-size: 12px;
+        }
+
          #section-1{
              margin-bottom: 0px;
              padding-left: 20px;
@@ -2931,6 +3046,16 @@ body {
         }
          #computergif {
              width: 100%;
+        }
+        .slider-button svg{
+            width: 15px;
+            height: 15px;
+        }
+        .slider-button {
+            padding: 5px;
+        }
+        .slider-line {
+            width: 3px;
         }
          .border {
              margin-top: 50px;

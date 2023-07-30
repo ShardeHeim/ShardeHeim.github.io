@@ -41,6 +41,15 @@ $(document).on('scroll',function(){
         + "px");
 })
 
+
+
+const container = document.querySelector('.BeforeAndAfterSliderContainer');
+
+document.querySelector('.slider').addEventListener('input', (e) => {
+container.style.setProperty('--position', `${e.target.value}%`);
+})
+
+
 // const sections = document.querySelectorAll('section');
 // const navLi = document.querySelectorAll('nav .container ul li');
 
@@ -61,4 +70,3 @@ $(document).on('scroll',function(){
 //     }
 //   })
 // })
-
