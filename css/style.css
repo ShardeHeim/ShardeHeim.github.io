@@ -1790,6 +1790,13 @@ body {
      padding-bottom: 0px;
      line-height: 20px;
 }
+video {
+    border-radius: 10px;
+    margin-top: 70px;
+     margin-bottom: 70px;
+
+
+}
 .sliderWrapper {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -2609,6 +2616,10 @@ body {
          .sectionImage img {
              margin-top: 40px;
              margin-bottom: 40px;
+        }
+        video {
+            margin-top: 40px;
+            margin-bottom: 40px;
         }
         .SliderImageOne img {
             display: block;
