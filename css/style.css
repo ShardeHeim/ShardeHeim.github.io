@@ -24,7 +24,6 @@ body {
      font-weight: 500;
      transition: all .2s ease-in-out;
 }
-
 /*headings*/
  h1 {
      font-family: 'Domine', serif;
@@ -85,7 +84,6 @@ body {
      color: #2B51B3;
      height: 100%;
 }
-
 /*buttons*/
  button {
      font-family: 'Domine', serif;
@@ -122,7 +120,6 @@ body {
  button a:hover {
      color: white;
 }
-
 /*navigation*/
 /*main menu nav*/
  nav {
@@ -136,7 +133,6 @@ body {
      max-width: 1280px;
      height: 47px;
 }
-
 /* logo icons*/
  .logo {
      flex-grow: 1;
@@ -169,7 +165,6 @@ body {
      display: none;
      transition: 0.3s;
 }
-
 /* Top Nav*/
  .topNavLeft {
      justify-self : flex-start;
@@ -269,7 +264,6 @@ body {
      margin-top: -9px;
      float: right;
 }
-
 /*navigation mobile*/
  .topMobilelNav {
      display: none;
@@ -360,7 +354,6 @@ body {
      -webkit-transition-duration: 0.3s;
      transition-duration: 0.3s;
 }
-
 /*Aimations*/
  @keyframes fade-in {
      from {
@@ -381,7 +374,6 @@ body {
      margin-bottom: 100px;
      margin-top: 100px;
 }
-
 /*home page*/
 /* above the fold*/
  .container1 {
@@ -390,7 +382,6 @@ body {
      grid-template-rows: auto;
      width: 100%;
 }
-
 /* sidepannel1*/
  .sidepannel1 {
      grid-row-start: 1;
@@ -404,7 +395,6 @@ body {
      height: auto;
      margin-top:400px;
 }
-
 /* email icons*/
  .EmailIcons {
      height: 10px;
@@ -425,7 +415,6 @@ body {
  .EmailIcons:hover .activeEmailImage {
      display: none;
 }
-
 /* camera icons*/
  .CameraIcons {
      height: 10px;
@@ -446,7 +435,6 @@ body {
  .CameraIcons:hover .activeCameraImage {
      display: none;
 }
-
 /* instagram icons*/
  .InstagramIcons {
      height: 10px;
@@ -467,7 +455,6 @@ body {
  .InstagramIcons:hover .activeInstagramImage {
      display: none;
 }
-
 /* linkedIn icons*/
  .LinkedinIcons {
      height: 10px;
@@ -494,7 +481,6 @@ body {
      margin-left: 10px;
      margin-top: 60px;
 }
-
 /* Side Pannel 2*/
  .sidepannel2 {
      z-index: 1;
@@ -538,7 +524,6 @@ body {
      float: right;
      margin-right: 10px;
 }
-
 /* Middle of grid styling (1-2)*/
  .titleInformation {
      grid-row-start: 1;
@@ -556,7 +541,6 @@ body {
      height: 550px;
      margin: auto;
 }
-
 /* Floating tool tip*/
  .floatingtooltip {
      animation: MoveUpDown 3s linear infinite;
@@ -629,7 +613,6 @@ body {
          transform: rotate( 0.0deg) 
     }
 }
-
 /*Sharde Heim heading*/
  .largeTitle {
      margin-top: 15px;
@@ -640,7 +623,6 @@ body {
      height: 18px;
      margin-left: 7px;
 }
-
 /* who I am text*/
  .titleInformationText {
      margin-right: 23%;
@@ -653,7 +635,6 @@ body {
  .titleInformationText a:hover {
      margin-left: 0px;
 }
-
 /*Moving Images text*/
  .anyFaces {
      padding-top: 30px;
@@ -671,7 +652,6 @@ body {
      width: 100%;
      height: 100%;
 }
-
 /* Tooltip text */
  .anyFaces .tooltip {
      visibility: hidden;
@@ -690,13 +670,11 @@ body {
      margin-top: -420px;
      margin-left: 170px;
 }
-
 /* Show the tooltip text when you mouse over the tooltip container */
  .anyFaces:hover .tooltip {
      visibility: visible;
      opacity: 1;
 }
-
 /* Information section..with over 7 years.. */
  .informationpannel {
      padding-top: 50px;
@@ -718,7 +696,6 @@ body {
  #jumpToWorkSection{
      scroll-behavior: smooth;
 }
-
 /* second section*/
  .container2 {
      display: grid;
@@ -742,7 +719,6 @@ body {
  .container2 h2 {
      margin-bottom: 20px;
 }
-
 /* main case studys*/
  .caseStudyGridImage img {
      margin-left: 15px;
@@ -837,7 +813,6 @@ body {
      margin-top: 0px;
      transition: all .2s ease-in-out;
 }
-
 /* third section*/
  .container3 {
      display: grid;
@@ -859,7 +834,6 @@ body {
      grid-column-end: 3;
      height: 690px;
 }
-
 /* Style the tab */
  .tab {
      overflow: hidden;
@@ -868,7 +842,6 @@ body {
      display: inline-block;
      width: 100%;
 }
-
 /* Style the buttons inside the tab */
  .tab button {
      border-radius: 0px;
@@ -884,7 +857,6 @@ body {
      font-weight: 300;
      transition: all .3s ease-in-out;
 }
-
 /* Change background color of buttons on hover */
  .tab button:hover {
      background-color: #DEF0FF;
@@ -895,7 +867,6 @@ body {
      transition: all .3s ease-in-out;
      opacity: 1;
 }
-
 /* Create an active/current tablink class */
  .tab button.active {
      background-color: white;
@@ -909,7 +880,6 @@ body {
      border-bottom: 3px solid #557FEC;
      border-radius: 0px;
 }
-
 /* Style the tab content */
  .tabcontent {
      display: none;
@@ -988,7 +958,6 @@ body {
      margin-bottom: 0px;
      width: 90%;
 }
-
 /* footer styling*/
  footer {
      display: grid;
@@ -1100,7 +1069,6 @@ body {
      text-align: center;
      font-size: 15px;
 }
-
 /*about page*/
 /* above fold moving text section*/
  .AboutTop {
@@ -1183,7 +1151,6 @@ body {
      display: inline-block;
      vertical-align: middle;
 }
-
 /* about content section*/
  .AboutMainSection {
      display: grid;
@@ -1266,7 +1233,6 @@ body {
      border-radius: 10px;
      top: 40%;
 }
-
 /* Case study template section*/
  .caseStudyTopContainer {
      display: grid;
@@ -1349,7 +1315,6 @@ body {
  .roleTags {
      margin-top: 10px;
 }
-
 /* tag styling*/
  .UXTag {
      background-color: #EBF6FF;
@@ -1428,7 +1393,6 @@ body {
      margin-right: 10px;
      margin-top: 5px;
 }
-
 /* imageSwivel*/
  .imageSwivel {
      padding-top: 50px;
@@ -1533,40 +1497,21 @@ body {
      align-items: flex-start;
      flex-direction: column;
 }
-
 /* Case Study conent styling*/
  .container-wrapper {
      display: block;
 }
- .sidebar-menu{
-     position: webkit-sticky;
+ .sidebarNav{
+     display: block;
      position: sticky;
      top: 125px;
      width: 30%;
 }
- .nav-sidebar {
-     justify-content: flex-start;
-     padding-top: 0;
-     display: flex;
-     position: sticky;
-     top: 10px;
-}
- .NavBarWrapper {
-     width: 100%;
-     flex-flow: column;
-     align-content: flex-start;
-     margin-top: 0;
-     padding-top: 0;
-     display: flex;
-     position: -webkit-sticky;
-     position: sticky;
-     bottom: auto;
-     left: auto;
-     right: auto;
-}
- .LittleNav {
-     z-index: 1000;
-     position: relative;
+ nav .container {
+     height: 100%;
+     margin: 0 auto;
+     text-align: center;
+     padding: 10px;
 }
  .sidebar {
      flex-direction: column;
@@ -1574,36 +1519,35 @@ body {
      margin-top: 10px;
      margin-left: 30%;
      display: flex;
-     position: absolute;
 }
- .LittleNavMenu {
-     float: right;
-     position: relative;
-}
- .nav-item-icon {
+ nav .container li {
      align-items: center;
      transition: opacity .2s, transform .2s;
      display: flex;
 }
- .nav-item-icon:hover {
+ nav .container li:hover {
      transform: translate(5px);
 }
- .nav-link {
-     vertical-align: top;
+ nav .container li a {
+     display: inline-block;
+     text-decoration: none;
+     padding: 10px 20px;
      color: #3C4866;
+     font-size: 15px;
+     vertical-align: top;
      text-align: left;
      margin-left: auto;
      margin-right: auto;
-     padding: 20px;
      text-decoration: none;
      display: inline-block;
      position: relative;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 20px;
 }
- .sidebar a {
+ nav .container li.active a {
      color: #3C4866;
-     transition: opacity .2s;
-     display: block;
-     font-size: 15px;
+     font-weight: 600;
 }
  .container-content a {
      color: #557FEC;
@@ -1625,37 +1569,28 @@ body {
  .container-content span {
      font-size: 25px;
 }
- .active {
-     font-weight: 800;
-}
- .nav-link-sidebar {
-     color: #3C4866;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     padding-left: 20px;
-}
  #section-1 {
      margin-top: -590px;
-     margin-bottom: 90px;
+     margin-bottom: 150px;
      justify-content: center;
      display: flex;
      padding-top: 40px;
 }
  #section-1-smaller {
      margin-top: -480px;
-     margin-bottom: 90px;
+     margin-bottom: 150px;
      justify-content: center;
      display: flex;
      padding-top: 40px;
 }
  #section-2 {
-     margin-bottom: 90px;
+     margin-bottom: 150px;
      justify-content: center;
      display: flex;
      padding-top: 40px;
 }
  #section-3 {
-     margin-bottom: 90px;
+     margin-bottom: 150px;
      justify-content: center;
      display: flex;
      padding-top: 40px;
@@ -1790,87 +1725,84 @@ body {
      padding-bottom: 0px;
      line-height: 20px;
 }
-video {
-    border-radius: 10px;
-    margin-top: 70px;
+ video {
+     border-radius: 10px;
+     margin-top: 70px;
      margin-bottom: 70px;
-
-
 }
-.sliderWrapper {
-    padding-top: 40px;
-    padding-bottom: 40px;
+ .sliderWrapper {
+     padding-top: 40px;
+     padding-bottom: 40px;
 }
-.BeforeAndAfterSliderContainer {
-    place-content: center;
-    position: relative;
-    overflow: hidden;
-    display: grid;
-    --position: 50%;
+ .BeforeAndAfterSliderContainer {
+     place-content: center;
+     position: relative;
+     overflow: hidden;
+     display: grid;
+     --position: 50%;
 }
-.BeforeAndAfterSlider {
-    max-width: 780px;
-    max-height: 90vh;
+ .BeforeAndAfterSlider {
+     max-width: 780px;
+     max-height: 90vh;
 }
-.SliderImageOne img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    object-fit: cover;
-    object-position: left;
-    position: absolute;
-    inset: 0;
-    width: var(--position);
+ .SliderImageOne img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     object-fit: cover;
+     object-position: left;
+     position: absolute;
+     inset: 0;
+     width: var(--position);
 }
-.SliderImageTwo img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    object-fit: cover;
-    object-position: left;
+ .SliderImageTwo img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     object-fit: cover;
+     object-position: left;
 }
-.slider {
-    position: absolute;
-    inset: 0;
-    cursor: pointer;
-    opacity: 0;
+ .slider {
+     position: absolute;
+     inset: 0;
+     cursor: pointer;
+     opacity: 0;
     /*fore firefox*/
-    width: 100%;
-    height: 100%;
+     width: 100%;
+     height: 100%;
 }
-
-.slider:focus-visible ~ .slider-button{
-    outline: 5px solid black;
-    outline-offset: 3px;
-}   
-.slider-line {
-    position: absolute;
-    inset: 0;
-    width: 0.3rem;
-    height: 100%;
-    background-color: #557FEC;
-    z-index: 10;
-    left: var(--position);
-    transform: translateX(-50%);
-    pointer-events: none;
+ .slider:focus-visible ~ .slider-button{
+     outline: 5px solid black;
+     outline-offset: 3px;
 }
-.slider-button {
-    position: absolute;
-    background-color: #557FEC;
-    color: white;
-    padding: 0.5rem;
-    border-radius: 100px;
-    display: grid;
-    place-items: center;
-    top: 50%;
-    left: var(--position);
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    z-index: 100;
+ .slider-line {
+     position: absolute;
+     inset: 0;
+     width: 0.3rem;
+     height: 100%;
+     background-color: #557FEC;
+     z-index: 10;
+     left: var(--position);
+     transform: translateX(-50%);
+     pointer-events: none;
+}
+ .slider-button {
+     position: absolute;
+     background-color: #557FEC;
+     color: white;
+     padding: 0.5rem;
+     border-radius: 100px;
+     display: grid;
+     place-items: center;
+     top: 50%;
+     left: var(--position);
+     transform: translate(-50%, -50%);
+     pointer-events: none;
+     z-index: 100;
 }
  .container-content h4 {
      margin-bottom: 40px;
@@ -1886,7 +1818,6 @@ video {
  .indent {
      margin-left: 15px;
 }
-
 /* full image width styling*/
  .fullwidthphoto {
      margin-bottom: 100px;
@@ -1897,7 +1828,6 @@ video {
      width: 80%;
      display: flex;
 }
-
 /* Prev and Next buttons*/
  .prevnextwrapper {
      margin: auto;
@@ -1947,7 +1877,6 @@ video {
      font-size: 21px;
      transition: all .1s ease-in-out;
 }
-
 /* media 1280px*/
  @media (max-width: 1280px) {
      .helloTagBody {
@@ -1965,22 +1894,11 @@ video {
      .titleInformationText {
          margin-right: 20%;
     }
-     .container-content {
-         padding-left: 250px;
-    }
      .NavBarWrapper {
          min-width: 20%;
     }
      .sidebar {
          margin-left: 15%;
-    }
-     .sidebar a {
-         font-size: 12px;
-         line-height: 10px;
-    }
-
-    .nav-item-icon img {
-    height: 14px; 
     }
      .caseStudyTopContainer {
          column-gap: 45px;
@@ -2003,15 +1921,9 @@ video {
      .imageSwivelPortfolio {
          height: 580px;
     }
-     #section-1 {
-         margin-top: -470px;
-    }
-     #section-1-smaller {
-         margin-top: -400px;
-    }
      .container-content {
-         padding-left: 200px;
-         max-width: 600px;
+         padding-left: 300px;
+         max-width: 60%;
     }
      .NavBarWrapper {
          min-width: 25%;
@@ -2020,7 +1932,18 @@ video {
          font-size: 13px;
          line-height: 20px;
     }
-
+     .SmallerImageSubHeading {
+         font-size: 13px;
+         line-height: 20px;
+    }
+     .ImageSubHeadingNoPaddingBottom {
+         font-size: 13px;
+         line-height: 20px;
+    }
+     .ImageSubHeadingNoPaddingTop {
+         font-size: 13px;
+         line-height: 20px;
+    }
     /* media 1024px*/
      @media (max-width: 1024px) {
          h2 {
@@ -2087,7 +2010,6 @@ video {
              display: block;
              width: 600px;
         }
-
         /* Style the buttons inside the tab */
          .tab button {
              border-radius: 0px;
@@ -2103,27 +2025,91 @@ video {
              font-weight: 300;
         }
          .container-content {
-             padding-left: 230px;
-             max-width: 500px;
+             padding-left: 240px;
+        }
+         .imageSwivel {
+             height: 400px;
+        }
+         .sidebarNav {
+             width: 35%;
+        }
+         nav .container li a {
+             font-size: 12px;
+             padding-top: 7px;
+             padding-bottom: 7px;
+        }
+         nav .container li img {
+             height: 12px;
         }
          .NavBarWrapper {
              min-width: 30% 
         }
          #section-1 {
-             margin-top: -470px;
-             margin-bottom: 150px;
+             margin-top: -460px;
+             margin-bottom: 100px;
              justify-content: center;
              display: flex;
              padding-top: 40px;
+        }
+         .subHeading {
+             font-size: 17px;
+        }
+         .container-content h4 {
+             font-size: 30px;
+        }
+         .container-content p {
+             font-size: 15px;
+             line-height: 32px;
         }
          #section-1-smaller {
              margin-top: -400px;
-             margin-bottom: 150px;
+             margin-bottom: 100px;
              justify-content: center;
              display: flex;
              padding-top: 40px;
         }
-
+         #section-1 {
+             margin-bottom: 100px;
+        }
+         #section-2 {
+             margin-bottom: 100px;
+        }
+         #section-3 {
+             margin-bottom: 100px;
+        }
+         #section-4 {
+             margin-bottom: 100px;
+        }
+         #section-5 {
+             margin-bottom: 100px;
+        }
+         #section-6 {
+             margin-bottom: 100px;
+        }
+         #section-7 {
+             margin-bottom: 100px;
+        }
+         #section-8 {
+             margin-bottom: 100px;
+        }
+         #section-9 {
+             margin-bottom: 100px;
+        }
+         #section-10 {
+             margin-bottom: 100px;
+        }
+         #section-11 {
+             margin-bottom: 100px;
+        }
+         #section-12 {
+             margin-bottom: 100px;
+        }
+         #section-13 {
+             margin-bottom: 100px;
+        }
+         #section-14 {
+             margin-bottom: 100px;
+        }
         /*universal attributes*/
          .logo {
              margin: auto;
@@ -2205,12 +2191,10 @@ video {
          #acute {
              height: 13px;
         }
-
         /*Sharde Heim heading*/
          .largeTitle h1 {
              text-align: center;
         }
-
         /* who I am text*/
          .titleInformationText {
              margin-right: 0px;
@@ -2346,7 +2330,7 @@ video {
              font-size: 20px;
              line-height: 30px;
         }
-         .sidebar-menu {
+         .sidebarNav {
              display: none;
         }
          .container-content {
@@ -2413,7 +2397,6 @@ video {
              font-size: 30px;
              text-align: center;
         }
-
         /*About Section*/
          .AboutTop {
              padding-top: 0px;
@@ -2617,34 +2600,34 @@ video {
              margin-top: 40px;
              margin-bottom: 40px;
         }
-        video {
-            margin-top: 40px;
-            margin-bottom: 40px;
+         video {
+             margin-top: 40px;
+             margin-bottom: 40px;
         }
-        .SliderImageOne img {
-            display: block;
-            width: 100%;
-            height: 100%;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            object-fit: cover;
-            object-position: left;
-            position: absolute;
-            inset: 0;
-            width: var(--position);
+         .SliderImageOne img {
+             display: block;
+             width: 100%;
+             height: 100%;
+             margin-top: 0px;
+             margin-bottom: 0px;
+             object-fit: cover;
+             object-position: left;
+             position: absolute;
+             inset: 0;
+             width: var(--position);
         }
-        .SliderImageTwo img {
-            display: block;
-            width: 100%;
-            height: 100%;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            object-fit: cover;
-            object-position: left;
+         .SliderImageTwo img {
+             display: block;
+             width: 100%;
+             height: 100%;
+             margin-top: 0px;
+             margin-bottom: 0px;
+             object-fit: cover;
+             object-position: left;
         }
-        .slider-button svg{
-            width: 20px;
-            height: 20px;
+         .slider-button svg{
+             width: 20px;
+             height: 20px;
         }
          .subHeading img {
              margin-top: 0px;
@@ -2652,21 +2635,24 @@ video {
         }
          .ImageSubHeading {
              margin-top: -25px;
-             font-size: 12px;
+             font-size: 10px;
+             line-height: 15px;
         }
          .SmallerImageSubHeading {
              margin-top: -40px;
-             font-size: 12px;
+             font-size: 10px;
+             line-height: 15px;
         }
          .ImageSubHeadingNoPaddingBottom {
              margin-top: -30px;
-             font-size: 12px;
+             font-size: 10px;
+             line-height: 15px;
         }
-        .ImageSubHeadingNoPaddingTop {
+         .ImageSubHeadingNoPaddingTop {
              margin-top: 20px;
-             font-size: 12px;
+             font-size: 10px;
+             line-height: 15px;
         }
-
          #section-1{
              margin-bottom: 0px;
              padding-left: 20px;
@@ -3058,15 +3044,15 @@ video {
          #computergif {
              width: 100%;
         }
-        .slider-button svg{
-            width: 15px;
-            height: 15px;
+         .slider-button svg{
+             width: 15px;
+             height: 15px;
         }
-        .slider-button {
-            padding: 5px;
+         .slider-button {
+             padding: 5px;
         }
-        .slider-line {
-            width: 3px;
+         .slider-line {
+             width: 3px;
         }
          .border {
              margin-top: 50px;
@@ -3087,7 +3073,7 @@ video {
              margin-top: 85px;
         }
          .imageSwivel {
-             height: 160px;
+             height: 130px;
         }
          .imageSwivelWrapperPortfolio img{
              height: 150px;
@@ -3178,8 +3164,7 @@ video {
              margin-left: 5px;
              width: 95%;
         }
-
-        .caseStudyTopContainer {
+         .caseStudyTopContainer {
              column-gap: 5px;
         }
          .container3 {
@@ -3329,3 +3314,4 @@ video {
         }
     }
 }
+ 

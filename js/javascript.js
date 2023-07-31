@@ -1,3 +1,4 @@
+// Mobile Nav vode
 window.onload = function () {
 
     const menu_btn = document.querySelector('.hamburger');
@@ -10,6 +11,8 @@ window.onload = function () {
 }
 
 
+
+// Swivel images code
 $(document).on('scroll',function(){
     $('.h1AboutDark').css("left", Math.max(10 - 0.35*window.scrollY)
         + "px");
@@ -43,30 +46,31 @@ $(document).on('scroll',function(){
 
 
 
+// links bold on active side nav code
+const sections = document.querySelectorAll("section");
+const navLi = document.querySelectorAll("nav .container li");
+window.onscroll = () => {
+  var current = "";
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    if (pageYOffset >= sectionTop - 360) {
+      current = section.getAttribute("id"); }
+  });
+
+  navLi.forEach((li) => {
+    li.classList.remove("active");
+    if (li.classList.contains(current)) {
+      li.classList.add("active");
+    }
+  });
+};
+
+
+
+// Before and after image slider code
 const container = document.querySelector('.BeforeAndAfterSliderContainer');
 
 document.querySelector('.slider').addEventListener('input', (e) => {
 container.style.setProperty('--position', `${e.target.value}%`);
 })
-
-
-// const sections = document.querySelectorAll('section');
-// const navLi = document.querySelectorAll('nav .container ul li');
-
-// window.addEventListener('scroll', ()=> {
-//   let current = '';
-//   sections.forEach(section => {
-//     const sectionTop = section.offsetTop;
-//     const sectionHeight = section.clientHeight;
-//     if (pageYOffset >= (sectionTop)) {
-//       current = section.getAttribute('id'); 
-//     }
-//   })
-
-//   navLi.forEach(li => {
-//     li.classList.remove('active');
-//     if(li.classList.contains(current)) {
-//       li.classList.add('active')
-//     }
-//   })
-// })
