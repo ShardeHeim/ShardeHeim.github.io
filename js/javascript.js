@@ -69,8 +69,12 @@ window.onscroll = () => {
 
 
 // Before and after image slider code
+// only runs on pages that have the slider (aivoice)
 const container = document.querySelector('.BeforeAndAfterSliderContainer');
+const slider = document.querySelector('.slider');
 
-document.querySelector('.slider').addEventListener('input', (e) => {
-container.style.setProperty('--position', `${e.target.value}%`);
-})
+if (container && slider) {
+    slider.addEventListener('input', (e) => {
+    container.style.setProperty('--position', `${e.target.value}%`);
+    })
+}
